@@ -1,0 +1,39 @@
+{
+  "formal_evaluation_path": "D:\\model\\ring_bearing_20261014\\robot_learning\\outputs\\motion_ablation_v6\\evaluation.json",
+  "formal_evaluation_sha256": "075e5038cc9ec3565cf2b39b39d6aea9592e0f5fa6b92ffc13f68dcae0a41b98",
+  "formal_evaluation_attempts": 192,
+  "only_replayed_pairs": 1,
+  "replayed_attempts": 2,
+  "first_pair_exactly_identical": true,
+  "rows": [
+    {
+      "attempt_id": "M6_d0_a0_p0:video_motion",
+      "variant": "video_motion",
+      "whole_row_identical": true,
+      "neural_chunk_identical": true,
+      "trajectory_identical": true,
+      "transfer_metrics_identical": true,
+      "changed_fields": [],
+      "formal_row_canonical_sha256": "a6bfb9aa8b54b8bc902732c41e998f7644e55beca6cf6ceb90b11ea2021455aa",
+      "clone_row_canonical_sha256": "a6bfb9aa8b54b8bc902732c41e998f7644e55beca6cf6ceb90b11ea2021455aa",
+      "success": true,
+      "steps": 274,
+      "input_image_sha256": "22810cf7ff739c0098789c77bb70fecddefd6d1191232a2bea06809a53424ae9"
+    },
+    {
+      "attempt_id": "M6_d0_a0_p0:straight_transfer",
+      "variant": "straight_transfer",
+      "whole_row_identical": true,
+      "neural_chunk_identical": true,
+      "trajectory_identical": true,
+      "transfer_metrics_identical": true,
+      "changed_fields": [],
+      "formal_row_canonical_sha256": "1494ffc48d453dccd817151abab6622c3246def2fecd7405479358a67bafb14e",
+      "clone_row_canonical_sha256": "1494ffc48d453dccd817151abab6622c3246def2fecd7405479358a67bafb14e",
+      "success": true,
+      "steps": 272,
+      "input_image_sha256": "22810cf7ff739c0098789c77bb70fecddefd6d1191232a2bea06809a53424ae9"
+    }
+  ],
+  "scope": "Automated AI replay of first predetermined pair in same isolated CPU/runtime versions; not a second 192-case reproduction or new independent trials."
+}

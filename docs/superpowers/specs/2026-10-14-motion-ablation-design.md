@@ -17,7 +17,11 @@ Which robot actions change because of the recorded transfer motion? The existing
 
 ## Evaluation
 
-Freeze a new seed20261027 and96 scenes before running either model. Use the same three45–75/75–110/110–160mm distance bands, eight transfer directions and four placements per cell as V5. Draw bearing/ring locations with the same workspace bounds. Keep the original V5 seed and outputs unchanged.
+The initial seed20261027 run retained192 successful physical outcomes but failed the declared image control: one pair differed by three background channel values of one gray level. Identical CPU physics/render-scene states still produced two framebuffer hashes on repeated render calls. Its full records and source snapshot are preserved under `outputs/motion_ablation_v6`; do not call it a fully matched experiment.
+
+The corrected experiment freezes fresh seed20261028 and96 scenes before running either model. Capture one initial RGB after resetting each scene and before either trial. Give both policies a copy of that same image, with live own-proprioception still supplied through the original restricted API. Save all captured images and their hashes; a failed capture fails both registered trials without retry. No model parameters are changed for this correction.
+
+Use the same three45–75/75–110/110–160mm distance bands, eight transfer directions and four placements per cell as V5. Draw bearing/ring locations with the same workspace bounds. Keep the original V5 seed and outputs unchanged.
 
 Run each scene twice, with the video-motion and straight-transfer models, in the same CPU Torch2.14 runtime with two threads. Use the existing restricted controller view and physical runner. Keep all192 attempts, including exceptions and timeouts. Success requires controller completion plus the existing settled inside-target score. True object state is for metrics/logging only.
 

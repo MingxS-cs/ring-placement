@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -43,6 +44,23 @@ def path_stats(points):
     lateral = None if chord <= 1e-9 else float(np.abs(vector[0]*offset[:, 1]-vector[1]*offset[:, 0]).max()/chord)
     return dict(path_length_mm=length*1000, max_lateral_mm=None if lateral is None else lateral*1000,
                 arc_to_chord=None if chord <= 1e-9 else length/chord)
+
+
+def verify_observation_archive(report):
+    binding = report['initial_observations']
+    if sha256_file(binding['path']) != binding['sha256']:
+        raise ValueError('Saved initial image archive changed')
+    with np.load(binding['path'], allow_pickle=False) as saved:
+        identifiers, images = saved['configuration_ids'], saved['images']
+    if (len(identifiers) != len(images) or len(set(identifiers.tolist())) != len(identifiers)
+            or len(images) != binding['captured_scenes'] or images.dtype != np.uint8
+            or images.ndim != 4 or images.shape[-1] != 3):
+        raise ValueError('Initial image archive shape or scene membership differs')
+    hashes = {identifier: hashlib.sha256(image.tobytes()).hexdigest() for identifier, image in zip(identifiers, images)}
+    for row in report['rollouts']:
+        if row.get('input_image_sha256') and hashes.get(row['configuration_id']) != row['input_image_sha256']:
+            raise ValueError('A policy input differs from its saved shared observation')
+    return len(images)
 
 
 def audit_pairs(report, expected_pairs=96):
@@ -138,6 +156,7 @@ def analyze(report_path, output):
             or report.get('summary') != summarize(report['rollouts'], manifest['schedule'])):
         raise ValueError('Saved evaluation differs from the frozen experiment or its registered schedule')
     result = audit_pairs(report)
+    result['verified_initial_observations'] = verify_observation_archive(report)
     output.mkdir(parents=True, exist_ok=False)
     rows = report['rollouts']
     identifiers = list(dict.fromkeys(row['configuration_id'] for row in rows))
@@ -182,7 +201,7 @@ def analyze(report_path, output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--report', default='outputs/motion_ablation_v6/evaluation.json')
-    parser.add_argument('--output', default='outputs/motion_ablation_v6/analysis')
+    parser.add_argument('--report', default='outputs/motion_ablation_v6_final/evaluation.json')
+    parser.add_argument('--output', default='outputs/motion_ablation_v6_final/analysis')
     args = parser.parse_args()
     analyze(args.report, args.output)

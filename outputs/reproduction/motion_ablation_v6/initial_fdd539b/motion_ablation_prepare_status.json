@@ -1,0 +1,6 @@
+{
+  "git_head": "fdd539b5fc4861aa158653fdcbd5186fd0c4da55",
+  "command": "isolated CPU python -m ring_learning.motion_ablation prepare --out outputs/motion_ablation_check",
+  "exit_code": 0,
+  "seconds": 2.4377294
+}

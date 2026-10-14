@@ -1,0 +1,3965 @@
+{
+  "case": "M6_d0_a1_p0",
+  "recorded_hashes": [
+    "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+    "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e"
+  ],
+  "unique_hashes": [
+    "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+    "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e"
+  ],
+  "frequencies": {
+    "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526": 9,
+    "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e": 191
+  },
+  "comparisons": [
+    {
+      "against": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "sha": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "changed_pixels": 3,
+      "changed_channels": 3,
+      "max_abs_channel_delta": 1,
+      "bbox": [
+        50,
+        208,
+        50,
+        215
+      ]
+    }
+  ],
+  "state_differences_max": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "xpos": 0.0,
+    "xquat": 0.0,
+    "geom_xpos": 0.0,
+    "geom_xmat": 0.0,
+    "site_xpos": 0.0,
+    "site_xmat": 0.0,
+    "body_pos": 0.0,
+    "cam_pos": 0.0,
+    "cam_quat": 0.0
+  },
+  "predictions": [
+    {
+      "sha": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "features": [
+        [
+          0.4608287811279297,
+          0.03656355291604996,
+          0.4391326308250427,
+          -0.026817703619599342,
+          1.0,
+          -0.32386255264282227,
+          -0.9461040496826172,
+          0.10488695651292801,
+          0.3064076602458954,
+          0.8951128721237183
+        ]
+      ],
+      "chunk": [
+        [
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.16929998993873596,
+            1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.10429999232292175,
+            1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.10429999232292175,
+            -1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.45894017815589905,
+            0.046679139137268066,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.457285076379776,
+            0.0446288138628006,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4558286666870117,
+            0.041778020560741425,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4545360803604126,
+            0.03824230656027794,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.453372597694397,
+            0.034137140959501266,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4523032605648041,
+            0.029578080400824547,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.45129308104515076,
+            0.024680640548467636,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4503079354763031,
+            0.0195601973682642,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4493125081062317,
+            0.014332384802401066,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.44827163219451904,
+            0.009112727828323841,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4471513032913208,
+            0.00401651207357645,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4459162652492523,
+            -0.0008404981344938278,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4445314407348633,
+            -0.005342939402908087,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.442962646484375,
+            -0.009375300258398056,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.44117480516433716,
+            -0.012822053395211697,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.10429999232292175,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.10429999232292175,
+            1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.19429999589920044,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "sha": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "features": [
+        [
+          0.4608287811279297,
+          0.03656355291604996,
+          0.4391326308250427,
+          -0.026817703619599342,
+          1.0,
+          -0.32386255264282227,
+          -0.9461040496826172,
+          0.10488695651292801,
+          0.3064076602458954,
+          0.8951128721237183
+        ]
+      ],
+      "chunk": [
+        [
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.16929998993873596,
+            1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.10429999232292175,
+            1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.10429999232292175,
+            -1.0
+          ],
+          [
+            0.4608287811279297,
+            0.047813549637794495,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.45894017815589905,
+            0.046679139137268066,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.457285076379776,
+            0.0446288138628006,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4558286666870117,
+            0.041778020560741425,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4545360803604126,
+            0.03824230656027794,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.453372597694397,
+            0.034137140959501266,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4523032605648041,
+            0.029578080400824547,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.45129308104515076,
+            0.024680640548467636,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4503079354763031,
+            0.0195601973682642,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4493125081062317,
+            0.014332384802401066,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.44827163219451904,
+            0.009112727828323841,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4471513032913208,
+            0.00401651207357645,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4459162652492523,
+            -0.0008404981344938278,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4445314407348633,
+            -0.005342939402908087,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.442962646484375,
+            -0.009375300258398056,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.44117480516433716,
+            -0.012822053395211697,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.16429999470710754,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.10429999232292175,
+            -1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.10429999232292175,
+            1.0
+          ],
+          [
+            0.4391328692436218,
+            -0.015567705035209656,
+            0.19429999589920044,
+            1.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "records": [
+    {
+      "reset": 0,
+      "repeat": 0,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 0,
+      "repeat": 1,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 1,
+      "repeat": 0,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 1,
+      "repeat": 1,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 2,
+      "repeat": 0,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 2,
+      "repeat": 1,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 3,
+      "repeat": 0,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 3,
+      "repeat": 1,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 4,
+      "repeat": 0,
+      "image_sha256": "b5f9a67ff4972f481e96c840fb112d7112af4e5c11c6c32540978c8a822bf526",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 4,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 5,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 5,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 6,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 6,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 7,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 7,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 8,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 8,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 9,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 9,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 10,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 10,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 11,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 11,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 12,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 12,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 13,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 13,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 14,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 14,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 15,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 15,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 16,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 16,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 17,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 17,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 18,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 18,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 19,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 19,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 20,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 20,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 21,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 21,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 22,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 22,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 23,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 23,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 24,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 24,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 25,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 25,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 26,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 26,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 27,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 27,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 28,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 28,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 29,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 29,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 30,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 30,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 31,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 31,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 32,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 32,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 33,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 33,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 34,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 34,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 35,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 35,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 36,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 36,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 37,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 37,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 38,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 38,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 39,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 39,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 40,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 40,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 41,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 41,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 42,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 42,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 43,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 43,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 44,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 44,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 45,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 45,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 46,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 46,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 47,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 47,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 48,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 48,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 49,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 49,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 50,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 50,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 51,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 51,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 52,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 52,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 53,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 53,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 54,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 54,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 55,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 55,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 56,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 56,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 57,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 57,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 58,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 58,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 59,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 59,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 60,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 60,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 61,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 61,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 62,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 62,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 63,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 63,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 64,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 64,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 65,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 65,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 66,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 66,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 67,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 67,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 68,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 68,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 69,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 69,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 70,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 70,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 71,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 71,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 72,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 72,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 73,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 73,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 74,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 74,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 75,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 75,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 76,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 76,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 77,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 77,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 78,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 78,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 79,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 79,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 80,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 80,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 81,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 81,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 82,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 82,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 83,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 83,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 84,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 84,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 85,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 85,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 86,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 86,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 87,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 87,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 88,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 88,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 89,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 89,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 90,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 90,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 91,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 91,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 92,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 92,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 93,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 93,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 94,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 94,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 95,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 95,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 96,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 96,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 97,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 97,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 98,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 98,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 99,
+      "repeat": 0,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    },
+    {
+      "reset": 99,
+      "repeat": 1,
+      "image_sha256": "05bd89494d6e6babaddb976f9abf6832081eb2eb666635ecc26efb18c4024c0e",
+      "initial_state_max_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "xpos": 0.0,
+        "xquat": 0.0,
+        "geom_xpos": 0.0,
+        "geom_xmat": 0.0,
+        "site_xpos": 0.0,
+        "site_xmat": 0.0,
+        "body_pos": 0.0,
+        "cam_pos": 0.0,
+        "cam_quat": 0.0
+      }
+    }
+  ]
+}

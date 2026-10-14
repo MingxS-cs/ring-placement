@@ -1,0 +1,57 @@
+{
+  "verified_at_utc": "2026-10-14T22:49:08.541877+00:00",
+  "source_revision": "fdd539b5fc4861aa158653fdcbd5186fd0c4da55",
+  "formal_experiment_strict_paired_fairness_passed": false,
+  "formal_pairs": {
+    "both_successes": 96,
+    "changed_transfer_predictions": 96,
+    "common_predicted_outputs_equal": 96,
+    "common_prediction_mismatches": 0,
+    "complete_pairs": 96,
+    "initial_rgb_mismatches": 1,
+    "maximum_common_prediction_difference": 0.0,
+    "maximum_final_ring_xy_difference_m": 7.332496807095511e-05,
+    "prediction_pairs_compared": 96,
+    "rgb_pairs_compared": 96,
+    "same_final_ring_xyz": 0,
+    "same_initial_rgb": 95,
+    "same_success_flags": 96,
+    "same_target_scores": 96,
+    "straight_only_successes": 0,
+    "video_only_successes": 0
+  },
+  "formal_by_variant": {
+    "straight_transfer": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    },
+    "video_motion": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    }
+  },
+  "formal_record_count": 192,
+  "formal_evaluation_sha256": "075e5038cc9ec3565cf2b39b39d6aea9592e0f5fa6b92ffc13f68dcae0a41b98",
+  "baseline_reconstruction_checkpoint_bytes_identical": true,
+  "baseline_reconstruction_fit_report_bytes_identical": true,
+  "first_pair_replay_entire_records_identical": true,
+  "clone_replayed_attempts": 2,
+  "tests": {
+    "tests": 278,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "status": "Initial formal experiment failed its declared paired-input equality criterion. Preparation and first-pair reproduction passed; this is not an overall experiment PASS. A corrected source revision and newly frozen scenes are pending.",
+  "reproduction_actor": "AI assistant automated execution; no claim of applicant hand reproduction or independent new benchmark."
+}

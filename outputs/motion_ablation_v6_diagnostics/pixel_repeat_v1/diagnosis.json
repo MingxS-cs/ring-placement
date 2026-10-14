@@ -1,0 +1,68 @@
+{
+  "case": "M6_d0_a1_p0",
+  "changed_pixels": 3,
+  "changed_channels": 3,
+  "maximum_uint8_channel_difference": 1,
+  "pixel_changes": [
+    {
+      "x": 50,
+      "y": 208,
+      "channel": "G",
+      "before": 218,
+      "after": 217
+    },
+    {
+      "x": 50,
+      "y": 214,
+      "channel": "B",
+      "before": 156,
+      "after": 155
+    },
+    {
+      "x": 50,
+      "y": 215,
+      "channel": "G",
+      "before": 216,
+      "after": 215
+    }
+  ],
+  "reset_and_double_render_count": 200,
+  "fixed_scene_direct_render_count": 200,
+  "scene_input_fingerprints": [
+    "7c4d43bbbbcfe926e689432ec2b6cfb9bd69ed8e0a75f49430c31196a9fc5c02"
+  ],
+  "physics_state_max_differences": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "xpos": 0.0,
+    "xquat": 0.0,
+    "geom_xpos": 0.0,
+    "geom_xmat": 0.0,
+    "site_xpos": 0.0,
+    "site_xmat": 0.0,
+    "body_pos": 0.0,
+    "cam_pos": 0.0,
+    "cam_quat": 0.0
+  },
+  "scene_feature_max_difference": 0.0,
+  "same_base_all_waypoints_max_difference": 0.0,
+  "graphics": {
+    "vendor": "NVIDIA Corporation",
+    "renderer": "NVIDIA GeForce RTX 5080/PCIe/SSE2",
+    "opengl_version": "4.6.0 NVIDIA 591.86"
+  },
+  "runtime": {
+    "mujoco": "3.12.0",
+    "torch": "2.14.0+cpu",
+    "model_inference_device": "cpu"
+  },
+  "identified_boundary": "Independent framebuffer rendering yields different uint8 RGB for a byte-stable camera/geometry/light scene; not different physics or learned weights",
+  "unresolved_detail": "No claim about the proprietary graphics-driver internal mechanism",
+  "original_trial_status": "Strict paired RGB condition failed; do not relax the criterion or relabel the 95/96 result",
+  "files": [
+    "probe.json",
+    "fixed_scene_probe.json",
+    "unique_0.png",
+    "unique_1.png"
+  ]
+}

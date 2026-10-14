@@ -30,6 +30,44 @@ def test_fresh_geometry_and_paired_schedule_preserve_all_strata():
         evaluation_schedule(cases[:-1])
 
 
+def test_shared_initial_image_is_copied_and_proprioception_still_uses_restricted_view():
+    from ring_learning.motion_ablation import TracedController
+    from ring_learning.vla_evaluate import ControllerEnvironmentView
+    class Environment:
+        tool_xyz = np.array([.45, .01, .16])
+        def render_policy(self):
+            raise AssertionError('Policy must use the captured shared image')
+    class Delegate:
+        waypoint_index = 4
+        def __call__(self, view):
+            first = view.render_policy()
+            first[:] = 99
+            self.observed = view.render_policy()
+            np.testing.assert_array_equal(view.tool_xyz, [.45, .01, .16])
+            with pytest.raises(AttributeError):
+                _ = view.ring_xyz
+            return np.zeros(4)
+    frame = np.zeros((2, 2, 3), dtype=np.uint8)
+    delegate = Delegate()
+    traced = TracedController(delegate, initial_rgb=frame)
+    frame[:] = 17
+    restricted = ControllerEnvironmentView(Environment())
+    traced(restricted)
+    assert not delegate.observed.any()
+    assert restricted.forbidden_access_attempts == 1
+    assert traced.controller_waypoint_indices == [4]
+
+
+def test_observation_capture_failure_stays_a_failed_registered_attempt():
+    from ring_learning.motion_ablation import TracedController
+    class Delegate:
+        waypoint_index = 0
+        def __call__(self, view):
+            raise AssertionError('Failed capture must not retry model inference')
+    with pytest.raises(RuntimeError, match='capture'):
+        TracedController(Delegate(), observation_error='capture failed')(object())
+
+
 @pytest.mark.parametrize('kind', ['checkpoint', 'dataset', 'source', 'protocol'])
 def test_every_bound_file_rejects_tampering(tmp_path, kind):
     from ring_learning.motion_ablation import file_binding, check_bindings

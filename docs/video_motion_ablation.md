@@ -12,7 +12,11 @@ The new fit has no epochs or validation-based selection. It inherits V5's select
 
 ## Fixed evaluation
 
-Seed20261027 fixes 96 new configurations: three distance bands, eight transfer directions and four placements per cell. Each scene runs once with the video curve and once with straight transfer. All192 attempts, including exceptions and timeouts, remain in the denominator. CPU Torch2.14 and two threads are used for both variants.
+Seed20261028 fixes 96 new configurations: three distance bands, eight transfer directions and four placements per cell. Each scene runs once with the video curve and once with straight transfer. All192 attempts, including exceptions and timeouts, remain in the denominator. CPU Torch2.14 and two threads are used for both variants.
+
+One initial RGB is captured after resetting a scene and before either trial. Both policies receive a copy of that same image; their own robot-state feedback stays live. The image archive records what actually entered each policy.
+
+The first implementation independently rendered each trial. Its seed20261027 run completed all192 attempts but failed the exact-observation control in one pair. Repeated rendering of an identical scene changed three background channel values by one gray level, without changing model outputs. Those records are retained; the fix changes observation sampling and the test seed, not learned weights or success thresholds.
 
 The two checkpoints, training data, source files, physical assets, scene list and protocol are frozen before execution. Both controllers see the same initial image and instruction. True object state is used for logging and grading, not action generation.
 

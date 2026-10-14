@@ -85,3 +85,18 @@ def test_existing_analysis_directory_is_preserved(tmp_path):
     (output/'keep.txt').write_text('preserve')
     with pytest.raises(FileExistsError): analyze(tmp_path/'missing.json', output)
     assert (output/'keep.txt').read_text() == 'preserve'
+
+
+def test_saved_initial_observation_matches_both_actual_policy_inputs(tmp_path):
+    import hashlib
+    from ring_learning.motion_ablation_analysis import verify_observation_archive
+    path = tmp_path/'images.npz'
+    image = np.zeros((2, 2, 3), dtype=np.uint8)
+    np.savez_compressed(path, configuration_ids=np.array(['one']), images=image[None])
+    digest = hashlib.sha256(image.tobytes()).hexdigest()
+    report = paired_report()
+    for row in report['rollouts']: row['input_image_sha256'] = digest
+    report['initial_observations'] = dict(path=str(path), sha256=hashlib.sha256(path.read_bytes()).hexdigest(), captured_scenes=1)
+    assert verify_observation_archive(report) == 1
+    report['rollouts'][1]['input_image_sha256'] = 'wrong'
+    with pytest.raises(ValueError): verify_observation_archive(report)

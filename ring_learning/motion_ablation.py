@@ -28,7 +28,7 @@ from .vla_policy import PRIMARY_INSTRUCTIONS, load_vla_policy, save_vla_policy
 from .vla_train import _validate_arrays
 
 
-SCENE_SEED = 20261027
+SCENE_SEED = 20261028
 VARIANTS = ('video_motion', 'straight_transfer')
 DISTANCE_BANDS_M = ((.045, .075), (.075, .110), (.110, .160))
 EXPECTED_CASES = 96
@@ -84,7 +84,7 @@ def _require_runtime():
 
 def scene_configurations(*, seed=SCENE_SEED):
     if isinstance(seed, bool) or seed != SCENE_SEED:
-        raise ValueError('The predeclared motion-ablation seed is 20261027')
+        raise ValueError(f'The predeclared motion-ablation seed is {SCENE_SEED}')
     rng = np.random.default_rng(seed)
     cases = []
     for band, bounds in enumerate(DISTANCE_BANDS_M):
@@ -216,6 +216,7 @@ def prepare(output, *, v5_receipt=DEFAULT_V5_RECEIPT, protocol_path=DEFAULT_PROT
         runtime_contract=runtime_contract(), environment=environment_signature(),
         execution=dict(max_steps=MAX_STEPS, transfer_pre_waypoint_indices=list(range(4, 20)),
             ring_airborne_z_m=AIRBORNE_Z_M, score_used_for_termination=False,
+            observation='One initial RGB captured before either trial and shared by both policies',
             success_definition='controller finished and post-execution inside target score valid',
             true_object_state='Metrics, reset and scoring only; never a runtime action input'),
         intervention='TRAIN-only intermediate transfer XY readout; personally recorded endpoint geometry retained',
@@ -252,6 +253,7 @@ def validate_manifest(manifest):
     execution = manifest.get('execution', {})
     if (execution.get('max_steps') != MAX_STEPS or execution.get('ring_airborne_z_m') != AIRBORNE_Z_M
             or execution.get('transfer_pre_waypoint_indices') != list(range(4, 20))
+            or execution.get('observation') != 'One initial RGB captured before either trial and shared by both policies'
             or execution.get('score_used_for_termination') is not False):
         raise ValueError('Frozen execution/scoring protocol differs')
     inherited = _read_json(manifest['bindings']['inherited_v5_receipt']['path'])
@@ -272,14 +274,32 @@ def validate_freeze_receipt(receipt, manifest_path):
     return True
 
 
+class _InitialImageView:
+    """Keep the paired image fixed; own-state reads still use the restricted view."""
+    def __init__(self, restricted_view, image):
+        self._view, self._image = restricted_view, image
+
+    def render_policy(self):
+        return self._image.copy()
+
+    def __getattr__(self, name):
+        return getattr(self._view, name)
+
+
 class TracedController:
     """Record the original controller's own stage without changing its action."""
-    def __init__(self, delegate):
+    def __init__(self, delegate, *, initial_rgb=None, observation_error=None):
         self.delegate = delegate
+        self._image = None if initial_rgb is None else np.array(initial_rgb, copy=True)
+        self._observation_error = observation_error
         self.controller_waypoint_indices = []
 
     def __call__(self, env):
         self.controller_waypoint_indices.append(int(self.delegate.waypoint_index))
+        if self._observation_error is not None:
+            raise RuntimeError(f'Initial image capture failed: {self._observation_error}')
+        if self._image is not None:
+            env = _InitialImageView(env, self._image)
         return self.delegate(env)
 
     def __getattr__(self, name):
@@ -325,8 +345,8 @@ def transfer_metrics(row):
     return result
 
 
-def run_case(env, request, controller, *, scorer=score_target):
-    traced = TracedController(controller)
+def run_case(env, request, controller, *, scorer=score_target, initial_rgb=None, observation_error=None):
+    traced = TracedController(controller, initial_rgb=initial_rgb, observation_error=observation_error)
     row = run_physical_case(env, request, traced, scorer=scorer)
     row['controller_waypoint_indices'] = traced.controller_waypoint_indices
     row['transfer_metrics'] = transfer_metrics(row)
@@ -398,7 +418,8 @@ def summarize(rows, schedule):
 
 def run(manifest_path, destination):
     destination = Path(destination)
-    if destination.exists():
+    observation_path = destination.with_suffix('.initial_rgb.npz')
+    if destination.exists() or observation_path.exists():
         raise FileExistsError('Evaluation output exists; choose a new reproduction destination')
     _require_runtime()
     manifest = _read_json(manifest_path)
@@ -410,20 +431,36 @@ def run(manifest_path, destination):
     if shared != manifest['shared_weights']:
         raise ValueError('Loaded checkpoints differ from the frozen shared-weight audit')
     env, rows = VLAEnv(max_steps=MAX_STEPS), []
+    captured_images, captured_ids = [], []
+    image, observation_error = None, None
     try:
         for index, request in enumerate(manifest['schedule']):
+            if index % 2 == 0:
+                image, observation_error = None, None
+                try:
+                    env.reset(request['ring_xy_m'], request['bearing_xy_m'], seed=request['reset_seed'])
+                    image = env.render_policy().copy()
+                    captured_images.append(image)
+                    captured_ids.append(request['configuration_id'])
+                except Exception as error:
+                    observation_error = f'{type(error).__name__}: {error}'
             controller = VLAController(models[request['variant']], request['instruction'])
-            rows.append(run_case(env, request, controller))
+            rows.append(run_case(env, request, controller, initial_rgb=image, observation_error=observation_error))
             if (index+1) % 12 == 0:
                 print(f'Motion ablation {index+1}/{EXPECTED_ATTEMPTS}', flush=True)
     finally:
         env.close()
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    np.savez_compressed(observation_path, configuration_ids=np.asarray(captured_ids, dtype='U32'),
+        images=np.stack(captured_images) if captured_images else np.empty((0, 256, 256, 3), dtype=np.uint8))
     summary = summarize(rows, manifest['schedule'])
     paired = summary['paired']
     fair = (paired['same_initial_rgb'] == paired['common_predicted_outputs_equal'] == EXPECTED_CASES)
     report = dict(schema_version=1, protocol=manifest['protocol'],
         manifest_sha256=sha256_file(manifest_path), freeze_receipt_sha256=sha256_file(receipt_path),
         model_sha256={v: manifest['models'][v]['sha256'] for v in VARIANTS},
+        initial_observations=dict(path=observation_path.as_posix(), sha256=sha256_file(observation_path),
+            captured_scenes=len(captured_ids), mode='One captured initial image per scene, shared across variants'),
         runtime=dict(runtime_contract(), python_executable=sys.executable,
                      actual_torch_num_threads=torch.get_num_threads()),
         summary=summary, rollouts=rows, paired_control_checks_passed=fair,
