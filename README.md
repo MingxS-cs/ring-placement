@@ -48,13 +48,16 @@ Source-uniform least squares fit the action coefficient targets. Actual word emb
 | RGB → grasp XY | 0.376mm | 0.850mm |
 | RGB → goal XY | 0.637mm | 0.922mm |
 | True-coordinate text/critical waypoint error | <0.001mm | <0.001mm |
-| Whole-curve XYZ approximation against synthetic teacher | 0.908mm | 6.956mm |
+| RGB → whole action chunk XYZ, against synthetic labels | 1.224mm | 6.703mm |
+| True-validation-coordinate decoder → whole-curve XYZ | 0.908mm | 6.956mm |
 
 Physical validation is24/24 for each of the three primary commands (72/72). Endpoint precision does not imply exact reproduction of intermediate human motion. At256px across560mm, exact segmentation centroids themselves have about0.5mm mean raster error; sub0.2mm localization everywhere is not claimed.
 
 The first mean-word/linear text head failed to handle different-length aliases; the second gradient-only head retained accumulated coefficient error. These validation-only attempts are preserved under `model/attempt_01` and `attempt_02`; their outdated bindings are archival, not usable deployment checkpoints. Nonlinear text features and train-only last-layer refinement fixed the issue before testing. Existing V4's worse-than-straight human-path result remains [documented](docs/v4_baseline.md).
 
 Final checkpoint SHA256: `412d3f45dafdd47630000c61527c4056e1d8975c01a1a30fc931ec6810dc4452`. CPU Torch2.11/2.14 outputs agree bitwise for24 validation images; GPU/CPU XYZ differences are at most0.016mm. [Portability evidence](outputs/vla_v5/model/portability.json).
+
+Independent clean-source re-training regenerates byte-identical data and all model tensors. Full264-attempt reproduction using CPU Torch2.11 matches every success decision and execution step count from the original CPU Torch2.14 run. Across these versions the maximum absolute waypoint XYZ component difference reaches0.000507mm and final ring-position distance difference0.0644mm; physical trajectories are not claimed to be bit-identical. [Reproduction evidence](docs/reproduction_vla.md).
 
 ## Run the delivered model
 
@@ -79,7 +82,7 @@ put the ring right of the bearing
 
 ## Retrain and reproduce
 
-GPU training used a separate local `.venv-vla` inheriting installed Anaconda Torch2.11.0+cu128, with local MuJoCo/OpenCV/NumPy. It leaves V4 intact but is not a fully isolated GPU dependency environment; inherited unused packages report dependency conflicts. Actual imports, CUDA operations and CPU portability were checked. A fresh dedicated GPU installation can use:
+GPU training used a separate local `.venv-vla` inheriting installed Anaconda Torch2.11.0+cu128, with local MuJoCo/OpenCV/NumPy. It leaves V4 intact but is not a fully isolated GPU dependency environment; inherited unused packages report dependency conflicts. Actual imports, CUDA operations and CPU portability were checked. The actual inherited Pillow was12.1.1; the fresh-install requirements pin12.3.0. A fresh dedicated GPU installation can use:
 
 ```powershell
 python -m venv .venv-vla

@@ -1,0 +1,156 @@
+{
+  "parameter_count": 33930,
+  "all_state_tensors_equal": true,
+  "all_state_tensor_bytes_equal": true,
+  "maximum_absolute_state_difference": 0,
+  "state_tensors": {
+    "camera_centre_xy": {
+      "dtype": "torch.float32",
+      "shape": [
+        2
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.0.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        3,
+        3,
+        3
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.0.bias": {
+      "dtype": "torch.float32",
+      "shape": [
+        16
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.2.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.2.bias": {
+      "dtype": "torch.float32",
+      "shape": [
+        16
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.4.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        16,
+        1,
+        1
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "vision.4.bias": {
+      "dtype": "torch.float32",
+      "shape": [
+        2
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "token_embedding.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        14,
+        16
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coefficient_head.0.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        32,
+        16
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coefficient_head.0.bias": {
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coefficient_head.2.weight": {
+      "dtype": "torch.float32",
+      "shape": [
+        920,
+        32
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "coefficient_head.2.bias": {
+      "dtype": "torch.float32",
+      "shape": [
+        920
+      ],
+      "values_equal": true,
+      "bytes_equal": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "selection_equal": true,
+  "selection": {
+    "split": "validation only",
+    "selected_epoch": 146,
+    "criterion": "minimum maximum critical-waypoint XY error, then mean critical XY error",
+    "trained_epochs": 240,
+    "blind_test_opened": false
+  },
+  "validation_history_equal": true,
+  "changed_checkpoint_metadata_fields": [
+    "wall_time_seconds"
+  ],
+  "manifest_configurations_equal": true,
+  "manifest_changed_fields": [
+    "dataset_files",
+    "dataset_manifest_path"
+  ],
+  "manifest_case_count": 96,
+  "decoder_training_coefficient_bytes_equal": true,
+  "delivered_checkpoint_sha256": "412d3f45dafdd47630000c61527c4056e1d8975c01a1a30fc931ec6810dc4452",
+  "reproduced_checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+  "non_state_checkpoint_headers_identical": {
+    "schema_version": true,
+    "source_sha256": true,
+    "vocabulary": true,
+    "allowed_instructions": true,
+    "configuration": true
+  }
+}

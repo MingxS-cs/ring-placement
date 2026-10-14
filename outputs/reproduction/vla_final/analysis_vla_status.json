@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "seconds": 1.7716514,
+  "command": "clone isolated CPU python -m ring_learning.vla_analysis --base outputs/reproduced_vla_clean"
+}

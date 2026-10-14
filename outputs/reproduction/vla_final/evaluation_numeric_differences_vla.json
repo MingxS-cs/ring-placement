@@ -1,0 +1,45 @@
+{
+  "case_count": 264,
+  "identical_complete_record_count": 0,
+  "differing_record_field_counts": {
+    "info": 264,
+    "predicted_waypoints": 264,
+    "trajectory": 264
+  },
+  "maximum_predicted_xyz_difference_m": 5.066394805908203e-07,
+  "maximum_predicted_gripper_difference": 1.1920928955078125e-07,
+  "maximum_step_count_difference": 0,
+  "all_success_flags_identical": true,
+  "all_trajectory_lengths_identical": true,
+  "trajectory_maximum_differences_by_field": {
+    "action": 9.936094284057617e-05,
+    "bearing_xyz_m": 0.0,
+    "command_xyz_m": 5.066394805908203e-07,
+    "ring_xyz_m": 0.00034688249214998024,
+    "tool_xyz_m": 0.00012447313896812862
+  },
+  "paired_numeric_differences": [
+    {
+      "field": ".language.mean_max_abs_waypoint_change_m.left",
+      "original": 0.0600003736714522,
+      "reproduced": 0.06000013276934624,
+      "abs_difference": 2.409021059648908e-07
+    },
+    {
+      "field": ".language.mean_max_abs_waypoint_change_m.right",
+      "original": 0.060000004867712654,
+      "reproduced": 0.06000006447235743,
+      "abs_difference": 5.960464477539063e-08
+    }
+  ],
+  "mean_absolute_predicted_xyz_difference_m": 6.233815526688733e-08,
+  "maximum_absolute_predicted_xyz_difference_m": 5.066394805908203e-07,
+  "mean_absolute_predicted_gripper_difference": 5.418604070490057e-09,
+  "maximum_final_ring_position_distance_m": 6.439604849974362e-05,
+  "mean_final_ring_position_distance_m": 8.199443891477658e-07,
+  "maximum_final_tool_position_distance_m": 4.1828992423830527e-07,
+  "mean_final_tool_position_distance_m": 3.303883686231929e-07,
+  "all_target_score_flags_identical": true,
+  "all_gripper_open_close_action_counts_identical": true,
+  "maximum_gripper_action_difference": 5.960464477539063e-08
+}

@@ -1,0 +1,116 @@
+train/E01: 16 images
+train/E02: 32 images
+train/E03: 48 images
+train/E04: 64 images
+train/E06: 80 images
+train/E07: 96 images
+train/E09: 112 images
+train/E13: 128 images
+train/E14: 144 images
+train/E15: 160 images
+train/E17: 176 images
+train/E18: 192 images
+train/E19: 208 images
+val/E05: 8 images
+val/E11: 16 images
+val/E12: 24 images
+{"epoch": 1, "grasp_max_mm": 195.44437605124247, "goal_max_mm": 106.3011439373576, "train_loss": 1.283993111206935}
+{"epoch": 5, "grasp_max_mm": 5.140571862088372, "goal_max_mm": 2.236965749788276, "train_loss": 4.004651450193846}
+{"epoch": 10, "grasp_max_mm": 2.2242232438500418, "goal_max_mm": 1.3511573501809777, "train_loss": 0.5033052385999606}
+{"epoch": 15, "grasp_max_mm": 1.3876461109945086, "goal_max_mm": 1.1806304466302087, "train_loss": 0.357202734798193}
+{"epoch": 20, "grasp_max_mm": 0.9947270143269018, "goal_max_mm": 1.1157782882499023, "train_loss": 0.1298141346241419}
+{"epoch": 25, "grasp_max_mm": 0.8473675741611583, "goal_max_mm": 1.0983337964207758, "train_loss": 0.17179309748686278}
+{"epoch": 30, "grasp_max_mm": 1.137148026628873, "goal_max_mm": 1.1329210032122887, "train_loss": 0.13770965701685503}
+{"epoch": 35, "grasp_max_mm": 0.8373788455382812, "goal_max_mm": 1.2030223090938883, "train_loss": 0.08923810956856379}
+{"epoch": 40, "grasp_max_mm": 0.832320388647984, "goal_max_mm": 1.0993385792746135, "train_loss": 0.09441174953602828}
+{"epoch": 45, "grasp_max_mm": 1.0839761358068585, "goal_max_mm": 1.130029847406663, "train_loss": 0.22066483804239675}
+{"epoch": 50, "grasp_max_mm": 0.9627505092590863, "goal_max_mm": 1.6266562090142793, "train_loss": 0.13804899367432183}
+{"epoch": 55, "grasp_max_mm": 1.2081688359705058, "goal_max_mm": 1.177961537867037, "train_loss": 0.5232787769860946}
+{"epoch": 60, "grasp_max_mm": 1.3432820521731323, "goal_max_mm": 1.2176629250571924, "train_loss": 0.09499452044614233}
+{"epoch": 65, "grasp_max_mm": 0.9171037683747061, "goal_max_mm": 1.0986915384449474, "train_loss": 0.054274684857003964}
+{"epoch": 70, "grasp_max_mm": 0.8541480532385254, "goal_max_mm": 0.9958719980098748, "train_loss": 0.04544802164085782}
+{"epoch": 75, "grasp_max_mm": 0.8820915184729393, "goal_max_mm": 1.16603568381783, "train_loss": 0.043415739809950955}
+{"epoch": 80, "grasp_max_mm": 0.9204190123719571, "goal_max_mm": 1.1107598080240346, "train_loss": 0.05868499794115241}
+{"epoch": 85, "grasp_max_mm": 0.9139437610634594, "goal_max_mm": 1.088187313025028, "train_loss": 0.02740130999770302}
+{"epoch": 90, "grasp_max_mm": 0.9083582484063423, "goal_max_mm": 1.0290218631993708, "train_loss": 0.028035920883457247}
+{"epoch": 95, "grasp_max_mm": 0.8612767512250847, "goal_max_mm": 1.0989028038313835, "train_loss": 0.03667230757239919}
+{"epoch": 100, "grasp_max_mm": 0.8707901764926588, "goal_max_mm": 1.0450059745829339, "train_loss": 0.03040131158195436}
+{"epoch": 105, "grasp_max_mm": 0.8332423982777669, "goal_max_mm": 1.0783193062201162, "train_loss": 0.03545242519332813}
+{"epoch": 110, "grasp_max_mm": 0.8859186492359123, "goal_max_mm": 1.0534359592847704, "train_loss": 0.03446166682988405}
+{"epoch": 115, "grasp_max_mm": 0.789985402478273, "goal_max_mm": 1.066110372960101, "train_loss": 0.06360076622177775}
+{"epoch": 120, "grasp_max_mm": 0.8495590301877222, "goal_max_mm": 1.0830422039231167, "train_loss": 0.029305004228193026}
+{"epoch": 125, "grasp_max_mm": 0.7746021804548318, "goal_max_mm": 0.9927037918434208, "train_loss": 0.03721834140686461}
+{"epoch": 130, "grasp_max_mm": 0.7784533582171916, "goal_max_mm": 1.248399005573671, "train_loss": 0.055167502795274444}
+{"epoch": 135, "grasp_max_mm": 0.8497429774548411, "goal_max_mm": 1.0370911406348493, "train_loss": 0.021825272213810913}
+{"epoch": 140, "grasp_max_mm": 0.8137622266017676, "goal_max_mm": 1.1000203572086296, "train_loss": 0.01505587430885778}
+{"epoch": 145, "grasp_max_mm": 0.8122780855759839, "goal_max_mm": 1.0276427680004927, "train_loss": 0.017485716810020115}
+{"epoch": 150, "grasp_max_mm": 0.8221691472763694, "goal_max_mm": 1.0802815522187585, "train_loss": 0.011328593630773516}
+{"epoch": 155, "grasp_max_mm": 0.7499379193256472, "goal_max_mm": 1.1500577357825923, "train_loss": 0.013126836767276892}
+{"epoch": 160, "grasp_max_mm": 0.7573436250782014, "goal_max_mm": 1.226293884735742, "train_loss": 0.01160959003923031}
+{"epoch": 165, "grasp_max_mm": 0.8416511412489145, "goal_max_mm": 0.9623895264063795, "train_loss": 0.01753638036405811}
+{"epoch": 170, "grasp_max_mm": 0.795802952657822, "goal_max_mm": 1.2249059864895906, "train_loss": 0.012454411014914513}
+{"epoch": 175, "grasp_max_mm": 0.7376672295791945, "goal_max_mm": 1.1642026354374366, "train_loss": 0.010959721868857741}
+{"epoch": 180, "grasp_max_mm": 0.7578000961024888, "goal_max_mm": 1.1553707380390847, "train_loss": 0.011421376445259038}
+{"epoch": 185, "grasp_max_mm": 0.7573214179063037, "goal_max_mm": 1.2007055546169658, "train_loss": 0.011353749978857545}
+{"epoch": 190, "grasp_max_mm": 0.7637889872007455, "goal_max_mm": 1.2067090258810345, "train_loss": 0.010246990929142786}
+{"epoch": 195, "grasp_max_mm": 0.7385500150375858, "goal_max_mm": 1.1739294897412165, "train_loss": 0.010946082255731408}
+{"epoch": 200, "grasp_max_mm": 0.7568537770048555, "goal_max_mm": 1.188835615146142, "train_loss": 0.01025531294110876}
+{"epoch": 205, "grasp_max_mm": 0.732896974485152, "goal_max_mm": 1.1718314183183083, "train_loss": 0.010242065522246636}
+{"epoch": 210, "grasp_max_mm": 0.7253742010900819, "goal_max_mm": 1.1949743358913625, "train_loss": 0.010835622688038992}
+{"epoch": 215, "grasp_max_mm": 0.7484351963122475, "goal_max_mm": 1.1588734621054402, "train_loss": 0.0097325025126338}
+{"epoch": 220, "grasp_max_mm": 0.744874820975246, "goal_max_mm": 1.2045930250580044, "train_loss": 0.01124703656667127}
+{"epoch": 225, "grasp_max_mm": 0.7364437106761392, "goal_max_mm": 1.1767228578623403, "train_loss": 0.011273659962730912}
+{"epoch": 230, "grasp_max_mm": 0.7414696569434728, "goal_max_mm": 1.1573385870940631, "train_loss": 0.00919713842897461}
+{"epoch": 235, "grasp_max_mm": 0.7483115401550255, "goal_max_mm": 1.173605942056651, "train_loss": 0.009437735496948544}
+{"epoch": 240, "grasp_max_mm": 0.7434913472113619, "goal_max_mm": 1.1776946637761383, "train_loss": 0.009975579316512896}
+{
+  "checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+  "validation": {
+    "grasp_xy_mean_mm": 0.3764103979622956,
+    "grasp_xy_max_mm": 0.8499499269736088,
+    "goal_xy_mean_mm": 0.6373275998829182,
+    "goal_xy_max_mm": 0.9224587685678535,
+    "critical_xy_max_mm": 0.9224587685678535,
+    "critical_xy_mean_mm": 0.506868998922607,
+    "all_xyz_mean_mm": 1.2244995248938655,
+    "all_xyz_max_mm": 6.703109994243621,
+    "gripper_max_error": 1.1920928955078125e-07,
+    "ring_xy_mean_mm": 0.3764125108718872,
+    "ring_xy_max_mm": 0.8499499559402466,
+    "bearing_xy_mean_mm": 0.6373244524002075,
+    "bearing_xy_max_mm": 0.9224287271499634,
+    "ring_mask_iou": 0.5369530360147269,
+    "bearing_mask_iou": 0.9084005864409864
+  }
+}
+{"cases": 96, "seed": 20261024}
+{"checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784", "frozen_utc": "2026-10-14T21:26:49.726970+00:00"}
+V5 frozen evaluation 12/264
+V5 frozen evaluation 24/264
+V5 frozen evaluation 36/264
+V5 frozen evaluation 48/264
+V5 frozen evaluation 60/264
+V5 frozen evaluation 72/264
+V5 frozen evaluation 84/264
+V5 frozen evaluation 96/264
+V5 frozen evaluation 108/264
+V5 frozen evaluation 120/264
+V5 frozen evaluation 132/264
+V5 frozen evaluation 144/264
+V5 frozen evaluation 156/264
+V5 frozen evaluation 168/264
+V5 frozen evaluation 180/264
+V5 frozen evaluation 192/264
+V5 frozen evaluation 204/264
+V5 frozen evaluation 216/264
+V5 frozen evaluation 228/264
+V5 frozen evaluation 240/264
+V5 frozen evaluation 252/264
+V5 frozen evaluation 264/264
+{"main": {"episodes": 96, "attempted_cases": 96, "successes": 96, "valid_post_execution_targets": 96, "completed_controllers": 96, "success_rate": 1.0, "failure_counts": {}}, "black_image": {"episodes": 96, "attempted_cases": 96, "successes": 0, "valid_post_execution_targets": 0, "completed_controllers": 96, "success_rate": 0.0, "failure_counts": {"controller_finished_without_target_success": 96}}, "language_counterfactual": {"episodes": 72, "attempted_cases": 72, "successes": 72, "valid_post_execution_targets": 72, "completed_controllers": 72, "success_rate": 1.0, "failure_counts": {}}}
+Demo 0/inside: success=True
+Demo 32/inside: success=True
+Demo 64/inside: success=True
+Demo 0/left: success=True
+Demo 0/right: success=True
+Demo 48/inside: success=True

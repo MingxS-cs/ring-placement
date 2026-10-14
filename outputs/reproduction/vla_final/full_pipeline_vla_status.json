@@ -1,0 +1,7 @@
+{
+  "dependency_isolation": "shared GPU runtime with inherited Anaconda packages; independent cloned source",
+  "command": "scripts/reproduce_vla.ps1 -OutputDirectory outputs/reproduced_vla_clean -PythonExecutable root/.venv-vla/Scripts/python.exe -Device cuda",
+  "exit_code": 0,
+  "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a",
+  "seconds": 412.8588184
+}

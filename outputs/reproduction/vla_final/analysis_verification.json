@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+  "evaluation_sha256": "9a5c1bda3e602233ae91e0ec91dad8a9dc83b5ab162050c35a6a8d7a0ac16fc1",
+  "attempts": 264,
+  "all_completed": true,
+  "forbidden_accesses": 0,
+  "final_center_errors": {
+    "main": {
+      "mean_m": 0.0005068863151811581,
+      "max_m": 0.0011232709752857287
+    },
+    "black_image": {
+      "mean_m": 0.09581244192165257,
+      "max_m": 0.1591017662122485
+    },
+    "language_counterfactual": {
+      "mean_m": 0.00047327893295814904,
+      "max_m": 0.0007627713165951474
+    }
+  },
+  "height_checks": {
+    "main": {
+      "minimum_case_max_height_m": 0.1632289545679078
+    },
+    "black_image": {
+      "minimum_case_max_height_m": 0.10350000000000001
+    },
+    "language_counterfactual": {
+      "minimum_case_max_height_m": 0.16322453458498182
+    }
+  },
+  "summary": {
+    "black_image": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {
+        "controller_finished_without_target_success": 96
+      },
+      "success_rate": 0.0,
+      "successes": 0,
+      "valid_post_execution_targets": 0
+    },
+    "language_counterfactual": {
+      "attempted_cases": 72,
+      "completed_controllers": 72,
+      "episodes": 72,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 72,
+      "valid_post_execution_targets": 72
+    },
+    "main": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    }
+  },
+  "paired_diagnostics": {
+    "black_image": {
+      "compared": 96,
+      "different_image_hash": 96,
+      "different_neural_chunks": 96,
+      "main_success_and_black_failure": 96
+    },
+    "inside_repeat": {
+      "compared": 24,
+      "identical_neural_chunks": 24,
+      "identical_success": 24,
+      "identical_trajectories": 24
+    },
+    "interpretation": "Paired observations and action changes; no unseen-language or real-camera claim",
+    "language": {
+      "both_side_chunks_changed_from_inside": 24,
+      "complete_pairs": 24,
+      "mean_max_abs_waypoint_change_m": {
+        "left": 0.06000013276934624,
+        "right": 0.06000006447235743
+      },
+      "same_rgb_for_all_three_commands": 24
+    }
+  },
+  "scope": "Fixed robot-hidden simulator RGB, finite language, same objects; waypoint execution manual; no real-camera claims"
+}

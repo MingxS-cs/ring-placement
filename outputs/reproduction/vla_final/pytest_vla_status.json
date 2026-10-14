@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "command": "clone isolated Python 3.12 -m pytest -q",
+  "seconds": 18.2325691,
+  "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a"
+}

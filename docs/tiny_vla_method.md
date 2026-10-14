@@ -28,11 +28,13 @@ The V5 environment retains unchanged physical integration and removes the old ta
 
 ## Validation evidence and precision limits
 
-All24 validation scenes succeeded for all three primary commands (72/72), using only learned RGB/text plans. Mean/max grasp XY error were0.376/0.850mm; goal error0.637/0.922mm. With labeled training coordinates, text/critical-waypoint error is below0.001mm, while whole-curve approximation has0.908mm mean/6.956mm maximum XYZ error. That middle-path error is not hidden by the task success score.
+All24 validation scenes succeeded for all three primary commands (72/72), using only learned RGB/text plans. Mean/max grasp XY error were0.376/0.850mm; goal error0.637/0.922mm. The complete RGB-to-action chain has1.224mm mean/6.703mm maximum whole-chunk XYZ error against synthetic validation labels. With true validation coordinates supplied to the decoder, text/critical-waypoint error is below0.001mm, while whole-curve approximation has0.908mm mean/6.956mm maximum XYZ error. The coordinate-only diagnostic separates decoder approximation from visual error; neither metric is ground-truth human3D motion error. That middle-path error is not hidden by the task success score.
 
 An exact segmentation-mask centroid baseline already has roughly0.5mm mean optical raster error at this resolution;256 pixels across560mm gives2.1875mm per pixel. We therefore do not claim0.2mm localization on every scene. Camera/object appearance are fixed; generalization to phone images, new cameras, robot occlusion, lighting, sizes, friction or real hardware is unverified.
 
 CPU Torch2.11 and2.14 yielded bit-identical predictions for all24 validation images. GPU/CPU XYZ differences were at most about0.016mm. This does not assert identical training across arbitrary hardware.
+
+The complete clean-source reproduction regenerates byte-identical datasets and all trained model tensors. Its CPU Torch2.11 evaluation matches every success flag and execution step count of the original CPU Torch2.14 evaluation. Maximum absolute waypoint XYZ component differences reach0.000507mm; physical ring-coordinate component differences during transfer reach0.347mm and final ring-position distance differences0.0644mm. Contact dynamics can amplify tiny action differences. All264 outcomes reproduce, but cross-version trajectories are not bit-identical. See the full [reproduction report](reproduction_vla.md) for measured differences and environment scope.
 
 ## Frozen test and causal controls
 
@@ -44,7 +46,7 @@ The main task's generous clearance means a geometric oracle can already perform 
 
 ## Environment and sources
 
-Training used RTX5080 with Torch2.11.0+cu128 in a separate `.venv-vla` inheriting installed Anaconda packages. V4's CPU environment was preserved. Extra inherited packages report dependency conflicts (such as unused numba); the actual Torch/NumPy/MuJoCo/OpenCV imports and CUDA tensor operations were verified. This is not a claim of a fully isolated clean GPU dependency environment. The portable inference model also runs in the original isolated CPU environment.
+Training used RTX5080 with Torch2.11.0+cu128 in a separate `.venv-vla` inheriting installed Anaconda packages. V4's CPU environment was preserved. Extra inherited packages report dependency conflicts (such as unused numba); the actual Torch/NumPy/MuJoCo/OpenCV imports and CUDA tensor operations were verified. Actual inherited Pillow is12.1.1, while the fresh-install requirements pin12.3.0. This is not a claim of a fully isolated clean GPU dependency environment. The portable inference model also runs in the original isolated CPU environment.
 
 Reproduction uses the saved video-derived V4 precursor. To independently rebuild that precursor from raw video plus supplied annotations, run the historical V4 reproduction first. Reusing it does not create new human labels or independent data.
 

@@ -1,0 +1,16 @@
+{
+  "torch": "2.14.0+cpu",
+  "torch_threads": 2,
+  "checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+  "attempt_id": "main:G5_d0_a0_p0:i0",
+  "same_rgb_hash_as_delivered": true,
+  "entire_row_equal_delivered": true,
+  "chunk_equal_delivered": true,
+  "trajectory_equal_delivered": true,
+  "entire_row_equal_torch211": false,
+  "changed_fields_vs_delivered": [],
+  "input_image_sha256": "1e31f8d0eb68f43398b04f94a31c82ed55f38c408659a09c76ac3883c4def33b",
+  "matched_reproduced_row_canonical_sha256": "700ba5ceb511a8633a7086685cf0eb2242f9aa4eccae70221a6c3381332796e5",
+  "original_row_canonical_sha256": "700ba5ceb511a8633a7086685cf0eb2242f9aa4eccae70221a6c3381332796e5",
+  "full_row_artifact_retained_in_clone": "repro_logs/torch214_matched_scene_vla.json"
+}

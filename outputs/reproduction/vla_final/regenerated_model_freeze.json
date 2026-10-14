@@ -1,0 +1,48 @@
+{
+  "checkpoint_path": "outputs/reproduced_vla_clean/model/policy.pt",
+  "checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+  "dataset_manifest_sha256": "da058885c7bf4c877120a965124a3f5618cecea23bb0099fa12315f2481435e3",
+  "frozen_before_test_execution": true,
+  "frozen_utc": "2026-10-14T21:26:49.726970+00:00",
+  "implementation_sources": {
+    "vla_control": {
+      "path": "ring_learning/vla_control.py",
+      "sha256": "aefa665e83856ebecf741167480bd330ce3b26b1d6a12aa993296e1bfbd3fe33"
+    },
+    "vla_data": {
+      "path": "ring_learning/vla_data.py",
+      "sha256": "83f5d3432fbc3345fa4b336238cfa6aa8c5d0bac395145e2d82c803f7d663e2a"
+    },
+    "vla_env": {
+      "path": "ring_learning/vla_env.py",
+      "sha256": "f5f5dbbbb46635a6f46837a1841530e5f8c536f254fc70403aa9798071bf2187"
+    },
+    "vla_evaluate": {
+      "path": "ring_learning/vla_evaluate.py",
+      "sha256": "d041fb09e6ad9a1aa43eec830f3515b9f287f024bf0c61b62ac79cca18c472d8"
+    },
+    "vla_policy": {
+      "path": "ring_learning/vla_policy.py",
+      "sha256": "499e54879541b9cee1bf3e357dad0393fb6f5fab624bae978c439dcf52adb8ff"
+    },
+    "vla_train": {
+      "path": "ring_learning/vla_train.py",
+      "sha256": "a58ae7f2e797537549f658e99b11fd2458d73137ccfbb1732bf08665d6a9f71b"
+    }
+  },
+  "manifest_path": "outputs/reproduced_vla_clean/configurations.json",
+  "manifest_sha256": "0872fa764a33f0c0d0b61625462b4fc929b6f4e0b200e8785d6951cb653b40f4",
+  "protocol": "vla_v5_fixed_geometry_96",
+  "protocol_sha256": "e07f8ae73922e6ff61c25420e8f873b93d10a74ec6f54f37e6d4b0491d12e899",
+  "schema_version": 1,
+  "selected_epoch": 146,
+  "selection_record": {
+    "blind_test_opened": false,
+    "criterion": "minimum maximum critical-waypoint XY error, then mean critical XY error",
+    "selected_epoch": 146,
+    "split": "validation only",
+    "trained_epochs": 240
+  },
+  "training_report_path": "outputs/reproduced_vla_clean/model/training.json",
+  "training_report_sha256": "536c8437788105c3ba03b1d8f7b2b565dadce8a44669f932739562f5fd7b4f99"
+}

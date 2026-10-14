@@ -1,0 +1,627 @@
+{
+  "verified_at_utc": "2026-10-14T21:37:42.095999+00:00",
+  "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a",
+  "clone": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3",
+  "full_pipeline": {
+    "dependency_isolation": "shared GPU runtime with inherited Anaconda packages; independent cloned source",
+    "command": "scripts/reproduce_vla.ps1 -OutputDirectory outputs/reproduced_vla_clean -PythonExecutable root/.venv-vla/Scripts/python.exe -Device cuda",
+    "exit_code": 0,
+    "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a",
+    "seconds": 412.8588184
+  },
+  "cpu_runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "prefix": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv",
+    "base_prefix": "C:\\Users\\minso\\AppData\\Local\\Programs\\Python\\Python312",
+    "include_system_site_packages": false,
+    "module_files": {
+      "numpy": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\numpy\\__init__.py",
+      "torch": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\torch\\__init__.py",
+      "mujoco": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\mujoco\\__init__.py",
+      "cv2": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\cv2\\__init__.py",
+      "PIL": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\PIL\\__init__.py",
+      "pytest": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\pytest\\__init__.py"
+    },
+    "versions": {
+      "numpy": "2.5.2",
+      "torch": "2.14.0+cpu",
+      "mujoco": "3.12.0",
+      "cv2": "5.0.0",
+      "PIL": "12.3.0",
+      "pytest": "9.1.1"
+    },
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "shared_gpu_runtime": {
+    "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "prefix": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla",
+    "base_prefix": "D:\\Anaconda",
+    "include_system_site_packages": true,
+    "module_files": {
+      "torch": "D:\\Anaconda\\Lib\\site-packages\\torch\\__init__.py",
+      "numpy": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\numpy\\__init__.py",
+      "mujoco": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\mujoco\\__init__.py",
+      "cv2": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\cv2\\__init__.py",
+      "PIL": "D:\\Anaconda\\Lib\\site-packages\\PIL\\__init__.py",
+      "pytest": "D:\\Anaconda\\Lib\\site-packages\\pytest\\__init__.py",
+      "ring_learning": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\ring_learning\\__init__.py"
+    },
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.5.2",
+      "mujoco": "3.12.0",
+      "cv2": "5.0.0",
+      "PIL": "12.1.1",
+      "pytest": "9.1.1",
+      "ring_learning": null
+    },
+    "cuda_available": true,
+    "torch_cuda_version": "12.8",
+    "cuda_device_name": "NVIDIA GeForce RTX 5080",
+    "cuda_capability": [
+      12,
+      0
+    ],
+    "cuda_tensor_sum": 28.0,
+    "cudnn_version": 91900,
+    "runtime_disclosure": "Reused root GPU runtime with inherited Anaconda packages; source imports come from the independent clone, not a fully isolated dependency environment."
+  },
+  "gpu_dependency_check": {
+    "command": "shared GPU runtime pip check",
+    "exit_code": 1
+  },
+  "gpu_dependency_conflicts": [
+    "numba 0.61.2 has requirement numpy<2.3,>=1.24, but you have numpy 2.5.2.",
+    "opencv-python 4.12.0.88 has requirement numpy<2.3.0,>=2; python_version >= \"3.9\", but you have numpy 2.5.2.",
+    "pdflatex 0.1.3 has requirement attrs<19.0,>=18.2, but you have attrs 26.1.0.",
+    "transformers 5.7.0 has requirement huggingface-hub<2.0,>=1.5.0, but you have huggingface-hub 0.36.2."
+  ],
+  "tests": {
+    "tests": 247,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a"
+  },
+  "model": {
+    "parameter_count": 33930,
+    "selection": {
+      "blind_test_opened": false,
+      "criterion": "minimum maximum critical-waypoint XY error, then mean critical XY error",
+      "selected_epoch": 146,
+      "split": "validation only",
+      "trained_epochs": 240
+    },
+    "training_sample_count": 208,
+    "validation_sample_count": 24,
+    "runtime_object_coordinates": "predicted from learned RGB masks only; no simulator object state input",
+    "language_scope": "nine registered English phrases covering inside/left/right; no open-vocabulary claims",
+    "action_label_origin": "video-derived V4 planar trajectory with manually designed height/gripper stages; robot chunks are simulation-generated"
+  },
+  "model_comparison": {
+    "parameter_count": 33930,
+    "all_state_tensors_equal": true,
+    "all_state_tensor_bytes_equal": true,
+    "maximum_absolute_state_difference": 0,
+    "state_tensors": {
+      "camera_centre_xy": {
+        "dtype": "torch.float32",
+        "shape": [
+          2
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.0.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          16,
+          3,
+          3,
+          3
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.0.bias": {
+        "dtype": "torch.float32",
+        "shape": [
+          16
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.2.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          16,
+          16,
+          3,
+          3
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.2.bias": {
+        "dtype": "torch.float32",
+        "shape": [
+          16
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.4.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          2,
+          16,
+          1,
+          1
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "vision.4.bias": {
+        "dtype": "torch.float32",
+        "shape": [
+          2
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "token_embedding.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          14,
+          16
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "coefficient_head.0.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          32,
+          16
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "coefficient_head.0.bias": {
+        "dtype": "torch.float32",
+        "shape": [
+          32
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "coefficient_head.2.weight": {
+        "dtype": "torch.float32",
+        "shape": [
+          920,
+          32
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      },
+      "coefficient_head.2.bias": {
+        "dtype": "torch.float32",
+        "shape": [
+          920
+        ],
+        "values_equal": true,
+        "bytes_equal": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    "selection_equal": true,
+    "selection": {
+      "split": "validation only",
+      "selected_epoch": 146,
+      "criterion": "minimum maximum critical-waypoint XY error, then mean critical XY error",
+      "trained_epochs": 240,
+      "blind_test_opened": false
+    },
+    "validation_history_equal": true,
+    "changed_checkpoint_metadata_fields": [
+      "wall_time_seconds"
+    ],
+    "manifest_configurations_equal": true,
+    "manifest_changed_fields": [
+      "dataset_files",
+      "dataset_manifest_path"
+    ],
+    "manifest_case_count": 96,
+    "decoder_training_coefficient_bytes_equal": true,
+    "delivered_checkpoint_sha256": "412d3f45dafdd47630000c61527c4056e1d8975c01a1a30fc931ec6810dc4452",
+    "reproduced_checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+    "non_state_checkpoint_headers_identical": {
+      "schema_version": true,
+      "source_sha256": true,
+      "vocabulary": true,
+      "allowed_instructions": true,
+      "configuration": true
+    }
+  },
+  "dataset_comparison": {
+    "train": {
+      "delivered_sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc",
+      "reproduced_sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc",
+      "npz_bytes_identical": true,
+      "arrays": {
+        "images": {
+          "shape": [
+            208,
+            256,
+            256,
+            3
+          ],
+          "dtype": "uint8",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "masks": {
+          "shape": [
+            208,
+            2,
+            256,
+            256
+          ],
+          "dtype": "bool",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "coordinates": {
+          "shape": [
+            208,
+            4
+          ],
+          "dtype": "float32",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "waypoints": {
+          "shape": [
+            208,
+            3,
+            23,
+            4
+          ],
+          "dtype": "float32",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "source_episode_ids": {
+          "shape": [
+            208
+          ],
+          "dtype": "<U3",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "configuration_ids": {
+          "shape": [
+            208
+          ],
+          "dtype": "<U16",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        }
+      }
+    },
+    "val": {
+      "delivered_sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c",
+      "reproduced_sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c",
+      "npz_bytes_identical": true,
+      "arrays": {
+        "images": {
+          "shape": [
+            24,
+            256,
+            256,
+            3
+          ],
+          "dtype": "uint8",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "masks": {
+          "shape": [
+            24,
+            2,
+            256,
+            256
+          ],
+          "dtype": "bool",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "coordinates": {
+          "shape": [
+            24,
+            4
+          ],
+          "dtype": "float32",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "waypoints": {
+          "shape": [
+            24,
+            3,
+            23,
+            4
+          ],
+          "dtype": "float32",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "source_episode_ids": {
+          "shape": [
+            24
+          ],
+          "dtype": "<U3",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        },
+        "configuration_ids": {
+          "shape": [
+            24
+          ],
+          "dtype": "<U14",
+          "values_identical": true,
+          "raw_array_bytes_identical": true
+        }
+      }
+    },
+    "dataset_manifest": {
+      "parsed_values_identical": true,
+      "bytes_identical": true,
+      "changed_fields": []
+    }
+  },
+  "evaluation_by_suite": {
+    "black_image": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {
+        "controller_finished_without_target_success": 96
+      },
+      "success_rate": 0.0,
+      "successes": 0,
+      "valid_post_execution_targets": 0
+    },
+    "language_counterfactual": {
+      "attempted_cases": 72,
+      "completed_controllers": 72,
+      "episodes": 72,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 72,
+      "valid_post_execution_targets": 72
+    },
+    "main": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    }
+  },
+  "whole_summary_equal": true,
+  "all_rollout_records_equal_across_cpu_versions": false,
+  "numeric_differences": {
+    "case_count": 264,
+    "identical_complete_record_count": 0,
+    "differing_record_field_counts": {
+      "info": 264,
+      "predicted_waypoints": 264,
+      "trajectory": 264
+    },
+    "maximum_predicted_xyz_difference_m": 5.066394805908203e-07,
+    "maximum_predicted_gripper_difference": 1.1920928955078125e-07,
+    "maximum_step_count_difference": 0,
+    "all_success_flags_identical": true,
+    "all_trajectory_lengths_identical": true,
+    "trajectory_maximum_differences_by_field": {
+      "action": 9.936094284057617e-05,
+      "bearing_xyz_m": 0.0,
+      "command_xyz_m": 5.066394805908203e-07,
+      "ring_xyz_m": 0.00034688249214998024,
+      "tool_xyz_m": 0.00012447313896812862
+    },
+    "paired_numeric_differences": [
+      {
+        "field": ".language.mean_max_abs_waypoint_change_m.left",
+        "original": 0.0600003736714522,
+        "reproduced": 0.06000013276934624,
+        "abs_difference": 2.409021059648908e-07
+      },
+      {
+        "field": ".language.mean_max_abs_waypoint_change_m.right",
+        "original": 0.060000004867712654,
+        "reproduced": 0.06000006447235743,
+        "abs_difference": 5.960464477539063e-08
+      }
+    ],
+    "mean_absolute_predicted_xyz_difference_m": 6.233815526688733e-08,
+    "maximum_absolute_predicted_xyz_difference_m": 5.066394805908203e-07,
+    "mean_absolute_predicted_gripper_difference": 5.418604070490057e-09,
+    "maximum_final_ring_position_distance_m": 6.439604849974362e-05,
+    "mean_final_ring_position_distance_m": 8.199443891477658e-07,
+    "maximum_final_tool_position_distance_m": 4.1828992423830527e-07,
+    "mean_final_tool_position_distance_m": 3.303883686231929e-07,
+    "all_target_score_flags_identical": true,
+    "all_gripper_open_close_action_counts_identical": true,
+    "maximum_gripper_action_difference": 5.960464477539063e-08
+  },
+  "matched_torch214_scene": {
+    "torch": "2.14.0+cpu",
+    "torch_threads": 2,
+    "checkpoint_sha256": "7a1ce33d2a127f5191923e47140c0da5bd74579d6962d78170f959c5cdcb4784",
+    "attempt_id": "main:G5_d0_a0_p0:i0",
+    "same_rgb_hash_as_delivered": true,
+    "entire_row_equal_delivered": true,
+    "chunk_equal_delivered": true,
+    "trajectory_equal_delivered": true,
+    "entire_row_equal_torch211": false,
+    "changed_fields_vs_delivered": [],
+    "input_image_sha256": "1e31f8d0eb68f43398b04f94a31c82ed55f38c408659a09c76ac3883c4def33b",
+    "matched_reproduced_row_canonical_sha256": "700ba5ceb511a8633a7086685cf0eb2242f9aa4eccae70221a6c3381332796e5",
+    "original_row_canonical_sha256": "700ba5ceb511a8633a7086685cf0eb2242f9aa4eccae70221a6c3381332796e5",
+    "full_row_artifact_retained_in_clone": "repro_logs/torch214_matched_scene_vla.json"
+  },
+  "videos": {
+    "clip_count": 6,
+    "all_successful": true,
+    "all_discrete_metadata_matches_original": true,
+    "all_full_case_metadata_equal_original": false,
+    "clips": [
+      {
+        "case": 0,
+        "configuration_id": "G5_d0_a0_p0",
+        "task": "inside",
+        "success": true,
+        "steps": 283,
+        "decoded_frames": 152,
+        "reported_frames": 152,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 4.76837158203125e-07
+      },
+      {
+        "case": 1,
+        "configuration_id": "G5_d1_a0_p0",
+        "task": "inside",
+        "success": true,
+        "steps": 313,
+        "decoded_frames": 167,
+        "reported_frames": 167,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 4.172325134277344e-07
+      },
+      {
+        "case": 2,
+        "configuration_id": "G5_d2_a0_p0",
+        "task": "inside",
+        "success": true,
+        "steps": 344,
+        "decoded_frames": 183,
+        "reported_frames": 183,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 4.470348358154297e-07
+      },
+      {
+        "case": 3,
+        "configuration_id": "G5_d0_a0_p0",
+        "task": "left",
+        "success": true,
+        "steps": 305,
+        "decoded_frames": 163,
+        "reported_frames": 163,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 1.4901161193847656e-07
+      },
+      {
+        "case": 4,
+        "configuration_id": "G5_d0_a0_p0",
+        "task": "right",
+        "success": true,
+        "steps": 248,
+        "decoded_frames": 135,
+        "reported_frames": 135,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 2.980232238769531e-07
+      },
+      {
+        "case": 5,
+        "configuration_id": "G5_d1_a4_p0",
+        "task": "inside",
+        "success": true,
+        "steps": 268,
+        "decoded_frames": 145,
+        "reported_frames": 145,
+        "fps": 10.0,
+        "shapes": [
+          [
+            414,
+            840,
+            3
+          ]
+        ],
+        "discrete_metadata_matches_original": true,
+        "predicted_chunk_maximum_difference": 4.172325134277344e-07
+      }
+    ],
+    "concatenated": {
+      "decoded_frames": 945,
+      "reported_frames": 945,
+      "fps": 10.0,
+      "shape": [
+        414,
+        840
+      ],
+      "bytes": 1793459
+    }
+  },
+  "optional_analysis": {
+    "exit_code": 0,
+    "seconds": 1.7716514,
+    "command": "clone isolated CPU python -m ring_learning.vla_analysis --base outputs/reproduced_vla_clean"
+  },
+  "scope": "Same Windows host, clean source clone, inherited CUDA runtime; V4 precursor reuse and simulator RGB/action labels; one same-version matched scene, not a second full 264-run evaluation. Local only."
+}

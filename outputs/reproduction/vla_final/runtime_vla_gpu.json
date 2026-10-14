@@ -1,0 +1,35 @@
+{
+  "git_head": "d7168a25cdae8a0884321c61da344296fabd1c0a",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "prefix": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla",
+  "base_prefix": "D:\\Anaconda",
+  "include_system_site_packages": true,
+  "module_files": {
+    "torch": "D:\\Anaconda\\Lib\\site-packages\\torch\\__init__.py",
+    "numpy": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\numpy\\__init__.py",
+    "mujoco": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\mujoco\\__init__.py",
+    "cv2": "D:\\model\\ring_bearing_20261014\\robot_learning\\.venv-vla\\Lib\\site-packages\\cv2\\__init__.py",
+    "PIL": "D:\\Anaconda\\Lib\\site-packages\\PIL\\__init__.py",
+    "pytest": "D:\\Anaconda\\Lib\\site-packages\\pytest\\__init__.py",
+    "ring_learning": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\ring_learning\\__init__.py"
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.2",
+    "mujoco": "3.12.0",
+    "cv2": "5.0.0",
+    "PIL": "12.1.1",
+    "pytest": "9.1.1",
+    "ring_learning": null
+  },
+  "cuda_available": true,
+  "torch_cuda_version": "12.8",
+  "cuda_device_name": "NVIDIA GeForce RTX 5080",
+  "cuda_capability": [
+    12,
+    0
+  ],
+  "cuda_tensor_sum": 28.0,
+  "cudnn_version": 91900,
+  "runtime_disclosure": "Reused root GPU runtime with inherited Anaconda packages; source imports come from the independent clone, not a fully isolated dependency environment."
+}

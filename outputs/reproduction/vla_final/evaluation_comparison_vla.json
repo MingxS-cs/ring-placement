@@ -1,0 +1,451 @@
+{
+  "delivered_rollout_count": 264,
+  "reproduced_rollout_count": 264,
+  "all_complete_rollout_records_equal": false,
+  "all_source_neural_chunks_equal": false,
+  "all_trajectories_equal": false,
+  "all_input_image_hashes_equal": true,
+  "summary_equal": true,
+  "paired_diagnostics_equal": false,
+  "checkpoint_metadata_changed_fields": [
+    "wall_time_seconds"
+  ],
+  "changed_top_level_fields": [
+    "checkpoint_metadata",
+    "checkpoint_sha256",
+    "manifest_sha256",
+    "model_freeze_receipt_sha256",
+    "paired_diagnostics",
+    "rollouts"
+  ],
+  "summary": {
+    "attempted_rollouts": 264,
+    "by_direction_bin": {
+      "black_image": {
+        "0": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "1": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "2": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "3": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "4": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "5": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "6": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "7": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {
+            "controller_finished_without_target_success": 12
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        }
+      },
+      "language_counterfactual": {
+        "0": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "1": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "2": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "3": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "4": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "5": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "6": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        },
+        "7": {
+          "attempted_cases": 9,
+          "completed_controllers": 9,
+          "episodes": 9,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 9,
+          "valid_post_execution_targets": 9
+        }
+      },
+      "main": {
+        "0": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "1": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "2": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "3": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "4": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "5": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "6": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        },
+        "7": {
+          "attempted_cases": 12,
+          "completed_controllers": 12,
+          "episodes": 12,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 12,
+          "valid_post_execution_targets": 12
+        }
+      }
+    },
+    "by_distance_band": {
+      "black_image": {
+        "0": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {
+            "controller_finished_without_target_success": 32
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "1": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {
+            "controller_finished_without_target_success": 32
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        },
+        "2": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {
+            "controller_finished_without_target_success": 32
+          },
+          "success_rate": 0.0,
+          "successes": 0,
+          "valid_post_execution_targets": 0
+        }
+      },
+      "language_counterfactual": {
+        "0": {
+          "attempted_cases": 24,
+          "completed_controllers": 24,
+          "episodes": 24,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 24,
+          "valid_post_execution_targets": 24
+        },
+        "1": {
+          "attempted_cases": 24,
+          "completed_controllers": 24,
+          "episodes": 24,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 24,
+          "valid_post_execution_targets": 24
+        },
+        "2": {
+          "attempted_cases": 24,
+          "completed_controllers": 24,
+          "episodes": 24,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 24,
+          "valid_post_execution_targets": 24
+        }
+      },
+      "main": {
+        "0": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 32,
+          "valid_post_execution_targets": 32
+        },
+        "1": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 32,
+          "valid_post_execution_targets": 32
+        },
+        "2": {
+          "attempted_cases": 32,
+          "completed_controllers": 32,
+          "episodes": 32,
+          "failure_counts": {},
+          "success_rate": 1.0,
+          "successes": 32,
+          "valid_post_execution_targets": 32
+        }
+      }
+    },
+    "by_suite": {
+      "black_image": {
+        "attempted_cases": 96,
+        "completed_controllers": 96,
+        "episodes": 96,
+        "failure_counts": {
+          "controller_finished_without_target_success": 96
+        },
+        "success_rate": 0.0,
+        "successes": 0,
+        "valid_post_execution_targets": 0
+      },
+      "language_counterfactual": {
+        "attempted_cases": 72,
+        "completed_controllers": 72,
+        "episodes": 72,
+        "failure_counts": {},
+        "success_rate": 1.0,
+        "successes": 72,
+        "valid_post_execution_targets": 72
+      },
+      "main": {
+        "attempted_cases": 96,
+        "completed_controllers": 96,
+        "episodes": 96,
+        "failure_counts": {},
+        "success_rate": 1.0,
+        "successes": 96,
+        "valid_post_execution_targets": 96
+      }
+    },
+    "denominator_policy": "All registered attempts, including exceptions, timeouts and unexecuted cases",
+    "expected_rollouts": 264,
+    "inside_language_attempts_are_repeats_of_main": true,
+    "language_by_instruction": {
+      "0": {
+        "attempted_cases": 24,
+        "completed_controllers": 24,
+        "episodes": 24,
+        "failure_counts": {},
+        "success_rate": 1.0,
+        "successes": 24,
+        "valid_post_execution_targets": 24
+      },
+      "1": {
+        "attempted_cases": 24,
+        "completed_controllers": 24,
+        "episodes": 24,
+        "failure_counts": {},
+        "success_rate": 1.0,
+        "successes": 24,
+        "valid_post_execution_targets": 24
+      },
+      "2": {
+        "attempted_cases": 24,
+        "completed_controllers": 24,
+        "episodes": 24,
+        "failure_counts": {},
+        "success_rate": 1.0,
+        "successes": 24,
+        "valid_post_execution_targets": 24
+      }
+    },
+    "language_unique_scenes": 24,
+    "policy_forbidden_access_attempts": 0
+  },
+  "paired_diagnostics": {
+    "black_image": {
+      "compared": 96,
+      "different_image_hash": 96,
+      "different_neural_chunks": 96,
+      "main_success_and_black_failure": 96
+    },
+    "inside_repeat": {
+      "compared": 24,
+      "identical_neural_chunks": 24,
+      "identical_success": 24,
+      "identical_trajectories": 24
+    },
+    "interpretation": "Paired observations and action changes; no unseen-language or real-camera claim",
+    "language": {
+      "both_side_chunks_changed_from_inside": 24,
+      "complete_pairs": 24,
+      "mean_max_abs_waypoint_change_m": {
+        "left": 0.06000013276934624,
+        "right": 0.06000006447235743
+      },
+      "same_rgb_for_all_three_commands": 24
+    }
+  },
+  "original_evaluation_sha256": "6b3e69143414dc93dee5c9cf59d557b30e3e07dbc80fa630cc85c741078da58f",
+  "reproduced_evaluation_sha256": "9a5c1bda3e602233ae91e0ec91dad8a9dc83b5ab162050c35a6a8d7a0ac16fc1",
+  "forbidden_accesses": 0
+}
