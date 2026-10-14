@@ -1,0 +1,6 @@
+{
+  "seconds": 13.5402868,
+  "command": "isolated CPU python -m pytest -q",
+  "git_head": "4536823b5961e4553969ffc78d41f91d1888d537",
+  "exit_code": 0
+}

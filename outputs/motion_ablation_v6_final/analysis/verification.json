@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "evidence_unavailable_attempts": 0,
+  "attempts": 192,
+  "pairs": 96,
+  "same_images": 96,
+  "common_actions_equal": 96,
+  "changed_transfer_pairs": 96,
+  "successes": {
+    "video_motion": 96,
+    "straight_transfer": 96
+  },
+  "paired_success": {
+    "both_success": 96,
+    "video_only": 0,
+    "straight_only": 0,
+    "neither": 0
+  },
+  "forbidden_accesses": 0,
+  "maximum_chunk_change_mm": 19.40149813890457,
+  "mean_chunk_change_mm": 12.995688952893639,
+  "paired_actual_path_rms_mm_mean": 8.95371320644845,
+  "available_path_rms_pairs": 96,
+  "actual_ring_transfer": {
+    "video_motion": {
+      "available_paths": 96,
+      "total_attempts": 96,
+      "path_length_mm_mean": 100.59169666500281,
+      "max_lateral_mm_mean": 11.906644856294108,
+      "arc_to_chord_mean": 1.082059959223898
+    },
+    "straight_transfer": {
+      "available_paths": 96,
+      "total_attempts": 96,
+      "path_length_mm_mean": 94.31749087617375,
+      "max_lateral_mm_mean": 0.02882279319624524,
+      "arc_to_chord_mean": 1.000060504803616
+    }
+  },
+  "interpretation": "Partial curvature intervention; endpoint geometry still comes from video. Paths use executor stages, including failed attempts.",
+  "verified_initial_observations": 96,
+  "evaluation_sha256": "248964853e6d3d9ea60bf0f2f8733b34b7718aeade891dbc4fe57f2fb4365541"
+}

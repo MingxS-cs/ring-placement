@@ -29,7 +29,7 @@ V5 used 96 frozen combinations of position, eight transfer directions and 45–1
 
 The language experiment contains 24 repeats of the main task. Mean final center error was 0.507 mm, maximum 1.123 mm. These results show spatial generalization under the fixed simulator setup and dependence on both inputs. Training rotations already cover the circle; this is not a held-out angular-sector test or long-distance extrapolation.
 
-The new [video-motion ablation](docs/video_motion_ablation.md) asks what the recorded transfer curve changes. It compares V5 with a straight-transfer readout, keeping RGB perception, text features, grasp/endpoints, Z, grip and execution identical. Both conditions still use video-derived endpoint geometry. A separate seed fixes 96 new scenes and 192 paired attempts before execution.
+The [video-motion ablation](docs/video_motion_ablation.md) compares V5 with straight transfer on 96 fresh paired scenes. Both succeeded 96/96. The actual ring path's mean maximum lateral departure was 11.91 mm with the video curve and 0.029 mm with straight transfer; mean path lengths were 100.59 and 94.32 mm. The video affects executed motion, but this easy placement task provides no success advantage for its curvature. Both variants still use video-derived endpoint geometry.
 
 ## Run
 
@@ -55,9 +55,10 @@ For plots, install `requirements-plots.txt` and pass `-Plots` to the second comm
 
 - [Six preset V5 replays](outputs/vla_v5/student_demo.mp4), [complete V5 rollouts](outputs/vla_v5/evaluation.json) and [freeze receipt](outputs/vla_v5/model_freeze.json).
 - [Method](docs/tiny_vla_method.md), [Chinese overview](docs/tiny_vla_results_zh.md) and [separate-source reproduction](docs/reproduction_vla.md).
+- [Paired paths](outputs/motion_ablation_v6_final/analysis/paired_ring_paths.png), [192 ablation rollouts](outputs/motion_ablation_v6_final/evaluation.json) and [ablation reproduction](docs/reproduction_motion_ablation.md). All 96 pairs share a saved initial RGB and identical non-transfer actions. The current suite has 281 passing tests.
 - Two failed text-head designs are retained under `outputs/vla_v5/model/attempt_01` and `attempt_02`. They are historical checkpoints, not compatible deployment models.
 
-V4's learned curve did not beat straight interpolation on the reserved human paths. Placement success was already 96/96 for its straight baseline. The new ablation measures path effects without presuming a success advantage.
+V4's learned curve did not beat straight interpolation on the reserved human paths. The first V6 experiment also failed its strict image control in one pair because repeated rendering changed three background channel values by one gray level. Its records are retained. The corrected experiment shares one captured frame per pair and passes all 96 input/action checks, with unchanged model tensors.
 
 Phone-image perception, ordinary robot-visible camera input, new objects/materials and real hardware remain untested. The V5 reproduction regenerated identical datasets and weights, but Torch 2.11/2.14 physical trajectories differed slightly; the largest final ring-position difference was 0.0644 mm, with identical success decisions.
 

@@ -1,0 +1,26 @@
+{
+  "video_motion": {
+    "attempts": 96,
+    "successes": 96,
+    "mean_steps": 294.34375,
+    "mean_episode_duration_s": 14.717187500000001,
+    "mean_transfer_duration_s": 4.174479166666667,
+    "mean_center_error_mm": 0.5673195004903402,
+    "max_center_error_mm": 1.1340482737334547,
+    "mean_airborne_fraction": 1.0,
+    "mean_contact_fraction": 1.0,
+    "ring_paths_available": 96
+  },
+  "straight_transfer": {
+    "attempts": 96,
+    "successes": 96,
+    "mean_steps": 290.4895833333333,
+    "mean_episode_duration_s": 14.524479166666666,
+    "mean_transfer_duration_s": 3.9817708333333326,
+    "mean_center_error_mm": 0.567138800658787,
+    "max_center_error_mm": 1.1350670286485995,
+    "mean_airborne_fraction": 1.0,
+    "mean_contact_fraction": 1.0,
+    "ring_paths_available": 96
+  }
+}

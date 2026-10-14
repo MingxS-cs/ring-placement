@@ -1,0 +1,10 @@
+{
+  "initial_attempt_checkpoint_sha256": "0fbfa01a9b3b4efbdb9d0229733bc625ba7e5a75b4aaba1ef711612910496dba",
+  "corrected_checkpoint_sha256": "419e41f47045962b7b83229ed13dd6bbb44f1fad68619fa7140f4302b71e6a38",
+  "all_learned_tensors_and_buffers_equal": true,
+  "tensor_count": 12,
+  "maximum_absolute_tensor_difference": 0.0,
+  "explanation": "Learned tensors unchanged; checkpoint metadata source bindings differ after observer fix.",
+  "preserved_v5_freeze_valid": true,
+  "corrected_freeze_valid": true
+}

@@ -1,0 +1,83 @@
+{
+  "source_revision": "4536823b5961e4553969ffc78d41f91d1888d537",
+  "seed": 20261028,
+  "formal_evaluation_sha256": "248964853e6d3d9ea60bf0f2f8733b34b7718aeade891dbc4fe57f2fb4365541",
+  "formal_evaluation_attempts": 192,
+  "formal_strict_paired_control_checks_passed": true,
+  "formal_pairs": {
+    "both_successes": 96,
+    "changed_transfer_predictions": 96,
+    "common_predicted_outputs_equal": 96,
+    "common_prediction_mismatches": 0,
+    "complete_pairs": 96,
+    "initial_rgb_mismatches": 0,
+    "maximum_common_prediction_difference": 0.0,
+    "maximum_final_ring_xy_difference_m": 4.749365768545631e-05,
+    "prediction_pairs_compared": 96,
+    "rgb_pairs_compared": 96,
+    "same_final_ring_xyz": 0,
+    "same_initial_rgb": 96,
+    "same_success_flags": 96,
+    "same_target_scores": 96,
+    "straight_only_successes": 0,
+    "video_only_successes": 0
+  },
+  "formal_by_variant": {
+    "straight_transfer": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    },
+    "video_motion": {
+      "attempted_cases": 96,
+      "completed_controllers": 96,
+      "episodes": 96,
+      "failure_counts": {},
+      "success_rate": 1.0,
+      "successes": 96,
+      "valid_post_execution_targets": 96
+    }
+  },
+  "formal_captured_image_count": 96,
+  "first_captured_rgb_bytes_equal": true,
+  "first_captured_configuration_id_equal": true,
+  "clone_capture_count": 1,
+  "clone_replayed_pairs": 1,
+  "clone_replayed_attempts": 2,
+  "first_pair_complete_records_identical": true,
+  "rows": [
+    {
+      "attempt_id": "M6_d0_a0_p0:video_motion",
+      "variant": "video_motion",
+      "whole_row_identical": true,
+      "neural_chunk_identical": true,
+      "trajectory_identical": true,
+      "transfer_metrics_identical": true,
+      "changed_fields": [],
+      "formal_canonical_row_sha256": "acbfad6be8cdd96f4f36d22262f4f505af05ca6b56ca48c9af26096b3f880aa2",
+      "clone_canonical_row_sha256": "acbfad6be8cdd96f4f36d22262f4f505af05ca6b56ca48c9af26096b3f880aa2",
+      "success": true,
+      "steps": 269,
+      "input_image_sha256": "c15b770c3b87bee9f387386d71de00b0684d393e8f8a8d5de13b060bc280a48c"
+    },
+    {
+      "attempt_id": "M6_d0_a0_p0:straight_transfer",
+      "variant": "straight_transfer",
+      "whole_row_identical": true,
+      "neural_chunk_identical": true,
+      "trajectory_identical": true,
+      "transfer_metrics_identical": true,
+      "changed_fields": [],
+      "formal_canonical_row_sha256": "c97b042ce5d194e95f43803afbea01f4c44227b1574e6775157cfd586a86d3c3",
+      "clone_canonical_row_sha256": "c97b042ce5d194e95f43803afbea01f4c44227b1574e6775157cfd586a86d3c3",
+      "success": true,
+      "steps": 253,
+      "input_image_sha256": "c15b770c3b87bee9f387386d71de00b0684d393e8f8a8d5de13b060bc280a48c"
+    }
+  ],
+  "scope": "Same-host AI automated independent source clone, isolated CPU2.14, first existing pair only; not a second full192 or new real recordings."
+}
