@@ -28,19 +28,19 @@ def package(output):
     with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for name in names:
             data = (root/name).read_bytes()
-            archive.writestr('robot_learning/'+name, data)
+            archive.writestr('ring-placement/'+name, data)
             hashes[name] = digest(data)
-        archive.writestr('robot_learning/LOCAL_COMMIT.txt', commit+'\n')
+        archive.writestr('ring-placement/LOCAL_COMMIT.txt', commit+'\n')
     with zipfile.ZipFile(output) as archive:
         corrupt = archive.testzip()
         if corrupt is not None:
             raise ValueError('Corrupt archive member: '+corrupt)
         for name, expected in hashes.items():
-            if digest(archive.read('robot_learning/'+name)) != expected:
+            if digest(archive.read('ring-placement/'+name)) != expected:
                 raise ValueError('Archive byte mismatch: '+name)
     result = dict(commit=commit, archive=str(output), archive_sha256=digest(output.read_bytes()),
                   bytes=output.stat().st_size, tracked_files=len(names), crc_and_all_member_hashes_verified=True,
-                  publication='Local archive only; no GitHub publication', member_sha256=hashes)
+                  publication='Local archive only', member_sha256=hashes)
     output.with_suffix('.receipt.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({key:value for key,value in result.items() if key != 'member_sha256'}, indent=2))
     return result
@@ -48,5 +48,5 @@ def package(output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', default='../ring_robot_learning_v4.zip')
+    parser.add_argument('--output', default='../ring-placement.zip')
     package(parser.parse_args().output)

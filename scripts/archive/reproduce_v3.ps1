@@ -4,7 +4,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$projectDirectory = Split-Path -Parent $PSScriptRoot
+$projectDirectory = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Push-Location -LiteralPath $projectDirectory
 try {
     if (Test-Path -LiteralPath $OutputDirectory) {

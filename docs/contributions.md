@@ -1,4 +1,4 @@
-# Assistance and authorship
+# Contributions
 
 | Work | Contribution |
 |---|---|

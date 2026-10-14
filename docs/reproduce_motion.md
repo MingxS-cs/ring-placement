@@ -1,4 +1,4 @@
-# Controlled motion-ablation reproduction
+# Reproducing the motion comparison
 
 The corrected experiment at `4536823b5961e4553969ffc78d41f91d1888d537`, seed 20261028, passed its formal 192-attempt paired-control checks: all 96 paired images and common predicted outputs agree, and both variants succeed 96/96. Independent same-host automated verification rebuilt the baseline exactly, passed 281 tests and replayed only the first pair with complete record equality. It did not repeat the full 192 attempts. The initial failed experiment and its evidence remain below.
 

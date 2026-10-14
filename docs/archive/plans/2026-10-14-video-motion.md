@@ -1,5 +1,7 @@
 # Video Motion Implementation Plan
 
+Archived development plan. Paths and checklist states below describe the original planning stage; see the [historical index](../README.md) and [current method](../../method.md) for navigation.
+
 > **For agentic workers:** Use subagent-driven-development for isolated motion extraction, neural trajectory learning and clean-environment verification, with root integration and independent final review.
 
 **Goal:** Make personally collected video motion directly supervise a small policy that drives physical simulated ring placement, with a reproducible public submission.

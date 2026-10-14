@@ -1,5 +1,7 @@
 # V4 clean-clone reproduction
 
+Archived account: results, release status and original commands below belong to the recorded version. See the [current method](../method.md), [submission status](../submission.md) and [archive index](README.md). The recorded run used `scripts/reproduce_v4.ps1` at the revision below. Its current location is `scripts/archive/reproduce_v4.ps1`; moving this report and script does not mean the recorded verification ran that new path.
+
 ## Revision and environment
 
 The complete V4 pipeline was reproduced on 14 October 2026 from Git revision `1a9ac49bc16d05bdfa801ee64d6e70e3766c279c` in the separate clone `D:\model\ring_bearing_20261014\clean_reproduction_v3`. Tracked files were clean before checkout; earlier untracked V3 outputs were preserved. The clone's existing isolated Python 3.12.10 virtual environment was reused, with `include-system-site-packages = false`. This is a clean source-clone test on the same Windows host, not a claim of verification on another operating system or machine.

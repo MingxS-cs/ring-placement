@@ -1,5 +1,7 @@
 # Generalization Implementation Plan
 
+Archived development plan. Paths and checklist states below describe the original planning stage; see the [historical index](../README.md) and [current method](../../method.md) for navigation.
+
 **Goal:** Improve real-path prediction and validate simulated manipulation at new positions/directions/distances without reusing seen test outcomes for model selection.
 
 **Architecture:** Add reviewed development motion, lock unseen transfer annotations, fit a low-capacity direction-conditioned ridge model, and execute its learned curve with physical feedback. Preserve V3 artifacts. Report learned fidelity separately from geometrically aided task success.

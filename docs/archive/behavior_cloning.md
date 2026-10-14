@@ -1,8 +1,10 @@
 # Ring placement from a phone video
 
+Archived account: results, release status and original commands below belong to the recorded version. See the [current method](../method.md), [submission status](../submission.md) and [archive index](README.md).
+
 A small state-based policy controls a simulated 7-DOF Panda to pick up a ring and place it inside a bearing. It uses 24 reviewed demonstrations from an edited fixed-camera phone video, known dimensions, geometry-consistent augmentation and physical MuJoCo demonstrations.
 
-**Delivered model:** 21 → 128 → 128 → 4 MLP, **19,844 parameters**. It succeeded in **46/48 fresh simulated closed-loop scenes (95.8%)**, without teacher actions or rescue. See [student_closeup.mp4](../outputs/evaluation_final/student_closeup.mp4), [results.json](../outputs/evaluation_final/results.json) and [rollouts.json](../outputs/evaluation_final/rollouts.json).
+**Delivered model:** 21 → 128 → 128 → 4 MLP, **19,844 parameters**. It succeeded in **46/48 fresh simulated closed-loop scenes (95.8%)**, without teacher actions or rescue. See [student_closeup.mp4](../../outputs/evaluation_final/student_closeup.mp4), [results.json](../../outputs/evaluation_final/results.json) and [rollouts.json](../../outputs/evaluation_final/rollouts.json).
 
 | Controller | Fresh test descendants: 3 sources | Fresh challenge descendants: 5 sources | Total |
 |---|---:|---:|---:|
@@ -21,7 +23,7 @@ V1 succeeded 18/18 ordinary trials but only 6/30 at the original third bearing p
 
 Before V2 training, freeze 48 new seeded simulated scenes descended only from the same held-out real sources. Bearings are relocated within x=[0.40,0.52] m and y=[-0.10,0.10] m, preserving ring-to-bearing displacement. Final ood_test denotes the reserved source group; it is **not** testing at the original unseen bearing point or proof of spatial extrapolation. Expanded training positions overlap the final workspace.
 
-These are correlated synthetic descendants, not 48 independent human recordings or an independent new real-data benchmark. The frozen manifest's phrase “Independent new scenes” refers only to new scene draws. [protocol_v2.json](../outputs/protocol_v2.json) records the clarification and relocation vectors. augmentation.translation_m describes the transform before relocation; final ring_xy_m/bearing_xy_m are the executed reset values.
+These are correlated synthetic descendants, not 48 independent human recordings or an independent new real-data benchmark. The frozen manifest's phrase “Independent new scenes” refers only to new scene draws. [protocol_v2.json](../../outputs/protocol_v2.json) records the clarification and relocation vectors. augmentation.translation_m describes the transform before relocation; final ring_xy_m/bearing_xy_m are the executed reset values.
 
 Both V2 variants succeeded 24/24 validation rollouts; DAgger had lower validation cloning loss. Its hash was frozen in outputs/model_selection.json before final testing. Final outcomes were not used for further tuning.
 
@@ -42,7 +44,7 @@ Robot height, fixed downward orientation, custom fingers and executable state/ac
 
 Both start flat on the tabletop. Custom narrow fingers pinch the ring's 2.5 mm wall. The ring remains a free body throughout rollouts, with no weld, attachment or object teleporting. Convex wedge segments preserve both holes. The placed ring rests on the table and protrudes 2 mm above the bearing. Mass/friction are simulator assumptions.
 
-Panda assets come from MuJoCo Menagerie revision d7b481bac63d3d600ab404ee74f7474c5efe8a67, with Apache-2.0 attribution retained in [vendor/NOTICE.md](../vendor/NOTICE.md). IK, joint servos and gravity compensation are shared between teacher and student.
+Panda assets come from MuJoCo Menagerie revision d7b481bac63d3d600ab404ee74f7474c5efe8a67, with Apache-2.0 attribution retained in [vendor/NOTICE.md](../../vendor/NOTICE.md). IK, joint servos and gravity compensation are shared between teacher and student.
 
 ## Reproduce
 

@@ -1,5 +1,7 @@
 # Ring Placement Implementation Plan
 
+Archived development plan. Paths and checklist states below describe the original planning stage; see the [historical index](../README.md) and [current method](../../method.md) for navigation.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development. Execute the tasks below in this session and review interfaces before integration.
 
 **Goal:** Train and evaluate a small simulated robot controller using the existing ring/bearing video and geometry-consistent augmentation.

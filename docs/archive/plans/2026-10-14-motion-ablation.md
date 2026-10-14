@@ -1,5 +1,7 @@
 # Video-motion ablation implementation plan
 
+Archived development plan. Paths and checklist states below describe the original planning stage; see the [historical index](../README.md) and [current method](../../method.md) for navigation.
+
 **Goal:** Quantify the video-motion contribution and make the submission easier to read and explain, with honest assistance attribution.
 
 **Architecture:** A train-only partial readout intervention plus a paired physical experiment. All existing V5 modules and sealed outputs remain byte-preserved.

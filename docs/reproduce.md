@@ -1,4 +1,4 @@
-# TinyVLA V5 clean-source reproduction
+# Reproducing the policy
 
 ## Source revision and dependency environments
 
@@ -17,9 +17,11 @@ This is a clean **source-clone** reproduction on the same Windows host, not a fu
 
 ## Commands and pipeline scope
 
+The command below uses the current `scripts/reproduce.ps1` name. The recorded verification used `scripts/reproduce_vla.ps1` at the stated source revision; this documentation rename does not record a new execution.
+
 ```powershell
 ./.venv/Scripts/python.exe -m pytest -q --junitxml=repro_logs/pytest_vla.xml
-./scripts/reproduce_vla.ps1 -OutputDirectory outputs/reproduced_vla_clean -PythonExecutable 'D:/model/ring_bearing_20261014/robot_learning/.venv-vla/Scripts/python.exe' -Device cuda
+./scripts/reproduce.ps1 -OutputDirectory outputs/reproduced_vla_clean -PythonExecutable 'D:/model/ring_bearing_20261014/robot_learning/.venv-vla/Scripts/python.exe' -Device cuda
 ```
 
 The script regenerates train/validation simulator RGB and action chunks from the included frozen V4 precursor, trains for 240 epochs with batch size 8 and 2,000 decoder-prefit steps, prepares/finalizes a new bound scene manifest and model receipt, runs the complete frozen evaluation on CPU in the GPU runtime, and renders six predetermined demonstration clips. The V4 video-to-motion precursor was verified in the separate V4 reproduction; this V5 script reuses it and does not re-extract/retrain V4 from raw phone video.

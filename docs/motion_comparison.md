@@ -1,4 +1,4 @@
-# What does the video-derived curve change?
+# Curved and straight transfer
 
 The V5 black-image and instruction controls show that the model uses RGB and text. They do not isolate the contribution of the recorded transfer motion. This comparison removes that curvature while keeping the rest of the policy fixed.
 
@@ -47,16 +47,16 @@ The video-derived motion survives neural prediction and physical execution. It d
 
 New code keeps fitting, physical execution and saved-record analysis in separate modules and reuses the V5 controller, physics runner and outcome summary. The original six V5 modules are preserved. The 34 new tests cover the intervention, paired inputs, tamper detection, failure denominators and trajectory analysis; all 281 tests passed in the separate source clone.
 
-The clone regenerated a byte-identical straight checkpoint and fit report, then replayed only the first predetermined pair. This is an automated same-host reproduction, not a second full 192-attempt benchmark or new human recordings. See the [reproduction scope and evidence](reproduction_motion_ablation.md).
+The clone regenerated a byte-identical straight checkpoint and fit report, then replayed only the first predetermined pair. This is an automated same-host reproduction, not a second full 192-attempt benchmark or new human recordings. See the [reproduction scope and evidence](reproduce_motion.md).
 
 [Complete rollouts](../outputs/motion_ablation_v6_final/evaluation.json), [independent analysis](../outputs/motion_ablation_v6_final/analysis/verification.json), [aggregate metrics](../outputs/motion_ablation_v6_final/aggregate_metrics.json), [freeze receipt](../outputs/motion_ablation_v6_final/freeze_receipt.json), [shared observations](../outputs/motion_ablation_v6_final/evaluation.initial_rgb.npz) and [unchanged-tensor check](../outputs/motion_ablation_v6_final/observer_fix_weight_check.json) are retained.
 
 ## Reproduce
 
 ```powershell
-./scripts/run_motion_ablation.ps1 -OutputDirectory outputs/new_motion_ablation -Plots
+./scripts/compare_motion.ps1 -OutputDirectory outputs/new_motion_ablation -Plots
 ```
 
 Plots require `requirements-plots.txt`. The script prepares and freezes both variants, then runs the registered schedule. It refuses an existing output directory.
 
-[Protocol](superpowers/specs/2026-10-14-motion-ablation-design.md), [baseline-fit code](../ring_learning/motion_ablation_model.py), [physical runner](../ring_learning/motion_ablation.py), [independent analysis](../ring_learning/motion_ablation_analysis.py), [V5 evidence](v5_baseline.md).
+[Protocol](superpowers/specs/2026-10-14-motion-ablation-design.md), [baseline-fit code](../ring_learning/motion_ablation_model.py), [physical runner](../ring_learning/motion_ablation.py), [independent analysis](../ring_learning/motion_ablation_analysis.py), [V5 evidence](archive/vla_baseline.md).

@@ -1,4 +1,4 @@
-# Task-specific TinyVLA method
+# Model and control
 
 V5 is a 33,930-parameter vision/language/action baseline built for this task. It is trained from scratch, with no pretrained VLM or LLM. It supports nine registered English phrases covering three spatial targets: inside the bearing, 60 mm left, and 60 mm right in the fixed table X frame. It does not claim open vocabulary, arbitrary Chinese instructions or general-purpose robot understanding.
 
@@ -34,7 +34,7 @@ An exact segmentation-mask centroid baseline already has roughly0.5mm mean optic
 
 CPU Torch2.11 and2.14 yielded bit-identical predictions for all24 validation images. GPU/CPU XYZ differences were at most about0.016mm. This does not assert identical training across arbitrary hardware.
 
-The complete clean-source reproduction regenerates byte-identical datasets and all trained model tensors. Its CPU Torch2.11 evaluation matches every success flag and execution step count of the original CPU Torch2.14 evaluation. Maximum absolute waypoint XYZ component differences reach0.000507mm; physical ring-coordinate component differences during transfer reach0.347mm and final ring-position distance differences0.0644mm. Contact dynamics can amplify tiny action differences. All264 outcomes reproduce, but cross-version trajectories are not bit-identical. See the full [reproduction report](reproduction_vla.md) for measured differences and environment scope.
+The complete clean-source reproduction regenerates byte-identical datasets and all trained model tensors. Its CPU Torch2.11 evaluation matches every success flag and execution step count of the original CPU Torch2.14 evaluation. Maximum absolute waypoint XYZ component differences reach0.000507mm; physical ring-coordinate component differences during transfer reach0.347mm and final ring-position distance differences0.0644mm. Contact dynamics can amplify tiny action differences. All264 outcomes reproduce, but cross-version trajectories are not bit-identical. See the full [reproduction report](reproduce.md) for measured differences and environment scope.
 
 ## Frozen test and causal controls
 

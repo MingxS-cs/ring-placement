@@ -1,10 +1,12 @@
 # V4 generalization design and interpretation
 
+Archived account: results, release status and original commands below belong to the recorded version. See the [current method](../method.md), [submission status](../submission.md) and [archive index](README.md).
+
 The requested scope is new object positions, start-to-goal directions and distances, using the same ring, bearing and fixed-camera recording. The implementation tests a hybrid motion controller in contact-based MuJoCo physics. It does not test a visual detector on novel rendered scenes or a physical robot.
 
 ## Why change V3
 
-V3 gave its 1,218-parameter network only progress and endpoint distance. E02 and E04 differ by only 0.437 mm in distance but approximately 90 degrees in direction; their measured local lateral residuals have opposite signs. The original inputs cannot distinguish that pair. Scaling a normalized residual by a novel distance also expands uncertain optical curvature. V3's saved negative results remain in [the historical baseline](v3_baseline.md).
+V3 gave its 1,218-parameter network only progress and endpoint distance. E02 and E04 differ by only 0.437 mm in distance but approximately 90 degrees in direction; their measured local lateral residuals have opposite signs. The original inputs cannot distinguish that pair. Scaling a normalized residual by a novel distance also expands uncertain optical curvature. V3's saved negative results remain in [the historical baseline](video_policy.md).
 
 V4 retains direction information and predicts residuals in approximate metres directly. A six-candidate ridge family limits capacity: degree zero or one, with ridge penalty 0.02, 0.2 or 2. Candidate selection uses leave-one-original-training-path-out error. Every fold fits direction normalization using its training paths only. Choose the six-coefficient version when its score is within strictly 0.1 mm of the best candidate. The three validation paths provide diagnostics; they do not select weights or the candidate.
 

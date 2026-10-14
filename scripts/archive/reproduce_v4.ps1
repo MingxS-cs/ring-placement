@@ -4,7 +4,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$projectDirectory = Split-Path -Parent $PSScriptRoot
+$projectDirectory = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Push-Location -LiteralPath $projectDirectory
 try {
     if (Test-Path -LiteralPath $OutputDirectory) {
@@ -38,7 +38,7 @@ try {
         '--output-dir', (Join-Path $OutputDirectory 'motion'),
         '--visual-review', 'outputs/motion/visual_review.json')
     # Recheck every regenerated label value before rebinding metadata-only hashes.
-    & $PythonExecutable 'scripts/reproduction_receipt.py' --real $endpointFile --motion $motionFile --output $blindReceipt
+    & $PythonExecutable 'scripts/archive/reproduction_receipt.py' --real $endpointFile --motion $motionFile --output $blindReceipt
     if ($LASTEXITCODE -ne 0) { throw 'Regenerated measurements did not match the delivered source labels.' }
     Invoke-PythonModule -ModuleName 'ring_learning.generalization_evaluate' -ModuleArguments @(
         '--prepare', '--real', $endpointFile, '--manifest', $manifestFile)
