@@ -4,12 +4,12 @@ Reference: [official Humanoid Robot Learning Research Intern challenge](https://
 
 | Requirement | Evidence | Status |
 |---|---|---|
-| Personally collected manipulation data | Bundled phone video and hash, 24 endpoints, 9 reviewed motion paths | Implemented |
-| Real data drives simulated robot | Real XY labels train ShapeNet; generated residuals change actual Panda transfer | Implemented |
+| Personally collected manipulation data | Bundled phone video and hash, 24 endpoints, V4 13 training paths plus reserved/validation evidence | Implemented |
+| Real data drives simulated robot | Real optical XY labels train a 12-coefficient V4 model; predictions change physical Panda transfer | Implemented |
 | Simple simulation | Physical MuJoCo Panda, annular objects, shared IK/servo and contact grasp | Implemented |
 | Run instructions | README commands and isolated-clone report | Included; tested scope recorded |
-| Example outputs | Source overlays, first-case video, saved model, raw rollouts and charts | Included |
-| Design choices, successes and failures | Hybrid control, approximate XY, tiny supervision, weak reserved-path prediction and equal-success baseline | Included |
+| Example outputs | Source overlays, six preset case video, saved model, all 288 physical rollouts and charts | Included |
+| Design choices, successes and failures | Hybrid control, approximate XY, 96-scene placement generalization, reserved-path errors still worse than straight, equal-success baseline | Included |
 | Public GitHub repository | User chose MingxS-cs, then explicitly deferred publication and requested local version | Deferred by user |
 
 Hand-coded solutions are allowed; Libero, SmolVLA and VLA/world-model approaches are examples. No specific push-block task is mandated. Official acceptance or internship selection is not guaranteed. Creativity and research quality remain subjective review criteria.

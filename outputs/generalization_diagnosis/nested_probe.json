@@ -1,0 +1,178 @@
+{
+  "protocol": "Five outer training-source folds; each chooses model/hyperparameters using four inner training-source folds. Existing E05/test labels never affect either choice; no frozen-model revision. Restricted family is an explanatory sensitivity diagnostic motivated by same-length/different-direction collision, not a replacement independent benchmark.",
+  "all_candidates": {
+    "candidate_count": 45,
+    "outer_mean_mm": 11.186379060508013,
+    "straight_mean_mm": 9.94757907170774,
+    "folds": [
+      {
+        "source": "E01",
+        "mean_mm": 6.329634426126865,
+        "max_mm": 9.633086154161902,
+        "selected": {
+          "name": "kernel_world_mm_direction_d1_b1.0_s0.1",
+          "family": "kernel",
+          "frame": "world",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 1,
+          "bandwidth": 1.0,
+          "shrinkage": 0.1
+        },
+        "inner_lopo_mm": 7.354540399031441,
+        "straight_mean_mm": 6.69440825690405
+      },
+      {
+        "source": "E02",
+        "mean_mm": 18.486751392261585,
+        "max_mm": 27.454653961932085,
+        "selected": {
+          "name": "ridge_world_mm_displacement_d0_a0.02",
+          "family": "ridge",
+          "frame": "world",
+          "normalized": false,
+          "geometry": "displacement",
+          "degree": 0,
+          "alpha": 0.02
+        },
+        "inner_lopo_mm": 5.270240775000593,
+        "straight_mean_mm": 6.388323147582055
+      },
+      {
+        "source": "E04",
+        "mean_mm": 5.24459241972693,
+        "max_mm": 7.3331812038078095,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d0_a0.02",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 0,
+          "alpha": 0.02
+        },
+        "inner_lopo_mm": 5.606413122284143,
+        "straight_mean_mm": 11.176105713676693
+      },
+      {
+        "source": "E09",
+        "mean_mm": 18.272952317338113,
+        "max_mm": 29.855212255653836,
+        "selected": {
+          "name": "ridge_world_mm_displacement_d0_a0.2",
+          "family": "ridge",
+          "frame": "world",
+          "normalized": false,
+          "geometry": "displacement",
+          "degree": 0,
+          "alpha": 0.2
+        },
+        "inner_lopo_mm": 4.894355699824055,
+        "straight_mean_mm": 11.646852859459537
+      },
+      {
+        "source": "E14",
+        "mean_mm": 7.5979647470865785,
+        "max_mm": 10.955696494844185,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d1_a0.02",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 1,
+          "alpha": 0.02
+        },
+        "inner_lopo_mm": 2.922676780314342,
+        "straight_mean_mm": 13.83220538091637
+      }
+    ]
+  },
+  "restricted_direction_ridge": {
+    "candidate_count": 6,
+    "outer_mean_mm": 6.200770493591449,
+    "straight_mean_mm": 9.94757907170774,
+    "folds": [
+      {
+        "source": "E01",
+        "mean_mm": 2.4029925015030464,
+        "max_mm": 4.63465630064425,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d0_a0.2",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 0,
+          "alpha": 0.2
+        },
+        "inner_lopo_mm": 8.65519007417221,
+        "straight_mean_mm": 6.69440825690405
+      },
+      {
+        "source": "E02",
+        "mean_mm": 6.842235393306857,
+        "max_mm": 10.18256726576851,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d0_a2.0",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 0,
+          "alpha": 2.0
+        },
+        "inner_lopo_mm": 9.367741904676649,
+        "straight_mean_mm": 6.388323147582055
+      },
+      {
+        "source": "E04",
+        "mean_mm": 5.24459241972693,
+        "max_mm": 7.3331812038078095,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d0_a0.02",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 0,
+          "alpha": 0.02
+        },
+        "inner_lopo_mm": 5.606413122284143,
+        "straight_mean_mm": 11.176105713676693
+      },
+      {
+        "source": "E09",
+        "mean_mm": 8.916067406333832,
+        "max_mm": 15.60372527889697,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d1_a0.2",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 1,
+          "alpha": 0.2
+        },
+        "inner_lopo_mm": 6.167104642438165,
+        "straight_mean_mm": 11.646852859459537
+      },
+      {
+        "source": "E14",
+        "mean_mm": 7.5979647470865785,
+        "max_mm": 10.955696494844185,
+        "selected": {
+          "name": "ridge_canonical_mm_direction_d1_a0.02",
+          "family": "ridge",
+          "frame": "canonical",
+          "normalized": false,
+          "geometry": "direction",
+          "degree": 1,
+          "alpha": 0.02
+        },
+        "inner_lopo_mm": 2.922676780314342,
+        "straight_mean_mm": 13.83220538091637
+      }
+    ]
+  }
+}

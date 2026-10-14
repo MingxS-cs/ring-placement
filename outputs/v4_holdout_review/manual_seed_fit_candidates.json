@@ -1,0 +1,618 @@
+{
+  "E20": [
+    {
+      "frame": 2880,
+      "manual_seed": [
+        235,
+        1070
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          235.78121948242188,
+          1069.5959777832031
+        ],
+        "outer_diameter_px": 106.50070087721552,
+        "ellipse_axes_px": [
+          96.7963638305664,
+          117.17794799804688
+        ],
+        "ellipse_angle_deg": 0.09219198673963547,
+        "circularity": 0.8118704040352193,
+        "threshold_gray": 80,
+        "confidence": 0.7956420373300199,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 2910,
+      "manual_seed": [
+        274,
+        1067
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          275.8474884033203,
+          1063.2359008789062
+        ],
+        "outer_diameter_px": 76.06397642889645,
+        "ellipse_axes_px": [
+          73.24446868896484,
+          78.99201965332031
+        ],
+        "ellipse_angle_deg": 173.18081665039062,
+        "circularity": 0.7294356456024994,
+        "threshold_gray": 80,
+        "confidence": 0.6599229404121965,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 2912,
+      "manual_seed": [
+        286,
+        1044
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 2914,
+      "manual_seed": [
+        333,
+        1010
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          327.3676452636719,
+          1011.5754852294922
+        ],
+        "outer_diameter_px": 71.81234713063537,
+        "ellipse_axes_px": [
+          67.58773803710938,
+          76.30101776123047
+        ],
+        "ellipse_angle_deg": 118.43579864501953,
+        "circularity": 0.7297670579770946,
+        "threshold_gray": 110,
+        "confidence": 0.6327652079094378,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 2916,
+      "manual_seed": [
+        393,
+        977
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 2918,
+      "manual_seed": [
+        449,
+        960
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 2920,
+      "manual_seed": [
+        494,
+        970
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          492.22544860839844,
+          973.5006256103516
+        ],
+        "outer_diameter_px": 71.99978226727218,
+        "ellipse_axes_px": [
+          67.76683044433594,
+          76.49713897705078
+        ],
+        "ellipse_angle_deg": 128.34378051757812,
+        "circularity": 0.7653718393859695,
+        "threshold_gray": 110,
+        "confidence": 0.697102095635993,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 2922,
+      "manual_seed": [
+        515,
+        967
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          515.8368988037109,
+          969.8939361572266
+        ],
+        "outer_diameter_px": 73.18534592773094,
+        "ellipse_axes_px": [
+          68.80389404296875,
+          77.84580993652344
+        ],
+        "ellipse_angle_deg": 121.07826232910156,
+        "circularity": 0.8439920228314544,
+        "threshold_gray": 95,
+        "confidence": 0.7862069920298873,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 2924,
+      "manual_seed": [
+        527,
+        977
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 2926,
+      "manual_seed": [
+        536,
+        979
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 2946,
+      "manual_seed": [
+        542,
+        987
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          541.5726928710938,
+          986.0965423583984
+        ],
+        "outer_diameter_px": 93.8578210183667,
+        "ellipse_axes_px": [
+          91.57478332519531,
+          96.1977767944336
+        ],
+        "ellipse_angle_deg": 176.07504272460938,
+        "circularity": 0.7347041138010462,
+        "threshold_gray": 55,
+        "confidence": 0.7180160884048682,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    }
+  ],
+  "E21": [
+    {
+      "frame": 2970,
+      "manual_seed": [
+        49,
+        864
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          49.266319274902344,
+          864.0773620605469
+        ],
+        "outer_diameter_px": 105.21972824034322,
+        "ellipse_axes_px": [
+          98.73160552978516,
+          112.13421630859375
+        ],
+        "ellipse_angle_deg": 5.968062400817871,
+        "circularity": 0.7994556664848874,
+        "threshold_gray": 110,
+        "confidence": 0.7944167692774582,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3039,
+      "manual_seed": [
+        49,
+        866
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          47.711795806884766,
+          863.3581085205078
+        ],
+        "outer_diameter_px": 73.04337950141178,
+        "ellipse_axes_px": [
+          71.05551147460938,
+          75.08686065673828
+        ],
+        "ellipse_angle_deg": 31.165420532226562,
+        "circularity": 0.7173067737009267,
+        "threshold_gray": 95,
+        "confidence": 0.669390226423167,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3042,
+      "manual_seed": [
+        55,
+        858
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          53.73328399658203,
+          859.6344299316406
+        ],
+        "outer_diameter_px": 74.22160941322078,
+        "ellipse_axes_px": [
+          66.4698715209961,
+          82.87735748291016
+        ],
+        "ellipse_angle_deg": 78.47702026367188,
+        "circularity": 0.5718198897526773,
+        "threshold_gray": 110,
+        "confidence": 0.544946533675882,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3045,
+      "manual_seed": [
+        106,
+        879
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          105.93758392333984,
+          880.9467468261719
+        ],
+        "outer_diameter_px": 75.02579580477732,
+        "ellipse_axes_px": [
+          74.27310943603516,
+          75.7861099243164
+        ],
+        "ellipse_angle_deg": 94.2676010131836,
+        "circularity": 0.8068597922347052,
+        "threshold_gray": 125,
+        "confidence": 0.7711425453447671,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3048,
+      "manual_seed": [
+        202,
+        904
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3051,
+      "manual_seed": [
+        330,
+        926
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3054,
+      "manual_seed": [
+        447,
+        944
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3057,
+      "manual_seed": [
+        540,
+        946
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          533.1213989257812,
+          958.7483520507812
+        ],
+        "outer_diameter_px": 60.87222830457951,
+        "ellipse_axes_px": [
+          48.0781364440918,
+          77.07096099853516
+        ],
+        "ellipse_angle_deg": 120.6569595336914,
+        "circularity": 0.6759119558916687,
+        "threshold_gray": 125,
+        "confidence": 0.453387846533024,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3060,
+      "manual_seed": [
+        590,
+        955
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3063,
+      "manual_seed": [
+        603,
+        963
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3067,
+      "manual_seed": [
+        572,
+        979
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          566.9947052001953,
+          978.6722106933594
+        ],
+        "outer_diameter_px": 72.55457560789738,
+        "ellipse_axes_px": [
+          64.93077087402344,
+          81.07352447509766
+        ],
+        "ellipse_angle_deg": 149.65866088867188,
+        "circularity": 0.709002654582462,
+        "threshold_gray": 95,
+        "confidence": 0.6281760855472215,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3096,
+      "manual_seed": [
+        538,
+        979
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          538.4297790527344,
+          977.8465118408203
+        ],
+        "outer_diameter_px": 100.69367446532668,
+        "ellipse_axes_px": [
+          95.01483917236328,
+          106.71192169189453
+        ],
+        "ellipse_angle_deg": 6.939520359039307,
+        "circularity": 0.699271054702298,
+        "threshold_gray": 65,
+        "confidence": 0.6797081067132886,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    }
+  ],
+  "E22": [
+    {
+      "frame": 3120,
+      "manual_seed": [
+        614,
+        573
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          614.0046844482422,
+          572.9215393066406
+        ],
+        "outer_diameter_px": 56.85101292995621,
+        "ellipse_axes_px": [
+          47.824222564697266,
+          67.58160400390625
+        ],
+        "ellipse_angle_deg": 105.84651947021484,
+        "circularity": 0.8248564129495399,
+        "threshold_gray": 65,
+        "confidence": 0.8233829117613958,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3183,
+      "manual_seed": [
+        621,
+        565
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          620.7738189697266,
+          572.3191223144531
+        ],
+        "outer_diameter_px": 51.37277695728485,
+        "ellipse_axes_px": [
+          41.250587463378906,
+          63.97877883911133
+        ],
+        "ellipse_angle_deg": 99.44734954833984,
+        "circularity": 0.7224810158506694,
+        "threshold_gray": 80,
+        "confidence": 0.6022434873282512,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3185,
+      "manual_seed": [
+        612,
+        568
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3187,
+      "manual_seed": [
+        595,
+        585
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          592.980712890625,
+          587.1796722412109
+        ],
+        "outer_diameter_px": 64.64965430917835,
+        "ellipse_axes_px": [
+          57.509368896484375,
+          72.67646789550781
+        ],
+        "ellipse_angle_deg": 112.1427993774414,
+        "circularity": 0.826117451122293,
+        "threshold_gray": 80,
+        "confidence": 0.7703305327772398,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3189,
+      "manual_seed": [
+        575,
+        635
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          574.6764831542969,
+          643.1278686523438
+        ],
+        "outer_diameter_px": 68.65630577697345,
+        "ellipse_axes_px": [
+          63.802364349365234,
+          73.87952423095703
+        ],
+        "ellipse_angle_deg": 125.53165435791016,
+        "circularity": 0.8352462264474579,
+        "threshold_gray": 80,
+        "confidence": 0.6808337888228686,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3191,
+      "manual_seed": [
+        561,
+        700
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          559.6250457763672,
+          717.1637268066406
+        ],
+        "outer_diameter_px": 66.07680275402565,
+        "ellipse_axes_px": [
+          60.6313591003418,
+          72.01131439208984
+        ],
+        "ellipse_angle_deg": 121.34261322021484,
+        "circularity": 0.804237327458571,
+        "threshold_gray": 95,
+        "confidence": 0.4895116384670515,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3193,
+      "manual_seed": [
+        550,
+        795
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          550.3708190917969,
+          794.2505035400391
+        ],
+        "outer_diameter_px": 68.47640024248649,
+        "ellipse_axes_px": [
+          63.67236328125,
+          73.64289855957031
+        ],
+        "ellipse_angle_deg": 126.80525207519531,
+        "circularity": 0.7975052202496723,
+        "threshold_gray": 95,
+        "confidence": 0.7823487651727421,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3195,
+      "manual_seed": [
+        550,
+        866
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          551.7277069091797,
+          861.1420745849609
+        ],
+        "outer_diameter_px": 70.96131088580512,
+        "ellipse_axes_px": [
+          64.02311706542969,
+          78.65139770507812
+        ],
+        "ellipse_angle_deg": 121.5704574584961,
+        "circularity": 0.7742684752025777,
+        "threshold_gray": 80,
+        "confidence": 0.6835381603827287,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3197,
+      "manual_seed": [
+        549,
+        910
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3199,
+      "manual_seed": [
+        548,
+        944
+      ],
+      "auto_suggestion": null
+    },
+    {
+      "frame": 3203,
+      "manual_seed": [
+        544,
+        986
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          542.9871063232422,
+          982.2555389404297
+        ],
+        "outer_diameter_px": 58.76861768698968,
+        "ellipse_axes_px": [
+          51.223388671875,
+          67.42526245117188
+        ],
+        "ellipse_angle_deg": 96.98786926269531,
+        "circularity": 0.7708699242756875,
+        "threshold_gray": 95,
+        "confidence": 0.7029100522894054,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    },
+    {
+      "frame": 3222,
+      "manual_seed": [
+        535,
+        983
+      ],
+      "auto_suggestion": {
+        "center_px": [
+          535.0465087890625,
+          983.3755187988281
+        ],
+        "outer_diameter_px": 103.79402626032827,
+        "ellipse_axes_px": [
+          95.69277954101562,
+          112.58111572265625
+        ],
+        "ellipse_angle_deg": 176.93304443359375,
+        "circularity": 0.773426130955616,
+        "threshold_gray": 80,
+        "confidence": 0.7667748781581725,
+        "method": "visible closed dark ellipse with temporal gate; outer wall or inner aperture"
+      }
+    }
+  ]
+}

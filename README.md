@@ -1,83 +1,93 @@
-# Ring placement from a personally recorded phone video
+# Ring placement: phone data to a generalizing simulated manipulator
 
-This project uses a fixed-camera phone recording of a person moving a ring with tweezers to drive a simulated Panda arm. A **1,218-parameter network is trained directly on measured planar video motion**. It generates the robot's transfer path; geometric control supplies approach, grasp, vertical lift, lowering and release.
+A personally recorded fixed-camera phone video supplies measured ring motion. **V4 trains a 12-coefficient, direction-conditioned trajectory model** on real observations and executes its XY reference with a contact-based Panda arm. Geometric control supplies grasp, height, fingers and release.
 
-The final hybrid controller succeeds in **48/48 frozen simulated scenes**. An otherwise identical controller with a straight transfer path also succeeds **48/48**. The learned path changes physical motion, but does **not** improve placement success on this easy task. Prediction of the reserved human paths is worse than straight interpolation; the negative result is retained below.
+The hybrid controller completes **96/96 frozen scenes**, covering new positions, eight directions and 45–160 mm distances. Straight control and the frozen V3 profile also complete **96/96** under identical execution. Learned motion changes the physical path but does not improve placement success. On three newly annotated reserved human paths, V4 improves over V3 and remains worse than straight interpolation. Both findings are retained.
 
-[Watch the deterministic first-case demonstration](outputs/video_v3/student_demo.mp4), [inspect all rollout results](outputs/video_v3/evaluation/results.json), or [review the source motion overlays](outputs/motion/motion_review.mp4).
+[Six preset scene replays](outputs/generalization_v4/student_demo.mp4) · [Physical results](outputs/generalization_v4/evaluation/results.json) · [Held-out fidelity](outputs/generalization_v4/fidelity/fidelity.json) · [Detailed method](docs/generalization_v4.md)
 
-![Real source and physical simulated placement](outputs/video_v3/video_retract.jpg)
+![Six preset physical placements](outputs/generalization_v4/student_demo.jpg)
 
-The left video panel is a visual comparison only. Human test frames are not fed to the robot controller.
+## Challenge and scope
 
-## Challenge scope
+The [Humanoid Robot Learning Research Intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221) asks for personally collected data driving a manipulator in simple simulation, runnable instructions, example outputs, design choices and successes/failures, in a public GitHub repository. It allows hand-coded solutions; VLA, world-model and retargeting approaches are examples. No push-block task is mandated.
 
-The [Humanoid Robot Learning Research Intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221) asks for personally collected real data driving a robotic manipulator in simple simulation, with a public GitHub repository, runnable instructions, example outputs, design choices and successes/failures. Its examples include VLA, world models and retargeting, and it explicitly allows hand-coded solutions.
+This is the **local submission version**. The applicant explicitly deferred public GitHub publication, so the public-repository requirement remains outstanding. CV, eligibility and application submission are separate. [Requirement checklist](docs/challenge_checklist.md).
 
-This implementation chooses planar motion learning and physical retargeting. It does not claim a VLA, a world model, calibrated 6D pose recovery or real-robot transfer. This is currently the **local submission version**; public GitHub publication was deferred at the applicant's request. See [the requirement checklist](docs/challenge_checklist.md).
+Demonstrated generalization is **same-task, same-object motion control in simulation with known positions and a fixed reference**. Runtime positions come from simulator state. Visual recognition in new scenes, calibrated 3D, unfamiliar objects and real-robot transfer are not established.
 
-## What the real data contributes
+## Real data and supervision
 
-The applicant recorded [359977334.mp4](data/source/359977334.mp4), 119.4 seconds, 720×1280 pixels. The phone stayed fixed; the bearing had three placements. Reset portions were removed and demonstrations concatenated. SHA-256: `90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4`.
+The applicant recorded [359977334.mp4](data/source/359977334.mp4): 119.4 s, 720×1280 pixels, approximately 30 fps, 3,581 frames. The phone stayed fixed; the bearing had three placements. Resets were removed and demonstrations concatenated. Video SHA-256: `90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4`.
 
-Twenty-four bounded episodes supply visible object endpoints and scene configurations. Nine also supply sufficiently visible, reviewed transfer motion. Fifteen complete motion paths are rejected, with reasons retained in [real_motion.json](data/real_motion.json). Rejected episodes are not replaced with straight synthetic trajectories.
+Twenty-four bounded episodes supply visible endpoints. V4 preserves the original 13 train / 3 validation / 3 test / 5 reserved source split. Reviewed manual centers recover visible motion in eight previously rejected training episodes and all three validation episodes. Missing observations are never replaced with synthetic straight supervision.
 
-| Motion split | Original usable paths | Observed points | Gap interpolation |
+| V4 source group | Paths | Observations | Explicit gap interpolation |
 |---|---:|---:|---:|
-| Training: E01, E02, E04, E09, E14 | 5 | 52 | 14 |
-| Validation: E05 | 1 | 6 | 4 |
-| Ordinary test: E08 | 1 | 10 | 2 |
-| Reserved source group: E23, E24 | 2 | 38 | 6 |
-| Total | 9 | 106 | 26 |
+| Retained original training paths | 5 | 52 | 14 |
+| Additional manual training paths | 8 | 110 | 0 |
+| Validation, manual replacement | 3 | 40 | 0 |
+| Newly annotated reserved E20/E21/E22 | 3 | 35 | 0 |
 
-All descendants stay with their original source. The wider endpoint split remains 13 train / 3 validation / 3 test / 5 reserved; this is not a claim that all 24 episodes provide reliable motion supervision. Only 66 training points and 10 validation points train/select the trajectory network.
+Only **176 points across 13 training paths** fit the model. Validation is diagnostic. The 35 reserved observations (29 intermediate) stay sealed until weights, selection protocol and physical scenes are frozen. These are windows of the same recording with prior endpoint exposure, not independent recordings. Earlier V3 tests informed this redesign; they are not relabeled as fresh tests.
 
-Dark ellipse contours and temporal prediction gates track the ring. Ring/shadow confusion caused E03 and E16 to be rejected. E05 frame 732 was rejected and its short missing bracket re-interpolated. [Visual review decisions](outputs/motion/visual_review.json) are replayable, source-hashed input to extraction. Green markers are observed; yellow markers are interpolated with zero observation confidence. The longest accepted interpolation bracket is eight source frames, approximately 0.267 seconds. Review playback is resampled at 10 fps, not the original timing.
+[Development labels](data/v4_development_annotations.json), [native proof verification](outputs/v4_development_review/verification.json), [blind receipt](outputs/v4_holdout_review/freeze_receipt.json), and [model freeze](outputs/generalization_v4/model_freeze.json) preserve provenance. New manual proof images match sequential decoding. E11/E12 seek ordinal offsets were corrected before training. Fresh holdout ordinals/PTS also match sequential decoding and ffprobe.
 
-Known bearing diameter supplies a local image scale; image Y is reversed for simulator coordinates. These are **approximate optical XY trajectories**, affected by perspective, ring height, tilt and shadow. Camera intrinsics, depth and force were not measured. Robot height, orientation, grasp contact, actuator commands and retiming are planned components.
+Known 50 mm bearing diameter gives a local pixel scale; image Y is reversed. Labels are **approximate optical XY**, affected by perspective, height, tilt and blur. Center uncertainty is nominally ±5 px for clear rims and ±8 px for blur. Depth, force, gripper commands and human timing were not measured.
 
-## Model and retargeting
+## Model and execution
 
-1. Normalize each measured path by cumulative planar arc length. Subtract its start-to-end straight line, rotate residuals into a local start-to-end frame, and divide by endpoint distance.
-2. Feed progress and distance/0.1 m into a 2 → 32 → 32 → 2 ReLU network. It predicts longitudinal and lateral path residuals.
-3. Apply a `4p(1-p)` envelope to enforce exact endpoints. Rotate back into the new scene, scale to metres and cap residual norm at 25 mm. Rotation/translation equivariance is analytical; it does not create additional independent recordings.
-4. Follow this reference with bounded Cartesian displacement, shared IK, joint servos and contact physics. Transfer commands are capped at 2 mm per 50 ms step, or 40 mm/s. This is robot retiming, not learned human timing. The end is anchored to the hole center rather than copying an imperfect human release offset.
+V3 received progress and distance but could not distinguish similar-length paths with different direction-dependent curvature. V4 retains direction and predicts residual directly in metres. Inputs combine normalized observed arc progress and standardized direction in a camera/task reference. Features are `[1, direction_x, direction_y]` times endpoint envelope `4p(1-p)` and optional term `2p-1`. Ridge regression predicts longitudinal/lateral residual, rotated into the new endpoint frame and capped at 25 mm. Endpoints are exact; the simulated goal is the hole center.
 
-Training uses source-uniform weighted squared residual error and AdamW. Arc-cell quadrature reduces irregular source-time sampling bias; observed/interpolated base weights are 1/0.25, then each original source is normalized to unit total weight. Uncalibrated contour confidence is evidence, not a loss weight. Input statistics use training sources only.
+The locked grid is degree 0/1 × penalty 0.02/0.2/2, selected by leave-one-training-source-out error with fold-only direction statistics and a 0.1 mm preference for six coefficients. Selected: **12 coefficients, degree 1, penalty 0.02**. Source-normalized arc-cell weights use observed/interpolated base weights 1/0.25. LOPO is selection evidence, not a final test.
 
-The minimum validation-loss checkpoint is **epoch 9**, seed 20261014. It was saved before held-out trajectory metrics and physical tests. A provenance guard was then added; repeating training produced bit-identical weights, normalizer and selected epoch, recorded in [provenance_guard_verification.json](outputs/video_model/provenance_guard_verification.json). Final checkpoint SHA-256: `8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea`.
-
-Runtime inputs are start/goal geometry and progress; the network never reads a held-out human path. Other stages and transfer Z/gripper remain geometric. Rollouts distinguish transfer-scope steps from actual neural forward calls; deterministic endpoints are not counted as inference. This is a **hybrid controller**, not an end-to-end neural XYZ/gripper policy.
-
-## Results and what did not work
-
-The 48 V3 scene draws were frozen before V3 training. They descend from three ordinary and five reserved original endpoint sources, with planar rotation, relocation and 1 mm start jitter. Bearings lie within x=[0.40,0.52] m, y=[−0.10,0.10] m. These are correlated synthetic descendants of one edited recording, not 48 new real demonstrations or evidence of real-world generalization. V1/V2 outcomes informed the project design.
-
-| Controller | Ordinary descendants | Reserved-source descendants | Total |
-|---|---:|---:|---:|
-| Video-trained transfer + planned grasp/release | 18/18 | 30/30 | 48/48 |
-| Same controller with zero residual/straight transfer | 18/18 | 30/30 | 48/48 |
-
-Strict success requires the full ring projection inside the hole with 0.3 mm margin, tilt ≤8°, table height within 1.5 mm, linear speed <0.01 m/s, angular speed <0.15 rad/s, open fingers, no finger contact and ≥0.4 s settling. All attempted scenes remain in the denominator. [Raw rollouts](outputs/video_v3/evaluation/rollouts.json) include steps, phases, contacts and physical transfer paths.
-
-The model changes executed paths: mean maximum physical lateral deviation from each transfer's endpoint line is **15.51 mm**, versus **0.041 mm** for straight control. This establishes a data-to-motion effect, not a performance improvement. [Path contribution report](outputs/video_v3/analysis/path_contribution.json).
-
-![Actual physical transfer, first frozen case](outputs/video_v3/analysis/physical_transfer_comparison.png)
-
-Real-path prediction is weaker:
-
-| Human path split | Model mean displacement | Straight interpolation |
+| Development diagnostic | V4 mean XY error | Straight |
 |---|---:|---:|
-| Training, 5 paths | 9.45 mm | 9.95 mm |
-| Validation, 1 path | 17.05 mm | 9.06 mm |
-| Ordinary test, 1 path | 9.28 mm | 12.74 mm |
-| Reserved group, 2 paths | 40.79 mm | 21.81 mm |
+| Selected training-source LOPO | 5.968 mm | 9.965 mm |
+| Fitted training paths | 4.831 mm | 9.965 mm |
+| Three validation paths | 5.023 mm | 6.698 mm |
 
-These source-uniform weighted errors compare predictions with extracted/interpolated **image-plane paths**, not calibrated pose ground truth. The model improves the ordinary test example but fails to generalize to the reserved group. The easy task still succeeds because grasp/release are planned and the endpoint is constrained. Task success therefore does not demonstrate faithful human-motion imitation.
+E11 validation regresses: 7.864 mm versus straight 6.601 mm. Frozen model SHA-256: `64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7`.
 
-Tiny supervision, uncertain lifted-object projection and the shared canonical-shape assumption are plausible limitations, not separately proven causes. More reviewed training motion and a direction/style-conditioned model are next experiments; they were not tuned using these final held-out results.
+Generate 63 interior waypoints plus exact endpoints. Follow the curve by its own arc length, limiting command displacement to 2 mm per 50 ms step and pausing advance if physical tool lag exceeds 4 mm. A completion guard prevents lowering when a curve passes the goal early. All profiles share this executor, guard, IK, servos and physics.
 
-![Every accepted source path, including prediction failures](outputs/video_v3/analysis/real_path_predictions.png)
+Approach, grasp, Z, orientation, fingers, lowering, release and retraction remain geometric. Runtime control never reads a held-out human path. Translation invariance follows from relative geometry; coordinate rotation equivariance requires a co-rotating reference. New directions in a fixed reference are tested empirically.
+
+## Frozen physical generalization test
+
+Freeze 96 procedural cases before selected-model training: three distance bands × eight angular bins × four placements, seed 20261020. Bearing bounds: x=[0.40,0.52] m, y=[−0.10,0.10] m. Conditional geometric sampling keeps ring starts within x=[0.32,0.62] m, y=[−0.23,0.23] m. This is a declared workspace constraint, not a success filter. Cases have no invented human-source ancestry; all attempts remain in denominators.
+
+| Profile under shared V4 execution | 45–75 mm | 75–110 mm | 110–160 mm | Total |
+|---|---:|---:|---:|---:|
+| V4 learned reference | 32/32 | 32/32 | 32/32 | **96/96** |
+| Straight reference | 32/32 | 32/32 | 32/32 | **96/96** |
+| Frozen V3 profile | 32/32 | 32/32 | 32/32 | **96/96** |
+
+Every distance/direction cell is 4/4 for all profiles. No execution exceptions occurred; maximum tool-to-command lag is about 3.13 mm. [All 288 rollouts](outputs/generalization_v4/evaluation/rollouts.json) retain physical ring/tool states, command, actual actions, contacts, phases and reference progress.
+
+Success requires full ring projection inside the hole with 0.3 mm margin, tilt ≤8°, table height within 1.5 mm, linear speed <0.01 m/s, angular speed <0.15 rad/s, open fingers, zero finger contact and ≥0.4 s settling.
+
+Mean maximum physical lateral deviation: **V4 11.74 mm**, **straight 0.046 mm**, **V3 profile 14.89 mm**. This establishes a data-to-motion effect, not a placement advantage. The V3-profile comparison here differs from its historical 48-scene result.
+
+![Frozen position/distance coverage](outputs/generalization_v4/analysis/configuration_coverage.png)
+
+## Held-out human-path result and failure
+
+All curves share measured endpoints and observed arc progress. Intermediate-only scores remove both exact endpoints and renormalize arc-cell weights per source. Each source has equal weight.
+
+| Method | Whole-path mean XY error | Intermediate-only mean XY error |
+|---|---:|---:|
+| V4 | 10.522 mm | **10.909 mm** |
+| Straight | 8.455 mm | **8.764 mm** |
+| V3 | 15.149 mm | **15.671 mm** |
+
+V4 improves over V3 and loses to straight on mean error in **all three reserved paths**. The predeclared perturbation experiment agrees: ±5/±8 px, 100 draws each, fixed endpoints and recomputed arc progress. V4 beats straight in 0/100 draws and V3 in 100/100 at both bounds. These are measurement sensitivity draws, not confidence intervals or extra demonstrations.
+
+Weights, candidate selection, execution and scoring protocol were frozen before label access. Fidelity code was completed/tested before unsealing and its hash is saved in the output; no separate pre-unseal receipt binds that module's source. Neither fidelity code, weights nor selection changed after unsealing.
+
+![Reserved paths and all prediction failures](outputs/generalization_v4/analysis/holdout_path_predictions.png)
+
+Large clearance and planned grasp/release make success easy. **Placement succeeds over the declared simulated range; faithful human-path imitation remains limited.** Broader perception, camera, object and real-hardware claims need independent recordings and stronger geometry evidence.
 
 ## Physics and dimensions
 
@@ -86,13 +96,13 @@ Tiny supervision, uncertain lifted-object projection and the shared canonical-sh
 | Bearing | 50 mm | 40 mm | 5 mm |
 | Ring | 25 mm | 20 mm | 7 mm |
 
-Both start flat. Custom narrow fingers pinch the 2.5 mm ring wall. Annular convex-wedge meshes preserve the holes. The ring is a free body with contact grasping: no weld, attachment or object teleport after reset. It rests on the table inside the bearing and protrudes 2 mm above it. Mass, friction, gravity compensation and fixed downward tool orientation are simulator assumptions.
+Both start flat. Slender custom fingers pinch the 2.5 mm ring wall. Convex wedges preserve annular holes. The ring is a free body: no weld, attachment or teleport after reset. It rests on the table inside the bearing, protruding 2 mm above it. Mass, friction, gravity compensation and downward orientation are assumptions. Runtime positions are known simulation state.
 
-Panda assets are from MuJoCo Menagerie revision `d7b481bac63d3d600ab404ee74f7474c5efe8a67`. Apache-2.0 attribution is in [vendor/NOTICE.md](vendor/NOTICE.md); project code is MIT licensed. No real robot has been tested.
+Panda assets: MuJoCo Menagerie revision `d7b481bac63d3d600ab404ee74f7474c5efe8a67`, [Apache-2.0 attribution](vendor/NOTICE.md). Project code is MIT licensed. Real hardware, changed cameras/backgrounds, clutter, unknown sizes and friction changes are untested.
 
-## Reproduce
+## Run and reproduce
 
-Tested on Windows with Python 3.12, MuJoCo 3.12.0 and PyTorch 2.14.0+cpu. CPU is sufficient. ffmpeg/ffprobe must be on PATH for video encoding. Run commands from the repository root. The original video and required assets are included.
+Windows, Python 3.12, MuJoCo 3.12.0 and PyTorch 2.14.0+cpu were tested. CPU is sufficient. ffmpeg/ffprobe must be on PATH for video. Run from the root; source video, annotations and assets are included.
 
 ```powershell
 python -m venv .venv
@@ -101,51 +111,27 @@ python -m venv .venv
 ./.venv/Scripts/python.exe -m pytest -q
 ```
 
-Evaluate the delivered model and replay the first frozen case:
+Reevaluate and replay the delivered model:
 
 ```powershell
-./.venv/Scripts/python.exe -m ring_learning.video_evaluate --output outputs/recheck_v3
-./.venv/Scripts/python.exe -m ring_learning.video_demo --output outputs/recheck_v3/student_demo.mp4
+./.venv/Scripts/python.exe -m ring_learning.generalization_evaluate --output outputs/recheck_v4/evaluation
+./.venv/Scripts/python.exe -m ring_learning.generalization_fidelity --output outputs/recheck_v4/fidelity
+./.venv/Scripts/python.exe -m ring_learning.generalization_demo --output outputs/recheck_v4/student_demo.mp4
 ```
 
-Regenerate measurements in separate destinations:
+Full raw video + included reviewed labels → regenerated endpoints/motion → new frozen scenes → model → 288 rollouts → fidelity/sensitivity → video:
 
 ```powershell
-./.venv/Scripts/python.exe -m ring_learning.extract --output outputs/reproduced_endpoints.json --output-dir outputs/reproduced_endpoints --visual-review outputs/extraction/visual_review.json
-./.venv/Scripts/python.exe -m ring_learning.motion --output outputs/reproduced_motion.json --output-dir outputs/reproduced_motion --visual-review outputs/motion/visual_review.json
+./scripts/reproduce_v4.ps1 -OutputDirectory outputs/full_reproduction_v4
 ```
 
-The motion command uses the included reviewed endpoint file and verifies its exact source hash. Replacing endpoints requires regenerating motion and recording the new lineage. A stale motion/endpoint pairing is rejected by training.
+Existing output directories are refused. Regenerated measurements must exactly match delivered JSON values; only metadata byte hashes are rebound before fitting. Included human review/annotations are reused, not newly generated. Metadata hashes can differ with paths while coefficients and rollouts remain reproducible. [Clean-clone verification](docs/reproduction_v4.md).
 
-For a full **raw video → new endpoints → new motion → new model → 48 scenes → demo** reproduction, use the script below. It passes regenerated files through every stage, freezes scenes before training and refuses to overwrite an earlier output directory:
-
-```powershell
-./scripts/reproduce_v3.ps1 -OutputDirectory outputs/full_reproduction
-```
-
-It replays the included visual review decisions; it does not substitute new human review or new recordings. Reproduced metadata/checkpoint hashes can differ because paths/provenance change even when weights are identical.
-
-Retrain and evaluate without overwriting the selected checkpoint or frozen scenes:
-
-```powershell
-./.venv/Scripts/python.exe -m ring_learning.video_train --output outputs/retrained_video_model
-./.venv/Scripts/python.exe -m ring_learning.video_evaluate --checkpoint outputs/retrained_video_model/policy.pt --output outputs/retrained_v3_evaluation
-./.venv/Scripts/python.exe -m ring_learning.video_demo --checkpoint outputs/retrained_video_model/policy.pt --output outputs/retrained_v3_evaluation/student_demo.mp4
-```
-
-To freeze another simulation draw, use `video_evaluate --prepare --seed 20261018 --manifest outputs/new_protocol/configurations.json` before training; existing manifests cannot be overwritten. Included final scenarios should be reused to reproduce the reported result.
-
-Optional plots:
+Optional scientific plots:
 
 ```powershell
 ./.venv/Scripts/python.exe -m pip install -r requirements-plots.txt
-./.venv/Scripts/python.exe -m ring_learning.video_analysis --output outputs/recheck_v3/analysis
+./.venv/Scripts/python.exe -m ring_learning.generalization_analysis
 ```
 
-Linux uses `.venv/bin/python` and needs suitable MuJoCo OpenGL/EGL/OSMesa configuration; rendering verification here is on Windows. [Clean-clone verification](docs/reproduction_v3.md) records the tested revision, isolated package paths and command outcomes.
-
-## Historical baseline and files
-
-V1 used video endpoints and synthetic teacher actions. Its ordinary/third-point result was 18/18 and 6/30; those diagnostics informed V2 augmentation and train-only DAgger. V2's 19,844-parameter full action student achieved 46/48. It used real scene geometry but did not learn human motion. These artifacts remain available and are **not V3 results**. See [V2 method and commands](docs/v2_baseline.md).
-
-Main deliverables: `data/source`, `data/real_episodes.json`, `data/real_motion.json`, `outputs/motion`, `outputs/video_model`, `outputs/video_v3`, runnable `ring_learning` code, tests and attributed `vendor/panda` assets. Source/checkpoint/environment bindings detect stale combinations. Clutter, tilted starts, unknown objects, unobserved grasp styles and real-robot transfer remain untested.
+Linux uses `.venv/bin/python` and suitable MuJoCo OpenGL/EGL/OSMesa setup; rendering was verified on Windows. Earlier artifacts remain intact: [V3 baseline](docs/v3_baseline.md), [V2 baseline](docs/v2_baseline.md). V4 labels, frozen results, code, tests and native proof are in `data/v4_*`, `outputs/generalization_v4`, `ring_learning/generalization*` and `outputs/v4_*_review`.

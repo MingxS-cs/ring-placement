@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_utc": "2026-10-14T20:11:02.554194+00:00",
+  "scope": "Counts, source IDs and integrity findings only; detailed frame-index/PTS audits remain withheld with the annotations until selected-model freeze.",
+  "annotation_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "source_total_sequential_frame_count": 3581,
+  "valid_source_ids": [
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "checked_raw_evidence_images": 35,
+  "same_ordinal_unique_image_hash_matches": 35,
+  "ordinal_index_mismatches": 0,
+  "requested_frame_n_matching_ordinal_n_minus_1": 0,
+  "sequential_opencv_pts_matches": 35,
+  "ffprobe_display_order_best_effort_pts_matches": 35,
+  "ffprobe_pts_check_tolerance_s": 5e-07,
+  "max_ffprobe_pts_rounding_difference_s": 3.333333467026023e-07,
+  "annotation_correction_applied": false,
+  "annotation_and_image_hashes_unchanged": true,
+  "conclusion": "Every locked evidence image uniquely matches the same zero-based sequential decoded ordinal. Recorded PTS agrees with both sequential OpenCV decoding and ffprobe display-order presentation timestamps. The later PTS offset relative to ordinal/fps exists in source timestamps and is not a seek index mismatch.",
+  "episodes": [
+    {
+      "source_id": "E20",
+      "samples_checked": 11,
+      "ordinal_mismatches": 0,
+      "pts_mismatches": 0
+    },
+    {
+      "source_id": "E21",
+      "samples_checked": 12,
+      "ordinal_mismatches": 0,
+      "pts_mismatches": 0
+    },
+    {
+      "source_id": "E22",
+      "samples_checked": 12,
+      "ordinal_mismatches": 0,
+      "pts_mismatches": 0
+    }
+  ],
+  "detailed_audit_hashes": {
+    "sequential_index_audit": "342d20c75ac474854359c2737e759caadbab6c75de774bbff0f75eb051d0f02a",
+    "ffprobe_pts_audit": "eb65efe3cacbcd964afbb635146eeed0ec944d885402a1dfc42371e00b307b49"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "checkpoint_sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+  "manifest_sha256": "931d478258b834cc200907232ae5aa1576f8292eddcaed360c273ea5905d5410",
+  "cases": [
+    {
+      "index": 0,
+      "configuration_id": "G4_d0_a0_p0",
+      "success": true,
+      "steps": 218,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 42,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 218,
+        "ring_xyz": [
+          0.5031221885430827,
+          -0.025389544208663087,
+          0.10349944281381482
+        ],
+        "tool_xyz": [
+          0.5033463356955488,
+          -0.014215827322870803,
+          0.19273206619076122
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    },
+    {
+      "index": 16,
+      "configuration_id": "G4_d0_a4_p0",
+      "success": true,
+      "steps": 191,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 30,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 191,
+        "ring_xyz": [
+          0.4541658587446439,
+          -0.04479490739107692,
+          0.1034994428138166
+        ],
+        "tool_xyz": [
+          0.45443716400221273,
+          -0.03362495981148708,
+          0.19271783683353186
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    },
+    {
+      "index": 32,
+      "configuration_id": "G4_d1_a0_p0",
+      "success": true,
+      "steps": 208,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 45,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 208,
+        "ring_xyz": [
+          0.4001617867636452,
+          -0.0021399255776999317,
+          0.10349944281381285
+        ],
+        "tool_xyz": [
+          0.40033452174120426,
+          0.009041522167317392,
+          0.19269752567398968
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    },
+    {
+      "index": 48,
+      "configuration_id": "G4_d1_a4_p0",
+      "success": true,
+      "steps": 213,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 52,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 213,
+        "ring_xyz": [
+          0.47146356321075905,
+          0.02108710076748831,
+          0.10349944281381412
+        ],
+        "tool_xyz": [
+          0.47173649611462787,
+          0.032272954497277774,
+          0.19272281234049085
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    },
+    {
+      "index": 64,
+      "configuration_id": "G4_d2_a0_p0",
+      "success": true,
+      "steps": 259,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 84,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 259,
+        "ring_xyz": [
+          0.41325562202394617,
+          -0.08223564066991731,
+          0.10349944281381607
+        ],
+        "tool_xyz": [
+          0.4133902351320971,
+          -0.07108745510244421,
+          0.19270062228441787
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    },
+    {
+      "index": 80,
+      "configuration_id": "G4_d2_a4_p0",
+      "success": true,
+      "steps": 233,
+      "learned_reference_evaluations": 63,
+      "transfer_steps": 69,
+      "lag_pause_steps": 0,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 233,
+        "ring_xyz": [
+          0.4826445617625821,
+          -0.04934081790883614,
+          0.10349944281381573
+        ],
+        "tool_xyz": [
+          0.4829052108484864,
+          -0.03817904941334856,
+          0.19272604040299735
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0,
+        "reference_completion_guard_blocked": false
+      }
+    }
+  ],
+  "selection": "Fixed indices 0,16,32,48,64,80 before examining test outcomes; deterministic replay of existing benchmark cases, no additional trial count",
+  "controller_scope": "Learned optical XY transfer; geometric grasp, Z and fingers; simulator state observations"
+}

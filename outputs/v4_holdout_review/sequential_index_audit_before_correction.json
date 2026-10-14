@@ -1,0 +1,426 @@
+{
+  "source_total_sequential_frames": 3581,
+  "definition": "Sequential zero-based decoded frame ordinal counted from first read, compared by re-encoding each decoded frame with default cv2 JPEG settings identical to raw evidence files. No coordinates or images in this audit.",
+  "samples": [
+    {
+      "source_id": "E20",
+      "requested_frame": 2880,
+      "requested_pts_s": 96.03333333333335,
+      "matching_sequential_ordinals": [
+        2880
+      ],
+      "sequential_pts_s_at_requested_ordinal": 96.03333333333335,
+      "matching_pts_s": [
+        96.03333333333335
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2910,
+      "requested_pts_s": 97.03333333333335,
+      "matching_sequential_ordinals": [
+        2910
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.03333333333335,
+      "matching_pts_s": [
+        97.03333333333335
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2912,
+      "requested_pts_s": 97.10000000000001,
+      "matching_sequential_ordinals": [
+        2912
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.10000000000001,
+      "matching_pts_s": [
+        97.10000000000001
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2914,
+      "requested_pts_s": 97.16666666666667,
+      "matching_sequential_ordinals": [
+        2914
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.16666666666667,
+      "matching_pts_s": [
+        97.16666666666667
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2916,
+      "requested_pts_s": 97.23333333333333,
+      "matching_sequential_ordinals": [
+        2916
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.23333333333333,
+      "matching_pts_s": [
+        97.23333333333333
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2918,
+      "requested_pts_s": 97.30000000000001,
+      "matching_sequential_ordinals": [
+        2918
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.30000000000001,
+      "matching_pts_s": [
+        97.30000000000001
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2920,
+      "requested_pts_s": 97.36666666666667,
+      "matching_sequential_ordinals": [
+        2920
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.36666666666667,
+      "matching_pts_s": [
+        97.36666666666667
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2922,
+      "requested_pts_s": 97.43333333333334,
+      "matching_sequential_ordinals": [
+        2922
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.43333333333334,
+      "matching_pts_s": [
+        97.43333333333334
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2924,
+      "requested_pts_s": 97.5,
+      "matching_sequential_ordinals": [
+        2924
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.5,
+      "matching_pts_s": [
+        97.5
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2926,
+      "requested_pts_s": 97.56666666666668,
+      "matching_sequential_ordinals": [
+        2926
+      ],
+      "sequential_pts_s_at_requested_ordinal": 97.56666666666668,
+      "matching_pts_s": [
+        97.56666666666668
+      ]
+    },
+    {
+      "source_id": "E20",
+      "requested_frame": 2946,
+      "requested_pts_s": 98.23333333333333,
+      "matching_sequential_ordinals": [
+        2946
+      ],
+      "sequential_pts_s_at_requested_ordinal": 98.23333333333333,
+      "matching_pts_s": [
+        98.23333333333333
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 2970,
+      "requested_pts_s": 99.03333333333335,
+      "matching_sequential_ordinals": [
+        2970
+      ],
+      "sequential_pts_s_at_requested_ordinal": 99.03333333333335,
+      "matching_pts_s": [
+        99.03333333333335
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3039,
+      "requested_pts_s": 101.33333333333334,
+      "matching_sequential_ordinals": [
+        3039
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.33333333333334,
+      "matching_pts_s": [
+        101.33333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3042,
+      "requested_pts_s": 101.43333333333334,
+      "matching_sequential_ordinals": [
+        3042
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.43333333333334,
+      "matching_pts_s": [
+        101.43333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3045,
+      "requested_pts_s": 101.53333333333335,
+      "matching_sequential_ordinals": [
+        3045
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.53333333333335,
+      "matching_pts_s": [
+        101.53333333333335
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3048,
+      "requested_pts_s": 101.63333333333334,
+      "matching_sequential_ordinals": [
+        3048
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.63333333333334,
+      "matching_pts_s": [
+        101.63333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3051,
+      "requested_pts_s": 101.73333333333333,
+      "matching_sequential_ordinals": [
+        3051
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.73333333333333,
+      "matching_pts_s": [
+        101.73333333333333
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3054,
+      "requested_pts_s": 101.83333333333334,
+      "matching_sequential_ordinals": [
+        3054
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.83333333333334,
+      "matching_pts_s": [
+        101.83333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3057,
+      "requested_pts_s": 101.93333333333334,
+      "matching_sequential_ordinals": [
+        3057
+      ],
+      "sequential_pts_s_at_requested_ordinal": 101.93333333333334,
+      "matching_pts_s": [
+        101.93333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3060,
+      "requested_pts_s": 102.03333333333335,
+      "matching_sequential_ordinals": [
+        3060
+      ],
+      "sequential_pts_s_at_requested_ordinal": 102.03333333333335,
+      "matching_pts_s": [
+        102.03333333333335
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3063,
+      "requested_pts_s": 102.13333333333334,
+      "matching_sequential_ordinals": [
+        3063
+      ],
+      "sequential_pts_s_at_requested_ordinal": 102.13333333333334,
+      "matching_pts_s": [
+        102.13333333333334
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3067,
+      "requested_pts_s": 102.26666666666668,
+      "matching_sequential_ordinals": [
+        3067
+      ],
+      "sequential_pts_s_at_requested_ordinal": 102.26666666666668,
+      "matching_pts_s": [
+        102.26666666666668
+      ]
+    },
+    {
+      "source_id": "E21",
+      "requested_frame": 3096,
+      "requested_pts_s": 103.23333333333333,
+      "matching_sequential_ordinals": [
+        3096
+      ],
+      "sequential_pts_s_at_requested_ordinal": 103.23333333333333,
+      "matching_pts_s": [
+        103.23333333333333
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3120,
+      "requested_pts_s": 104.03333333333335,
+      "matching_sequential_ordinals": [
+        3120
+      ],
+      "sequential_pts_s_at_requested_ordinal": 104.03333333333335,
+      "matching_pts_s": [
+        104.03333333333335
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3183,
+      "requested_pts_s": 106.13333333333334,
+      "matching_sequential_ordinals": [
+        3183
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.13333333333334,
+      "matching_pts_s": [
+        106.13333333333334
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3185,
+      "requested_pts_s": 106.2,
+      "matching_sequential_ordinals": [
+        3185
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.2,
+      "matching_pts_s": [
+        106.2
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3187,
+      "requested_pts_s": 106.26666666666668,
+      "matching_sequential_ordinals": [
+        3187
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.26666666666668,
+      "matching_pts_s": [
+        106.26666666666668
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3189,
+      "requested_pts_s": 106.33333333333334,
+      "matching_sequential_ordinals": [
+        3189
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.33333333333334,
+      "matching_pts_s": [
+        106.33333333333334
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3191,
+      "requested_pts_s": 106.4,
+      "matching_sequential_ordinals": [
+        3191
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.4,
+      "matching_pts_s": [
+        106.4
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3193,
+      "requested_pts_s": 106.46666666666667,
+      "matching_sequential_ordinals": [
+        3193
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.46666666666667,
+      "matching_pts_s": [
+        106.46666666666667
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3195,
+      "requested_pts_s": 106.53333333333335,
+      "matching_sequential_ordinals": [
+        3195
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.53333333333335,
+      "matching_pts_s": [
+        106.53333333333335
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3197,
+      "requested_pts_s": 106.60000000000001,
+      "matching_sequential_ordinals": [
+        3197
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.60000000000001,
+      "matching_pts_s": [
+        106.60000000000001
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3199,
+      "requested_pts_s": 106.66666666666667,
+      "matching_sequential_ordinals": [
+        3199
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.66666666666667,
+      "matching_pts_s": [
+        106.66666666666667
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3203,
+      "requested_pts_s": 106.80000000000001,
+      "matching_sequential_ordinals": [
+        3203
+      ],
+      "sequential_pts_s_at_requested_ordinal": 106.80000000000001,
+      "matching_pts_s": [
+        106.80000000000001
+      ]
+    },
+    {
+      "source_id": "E22",
+      "requested_frame": 3222,
+      "requested_pts_s": 107.43333333333334,
+      "matching_sequential_ordinals": [
+        3222
+      ],
+      "sequential_pts_s_at_requested_ordinal": 107.43333333333334,
+      "matching_pts_s": [
+        107.43333333333334
+      ]
+    }
+  ]
+}

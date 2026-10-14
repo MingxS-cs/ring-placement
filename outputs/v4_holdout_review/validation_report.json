@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": [
+    "source SHA match",
+    "endpoint metadata and existing motion unchanged",
+    "exact episode boundaries and monotonic PTS",
+    "decoded PTS independently rechecked",
+    "6-12 direct observations per episode and >=4 intermediate observations",
+    "no interpolated measured labels",
+    "finite native-resolution image centers",
+    "all evidence image hashes/dimensions",
+    "50 mm bearing-relative normalization",
+    "arc/path consistency via existing load_motion",
+    "source-time progress consistency",
+    "annotation freeze SHA match"
+  ],
+  "episodes": [
+    {
+      "source_id": "E20",
+      "measured_samples": 11,
+      "intermediate_measured_samples": 9
+    },
+    {
+      "source_id": "E21",
+      "measured_samples": 12,
+      "intermediate_measured_samples": 10
+    },
+    {
+      "source_id": "E22",
+      "measured_samples": 12,
+      "intermediate_measured_samples": 10
+    }
+  ],
+  "annotation_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba"
+}

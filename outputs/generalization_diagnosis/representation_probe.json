@@ -1,0 +1,2024 @@
+{
+  "protocol": "Exploratory only; existing old-test endpoints describe feature coverage; no old-test residual labels are consumed or evaluated. Candidates selected by five-training-source LOO; E05 diagnostic reported after frozen model write, no revision based on E05.",
+  "source_motion_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+  "train_ids": [
+    "E01",
+    "E02",
+    "E04",
+    "E09",
+    "E14"
+  ],
+  "val_ids": [
+    "E05"
+  ],
+  "train_points": 66,
+  "train_observed": 52,
+  "feature_coverage_metadata": [
+    {
+      "source": "E01",
+      "scene_group": 1,
+      "endpoint_distance_mm": 112.60367290538618,
+      "direction_deg": 139.21138223636072,
+      "split": "train"
+    },
+    {
+      "source": "E02",
+      "scene_group": 1,
+      "endpoint_distance_mm": 89.01880244163381,
+      "direction_deg": 86.48009747871701,
+      "split": "train"
+    },
+    {
+      "source": "E04",
+      "scene_group": 1,
+      "endpoint_distance_mm": 88.58215230802105,
+      "direction_deg": 177.26764348420082,
+      "split": "train"
+    },
+    {
+      "source": "E05",
+      "scene_group": 1,
+      "endpoint_distance_mm": 53.53970986654288,
+      "direction_deg": 125.90038931450135,
+      "split": "val"
+    },
+    {
+      "source": "E08",
+      "scene_group": 1,
+      "endpoint_distance_mm": 69.16752017583642,
+      "direction_deg": -81.56178353623437,
+      "split": "previously_seen_test_metadata_only"
+    },
+    {
+      "source": "E09",
+      "scene_group": 1,
+      "endpoint_distance_mm": 70.15904023217759,
+      "direction_deg": -40.0395183574056,
+      "split": "train"
+    },
+    {
+      "source": "E14",
+      "scene_group": 2,
+      "endpoint_distance_mm": 81.51932563080503,
+      "direction_deg": -140.7801801826968,
+      "split": "train"
+    },
+    {
+      "source": "E23",
+      "scene_group": 3,
+      "endpoint_distance_mm": 186.35796333256982,
+      "direction_deg": -56.85727073539507,
+      "split": "previously_seen_test_metadata_only"
+    },
+    {
+      "source": "E24",
+      "scene_group": 3,
+      "endpoint_distance_mm": 130.96510822655347,
+      "direction_deg": -31.5954169680994,
+      "split": "previously_seen_test_metadata_only"
+    }
+  ],
+  "allowed_path_summaries": [
+    {
+      "source": "E01",
+      "points": 18,
+      "observed": 15,
+      "length_mm": 112.60367290538618,
+      "direction_deg": 139.21138223636072,
+      "arc_to_chord": 1.0497811632639569,
+      "straight_mean_mm": 6.69440825690405,
+      "local_mean_residual_mm": [
+        1.1760063417139879,
+        -6.420454954620898
+      ],
+      "world_mean_residual_mm": [
+        3.3039083236503415,
+        5.629335887028019
+      ],
+      "maximum_arc_vs_time_progress": 0.2872945469270539,
+      "movement_duration_s": 1.1333333333333333,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 6
+    },
+    {
+      "source": "E02",
+      "points": 11,
+      "observed": 8,
+      "length_mm": 89.01880244163378,
+      "direction_deg": 86.48009747871701,
+      "arc_to_chord": 1.0456677470023885,
+      "straight_mean_mm": 6.388323147582055,
+      "local_mean_residual_mm": [
+        1.1224765555282987,
+        6.156443634258065
+      ],
+      "world_mean_residual_mm": [
+        -6.075914969492079,
+        1.498335450761747
+      ],
+      "maximum_arc_vs_time_progress": 0.1705672975003154,
+      "movement_duration_s": 0.6666666666666679,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 6
+    },
+    {
+      "source": "E04",
+      "points": 15,
+      "observed": 10,
+      "length_mm": 88.58215230802105,
+      "direction_deg": 177.26764348420082,
+      "arc_to_chord": 1.1248564561374998,
+      "straight_mean_mm": 11.176105713676693,
+      "local_mean_residual_mm": [
+        2.2511689639639827,
+        -10.836881415982083
+      ],
+      "world_mean_residual_mm": [
+        -1.7320096078503668,
+        10.931875559421925
+      ],
+      "maximum_arc_vs_time_progress": 0.25567985865136234,
+      "movement_duration_s": 0.9333333333333336,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 6
+    },
+    {
+      "source": "E09",
+      "points": 13,
+      "observed": 11,
+      "length_mm": 70.15904023217759,
+      "direction_deg": -40.039518357405605,
+      "arc_to_chord": 1.2034338055346185,
+      "straight_mean_mm": 11.646852859459537,
+      "local_mean_residual_mm": [
+        0.007513387871111166,
+        11.514486333799002
+      ],
+      "world_mean_residual_mm": [
+        7.4132034409400145,
+        8.810667779769952
+      ],
+      "maximum_arc_vs_time_progress": 0.08195563475859458,
+      "movement_duration_s": 0.7999999999999972,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 4
+    },
+    {
+      "source": "E14",
+      "points": 9,
+      "observed": 8,
+      "length_mm": 81.51932563080503,
+      "direction_deg": -140.7801801826968,
+      "arc_to_chord": 1.222305067655582,
+      "straight_mean_mm": 13.83220538091637,
+      "local_mean_residual_mm": [
+        -5.210737649965531,
+        -12.3826935290101
+      ],
+      "world_mean_residual_mm": [
+        -3.792651164920268,
+        12.887927802070658
+      ],
+      "maximum_arc_vs_time_progress": 0.06943243896880757,
+      "movement_duration_s": 0.5333333333333314,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 4
+    },
+    {
+      "source": "E05",
+      "points": 10,
+      "observed": 6,
+      "length_mm": 53.53970986654288,
+      "direction_deg": 125.90038931450135,
+      "arc_to_chord": 1.2621127391159102,
+      "straight_mean_mm": 9.05950718774203,
+      "local_mean_residual_mm": [
+        6.1754301066673385,
+        -6.556998077136132
+      ],
+      "world_mean_residual_mm": [
+        1.6902798581441283,
+        8.84720943501693
+      ],
+      "maximum_arc_vs_time_progress": 0.25425172376820626,
+      "movement_duration_s": 0.5999999999999979,
+      "max_gap_frames": 2,
+      "max_observed_bracket_gap_frames": 8
+    }
+  ],
+  "closest_length_pairs": [
+    {
+      "a": "E02",
+      "b": "E04",
+      "length_difference_mm": 0.43665013361273,
+      "direction_difference_deg": 90.78754600548379
+    },
+    {
+      "a": "E04",
+      "b": "E14",
+      "length_difference_mm": 7.062826677216023,
+      "direction_difference_deg": 41.95217633310239
+    },
+    {
+      "a": "E02",
+      "b": "E14",
+      "length_difference_mm": 7.499476810828753,
+      "direction_difference_deg": 132.73972233858618
+    }
+  ],
+  "ranked_train_lopo": [
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d1_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 5.965561234408704,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 2.252855086104139,
+          "max_mm": 4.390208684923383
+        },
+        {
+          "source": "E02",
+          "mean_mm": 4.625751105887525,
+          "max_mm": 6.927414487617161
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.518842092460498,
+          "max_mm": 7.169229493337731
+        },
+        {
+          "source": "E09",
+          "mean_mm": 8.916067406333832,
+          "max_mm": 15.60372527889697
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.514290481257525,
+          "max_mm": 13.924287498372951
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d1_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 5.966293208510644,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 1.4555926372464816,
+          "max_mm": 3.2989196421016387
+        },
+        {
+          "source": "E02",
+          "mean_mm": 4.209524448318208,
+          "max_mm": 6.858455416090884
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.873824850049352,
+          "max_mm": 7.9326820757884
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.694559359852596,
+          "max_mm": 17.61821320647983
+        },
+        {
+          "source": "E14",
+          "mean_mm": 7.5979647470865785,
+          "max_mm": 10.955696494844185
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d0_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 5.9944996187973985,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 2.4029925015030464,
+          "max_mm": 4.63465630064425
+        },
+        {
+          "source": "E02",
+          "mean_mm": 4.60493082996158,
+          "max_mm": 6.798860992493967
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.532179529646016,
+          "max_mm": 7.676952826828367
+        },
+        {
+          "source": "E09",
+          "mean_mm": 8.854572163340361,
+          "max_mm": 15.894875492055053
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.577823069535988,
+          "max_mm": 14.091891782054347
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d0_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 6.026526644879281,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 1.565990235872654,
+          "max_mm": 4.1475518452229405
+        },
+        {
+          "source": "E02",
+          "mean_mm": 4.2157604116740135,
+          "max_mm": 6.673977807964617
+        },
+        {
+          "source": "E04",
+          "mean_mm": 5.24459241972693,
+          "max_mm": 7.3331812038078095
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.494322948278105,
+          "max_mm": 19.006792187634606
+        },
+        {
+          "source": "E14",
+          "mean_mm": 7.611967208844703,
+          "max_mm": 12.322994018723307
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_displacement_d1_b1.0_s0.1",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "bandwidth": 1.0,
+        "shrinkage": 0.1
+      },
+      "source_lopo_mean_mm": 7.701629143109779,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.066314357972411,
+          "max_mm": 9.220739319054676
+        },
+        {
+          "source": "E02",
+          "mean_mm": 8.87766220657118,
+          "max_mm": 13.342807815076558
+        },
+        {
+          "source": "E04",
+          "mean_mm": 3.922151890221527,
+          "max_mm": 7.5879606159033415
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.871277990482222,
+          "max_mm": 20.78284291861561
+        },
+        {
+          "source": "E14",
+          "mean_mm": 7.7707392703015525,
+          "max_mm": 10.626401196520764
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_direction_d1_b1.0_s0.1",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "bandwidth": 1.0,
+        "shrinkage": 0.1
+      },
+      "source_lopo_mean_mm": 7.768705591569571,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.329634426126865,
+          "max_mm": 9.633086154161902
+        },
+        {
+          "source": "E02",
+          "mean_mm": 8.99560111514012,
+          "max_mm": 13.529137612393358
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.121660306376694,
+          "max_mm": 7.856139173974895
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.781679039271118,
+          "max_mm": 20.590188497308382
+        },
+        {
+          "source": "E14",
+          "mean_mm": 7.614953070933055,
+          "max_mm": 10.715812222608124
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d1_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 7.847943435374686,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.174711746362499,
+          "max_mm": 7.855501529453265
+        },
+        {
+          "source": "E02",
+          "mean_mm": 10.604829523660394,
+          "max_mm": 16.140827995443527
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.83715062456382,
+          "max_mm": 8.820986840977229
+        },
+        {
+          "source": "E09",
+          "mean_mm": 9.786200331377612,
+          "max_mm": 18.329638239860788
+        },
+        {
+          "source": "E14",
+          "mean_mm": 8.836824950909113,
+          "max_mm": 12.684078398921562
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d1_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 7.886712989660526,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 4.496058297612838,
+          "max_mm": 6.799964764367139
+        },
+        {
+          "source": "E02",
+          "mean_mm": 8.987972085159939,
+          "max_mm": 13.521083786561015
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.308003911370827,
+          "max_mm": 10.918582732517377
+        },
+        {
+          "source": "E09",
+          "mean_mm": 9.759183970423997,
+          "max_mm": 17.642645916257564
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.882346683735033,
+          "max_mm": 13.864903822090925
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d0_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 7.907737889021371,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.201273689542115,
+          "max_mm": 8.137412659367243
+        },
+        {
+          "source": "E02",
+          "mean_mm": 10.765487791010802,
+          "max_mm": 16.250307271230614
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.810326427346238,
+          "max_mm": 8.503625711834776
+        },
+        {
+          "source": "E09",
+          "mean_mm": 9.904018851618769,
+          "max_mm": 17.303572981889516
+        },
+        {
+          "source": "E14",
+          "mean_mm": 8.857582685588927,
+          "max_mm": 11.891833301820265
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d0_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 7.915092347382014,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 4.516572366450752,
+          "max_mm": 6.9331254449973
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.041485328454417,
+          "max_mm": 13.56114156332419
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.312391690494895,
+          "max_mm": 10.775506088677773
+        },
+        {
+          "source": "E09",
+          "mean_mm": 9.804373506773029,
+          "max_mm": 17.326805510728256
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.900638844736982,
+          "max_mm": 13.64177386796334
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_direction_d1_b2.0_s0.1",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "bandwidth": 2.0,
+        "shrinkage": 0.1
+      },
+      "source_lopo_mean_mm": 8.049531595834553,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.817931323403726,
+          "max_mm": 8.811926775138062
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.834357784313573,
+          "max_mm": 14.91868462723938
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.643776434283707,
+          "max_mm": 8.578398858979392
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.10823231251907,
+          "max_mm": 19.99490698081897
+        },
+        {
+          "source": "E14",
+          "mean_mm": 8.84336012465269,
+          "max_mm": 12.27387705995099
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_displacement_d1_b2.0_s1.0",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "bandwidth": 2.0,
+        "shrinkage": 1.0
+      },
+      "source_lopo_mean_mm": 8.07146794193631,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.153862303475586,
+          "max_mm": 7.6949987021779505
+        },
+        {
+          "source": "E02",
+          "mean_mm": 8.303032709268704,
+          "max_mm": 12.450919483149152
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.139371683485022,
+          "max_mm": 10.780073270086426
+        },
+        {
+          "source": "E09",
+          "mean_mm": 10.854490381107366,
+          "max_mm": 19.35976938897392
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.906582632344875,
+          "max_mm": 13.975478256721189
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_direction_d1_b2.0_s1.0",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "bandwidth": 2.0,
+        "shrinkage": 1.0
+      },
+      "source_lopo_mean_mm": 8.076994088912011,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.13288660958679,
+          "max_mm": 7.675388953615382
+        },
+        {
+          "source": "E02",
+          "mean_mm": 8.120618551726954,
+          "max_mm": 12.18117380293732
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.184912894713699,
+          "max_mm": 10.849606047021938
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.045736994492069,
+          "max_mm": 19.571497070029977
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.900815394040546,
+          "max_mm": 14.04030918576523
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_displacement_d1_b2.0_s0.1",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "bandwidth": 2.0,
+        "shrinkage": 0.1
+      },
+      "source_lopo_mean_mm": 8.110067849532959,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.886655753608693,
+          "max_mm": 8.922669586050255
+        },
+        {
+          "source": "E02",
+          "mean_mm": 10.061217909741568,
+          "max_mm": 15.248275210840546
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.598493774312871,
+          "max_mm": 8.495761522931073
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.12187419173428,
+          "max_mm": 20.10487245429394
+        },
+        {
+          "source": "E14",
+          "mean_mm": 8.882097618267377,
+          "max_mm": 12.21082573784595
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_displacement_d1_b1.0_s1.0",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "bandwidth": 1.0,
+        "shrinkage": 1.0
+      },
+      "source_lopo_mean_mm": 8.17627131676713,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.341229559698326,
+          "max_mm": 7.937273232298993
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.871102385481187,
+          "max_mm": 10.033064338262122
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.626142697626289,
+          "max_mm": 11.609496826375734
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.662460578630158,
+          "max_mm": 20.417639972506603
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.380421362399687,
+          "max_mm": 14.886409076488459
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "kernel_world_mm_direction_d1_b1.0_s1.0",
+        "family": "kernel",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "bandwidth": 1.0,
+        "shrinkage": 1.0
+      },
+      "source_lopo_mean_mm": 8.250095081973615,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.470319605259285,
+          "max_mm": 8.14880654726048
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.041718334220096,
+          "max_mm": 10.309143304798692
+        },
+        {
+          "source": "E04",
+          "mean_mm": 6.654962767140169,
+          "max_mm": 11.623303382176037
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.660625403349961,
+          "max_mm": 20.405149272943348
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.422849299898568,
+          "max_mm": 15.04516156352703
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d1_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 8.831718838583694,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.365996413383427,
+          "max_mm": 7.606299034430755
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.842332611307385,
+          "max_mm": 10.190170619319156
+        },
+        {
+          "source": "E04",
+          "mean_mm": 8.840487015390329,
+          "max_mm": 14.579074673834043
+        },
+        {
+          "source": "E09",
+          "mean_mm": 10.07665403782885,
+          "max_mm": 18.00186981284913
+        },
+        {
+          "source": "E14",
+          "mean_mm": 13.033124115008473,
+          "max_mm": 18.526370914902287
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_direction_d0_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 8.835605521247974,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.3785702641372035,
+          "max_mm": 7.61103715511647
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.842235393306857,
+          "max_mm": 10.18256726576851
+        },
+        {
+          "source": "E04",
+          "mean_mm": 8.842857714131792,
+          "max_mm": 14.542542405329597
+        },
+        {
+          "source": "E09",
+          "mean_mm": 10.070852759054906,
+          "max_mm": 18.018482884422898
+        },
+        {
+          "source": "E14",
+          "mean_mm": 13.043511475609115,
+          "max_mm": 18.521622314752396
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d1_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.039969864700893,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.498828446199923,
+          "max_mm": 7.95467863838848
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.532037279222211,
+          "max_mm": 9.6649409191152
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.747028141973383,
+          "max_mm": 15.885522856113354
+        },
+        {
+          "source": "E09",
+          "mean_mm": 10.812472647548057,
+          "max_mm": 19.153399503632834
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.609482808560891,
+          "max_mm": 17.79511642677136
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_none_d0_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "none",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.042719196686424,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 5.505010411507009,
+          "max_mm": 7.982365517141519
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.532664774482476,
+          "max_mm": 9.69708836065928
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.745470790744243,
+          "max_mm": 15.857484758264151
+        },
+        {
+          "source": "E09",
+          "mean_mm": 10.817811024979877,
+          "max_mm": 19.14348333714327
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.612638981718518,
+          "max_mm": 17.775598391142026
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d1_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.636263810245461,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 1.656320746292744,
+          "max_mm": 3.922088539948204
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.226567456810886,
+          "max_mm": 10.722982153691257
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.33740156375786,
+          "max_mm": 18.217718859196513
+        },
+        {
+          "source": "E09",
+          "mean_mm": 13.201765867301367,
+          "max_mm": 22.729299729671254
+        },
+        {
+          "source": "E14",
+          "mean_mm": 14.759263417064446,
+          "max_mm": 20.809947017224736
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d0_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.647200164736276,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 1.6857170011180453,
+          "max_mm": 3.9407674971759166
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.2364360795906935,
+          "max_mm": 10.748535921952449
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.339465280622498,
+          "max_mm": 18.19683646259881
+        },
+        {
+          "source": "E09",
+          "mean_mm": 13.20633254349417,
+          "max_mm": 22.737096465865942
+        },
+        {
+          "source": "E14",
+          "mean_mm": 14.768049918855976,
+          "max_mm": 20.820766611296563
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d1_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.664298530403723,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.618662077036799,
+          "max_mm": 9.783519970410534
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.360804074238006,
+          "max_mm": 10.87075063506395
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.386745117411397,
+          "max_mm": 15.364416037987555
+        },
+        {
+          "source": "E09",
+          "mean_mm": 12.919445932304878,
+          "max_mm": 22.32783106362112
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.035835451027538,
+          "max_mm": 16.800327104601227
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d0_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.67144157286648,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.632912187988382,
+          "max_mm": 9.806648686294487
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.375130604339314,
+          "max_mm": 10.924694481598824
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.384579868800628,
+          "max_mm": 15.307059320451438
+        },
+        {
+          "source": "E09",
+          "mean_mm": 12.929091659483474,
+          "max_mm": 22.31487112743809
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.035493543720595,
+          "max_mm": 16.782625756771246
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d1_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.708548524597385,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.884948488023638,
+          "max_mm": 10.222536802444127
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.545390171416095,
+          "max_mm": 11.13834346899289
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.357404220200584,
+          "max_mm": 15.328273894778823
+        },
+        {
+          "source": "E09",
+          "mean_mm": 12.709781140150893,
+          "max_mm": 22.004170084163846
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.045218603195705,
+          "max_mm": 16.795289758095002
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d0_a2.0",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.715680033535117,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.901713544221199,
+          "max_mm": 10.246757945729025
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.555332886190979,
+          "max_mm": 11.176450830917135
+        },
+        {
+          "source": "E04",
+          "mean_mm": 9.35509798795531,
+          "max_mm": 15.2738772422257
+        },
+        {
+          "source": "E09",
+          "mean_mm": 12.722284479881921,
+          "max_mm": 21.990334224156282
+        },
+        {
+          "source": "E14",
+          "mean_mm": 12.04397126942617,
+          "max_mm": 16.78298732792247
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d1_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.775040914548779,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 2.455231064521582,
+          "max_mm": 4.652853353028338
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.384410173800774,
+          "max_mm": 10.943964738496547
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.16906308478592,
+          "max_mm": 17.971525516213358
+        },
+        {
+          "source": "E09",
+          "mean_mm": 13.293320528424285,
+          "max_mm": 22.869512907866316
+        },
+        {
+          "source": "E14",
+          "mean_mm": 14.573179721211336,
+          "max_mm": 20.560365283744762
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d0_a2.0",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 2.0
+      },
+      "source_lopo_mean_mm": 9.785123122108615,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 2.480175321159461,
+          "max_mm": 4.671696200241933
+        },
+        {
+          "source": "E02",
+          "mean_mm": 7.393941340120214,
+          "max_mm": 10.969560925490965
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.170694299958996,
+          "max_mm": 17.949343475166998
+        },
+        {
+          "source": "E09",
+          "mean_mm": 13.298871789507134,
+          "max_mm": 22.8769994882764
+        },
+        {
+          "source": "E14",
+          "mean_mm": 14.581932859797273,
+          "max_mm": 20.57205769518429
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "straight",
+        "family": "straight"
+      },
+      "source_lopo_mean_mm": 9.94757907170774,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 6.69440825690405,
+          "max_mm": 9.668759598129565
+        },
+        {
+          "source": "E02",
+          "mean_mm": 6.388323147582055,
+          "max_mm": 9.55560360127288
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.176105713676693,
+          "max_mm": 17.95494815696825
+        },
+        {
+          "source": "E09",
+          "mean_mm": 11.646852859459537,
+          "max_mm": 20.383984659556077
+        },
+        {
+          "source": "E14",
+          "mean_mm": 13.83220538091637,
+          "max_mm": 19.543856707747235
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d1_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 10.92198991616699,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 8.2816787856675,
+          "max_mm": 12.611404448826281
+        },
+        {
+          "source": "E02",
+          "mean_mm": 12.518189402484376,
+          "max_mm": 18.580821353067126
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.842825610721504,
+          "max_mm": 8.783467824025632
+        },
+        {
+          "source": "E09",
+          "mean_mm": 19.228725284275598,
+          "max_mm": 31.54161581506624
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.738530497685964,
+          "max_mm": 13.674073080359463
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d0_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 10.94716217663605,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 8.371361774616613,
+          "max_mm": 12.919659697484487
+        },
+        {
+          "source": "E02",
+          "mean_mm": 12.597858473588703,
+          "max_mm": 18.6235959097272
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.86015634568515,
+          "max_mm": 8.3109508575847
+        },
+        {
+          "source": "E09",
+          "mean_mm": 19.248403812988478,
+          "max_mm": 31.41144991924264
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.658030476301306,
+          "max_mm": 13.667905557227124
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d1_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 11.10077697787441,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 9.607104721671961,
+          "max_mm": 14.637514104268236
+        },
+        {
+          "source": "E02",
+          "mean_mm": 13.284850262598727,
+          "max_mm": 19.713343258952996
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.48897820080441,
+          "max_mm": 8.316125801147562
+        },
+        {
+          "source": "E09",
+          "mean_mm": 18.231192658232874,
+          "max_mm": 29.957959000330618
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.891759046064074,
+          "max_mm": 13.926325607847414
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d0_a0.2",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 11.128963041711312,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 9.711135966966507,
+          "max_mm": 15.006952800058842
+        },
+        {
+          "source": "E02",
+          "mean_mm": 13.337930401013553,
+          "max_mm": 19.743720591211044
+        },
+        {
+          "source": "E04",
+          "mean_mm": 4.514808149092006,
+          "max_mm": 7.946465461024157
+        },
+        {
+          "source": "E09",
+          "mean_mm": 18.272952317338113,
+          "max_mm": 29.855212255653836
+        },
+        {
+          "source": "E14",
+          "mean_mm": 9.807988374146383,
+          "max_mm": 13.907170382359743
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d1_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 12.672770997444893,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 8.808785940934209,
+          "max_mm": 15.117167784276962
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.887875902507455,
+          "max_mm": 14.475892716038919
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.10695011321239,
+          "max_mm": 18.03087416089686
+        },
+        {
+          "source": "E09",
+          "mean_mm": 17.238228561601314,
+          "max_mm": 28.6959821168125
+        },
+        {
+          "source": "E14",
+          "mean_mm": 16.322014468969094,
+          "max_mm": 22.88440660251805
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d0_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 12.701433451415443,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 8.85892501521507,
+          "max_mm": 15.049349792386284
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.938815057162847,
+          "max_mm": 14.542157025350143
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.100819117328594,
+          "max_mm": 17.85142203173415
+        },
+        {
+          "source": "E09",
+          "mean_mm": 17.224386147391918,
+          "max_mm": 28.76675989404017
+        },
+        {
+          "source": "E14",
+          "mean_mm": 16.38422191997878,
+          "max_mm": 23.041362066868626
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d0_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 13.179284056045839,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 9.671134774353694,
+          "max_mm": 15.043559419904183
+        },
+        {
+          "source": "E02",
+          "mean_mm": 17.128822411621595,
+          "max_mm": 25.412922557318197
+        },
+        {
+          "source": "E04",
+          "mean_mm": 3.1474914456857253,
+          "max_mm": 4.963297866588987
+        },
+        {
+          "source": "E09",
+          "mean_mm": 25.464250339114894,
+          "max_mm": 38.303909171564875
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.484721309453288,
+          "max_mm": 16.306034607253235
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d0_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 13.1968849142159,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 11.563775667572228,
+          "max_mm": 17.969411620865156
+        },
+        {
+          "source": "E02",
+          "mean_mm": 18.486751392261585,
+          "max_mm": 27.454653961932085
+        },
+        {
+          "source": "E04",
+          "mean_mm": 2.4140527833105945,
+          "max_mm": 5.070945157822376
+        },
+        {
+          "source": "E09",
+          "mean_mm": 22.94110740603667,
+          "max_mm": 36.34043131560083
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.57873732189843,
+          "max_mm": 16.37651181038329
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_displacement_d1_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "displacement",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 13.303071661453242,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 11.272371779666832,
+          "max_mm": 17.67940547855004
+        },
+        {
+          "source": "E02",
+          "mean_mm": 18.661346200476288,
+          "max_mm": 27.61792234513468
+        },
+        {
+          "source": "E04",
+          "mean_mm": 2.6909208986720765,
+          "max_mm": 6.026519672673773
+        },
+        {
+          "source": "E09",
+          "mean_mm": 22.956661979864595,
+          "max_mm": 37.15173800924775
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.934057448586422,
+          "max_mm": 16.46119551263398
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_world_mm_direction_d1_a0.02",
+        "family": "ridge",
+        "frame": "world",
+        "normalized": false,
+        "geometry": "direction",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 13.32812184285022,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 9.42000003538902,
+          "max_mm": 14.597275487637665
+        },
+        {
+          "source": "E02",
+          "mean_mm": 17.23236997128266,
+          "max_mm": 25.515311427851696
+        },
+        {
+          "source": "E04",
+          "mean_mm": 3.5197603150780976,
+          "max_mm": 6.72934663427359
+        },
+        {
+          "source": "E09",
+          "mean_mm": 25.61350999604622,
+          "max_mm": 39.62976059196054
+        },
+        {
+          "source": "E14",
+          "mean_mm": 10.8549688964551,
+          "max_mm": 16.357511433720006
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d1_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 13.502186007644672,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 12.578483307596331,
+          "max_mm": 18.768650827926447
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.340096685264252,
+          "max_mm": 13.647441007289915
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.684494113941941,
+          "max_mm": 18.87623599661832
+        },
+        {
+          "source": "E09",
+          "mean_mm": 16.94853029388139,
+          "max_mm": 28.27612264560079
+        },
+        {
+          "source": "E14",
+          "mean_mm": 16.959325637539457,
+          "max_mm": 23.74194246280889
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d0_a0.2",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 0.2
+      },
+      "source_lopo_mean_mm": 13.53083738566104,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 12.617628571359612,
+          "max_mm": 18.8214020777313
+        },
+        {
+          "source": "E02",
+          "mean_mm": 9.395173871043959,
+          "max_mm": 13.780034783754816
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.678693872006539,
+          "max_mm": 18.69801371654918
+        },
+        {
+          "source": "E09",
+          "mean_mm": 16.94237073872973,
+          "max_mm": 28.34533342759507
+        },
+        {
+          "source": "E14",
+          "mean_mm": 17.020319875165374,
+          "max_mm": 23.894368823388202
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d1_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 14.020565498684865,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 11.724841199526203,
+          "max_mm": 17.854679843142584
+        },
+        {
+          "source": "E02",
+          "mean_mm": 11.070529900156595,
+          "max_mm": 16.265181102497937
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.138561684836512,
+          "max_mm": 18.348429018020063
+        },
+        {
+          "source": "E09",
+          "mean_mm": 19.14577441401596,
+          "max_mm": 31.092067432971625
+        },
+        {
+          "source": "E14",
+          "mean_mm": 17.023120294889065,
+          "max_mm": 23.633784651812935
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_mm_length_d0_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": false,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 14.027329690265919,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 11.814810092270049,
+          "max_mm": 17.97905917400857
+        },
+        {
+          "source": "E02",
+          "mean_mm": 11.14200223265616,
+          "max_mm": 16.307039126115125
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.040904437873527,
+          "max_mm": 17.765129439823447
+        },
+        {
+          "source": "E09",
+          "mean_mm": 18.947313132226174,
+          "max_mm": 31.343766121207445
+        },
+        {
+          "source": "E14",
+          "mean_mm": 17.19161855630368,
+          "max_mm": 24.146568079660312
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d1_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 1,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 14.556750912694113,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 13.926117655866896,
+          "max_mm": 19.393557545648626
+        },
+        {
+          "source": "E02",
+          "mean_mm": 10.342443985407241,
+          "max_mm": 15.161007881553978
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.906617964897855,
+          "max_mm": 19.477444825243325
+        },
+        {
+          "source": "E09",
+          "mean_mm": 18.741641553231297,
+          "max_mm": 30.59378075366616
+        },
+        {
+          "source": "E14",
+          "mean_mm": 17.866933404067275,
+          "max_mm": 24.967474197211402
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "ridge_canonical_normalized_length_d0_a0.02",
+        "family": "ridge",
+        "frame": "canonical",
+        "normalized": true,
+        "geometry": "length",
+        "degree": 0,
+        "alpha": 0.02
+      },
+      "source_lopo_mean_mm": 14.560905951218178,
+      "folds": [
+        {
+          "source": "E01",
+          "mean_mm": 13.948529579878114,
+          "max_mm": 19.6140043873913
+        },
+        {
+          "source": "E02",
+          "mean_mm": 10.4222064430763,
+          "max_mm": 15.220541507183055
+        },
+        {
+          "source": "E04",
+          "mean_mm": 11.803546305509025,
+          "max_mm": 18.882047709621325
+        },
+        {
+          "source": "E09",
+          "mean_mm": 18.600237916432647,
+          "max_mm": 30.826839846240805
+        },
+        {
+          "source": "E14",
+          "mean_mm": 18.03000951119479,
+          "max_mm": 25.272137514693952
+        }
+      ]
+    }
+  ],
+  "frozen_model_sha256": "07a8e3f8d37b9e35dce1a002145b3957257a5357d023cf630b167ed32f63c280",
+  "selected_model_training": [
+    {
+      "source": "E01",
+      "mean_mm": 2.1433197959370545,
+      "max_mm": 4.414953253354297
+    },
+    {
+      "source": "E02",
+      "mean_mm": 2.0860471202118487,
+      "max_mm": 3.1571378925522793
+    },
+    {
+      "source": "E04",
+      "mean_mm": 3.6193659374955085,
+      "max_mm": 6.347905435274005
+    },
+    {
+      "source": "E09",
+      "mean_mm": 3.5600745107531675,
+      "max_mm": 7.935747924742405
+    },
+    {
+      "source": "E14",
+      "mean_mm": 6.277284110286612,
+      "max_mm": 10.115510185291216
+    }
+  ],
+  "selected_model_E05_validation": [
+    {
+      "source": "E05",
+      "mean_mm": 6.825170232730542,
+      "max_mm": 11.6765125290138
+    }
+  ]
+}

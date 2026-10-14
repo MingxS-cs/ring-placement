@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "annotation_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+  "genuine_samples": 150,
+  "train_episodes": 8,
+  "val_episodes": 3,
+  "checks": [
+    "source hash",
+    "strict in-episode frames",
+    "sequential decoded source frame PTS and exact RGB pixel hash",
+    "native source PNG exact decoded pixels",
+    "manual visible sample kind",
+    "original split membership",
+    "image bounds",
+    "path reconstruction",
+    "clear inside-hole terminal offset",
+    "contact proof exists"
+  ],
+  "episodes": [
+    {
+      "episode_id": "E03",
+      "split": "train",
+      "genuine_samples": 11,
+      "final_offset_mm": 0.85,
+      "arc_length_mm": 116.07
+    },
+    {
+      "episode_id": "E06",
+      "split": "train",
+      "genuine_samples": 15,
+      "final_offset_mm": 0.33,
+      "arc_length_mm": 76.55
+    },
+    {
+      "episode_id": "E07",
+      "split": "train",
+      "genuine_samples": 13,
+      "final_offset_mm": 1.45,
+      "arc_length_mm": 78.56
+    },
+    {
+      "episode_id": "E13",
+      "split": "train",
+      "genuine_samples": 15,
+      "final_offset_mm": 0.96,
+      "arc_length_mm": 137.73
+    },
+    {
+      "episode_id": "E15",
+      "split": "train",
+      "genuine_samples": 16,
+      "final_offset_mm": 0.31,
+      "arc_length_mm": 108.31
+    },
+    {
+      "episode_id": "E17",
+      "split": "train",
+      "genuine_samples": 14,
+      "final_offset_mm": 0.33,
+      "arc_length_mm": 149.32
+    },
+    {
+      "episode_id": "E18",
+      "split": "train",
+      "genuine_samples": 12,
+      "final_offset_mm": 0.61,
+      "arc_length_mm": 225.22
+    },
+    {
+      "episode_id": "E19",
+      "split": "train",
+      "genuine_samples": 14,
+      "final_offset_mm": 0.44,
+      "arc_length_mm": 112.82
+    },
+    {
+      "episode_id": "E11",
+      "split": "val",
+      "genuine_samples": 15,
+      "final_offset_mm": 4.01,
+      "arc_length_mm": 107.37
+    },
+    {
+      "episode_id": "E12",
+      "split": "val",
+      "genuine_samples": 12,
+      "final_offset_mm": 1.5,
+      "arc_length_mm": 101.42
+    },
+    {
+      "episode_id": "E05",
+      "split": "val",
+      "genuine_samples": 13,
+      "final_offset_mm": 5.31,
+      "arc_length_mm": 70.48
+    }
+  ]
+}

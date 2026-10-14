@@ -1,0 +1,905 @@
+{
+  "method": "Source sequential decode frame ordinal; exact decoded pixel hash AND actual FFmpeg PTS match to seeked review image.",
+  "matches": [
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 422,
+      "actual_decoded_ordinal": 422,
+      "source_pts_s": 14.066666666666668
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 424,
+      "actual_decoded_ordinal": 424,
+      "source_pts_s": 14.133333333333335
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 426,
+      "actual_decoded_ordinal": 426,
+      "source_pts_s": 14.200000000000001
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 428,
+      "actual_decoded_ordinal": 428,
+      "source_pts_s": 14.266666666666667
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 430,
+      "actual_decoded_ordinal": 430,
+      "source_pts_s": 14.333333333333334
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 432,
+      "actual_decoded_ordinal": 432,
+      "source_pts_s": 14.4
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 434,
+      "actual_decoded_ordinal": 434,
+      "source_pts_s": 14.466666666666667
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 436,
+      "actual_decoded_ordinal": 436,
+      "source_pts_s": 14.533333333333335
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 438,
+      "actual_decoded_ordinal": 438,
+      "source_pts_s": 14.600000000000001
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 440,
+      "actual_decoded_ordinal": 440,
+      "source_pts_s": 14.666666666666668
+    },
+    {
+      "episode_id": "E03",
+      "seek_request_frame": 474,
+      "actual_decoded_ordinal": 474,
+      "source_pts_s": 15.8
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 876,
+      "actual_decoded_ordinal": 876,
+      "source_pts_s": 29.200000000000003
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 878,
+      "actual_decoded_ordinal": 878,
+      "source_pts_s": 29.26666666666667
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 880,
+      "actual_decoded_ordinal": 880,
+      "source_pts_s": 29.333333333333336
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 882,
+      "actual_decoded_ordinal": 882,
+      "source_pts_s": 29.400000000000002
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 884,
+      "actual_decoded_ordinal": 884,
+      "source_pts_s": 29.46666666666667
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 886,
+      "actual_decoded_ordinal": 886,
+      "source_pts_s": 29.533333333333335
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 888,
+      "actual_decoded_ordinal": 888,
+      "source_pts_s": 29.6
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 890,
+      "actual_decoded_ordinal": 890,
+      "source_pts_s": 29.666666666666668
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 892,
+      "actual_decoded_ordinal": 892,
+      "source_pts_s": 29.733333333333334
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 894,
+      "actual_decoded_ordinal": 894,
+      "source_pts_s": 29.8
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 896,
+      "actual_decoded_ordinal": 896,
+      "source_pts_s": 29.866666666666667
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 898,
+      "actual_decoded_ordinal": 898,
+      "source_pts_s": 29.933333333333334
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 900,
+      "actual_decoded_ordinal": 900,
+      "source_pts_s": 30.000000000000004
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 902,
+      "actual_decoded_ordinal": 902,
+      "source_pts_s": 30.06666666666667
+    },
+    {
+      "episode_id": "E06",
+      "seek_request_frame": 924,
+      "actual_decoded_ordinal": 924,
+      "source_pts_s": 30.8
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1010,
+      "actual_decoded_ordinal": 1010,
+      "source_pts_s": 33.7
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1012,
+      "actual_decoded_ordinal": 1012,
+      "source_pts_s": 33.766666666666666
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1014,
+      "actual_decoded_ordinal": 1014,
+      "source_pts_s": 33.833333333333336
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1016,
+      "actual_decoded_ordinal": 1016,
+      "source_pts_s": 33.900000000000006
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1018,
+      "actual_decoded_ordinal": 1018,
+      "source_pts_s": 33.96666666666667
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1020,
+      "actual_decoded_ordinal": 1020,
+      "source_pts_s": 34.03333333333334
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1022,
+      "actual_decoded_ordinal": 1022,
+      "source_pts_s": 34.1
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1024,
+      "actual_decoded_ordinal": 1024,
+      "source_pts_s": 34.16666666666667
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1026,
+      "actual_decoded_ordinal": 1026,
+      "source_pts_s": 34.233333333333334
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1028,
+      "actual_decoded_ordinal": 1028,
+      "source_pts_s": 34.300000000000004
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1030,
+      "actual_decoded_ordinal": 1030,
+      "source_pts_s": 34.36666666666667
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1032,
+      "actual_decoded_ordinal": 1032,
+      "source_pts_s": 34.43333333333334
+    },
+    {
+      "episode_id": "E07",
+      "seek_request_frame": 1056,
+      "actual_decoded_ordinal": 1056,
+      "source_pts_s": 35.233333333333334
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1964,
+      "actual_decoded_ordinal": 1964,
+      "source_pts_s": 65.5
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1966,
+      "actual_decoded_ordinal": 1966,
+      "source_pts_s": 65.56666666666668
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1968,
+      "actual_decoded_ordinal": 1968,
+      "source_pts_s": 65.63333333333334
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1970,
+      "actual_decoded_ordinal": 1970,
+      "source_pts_s": 65.7
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1972,
+      "actual_decoded_ordinal": 1972,
+      "source_pts_s": 65.76666666666667
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1974,
+      "actual_decoded_ordinal": 1974,
+      "source_pts_s": 65.83333333333334
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1976,
+      "actual_decoded_ordinal": 1976,
+      "source_pts_s": 65.9
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1978,
+      "actual_decoded_ordinal": 1978,
+      "source_pts_s": 65.96666666666667
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1980,
+      "actual_decoded_ordinal": 1980,
+      "source_pts_s": 66.03333333333333
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1982,
+      "actual_decoded_ordinal": 1982,
+      "source_pts_s": 66.10000000000001
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1984,
+      "actual_decoded_ordinal": 1984,
+      "source_pts_s": 66.16666666666667
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1986,
+      "actual_decoded_ordinal": 1986,
+      "source_pts_s": 66.23333333333333
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1988,
+      "actual_decoded_ordinal": 1988,
+      "source_pts_s": 66.3
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 1990,
+      "actual_decoded_ordinal": 1990,
+      "source_pts_s": 66.36666666666667
+    },
+    {
+      "episode_id": "E13",
+      "seek_request_frame": 2016,
+      "actual_decoded_ordinal": 2016,
+      "source_pts_s": 67.23333333333333
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2252,
+      "actual_decoded_ordinal": 2252,
+      "source_pts_s": 75.10000000000001
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2254,
+      "actual_decoded_ordinal": 2254,
+      "source_pts_s": 75.16666666666667
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2256,
+      "actual_decoded_ordinal": 2256,
+      "source_pts_s": 75.23333333333333
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2258,
+      "actual_decoded_ordinal": 2258,
+      "source_pts_s": 75.30000000000001
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2260,
+      "actual_decoded_ordinal": 2260,
+      "source_pts_s": 75.36666666666667
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2262,
+      "actual_decoded_ordinal": 2262,
+      "source_pts_s": 75.43333333333334
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2264,
+      "actual_decoded_ordinal": 2264,
+      "source_pts_s": 75.5
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2266,
+      "actual_decoded_ordinal": 2266,
+      "source_pts_s": 75.56666666666668
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2268,
+      "actual_decoded_ordinal": 2268,
+      "source_pts_s": 75.63333333333334
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2270,
+      "actual_decoded_ordinal": 2270,
+      "source_pts_s": 75.7
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2272,
+      "actual_decoded_ordinal": 2272,
+      "source_pts_s": 75.76666666666667
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2274,
+      "actual_decoded_ordinal": 2274,
+      "source_pts_s": 75.83333333333334
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2276,
+      "actual_decoded_ordinal": 2276,
+      "source_pts_s": 75.9
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2278,
+      "actual_decoded_ordinal": 2278,
+      "source_pts_s": 75.96666666666667
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2280,
+      "actual_decoded_ordinal": 2280,
+      "source_pts_s": 76.03333333333333
+    },
+    {
+      "episode_id": "E15",
+      "seek_request_frame": 2298,
+      "actual_decoded_ordinal": 2298,
+      "source_pts_s": 76.63333333333334
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2536,
+      "actual_decoded_ordinal": 2536,
+      "source_pts_s": 84.56666666666668
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2538,
+      "actual_decoded_ordinal": 2538,
+      "source_pts_s": 84.63333333333334
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2540,
+      "actual_decoded_ordinal": 2540,
+      "source_pts_s": 84.7
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2542,
+      "actual_decoded_ordinal": 2542,
+      "source_pts_s": 84.76666666666667
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2544,
+      "actual_decoded_ordinal": 2544,
+      "source_pts_s": 84.83333333333334
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2546,
+      "actual_decoded_ordinal": 2546,
+      "source_pts_s": 84.9
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2548,
+      "actual_decoded_ordinal": 2548,
+      "source_pts_s": 84.96666666666667
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2550,
+      "actual_decoded_ordinal": 2550,
+      "source_pts_s": 85.03333333333335
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2552,
+      "actual_decoded_ordinal": 2552,
+      "source_pts_s": 85.10000000000001
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2554,
+      "actual_decoded_ordinal": 2554,
+      "source_pts_s": 85.16666666666667
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2556,
+      "actual_decoded_ordinal": 2556,
+      "source_pts_s": 85.23333333333333
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2558,
+      "actual_decoded_ordinal": 2558,
+      "source_pts_s": 85.30000000000001
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2560,
+      "actual_decoded_ordinal": 2560,
+      "source_pts_s": 85.36666666666667
+    },
+    {
+      "episode_id": "E17",
+      "seek_request_frame": 2580,
+      "actual_decoded_ordinal": 2580,
+      "source_pts_s": 86.03333333333335
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2656,
+      "actual_decoded_ordinal": 2656,
+      "source_pts_s": 88.56666666666668
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2658,
+      "actual_decoded_ordinal": 2658,
+      "source_pts_s": 88.63333333333334
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2660,
+      "actual_decoded_ordinal": 2660,
+      "source_pts_s": 88.7
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2662,
+      "actual_decoded_ordinal": 2662,
+      "source_pts_s": 88.76666666666667
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2664,
+      "actual_decoded_ordinal": 2664,
+      "source_pts_s": 88.83333333333334
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2666,
+      "actual_decoded_ordinal": 2666,
+      "source_pts_s": 88.9
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2668,
+      "actual_decoded_ordinal": 2668,
+      "source_pts_s": 88.96666666666667
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2670,
+      "actual_decoded_ordinal": 2670,
+      "source_pts_s": 89.03333333333335
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2672,
+      "actual_decoded_ordinal": 2672,
+      "source_pts_s": 89.10000000000001
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2674,
+      "actual_decoded_ordinal": 2674,
+      "source_pts_s": 89.16666666666667
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2676,
+      "actual_decoded_ordinal": 2676,
+      "source_pts_s": 89.23333333333333
+    },
+    {
+      "episode_id": "E18",
+      "seek_request_frame": 2700,
+      "actual_decoded_ordinal": 2700,
+      "source_pts_s": 90.03333333333335
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2794,
+      "actual_decoded_ordinal": 2794,
+      "source_pts_s": 93.16666666666667
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2796,
+      "actual_decoded_ordinal": 2796,
+      "source_pts_s": 93.23333333333333
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2798,
+      "actual_decoded_ordinal": 2798,
+      "source_pts_s": 93.30000000000001
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2800,
+      "actual_decoded_ordinal": 2800,
+      "source_pts_s": 93.36666666666667
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2802,
+      "actual_decoded_ordinal": 2802,
+      "source_pts_s": 93.43333333333334
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2804,
+      "actual_decoded_ordinal": 2804,
+      "source_pts_s": 93.5
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2806,
+      "actual_decoded_ordinal": 2806,
+      "source_pts_s": 93.56666666666668
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2808,
+      "actual_decoded_ordinal": 2808,
+      "source_pts_s": 93.63333333333334
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2810,
+      "actual_decoded_ordinal": 2810,
+      "source_pts_s": 93.7
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2812,
+      "actual_decoded_ordinal": 2812,
+      "source_pts_s": 93.76666666666667
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2814,
+      "actual_decoded_ordinal": 2814,
+      "source_pts_s": 93.83333333333334
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2816,
+      "actual_decoded_ordinal": 2816,
+      "source_pts_s": 93.9
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2818,
+      "actual_decoded_ordinal": 2818,
+      "source_pts_s": 93.96666666666667
+    },
+    {
+      "episode_id": "E19",
+      "seek_request_frame": 2832,
+      "actual_decoded_ordinal": 2832,
+      "source_pts_s": 94.43333333333334
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1636,
+      "actual_decoded_ordinal": 1635,
+      "source_pts_s": 54.53333333333334
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1638,
+      "actual_decoded_ordinal": 1637,
+      "source_pts_s": 54.6
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1640,
+      "actual_decoded_ordinal": 1639,
+      "source_pts_s": 54.66666666666667
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1642,
+      "actual_decoded_ordinal": 1641,
+      "source_pts_s": 54.733333333333334
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1644,
+      "actual_decoded_ordinal": 1643,
+      "source_pts_s": 54.800000000000004
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1646,
+      "actual_decoded_ordinal": 1645,
+      "source_pts_s": 54.86666666666667
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1648,
+      "actual_decoded_ordinal": 1647,
+      "source_pts_s": 54.93333333333334
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1650,
+      "actual_decoded_ordinal": 1649,
+      "source_pts_s": 55.0
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1652,
+      "actual_decoded_ordinal": 1651,
+      "source_pts_s": 55.06666666666667
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1654,
+      "actual_decoded_ordinal": 1653,
+      "source_pts_s": 55.13333333333334
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1656,
+      "actual_decoded_ordinal": 1655,
+      "source_pts_s": 55.2
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1658,
+      "actual_decoded_ordinal": 1657,
+      "source_pts_s": 55.26666666666667
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1660,
+      "actual_decoded_ordinal": 1659,
+      "source_pts_s": 55.333333333333336
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1662,
+      "actual_decoded_ordinal": 1661,
+      "source_pts_s": 55.400000000000006
+    },
+    {
+      "episode_id": "E11",
+      "seek_request_frame": 1698,
+      "actual_decoded_ordinal": 1697,
+      "source_pts_s": 56.6
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1834,
+      "actual_decoded_ordinal": 1833,
+      "source_pts_s": 61.13333333333334
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1836,
+      "actual_decoded_ordinal": 1835,
+      "source_pts_s": 61.2
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1838,
+      "actual_decoded_ordinal": 1837,
+      "source_pts_s": 61.26666666666667
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1840,
+      "actual_decoded_ordinal": 1839,
+      "source_pts_s": 61.333333333333336
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1842,
+      "actual_decoded_ordinal": 1841,
+      "source_pts_s": 61.400000000000006
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1844,
+      "actual_decoded_ordinal": 1843,
+      "source_pts_s": 61.46666666666667
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1846,
+      "actual_decoded_ordinal": 1845,
+      "source_pts_s": 61.53333333333334
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1848,
+      "actual_decoded_ordinal": 1847,
+      "source_pts_s": 61.6
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1850,
+      "actual_decoded_ordinal": 1849,
+      "source_pts_s": 61.66666666666667
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1852,
+      "actual_decoded_ordinal": 1851,
+      "source_pts_s": 61.733333333333334
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1854,
+      "actual_decoded_ordinal": 1853,
+      "source_pts_s": 61.800000000000004
+    },
+    {
+      "episode_id": "E12",
+      "seek_request_frame": 1878,
+      "actual_decoded_ordinal": 1877,
+      "source_pts_s": 62.6
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 726,
+      "actual_decoded_ordinal": 726,
+      "source_pts_s": 24.200000000000003
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 728,
+      "actual_decoded_ordinal": 728,
+      "source_pts_s": 24.26666666666667
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 730,
+      "actual_decoded_ordinal": 730,
+      "source_pts_s": 24.333333333333336
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 732,
+      "actual_decoded_ordinal": 732,
+      "source_pts_s": 24.400000000000002
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 734,
+      "actual_decoded_ordinal": 734,
+      "source_pts_s": 24.46666666666667
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 736,
+      "actual_decoded_ordinal": 736,
+      "source_pts_s": 24.533333333333335
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 738,
+      "actual_decoded_ordinal": 738,
+      "source_pts_s": 24.6
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 740,
+      "actual_decoded_ordinal": 740,
+      "source_pts_s": 24.666666666666668
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 742,
+      "actual_decoded_ordinal": 742,
+      "source_pts_s": 24.733333333333334
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 744,
+      "actual_decoded_ordinal": 744,
+      "source_pts_s": 24.8
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 746,
+      "actual_decoded_ordinal": 746,
+      "source_pts_s": 24.866666666666667
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 748,
+      "actual_decoded_ordinal": 748,
+      "source_pts_s": 24.933333333333334
+    },
+    {
+      "episode_id": "E05",
+      "seek_request_frame": 774,
+      "actual_decoded_ordinal": 774,
+      "source_pts_s": 25.8
+    }
+  ]
+}

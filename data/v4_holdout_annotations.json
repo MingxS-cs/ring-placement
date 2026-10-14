@@ -1,0 +1,2211 @@
+{
+  "schema_version": 1,
+  "purpose": "V4 held-out sparse trajectory evaluation only; do not use for training or model selection",
+  "annotation_method": "manual visual center labeling on native source frames, assisted by narrowly gated contour suggestions that were visually reviewed; labels rounded to integer pixels",
+  "label_status": "frozen before V4 selected-model freeze; annotation SHA recorded separately in freeze_receipt.json",
+  "source": {
+    "basename": "359977334.mp4",
+    "sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+    "frame_count": 3581,
+    "image_dimensions_px": [
+      720,
+      1280
+    ],
+    "pts_provenance": "OpenCV FFmpeg CAP_PROP_POS_MSEC after decoded frame",
+    "path": "data/source/359977334.mp4",
+    "fps": 29.991624790619767
+  },
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "endpoint_manifest_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+  "existing_motion_sha256_at_annotation": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+  "annotation_created_utc": "2026-10-14T19:56:57.913006+00:00",
+  "reserved_source_ids": [
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "holdout_scope": {
+    "freshness": "Fresh trajectory labeling of reserved source windows from an existing phone video, not a new independently collected video.",
+    "previous_access": "Initial and terminal endpoint frames/annotations existed before V4. No selected V4 model or predictions were inspected during manual trajectory labeling.",
+    "developer_exposure": "Earlier V3 development evaluated E08/E23/E24 repeatedly; those sources are not this fresh trajectory holdout. Original automatic paths of the reserved episodes had been rejected, so their coordinates are not used here.",
+    "restriction": "Coordinates, derived path shape, and overlays must remain unread by the training/model-selection agent and root until the selected V4 checkpoint hash is frozen."
+  },
+  "mapping": {
+    "method": "fixed initial local bearing diameter normalization",
+    "bearing_outer_diameter_m": 0.05,
+    "formula": "relative_xy_m = [(u-bu),(bv-v)] * 0.05 / initial_bearing_outer_diameter_px",
+    "disclaimer": "Approximate known-diameter normalization of image-plane coordinates, not calibrated depth, camera intrinsics, metric pose ground truth or 6D recovery. A single local isotropic scale ignores perspective, lens distortion, object-height parallax and nonuniform pixel scale across the tabletop. World axes and origin are synthetic.",
+    "pixel_uncertainty_definition": "Qualitative manual localization uncertainty, about +/-5 px clear or +/-8 px blur; not a statistical confidence interval, measured error bound, or total metric-coordinate accuracy."
+  },
+  "measurement_limitations": [
+    "Sparse annotations are direct visible optical centers only; unobserved source frames have no measured labels.",
+    "A polyline or metric path joining observed anchors is derived for evaluation/visualization and is not an observed continuous trajectory.",
+    "Visible annulus/aperture center approximates the ring optical footprint; wall height, blur, tilt and cast shadows can shift it.",
+    "Local scale uses the known 50 mm bearing diameter and ignores camera calibration, perspective, distortion, nonuniform scale and height parallax.",
+    "Ring height, lift, 3D pose, grasp contact, release time and ground contact/stability remain unvalidated.",
+    "Existing initial/terminal labels and the source video were available in earlier development; only the newly reserved transfer labels are blind to V4 model selection."
+  ],
+  "boundary_policy": "Every observation stays in the exact endpoint-manifest source-frame window; no label or temporal difference crosses an edited episode cut.",
+  "ordinary_time_evaluation_policy": "Evaluate a prediction at the observed source timestamps using source_time_progress or the explicit PTS fields. Arc-length progress is supplied separately and must not replace time for trajectory error. Any interpolation of a prediction or label polyline must be disclosed as derived, not added to the measured sample count.",
+  "episodes": [
+    {
+      "episode_id": "E20",
+      "source_id": "E20",
+      "scene_group": 3,
+      "status": "accepted",
+      "rejection_reason": null,
+      "source_frame_start": 2880,
+      "source_frame_terminal": 2946,
+      "candidate_window_end_exclusive_frame": 2970,
+      "source_pts_start_s": 96.03333333333335,
+      "source_pts_terminal_s": 98.23333333333333,
+      "bearing_center_px": [
+        525.0543823242188,
+        976.0557250976562
+      ],
+      "bearing_outer_diameter_px": 187.3253199892093,
+      "bearing_reference_provenance": "Previously reviewed initial endpoint bearing ellipse; 50 mm known diameter gives fixed local scale",
+      "samples": [
+        {
+          "source_frame": 2880,
+          "source_pts_s": 96.03333333333335,
+          "episode_time_s": 0.0,
+          "center_px": [
+            236,
+            1070
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "initial",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2880_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2880_overlay.jpg",
+            "raw_image_sha256": "55516ae6b51decfd5a94d265cc98294bd4ba9c3a0ecb724d458bc47ed7008763",
+            "overlay_image_sha256": "979244d26a13f1b8f69ab132251ed979bb1c4c2b3a2cdc3dd3901360a46ffbd6",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              235.78121948242188,
+              1069.5959777832031
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.07715304645972831,
+            -0.02507516733663002
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2910,
+          "source_pts_s": 97.03333333333335,
+          "episode_time_s": 1.0,
+          "center_px": [
+            276,
+            1063
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2910_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2910_overlay.jpg",
+            "raw_image_sha256": "7d2fd59ec736f61bb30ab621dcde4f4b0348a3df6987e3cb90ff6342915b9a8d",
+            "overlay_image_sha256": "546d7ad959efc188eab1445cc0501ea6313923b663e81bc5ce40a5b3af9606d9",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              275.8474884033203,
+              1063.2359008789062
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.06647643317480129,
+            -0.02320676001176779
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2912,
+          "source_pts_s": 97.10000000000001,
+          "episode_time_s": 1.0666666666666629,
+          "center_px": [
+            286,
+            1047
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2912_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2912_overlay.jpg",
+            "raw_image_sha256": "7a431254cf20fbfd404c73a24a80248ea58cb94abfda5fe0eea754ceaf2347ea",
+            "overlay_image_sha256": "f7057e3b3a207fb101b8d268fae416e43d33fc0f21faab077831bbf87d16a8d2",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.06380727985356952,
+            -0.018936114697796977
+          ],
+          "approx_pixel_uncertainty_m": 0.0021353226569854073
+        },
+        {
+          "source_frame": 2914,
+          "source_pts_s": 97.16666666666667,
+          "episode_time_s": 1.1333333333333258,
+          "center_px": [
+            327,
+            1012
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2914_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2914_overlay.jpg",
+            "raw_image_sha256": "77699f13b73d343cab6f8e24d5eed8711e6ad10524ebf766138280486d26e0e5",
+            "overlay_image_sha256": "2b381fc5c06e6d89cc08643d09a51370dcf38b0e4e48f1612453b127f892aa92",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              327.3676452636719,
+              1011.5754852294922
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.05286375123651931,
+            -0.009594078073485819
+          ],
+          "approx_pixel_uncertainty_m": 0.0021353226569854073
+        },
+        {
+          "source_frame": 2916,
+          "source_pts_s": 97.23333333333333,
+          "episode_time_s": 1.1999999999999886,
+          "center_px": [
+            394,
+            995
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2916_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2916_overlay.jpg",
+            "raw_image_sha256": "71208da89cbd207cb0f22f562af6dc5bbcd004ab8b623f52a76a5e3bc17e3abc",
+            "overlay_image_sha256": "e889b02b6de237958614ee357aa8876abe5795b609a604f11ef30b7b8b33537a",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.034980423984266526,
+            -0.005056517427391828
+          ],
+          "approx_pixel_uncertainty_m": 0.0021353226569854073
+        },
+        {
+          "source_frame": 2918,
+          "source_pts_s": 97.30000000000001,
+          "episode_time_s": 1.2666666666666657,
+          "center_px": [
+            451,
+            978
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2918_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2918_overlay.jpg",
+            "raw_image_sha256": "8fb7d2e5d05c2fbac30eebc4f77f190f6251404003936d8b681911605d8b96e1",
+            "overlay_image_sha256": "25060d0b4d1840a8df490ab0c396bc6eaced79f629e4c5042d5362c2c9a0ac19",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.019766250053245494,
+            -0.0005189567812978374
+          ],
+          "approx_pixel_uncertainty_m": 0.0021353226569854073
+        },
+        {
+          "source_frame": 2920,
+          "source_pts_s": 97.36666666666667,
+          "episode_time_s": 1.3333333333333286,
+          "center_px": [
+            492,
+            974
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2920_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2920_overlay.jpg",
+            "raw_image_sha256": "503ce439e53cc34db5a72682cad86a4372a536cfa5de3c4f18c30c4ef6c5cbbe",
+            "overlay_image_sha256": "707a3f325e822b01bbc1f1a759eec94d3ab1e0b25841d1f7bbb4e28c66551edf",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              492.22544860839844,
+              973.5006256103516
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.008822721436195283,
+            0.0005487045471948663
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2922,
+          "source_pts_s": 97.43333333333334,
+          "episode_time_s": 1.3999999999999915,
+          "center_px": [
+            516,
+            970
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2922_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2922_overlay.jpg",
+            "raw_image_sha256": "89bc5c2fdaf0d8717ecd9308fbbcd8b3a5082ff0e224ab3971002fe250b0184b",
+            "overlay_image_sha256": "a7aac1569db50b2f9b14dff545ede4a90a0975cc0b4800db549d502b0a72f511",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              515.8368988037109,
+              969.8939361572266
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.002416753465239061,
+            0.0016163658756875698
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2924,
+          "source_pts_s": 97.5,
+          "episode_time_s": 1.4666666666666544,
+          "center_px": [
+            527,
+            977
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2924_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2924_overlay.jpg",
+            "raw_image_sha256": "beddc3c031bcb80cb83fc7ad1c78992e8dc7301fb9c3991080181af8abd497c4",
+            "overlay_image_sha256": "8819510f2de48ea681cf6304a6af3ef7cf2ce4abff63776e33875d1c87b0c433",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0005193151881158739,
+            -0.00025204144917466154
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2926,
+          "source_pts_s": 97.56666666666668,
+          "episode_time_s": 1.5333333333333314,
+          "center_px": [
+            536,
+            979
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2926_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2926_overlay.jpg",
+            "raw_image_sha256": "3c98f6ed6496900f9b54d46c942d1a0c214baa5934edd5806cb131f404adb53f",
+            "overlay_image_sha256": "b1ad8eed399c54e83719b1f6cc094668c6492ef2da29a30ea481842dcbd26adb",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0029215531772244572,
+            -0.0007858721134210133
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        },
+        {
+          "source_frame": 2946,
+          "source_pts_s": 98.23333333333333,
+          "episode_time_s": 2.1999999999999886,
+          "center_px": [
+            542,
+            987
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "terminal",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E20_f2946_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E20_f2946_overlay.jpg",
+            "raw_image_sha256": "4b61b672dec4d59ca7f9890a8c54a49f2956c11625209a4cae83b283ea2fa310",
+            "overlay_image_sha256": "986ae906fcd42096e2d052be0b5615f49c088643e7095321b248f3ca5f5983b1",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              541.5726928710938,
+              986.0965423583984
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.004523045169963513,
+            -0.0029211947704064207
+          ],
+          "approx_pixel_uncertainty_m": 0.0013345766606158794
+        }
+      ],
+      "path": {
+        "progress": [
+          0.0,
+          0.11951544184767614,
+          0.1750468507948481,
+          0.3337046765993334,
+          0.5371448729302536,
+          0.7122071640047867,
+          0.8334495891507728,
+          0.9050597331335153,
+          0.9434338288313062,
+          0.9705684121211158,
+          1.0
+        ],
+        "relative_xy_m": [
+          [
+            -0.07715304645972831,
+            -0.02507516733663002
+          ],
+          [
+            -0.06647643317480129,
+            -0.02320676001176779
+          ],
+          [
+            -0.06380727985356952,
+            -0.018936114697796977
+          ],
+          [
+            -0.05286375123651931,
+            -0.009594078073485819
+          ],
+          [
+            -0.034980423984266526,
+            -0.005056517427391828
+          ],
+          [
+            -0.019766250053245494,
+            -0.0005189567812978374
+          ],
+          [
+            -0.008822721436195283,
+            0.0005487045471948663
+          ],
+          [
+            -0.002416753465239061,
+            0.0016163658756875698
+          ],
+          [
+            0.0005193151881158739,
+            -0.00025204144917466154
+          ],
+          [
+            0.0029215531772244572,
+            -0.0007858721134210133
+          ],
+          [
+            0.004523045169963513,
+            -0.0029211947704064207
+          ]
+        ],
+        "residual_xy_m": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0009150591054131185,
+            -0.0007793344950712787
+          ],
+          [
+            -0.000951376018850203,
+            0.0022610695085201436
+          ],
+          [
+            -0.002966398519974829,
+            0.008088205012542054
+          ],
+          [
+            -0.0016992713844087778,
+            0.008118757130253694
+          ],
+          [
+            -0.000783501180095094,
+            0.008777992582502227
+          ],
+          [
+            0.0002574200113255008,
+            0.007159652550448335
+          ],
+          [
+            0.0008145513007318272,
+            0.00664086471368404
+          ],
+          [
+            0.0006163737976674191,
+            0.003922318725479309
+          ],
+          [
+            0.0008023650756640087,
+            0.0027873492474346077
+          ],
+          [
+            -6.071532165918825e-18,
+            4.336808689942018e-19
+          ]
+        ],
+        "sample_source_frames": [
+          2880,
+          2910,
+          2912,
+          2914,
+          2916,
+          2918,
+          2920,
+          2922,
+          2924,
+          2926,
+          2946
+        ],
+        "arc_length_m": 0.09069008890093729,
+        "straight_distance_m": 0.08462731500152185,
+        "maximum_residual_m": 0.008812889870960293,
+        "progress_definition": "normalized cumulative image-plane XY arc length; not source time",
+        "sample_kind": [
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual"
+        ],
+        "sample_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sample_source_pts_s": [
+          96.03333333333335,
+          97.03333333333335,
+          97.10000000000001,
+          97.16666666666667,
+          97.23333333333333,
+          97.30000000000001,
+          97.36666666666667,
+          97.43333333333334,
+          97.5,
+          97.56666666666668,
+          98.23333333333333
+        ],
+        "source_time_progress": [
+          0.0,
+          0.4545454545454569,
+          0.48484848484848564,
+          0.5151515151515144,
+          0.5454545454545431,
+          0.5757575757575784,
+          0.6060606060606071,
+          0.6363636363636358,
+          0.6666666666666645,
+          0.6969696969696997,
+          1.0
+        ],
+        "episode_time_s": [
+          0.0,
+          1.0,
+          1.0666666666666629,
+          1.1333333333333258,
+          1.1999999999999886,
+          1.2666666666666657,
+          1.3333333333333286,
+          1.3999999999999915,
+          1.4666666666666544,
+          1.5333333333333314,
+          2.1999999999999886
+        ],
+        "source_time_progress_definition": "(decoded source PTS - first observed PTS) / (last observed PTS - first observed PTS); includes visible idle/settling time in the exact episode window",
+        "measurement_status": "Derived planar approximation at observed frames only; no synthesized center samples"
+      },
+      "start_xy_m": [
+        -0.07715304645972831,
+        -0.02507516733663002
+      ],
+      "end_xy_m": [
+        0.004523045169963513,
+        -0.0029211947704064207
+      ],
+      "endpoint_relative_xy_m": [
+        [
+          -0.07715304645972831,
+          -0.02507516733663002
+        ],
+        [
+          0.004523045169963513,
+          -0.0029211947704064207
+        ]
+      ],
+      "evaluation_source_frame_start": 2880,
+      "evaluation_source_frame_terminal": 2946,
+      "evaluation_duration_s": 2.1999999999999886,
+      "transfer_review_anchor_interval": {
+        "source_frame_start": 2910,
+        "source_frame_terminal": 2926,
+        "definition": "Visually selected late pre-transfer through late transfer anchors; final endpoint is also retained as a direct observation. These are not exact motion onset, release or ground-contact times."
+      },
+      "release_time_exact_s": null,
+      "ground_contact_verified": false,
+      "continuous_stability_verified": false,
+      "quality": {
+        "measured_samples": 11,
+        "observed_movement_samples": 9,
+        "intermediate_measured_samples": 9,
+        "interpolated_samples": 0,
+        "missing_labeled_samples": 0,
+        "minimum_required_intermediate_samples": 4,
+        "maximum_source_frame_gap": 30,
+        "review_status": "All chosen native-frame optical centers and uncertainty overlays visually reviewed",
+        "coverage": "Sparse visible anchors across transfer; long gaps occur during idle/settling periods and are not filled with measured labels.",
+        "review_notes": "Object ring center follows the visible dark annulus/aperture; displaced lighter ring-shaped shadows were excluded. Intermediate coordinates were newly manually labeled, never copied from the rejected automatic track."
+      },
+      "evidence_images": [
+        "outputs/v4_holdout_review/E20_manual_visual_review.png"
+      ],
+      "coordinate_source": "manual visible optical center; approximate fixed initial bearing-local planar normalization"
+    },
+    {
+      "episode_id": "E21",
+      "source_id": "E21",
+      "scene_group": 3,
+      "status": "accepted",
+      "rejection_reason": null,
+      "source_frame_start": 2970,
+      "source_frame_terminal": 3096,
+      "candidate_window_end_exclusive_frame": 3120,
+      "source_pts_start_s": 99.03333333333335,
+      "source_pts_terminal_s": 103.23333333333333,
+      "bearing_center_px": [
+        526.8674926757812,
+        975.2850341796875
+      ],
+      "bearing_outer_diameter_px": 187.48362933420785,
+      "bearing_reference_provenance": "Previously reviewed initial endpoint bearing ellipse; 50 mm known diameter gives fixed local scale",
+      "samples": [
+        {
+          "source_frame": 2970,
+          "source_pts_s": 99.03333333333335,
+          "episode_time_s": 0.0,
+          "center_px": [
+            49,
+            864
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "initial",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f2970_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f2970_overlay.jpg",
+            "raw_image_sha256": "288f548ae9e8206ecd3ec7738e3570cc8e88bd009f230d51efd0e77b02b78026",
+            "overlay_image_sha256": "77774b5af3b1f701cc1f8431da1a601fe079df529168e4da1a46db4b04ccea29",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              49.266319274902344,
+              864.0773620605469
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.12744245840897817,
+            0.02967860035963756
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3039,
+          "source_pts_s": 101.33333333333334,
+          "episode_time_s": 2.299999999999997,
+          "center_px": [
+            48,
+            863
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3039_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3039_overlay.jpg",
+            "raw_image_sha256": "7c7ea7311f4e7bc55422d2beec665b2f05789fbcdf6e1d05e3ac4c0f5b1c7a95",
+            "overlay_image_sha256": "712c17626f68fdc48ef84c5e56cd047627edb52f1bf4c2cd5be9fed6cb0788d8",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              47.711795806884766,
+              863.3581085205078
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.12770914836040254,
+            0.029945290311061905
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3042,
+          "source_pts_s": 101.43333333333334,
+          "episode_time_s": 2.3999999999999915,
+          "center_px": [
+            54,
+            860
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3042_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3042_overlay.jpg",
+            "raw_image_sha256": "7d18148c6b43aee62465a603ce16b1473198ff0431c036146c6c3f8b67086736",
+            "overlay_image_sha256": "c85a332a3c7ff1ff8ab40683c0263b8272f840ba127f3ed90696e956add86d9d",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              53.73328399658203,
+              859.6344299316406
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.12610900865185645,
+            0.030745360165334943
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3045,
+          "source_pts_s": 101.53333333333335,
+          "episode_time_s": 2.5,
+          "center_px": [
+            106,
+            881
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3045_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3045_overlay.jpg",
+            "raw_image_sha256": "cff39ee990cf5583e609e65e35ff7a35cf820026fd7ec187185a9c2a3ecbd5cf",
+            "overlay_image_sha256": "bff1c4feb030873cf7c2207e986b5f0bffd614fb0b74b2fb46676222d3fe1e3e",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              105.93758392333984,
+              880.9467468261719
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.11224113117779044,
+            0.025144871185423672
+          ],
+          "approx_pixel_uncertainty_m": 0.002133519611394769
+        },
+        {
+          "source_frame": 3048,
+          "source_pts_s": 101.63333333333334,
+          "episode_time_s": 2.5999999999999943,
+          "center_px": [
+            202,
+            914
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3048_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3048_overlay.jpg",
+            "raw_image_sha256": "9d24a332a76bacfa6d86a639129314931cfaccacd1ce538e5505f3f0da86b207",
+            "overlay_image_sha256": "63bda78976d0f330e489cce32e4565952b2389ea162bad4fc56373066b398d51",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.08663889584105322,
+            0.016344102788420252
+          ],
+          "approx_pixel_uncertainty_m": 0.002133519611394769
+        },
+        {
+          "source_frame": 3051,
+          "source_pts_s": 101.73333333333333,
+          "episode_time_s": 2.6999999999999886,
+          "center_px": [
+            330,
+            940
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3051_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3051_overlay.jpg",
+            "raw_image_sha256": "cb7868eca621b64319a2bdeea58f47eb06a4d86f4d088f32823b10e30338428c",
+            "overlay_image_sha256": "9f8e837e55c3bd850f5d9b2940e2ee00ff2fd8a44da92cbff50c8f0d9fcde1f6",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.05250258205873692,
+            0.009410164051387252
+          ],
+          "approx_pixel_uncertainty_m": 0.002133519611394769
+        },
+        {
+          "source_frame": 3054,
+          "source_pts_s": 101.83333333333334,
+          "episode_time_s": 2.799999999999997,
+          "center_px": [
+            444,
+            954
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3054_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3054_overlay.jpg",
+            "raw_image_sha256": "e147f4c92793646a2d6637b755bafaaf422e062fc8eed291c8ccdf3aa66df8f8",
+            "overlay_image_sha256": "9cfd0e4e9a4b931fdefbb743af9f3ffcbf75c82e35d83a22738f894e2c40f838",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            -0.02209992759636146,
+            0.005676504731446407
+          ],
+          "approx_pixel_uncertainty_m": 0.002133519611394769
+        },
+        {
+          "source_frame": 3057,
+          "source_pts_s": 101.93333333333334,
+          "episode_time_s": 2.8999999999999915,
+          "center_px": [
+            533,
+            959
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3057_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3057_overlay.jpg",
+            "raw_image_sha256": "f6fc14a328ecf3f993882cebfaa95b84421d2d41acaa7732258495f15886c862",
+            "overlay_image_sha256": "e9502aabfcb3ff00ef8885abfb5541d7b96fd2e1f4bf33f08551bbf070c70511",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              533.1213989257812,
+              958.7483520507812
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0016354780804053452,
+            0.0043430549743246755
+          ],
+          "approx_pixel_uncertainty_m": 0.002133519611394769
+        },
+        {
+          "source_frame": 3060,
+          "source_pts_s": 102.03333333333335,
+          "episode_time_s": 3.0,
+          "center_px": [
+            587,
+            963
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3060_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3060_overlay.jpg",
+            "raw_image_sha256": "0d7ee92b204253f0bf64c0e6608436e1b55cc4f3a939d1e3fe69cd45134127e9",
+            "overlay_image_sha256": "8f224a6b8e20b62170e91e7f1f6e898ee1b2f7eaf4e36d2298e851be08104612",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.016036735457320036,
+            0.003276295168627291
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3063,
+          "source_pts_s": 102.13333333333334,
+          "episode_time_s": 3.0999999999999943,
+          "center_px": [
+            600,
+            968
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3063_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3063_overlay.jpg",
+            "raw_image_sha256": "2a1548e70443e3ac953a575423395281bab722c9014bc184a453fa7ba44fc4c2",
+            "overlay_image_sha256": "15e7cbb3bda3531ec8f1ec45c95a07f47c60513d363ddcba1991c4c64063f432",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.019503704825836535,
+            0.0019428454115055606
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3067,
+          "source_pts_s": 102.26666666666668,
+          "episode_time_s": 3.2333333333333343,
+          "center_px": [
+            567,
+            979
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3067_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3067_overlay.jpg",
+            "raw_image_sha256": "573918a941706c45d0965a51f7835ebef2c10e36dbeaaa921c16009f37301f63",
+            "overlay_image_sha256": "c1075965980c80e782ceadfa2d1b9fb94f97b3d847d57eb5d71a7ae0ab38c909",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              566.9947052001953,
+              978.6722106933594
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.010702936428833113,
+            -0.0009907440541622467
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        },
+        {
+          "source_frame": 3096,
+          "source_pts_s": 103.23333333333333,
+          "episode_time_s": 4.199999999999989,
+          "center_px": [
+            538,
+            979
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "terminal",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E21_f3096_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E21_f3096_overlay.jpg",
+            "raw_image_sha256": "44e0b95c87e11d1cb03c30f957b7ace81a0fbb7339114802a122414d87c9d2e9",
+            "overlay_image_sha256": "3488d5f41cd6ad4ba6e48389c90a52ea90db03f839f10c36077ad745ef40a2c9",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              538.4297790527344,
+              977.8465118408203
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.002968927837527076,
+            -0.0009907440541622467
+          ],
+          "approx_pixel_uncertainty_m": 0.0013334497571217306
+        }
+      ],
+      "path": {
+        "progress": [
+          0.0,
+          0.00223701298368234,
+          0.012848097259389806,
+          0.10155631050770574,
+          0.26213115311049917,
+          0.46873719627129257,
+          0.6504179103829411,
+          0.7914207267563889,
+          0.8770723286836899,
+          0.8991043514607479,
+          0.9541275955394422,
+          1.0
+        ],
+        "relative_xy_m": [
+          [
+            -0.12744245840897817,
+            0.02967860035963756
+          ],
+          [
+            -0.12770914836040254,
+            0.029945290311061905
+          ],
+          [
+            -0.12610900865185645,
+            0.030745360165334943
+          ],
+          [
+            -0.11224113117779044,
+            0.025144871185423672
+          ],
+          [
+            -0.08663889584105322,
+            0.016344102788420252
+          ],
+          [
+            -0.05250258205873692,
+            0.009410164051387252
+          ],
+          [
+            -0.02209992759636146,
+            0.005676504731446407
+          ],
+          [
+            0.0016354780804053452,
+            0.0043430549743246755
+          ],
+          [
+            0.016036735457320036,
+            0.003276295168627291
+          ],
+          [
+            0.019503704825836535,
+            0.0019428454115055606
+          ],
+          [
+            0.010702936428833113,
+            -0.0009907440541622467
+          ],
+          [
+            0.002968927837527076,
+            -0.0009907440541622467
+          ]
+        ],
+        "residual_xy_m": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.0005584219156778147,
+            0.0003352976730790422
+          ],
+          [
+            -0.00034208841710522964,
+            0.0014608025256076067
+          ],
+          [
+            0.001957227995797284,
+            -0.001419063709858264
+          ],
+          [
+            0.006618675512389829,
+            -0.0052951069548849185
+          ],
+          [
+            0.013811208799201773,
+            -0.005892573796247157
+          ],
+          [
+            0.02052062948002214,
+            -0.004054204721752756
+          ],
+          [
+            0.02586766240886619,
+            -0.0010631905402014481
+          ],
+          [
+            0.02909897564420771,
+            0.0004969281332032442
+          ],
+          [
+            0.0296927183805535,
+            -0.0001608139292362152
+          ],
+          [
+            0.013716292447467743,
+            -0.0014068765714899756
+          ],
+          [
+            -9.540979117872439e-18,
+            -8.673617379884035e-19
+          ]
+        ],
+        "sample_source_frames": [
+          2970,
+          3039,
+          3042,
+          3045,
+          3048,
+          3051,
+          3054,
+          3057,
+          3060,
+          3063,
+          3067,
+          3096
+        ],
+        "arc_length_m": 0.16859828217541817,
+        "straight_distance_m": 0.1339691693991847,
+        "maximum_residual_m": 0.02969315385651541,
+        "progress_definition": "normalized cumulative image-plane XY arc length; not source time",
+        "sample_kind": [
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual"
+        ],
+        "sample_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sample_source_pts_s": [
+          99.03333333333335,
+          101.33333333333334,
+          101.43333333333334,
+          101.53333333333335,
+          101.63333333333334,
+          101.73333333333333,
+          101.83333333333334,
+          101.93333333333334,
+          102.03333333333335,
+          102.13333333333334,
+          102.26666666666668,
+          103.23333333333333
+        ],
+        "source_time_progress": [
+          0.0,
+          0.5476190476190484,
+          0.571428571428571,
+          0.5952380952380969,
+          0.6190476190476194,
+          0.6428571428571419,
+          0.6666666666666677,
+          0.6904761904761904,
+          0.7142857142857162,
+          0.7380952380952387,
+          0.7698412698412721,
+          1.0
+        ],
+        "episode_time_s": [
+          0.0,
+          2.299999999999997,
+          2.3999999999999915,
+          2.5,
+          2.5999999999999943,
+          2.6999999999999886,
+          2.799999999999997,
+          2.8999999999999915,
+          3.0,
+          3.0999999999999943,
+          3.2333333333333343,
+          4.199999999999989
+        ],
+        "source_time_progress_definition": "(decoded source PTS - first observed PTS) / (last observed PTS - first observed PTS); includes visible idle/settling time in the exact episode window",
+        "measurement_status": "Derived planar approximation at observed frames only; no synthesized center samples"
+      },
+      "start_xy_m": [
+        -0.12744245840897817,
+        0.02967860035963756
+      ],
+      "end_xy_m": [
+        0.002968927837527076,
+        -0.0009907440541622467
+      ],
+      "endpoint_relative_xy_m": [
+        [
+          -0.12744245840897817,
+          0.02967860035963756
+        ],
+        [
+          0.002968927837527076,
+          -0.0009907440541622467
+        ]
+      ],
+      "evaluation_source_frame_start": 2970,
+      "evaluation_source_frame_terminal": 3096,
+      "evaluation_duration_s": 4.199999999999989,
+      "transfer_review_anchor_interval": {
+        "source_frame_start": 3039,
+        "source_frame_terminal": 3067,
+        "definition": "Visually selected late pre-transfer through late transfer anchors; final endpoint is also retained as a direct observation. These are not exact motion onset, release or ground-contact times."
+      },
+      "release_time_exact_s": null,
+      "ground_contact_verified": false,
+      "continuous_stability_verified": false,
+      "quality": {
+        "measured_samples": 12,
+        "observed_movement_samples": 10,
+        "intermediate_measured_samples": 10,
+        "interpolated_samples": 0,
+        "missing_labeled_samples": 0,
+        "minimum_required_intermediate_samples": 4,
+        "maximum_source_frame_gap": 69,
+        "review_status": "All chosen native-frame optical centers and uncertainty overlays visually reviewed",
+        "coverage": "Sparse visible anchors across transfer; long gaps occur during idle/settling periods and are not filled with measured labels.",
+        "review_notes": "Object ring center follows the visible dark annulus/aperture; displaced lighter ring-shaped shadows were excluded. Intermediate coordinates were newly manually labeled, never copied from the rejected automatic track."
+      },
+      "evidence_images": [
+        "outputs/v4_holdout_review/E21_manual_visual_review.png"
+      ],
+      "coordinate_source": "manual visible optical center; approximate fixed initial bearing-local planar normalization"
+    },
+    {
+      "episode_id": "E22",
+      "source_id": "E22",
+      "scene_group": 3,
+      "status": "accepted",
+      "rejection_reason": null,
+      "source_frame_start": 3120,
+      "source_frame_terminal": 3222,
+      "candidate_window_end_exclusive_frame": 3240,
+      "source_pts_start_s": 104.03333333333335,
+      "source_pts_terminal_s": 107.43333333333334,
+      "bearing_center_px": [
+        529.02880859375,
+        978.2008056640625
+      ],
+      "bearing_outer_diameter_px": 187.20439244689325,
+      "bearing_reference_provenance": "Previously reviewed initial endpoint bearing ellipse; 50 mm known diameter gives fixed local scale",
+      "samples": [
+        {
+          "source_frame": 3120,
+          "source_pts_s": 104.03333333333335,
+          "episode_time_s": 0.0,
+          "center_px": [
+            614,
+            573
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "initial",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3120_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3120_overlay.jpg",
+            "raw_image_sha256": "c5a6af2c17b6b1dda80d6d6f265d9bf990a6475d98c9c5e9200c344c1af3d8c9",
+            "overlay_image_sha256": "aca09f072a00d699c20534e9d79e418852c9e54e6fc15492ac4758fc4e9b43d1",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              614.0046844482422,
+              572.9215393066406
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.02269476434169538,
+            0.10822417155062514
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        },
+        {
+          "source_frame": 3183,
+          "source_pts_s": 106.13333333333334,
+          "episode_time_s": 2.0999999999999943,
+          "center_px": [
+            621,
+            572
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3183_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3183_overlay.jpg",
+            "raw_image_sha256": "218a004ba9d439e0127385aa8521e9d1d54c847582da592471fc818fe20eacdf",
+            "overlay_image_sha256": "7443a19985298f83cff99977d707e20568bfb9a211993b61502b4f486fb684e0",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              620.7738189697266,
+              572.3191223144531
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0245643785928636,
+            0.10849125930079202
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        },
+        {
+          "source_frame": 3185,
+          "source_pts_s": 106.2,
+          "episode_time_s": 2.166666666666657,
+          "center_px": [
+            612,
+            574
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3185_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3185_overlay.jpg",
+            "raw_image_sha256": "86a2d082ebeb66881a9364214a23b594d67c9bec0d0ce7979b59ec9c7c5e189e",
+            "overlay_image_sha256": "7ec351f905bbdac280ca4b682337cbcd1b84472d0a0577be777fd970a2039720",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0221605888413616,
+            0.10795708380045825
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        },
+        {
+          "source_frame": 3187,
+          "source_pts_s": 106.26666666666668,
+          "episode_time_s": 2.2333333333333343,
+          "center_px": [
+            593,
+            587
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3187_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3187_overlay.jpg",
+            "raw_image_sha256": "344921f4288da59e399e92ceffb7e38aa168dd2f206839703bb4b54304b10876",
+            "overlay_image_sha256": "8d3f741133508362b842e9e21051df12993ff61837911b6a95664430ab3e5da0",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              592.980712890625,
+              587.1796722412109
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.017085921588190715,
+            0.10448494304828869
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3189,
+          "source_pts_s": 106.33333333333334,
+          "episode_time_s": 2.299999999999997,
+          "center_px": [
+            575,
+            643
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3189_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3189_overlay.jpg",
+            "raw_image_sha256": "24dab6dd0d55aaccc9770f0ea7e2b5a953234b2651bc39ac491c10f494638a74",
+            "overlay_image_sha256": "738865cf53e31957341fde30a3cc44fa721c7b63c2dadb19816a7c3c94f3cb1c",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              574.6764831542969,
+              643.1278686523438
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.01227834208518672,
+            0.08952802903894293
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3191,
+          "source_pts_s": 106.4,
+          "episode_time_s": 2.36666666666666,
+          "center_px": [
+            560,
+            717
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3191_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3191_overlay.jpg",
+            "raw_image_sha256": "0822b09cfb808a44235ea5129a94fb9202870964843f7316f4d4a7ea1971d771",
+            "overlay_image_sha256": "d667cba60998c153205584d665c4cf961e16be261fb22efc48d171dd2c8e1d03",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              559.6250457763672,
+              717.1637268066406
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.00827202583268339,
+            0.06976353552659316
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3193,
+          "source_pts_s": 106.46666666666667,
+          "episode_time_s": 2.433333333333323,
+          "center_px": [
+            550,
+            794
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3193_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3193_overlay.jpg",
+            "raw_image_sha256": "1226c14a010b1e2e3e255a9331bdf93cdc5a102389cfd834519aa4c27ad2d8e6",
+            "overlay_image_sha256": "fdf062ad69193e7c7bf9749569133ace4c50045bfba9fa6e055acd076d8b4e13",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              550.3708190917969,
+              794.2505035400391
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0056011483310145025,
+            0.04919777876374274
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3195,
+          "source_pts_s": 106.53333333333335,
+          "episode_time_s": 2.5,
+          "center_px": [
+            552,
+            861
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3195_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3195_overlay.jpg",
+            "raw_image_sha256": "4c020c67fc4a99508e505100de9998313fdfc7bd08e186346d40b4460ca1a56e",
+            "overlay_image_sha256": "1d4fe3915121179b273c26f785932237d8ed0c754d7d6f7e8a89deb69543e7bb",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              551.7277069091797,
+              861.1420745849609
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.00613532383134828,
+            0.031302899502561196
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3197,
+          "source_pts_s": 106.60000000000001,
+          "episode_time_s": 2.566666666666663,
+          "center_px": [
+            549,
+            914
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 8,
+          "uncertainty_reason": "Motion blur/tilt; center of visible ring annulus/aperture, displaced cast shadow excluded",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3197_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3197_overlay.jpg",
+            "raw_image_sha256": "344e912fbd2f88e53908b6f558a5e0e0ecc985ef45d03749ffb8783788609696",
+            "overlay_image_sha256": "2990b416efbe1988ac335de09be68cd9381d5acac9411e1d2bb0f2711de40005",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.005334060580847614,
+            0.017147248743716096
+          ],
+          "approx_pixel_uncertainty_m": 0.0021367020013351094
+        },
+        {
+          "source_frame": 3199,
+          "source_pts_s": 106.66666666666667,
+          "episode_time_s": 2.6333333333333258,
+          "center_px": [
+            548,
+            944
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3199_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3199_overlay.jpg",
+            "raw_image_sha256": "cbe7fff16a29dfc4b232b67d6260fbbdb6e21352f66196c66d34d758ec9b2276",
+            "overlay_image_sha256": "6c04b48ca10080fc2839cf08fa681d0c11c7db9d8df27238b72d7161ea5cf475",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": false,
+            "candidate_center_px": null,
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.005066972830680725,
+            0.009134616238709436
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        },
+        {
+          "source_frame": 3203,
+          "source_pts_s": 106.80000000000001,
+          "episode_time_s": 2.7666666666666657,
+          "center_px": [
+            543,
+            982
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "intermediate",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3203_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3203_overlay.jpg",
+            "raw_image_sha256": "b975d9a17912206c51222e7e7db44db9b4932aa7274a80ef8ed8498631b2e5bd",
+            "overlay_image_sha256": "ef213bcb821551bb4d666bd121757e73bd81405a90dfa97a1d1cd8e60cb60e42",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              542.9871063232422,
+              982.2555389404297
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0037315340798462823,
+            -0.0010147182676323336
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        },
+        {
+          "source_frame": 3222,
+          "source_pts_s": 107.43333333333334,
+          "episode_time_s": 3.3999999999999915,
+          "center_px": [
+            535,
+            983
+          ],
+          "kind": "manual_visual",
+          "confidence": null,
+          "pixel_center_uncertainty_px": 5,
+          "uncertainty_reason": "Visible annulus/aperture center; wall projection and minor partial tweezer occlusion",
+          "observation_state": "visible",
+          "interpolated": false,
+          "annotation_provenance": "Native-frame visual review followed by coordinate marker/uncertainty overlay review; not endpoint interpolation or automatic track reuse",
+          "endpoint_role": "terminal",
+          "evidence": {
+            "raw_image": "outputs/v4_holdout_review/E22_f3222_raw.jpg",
+            "overlay_image": "outputs/v4_holdout_review/E22_f3222_overlay.jpg",
+            "raw_image_sha256": "170069749dfcb39a3fa9416d56670e14b26e87e103f1a1409aa7934efa1d82a2",
+            "overlay_image_sha256": "37d409521f34d448ea00795fb324b363cb85a0578555b15b8ed3696442af2688",
+            "source_image_dimensions_px": [
+              720,
+              1280
+            ]
+          },
+          "contour_review_aid": {
+            "used": true,
+            "candidate_center_px": [
+              535.0465087890625,
+              983.3755187988281
+            ],
+            "note": "A narrowly gated contour candidate was inspected as a localization aid; final integer label is a manual visual judgment. Missing candidates did not create missing labels when the actual ring remained visible."
+          },
+          "relative_xy_m": [
+            0.0015948320785111726,
+            -0.0012818060177992223
+          ],
+          "approx_pixel_uncertainty_m": 0.0013354387508344432
+        }
+      ],
+      "path": {
+        "progress": [
+          0.0,
+          0.015790441534547516,
+          0.036378658420794324,
+          0.08778861139561447,
+          0.21914382687955586,
+          0.38775439523295707,
+          0.5611475361819349,
+          0.7108322602552246,
+          0.8293763117792134,
+          0.8964066895961739,
+          0.9819961266108442,
+          1.0
+        ],
+        "relative_xy_m": [
+          [
+            0.02269476434169538,
+            0.10822417155062514
+          ],
+          [
+            0.0245643785928636,
+            0.10849125930079202
+          ],
+          [
+            0.0221605888413616,
+            0.10795708380045825
+          ],
+          [
+            0.017085921588190715,
+            0.10448494304828869
+          ],
+          [
+            0.01227834208518672,
+            0.08952802903894293
+          ],
+          [
+            0.00827202583268339,
+            0.06976353552659316
+          ],
+          [
+            0.0056011483310145025,
+            0.04919777876374274
+          ],
+          [
+            0.00613532383134828,
+            0.031302899502561196
+          ],
+          [
+            0.005334060580847614,
+            0.017147248743716096
+          ],
+          [
+            0.005066972830680725,
+            0.009134616238709436
+          ],
+          [
+            0.0037315340798462823,
+            -0.0010147182676323336
+          ],
+          [
+            0.0015948320785111726,
+            -0.0012818060177992223
+          ]
+        ],
+        "residual_xy_m": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.002202791497952942,
+            0.001996235486644557
+          ],
+          [
+            0.00023341172817049546,
+            0.0037165928028299877
+          ],
+          [
+            -0.0037565089995781967,
+            0.005874149207914833
+          ],
+          [
+            -0.005792502353455065,
+            0.0053014164788491025
+          ],
+          [
+            -0.006241147034844638,
+            0.00400078808240617
+          ],
+          [
+            -0.005253441007589342,
+            0.002422616722833164
+          ],
+          [
+            -0.0015609279684757338,
+            0.0009191094983570652
+          ],
+          [
+            0.0001390802383831836,
+            -0.0002552590134319681
+          ],
+          [
+            0.0012863289197298025,
+            -0.0009276644688115572
+          ],
+          [
+            0.001756821492348978,
+            -0.0017044440053307658
+          ],
+          [
+            -1.5178830414797062e-18,
+            -5.421010862427522e-18
+          ]
+        ],
+        "sample_source_frames": [
+          3120,
+          3183,
+          3185,
+          3187,
+          3189,
+          3191,
+          3193,
+          3195,
+          3197,
+          3199,
+          3203,
+          3222
+        ],
+        "arc_length_m": 0.11960372286086121,
+        "straight_distance_m": 0.1115202504692633,
+        "maximum_residual_m": 0.00785226720106972,
+        "progress_definition": "normalized cumulative image-plane XY arc length; not source time",
+        "sample_kind": [
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual",
+          "manual_visual"
+        ],
+        "sample_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sample_source_pts_s": [
+          104.03333333333335,
+          106.13333333333334,
+          106.2,
+          106.26666666666668,
+          106.33333333333334,
+          106.4,
+          106.46666666666667,
+          106.53333333333335,
+          106.60000000000001,
+          106.66666666666667,
+          106.80000000000001,
+          107.43333333333334
+        ],
+        "source_time_progress": [
+          0.0,
+          0.6176470588235293,
+          0.6372549019607832,
+          0.6568627450980411,
+          0.6764705882352949,
+          0.6960784313725488,
+          0.7156862745098026,
+          0.7352941176470607,
+          0.7549019607843145,
+          0.7745098039215683,
+          0.8137254901960802,
+          1.0
+        ],
+        "episode_time_s": [
+          0.0,
+          2.0999999999999943,
+          2.166666666666657,
+          2.2333333333333343,
+          2.299999999999997,
+          2.36666666666666,
+          2.433333333333323,
+          2.5,
+          2.566666666666663,
+          2.6333333333333258,
+          2.7666666666666657,
+          3.3999999999999915
+        ],
+        "source_time_progress_definition": "(decoded source PTS - first observed PTS) / (last observed PTS - first observed PTS); includes visible idle/settling time in the exact episode window",
+        "measurement_status": "Derived planar approximation at observed frames only; no synthesized center samples"
+      },
+      "start_xy_m": [
+        0.02269476434169538,
+        0.10822417155062514
+      ],
+      "end_xy_m": [
+        0.0015948320785111726,
+        -0.0012818060177992223
+      ],
+      "endpoint_relative_xy_m": [
+        [
+          0.02269476434169538,
+          0.10822417155062514
+        ],
+        [
+          0.0015948320785111726,
+          -0.0012818060177992223
+        ]
+      ],
+      "evaluation_source_frame_start": 3120,
+      "evaluation_source_frame_terminal": 3222,
+      "evaluation_duration_s": 3.3999999999999915,
+      "transfer_review_anchor_interval": {
+        "source_frame_start": 3183,
+        "source_frame_terminal": 3203,
+        "definition": "Visually selected late pre-transfer through late transfer anchors; final endpoint is also retained as a direct observation. These are not exact motion onset, release or ground-contact times."
+      },
+      "release_time_exact_s": null,
+      "ground_contact_verified": false,
+      "continuous_stability_verified": false,
+      "quality": {
+        "measured_samples": 12,
+        "observed_movement_samples": 10,
+        "intermediate_measured_samples": 10,
+        "interpolated_samples": 0,
+        "missing_labeled_samples": 0,
+        "minimum_required_intermediate_samples": 4,
+        "maximum_source_frame_gap": 63,
+        "review_status": "All chosen native-frame optical centers and uncertainty overlays visually reviewed",
+        "coverage": "Sparse visible anchors across transfer; long gaps occur during idle/settling periods and are not filled with measured labels.",
+        "review_notes": "Object ring center follows the visible dark annulus/aperture; displaced lighter ring-shaped shadows were excluded. Intermediate coordinates were newly manually labeled, never copied from the rejected automatic track."
+      },
+      "evidence_images": [
+        "outputs/v4_holdout_review/E22_manual_visual_review.png"
+      ],
+      "coordinate_source": "manual visible optical center; approximate fixed initial bearing-local planar normalization"
+    }
+  ]
+}

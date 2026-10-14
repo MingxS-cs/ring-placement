@@ -1,0 +1,57 @@
+{
+  "config": {
+    "name": "ridge_canonical_mm_direction_d1_a0.2",
+    "family": "ridge",
+    "frame": "canonical",
+    "normalized": false,
+    "geometry": "direction",
+    "degree": 1,
+    "alpha": 0.2
+  },
+  "state": {
+    "coef": [
+      [
+        -0.06110771641362884,
+        -2.5897089932894954
+      ],
+      [
+        0.41669659022183153,
+        10.39222327681215
+      ],
+      [
+        1.485570470664385,
+        2.1237774135873346
+      ],
+      [
+        1.6318815063110443,
+        0.6185748184512578
+      ],
+      [
+        -0.56676133930058,
+        0.3116812129712266
+      ],
+      [
+        -0.7503540813346178,
+        -0.2594051517319419
+      ]
+    ],
+    "mean": [
+      -0.3407435209275066,
+      0.08468822657445088
+    ],
+    "std": [
+      0.6603861046631593,
+      0.6637860724611652
+    ],
+    "parameters": 12
+  },
+  "selection_ids": [
+    "E01",
+    "E02",
+    "E04",
+    "E09",
+    "E14"
+  ],
+  "selection_rule": "lowest source-uniform mean LOO displacement in approximate image-plane mm",
+  "maximum_residual_mm": 25.0
+}

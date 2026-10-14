@@ -1,0 +1,3919 @@
+{
+  "configurations": [
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -3.036362431862596,
+      "bearing_minus_ring_xy_m": [
+        -0.07070303413879041,
+        -0.007467680532777194
+      ],
+      "bearing_xy_m": [
+        0.503251651352006,
+        -0.025466242491863952
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07109630995326396,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 353600348,
+      "ring_xy_m": [
+        0.5739546854907964,
+        -0.017998561959086758
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -3.0704559821370885,
+      "bearing_minus_ring_xy_m": [
+        -0.07170678637914996,
+        -0.005109603936927427
+      ],
+      "bearing_xy_m": [
+        0.5098555826573291,
+        -0.054202185713543544
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07188860316640816,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1532402517,
+      "ring_xy_m": [
+        0.5815623690364791,
+        -0.049092581776616115
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.359623764206936,
+      "bearing_minus_ring_xy_m": [
+        -0.04752110779515382,
+        -0.047196294595147084
+      ],
+      "bearing_xy_m": [
+        0.44687306529465187,
+        -0.04541367814504185
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06697571134068334,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 920070218,
+      "ring_xy_m": [
+        0.4943941730898057,
+        0.0017826164501052316
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.6871640347371963,
+      "bearing_minus_ring_xy_m": [
+        -0.055137155280231,
+        -0.026936089060490328
+      ],
+      "bearing_xy_m": [
+        0.49177721311431943,
+        0.032111217424735716
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06136496383337134,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1101735395,
+      "ring_xy_m": [
+        0.5469143683945504,
+        0.05904730648522605
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.9071160790670023,
+      "bearing_minus_ring_xy_m": [
+        -0.020122281440768757,
+        -0.05755776851047293
+      ],
+      "bearing_xy_m": [
+        0.4430683691185825,
+        0.04809723890831302
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.060973788846410845,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 544966079,
+      "ring_xy_m": [
+        0.46319065055935127,
+        0.10565500741878595
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.3051500403377077,
+      "bearing_minus_ring_xy_m": [
+        -0.031104314906363964,
+        -0.03445359156820291
+      ],
+      "bearing_xy_m": [
+        0.4472247541187583,
+        -0.02250936042940517
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04641689754542841,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1468905440,
+      "ring_xy_m": [
+        0.47832906902512223,
+        0.011944231138797737
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.8031102172330438,
+      "bearing_minus_ring_xy_m": [
+        -0.012779789758584962,
+        -0.054017652287242764
+      ],
+      "bearing_xy_m": [
+        0.474008406494931,
+        0.08350532168834612
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05550882618916649,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1252374878,
+      "ring_xy_m": [
+        0.48678819625351594,
+        0.13752297397558888
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.7677251677077055,
+      "bearing_minus_ring_xy_m": [
+        -0.013349250313437897,
+        -0.06690861952582604
+      ],
+      "bearing_xy_m": [
+        0.4243295748323258,
+        -0.0037330367695067174
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06822731015350503,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1027858434,
+      "ring_xy_m": [
+        0.43767882514576373,
+        0.06317558275631932
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.00118208103726,
+      "bearing_minus_ring_xy_m": [
+        0.03517100050596074,
+        -0.05491826645867309
+      ],
+      "bearing_xy_m": [
+        0.4757414343958329,
+        0.06995522310114863
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06521514599704664,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1122403897,
+      "ring_xy_m": [
+        0.44057043388987216,
+        0.12487348955982172
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.1571907261849996,
+      "bearing_minus_ring_xy_m": [
+        0.024713699113259557,
+        -0.05630510439314416
+      ],
+      "bearing_xy_m": [
+        0.4815956100539761,
+        -0.013541599633657045
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06149009436147897,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 391987433,
+      "ring_xy_m": [
+        0.45688191094071656,
+        0.04276350475948711
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.4256348735688842,
+      "bearing_minus_ring_xy_m": [
+        0.007787321867620049,
+        -0.05326859816741233
+      ],
+      "bearing_xy_m": [
+        0.40480406846581923,
+        -0.08900863634850041
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.053834802243448034,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1936420507,
+      "ring_xy_m": [
+        0.3970167465981992,
+        -0.035740038181088084
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.8275386602110825,
+      "bearing_minus_ring_xy_m": [
+        0.03406839957641246,
+        -0.03706789406439142
+      ],
+      "bearing_xy_m": [
+        0.5034346632823916,
+        -0.078209287167094
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05034565145141182,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1963215927,
+      "ring_xy_m": [
+        0.46936626370597917,
+        -0.041141393102702574
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.4754571362325763,
+      "bearing_minus_ring_xy_m": [
+        0.045628706690613426,
+        -0.02349195272799816
+      ],
+      "bearing_xy_m": [
+        0.4467815029367092,
+        0.02146948225126019
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05132105530123607,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 70902167,
+      "ring_xy_m": [
+        0.4011527962460958,
+        0.04496143497925835
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7759459632193363,
+      "bearing_minus_ring_xy_m": [
+        0.043514448302859936,
+        -0.042699512417933363
+      ],
+      "bearing_xy_m": [
+        0.4401910705578503,
+        0.09988539421796364
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06096519967843553,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 248492837,
+      "ring_xy_m": [
+        0.39667662225499034,
+        0.142584906635897
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.423390845593815,
+      "bearing_minus_ring_xy_m": [
+        0.0424191545189191,
+        -0.019116013897665277
+      ],
+      "bearing_xy_m": [
+        0.5126070112859797,
+        -0.02438365570198746
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.0465274828186059,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1292756028,
+      "ring_xy_m": [
+        0.47018785676706065,
+        -0.005267641804322182
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.21617364016423612,
+      "bearing_minus_ring_xy_m": [
+        0.06172788644639832,
+        -0.013555760979125584
+      ],
+      "bearing_xy_m": [
+        0.48199910264996587,
+        0.06269743746234221
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06319881819197752,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1349046117,
+      "ring_xy_m": [
+        0.42027121620356755,
+        0.0762531984414678
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.7573420591186635,
+      "bearing_minus_ring_xy_m": [
+        0.03314810958762039,
+        0.03133839463951349
+      ],
+      "bearing_xy_m": [
+        0.4543386821000794,
+        -0.04487249816362411
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04561679677284211,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1043732957,
+      "ring_xy_m": [
+        0.421190572512459,
+        -0.0762108928031376
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.567547639131836,
+      "bearing_minus_ring_xy_m": [
+        0.0608929575317352,
+        0.03882011806300481
+      ],
+      "bearing_xy_m": [
+        0.49079934585681856,
+        -0.01686469451631671
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07221463732088765,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 745819386,
+      "ring_xy_m": [
+        0.4299063883250834,
+        -0.05568481257932152
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.15765193970482713,
+      "bearing_minus_ring_xy_m": [
+        0.046799543854101795,
+        0.007439777646636102
+      ],
+      "bearing_xy_m": [
+        0.40643492223562844,
+        -0.0860090370521498
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04738720920652939,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 2104523051,
+      "ring_xy_m": [
+        0.35963537838152665,
+        -0.0934488146987859
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.5517470178721895,
+      "bearing_minus_ring_xy_m": [
+        0.044758437680629225,
+        0.027549333630834765
+      ],
+      "bearing_xy_m": [
+        0.4297090225438384,
+        0.07432838530823083
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05255743075069227,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 676189478,
+      "ring_xy_m": [
+        0.3849505848632092,
+        0.04677905167739606
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.1239491758094775,
+      "bearing_minus_ring_xy_m": [
+        0.030705359265029833,
+        0.06407997979200215
+      ],
+      "bearing_xy_m": [
+        0.448950840758803,
+        -0.05217037511116254
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07105675828334668,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1574872289,
+      "ring_xy_m": [
+        0.41824548149377316,
+        -0.1162503549031647
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.1671006196023477,
+      "bearing_minus_ring_xy_m": [
+        0.02438165572344045,
+        0.05707899147263909
+      ],
+      "bearing_xy_m": [
+        0.4719975963717159,
+        0.05583311430952867
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.062068320448921306,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 220677777,
+      "ring_xy_m": [
+        0.4476159406482755,
+        -0.0012458771631104204
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.3103744926822776,
+      "bearing_minus_ring_xy_m": [
+        0.014685067176620548,
+        0.055108967206647
+      ],
+      "bearing_xy_m": [
+        0.42546684701187537,
+        -0.06857146752737941
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.057032003862438084,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 709089718,
+      "ring_xy_m": [
+        0.4107817798352548,
+        -0.12368043473402641
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.9374507972260007,
+      "bearing_minus_ring_xy_m": [
+        0.03193510784724103,
+        0.04349342933492923
+      ],
+      "bearing_xy_m": [
+        0.502227913110989,
+        -0.03747898838154265
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05395859068329526,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 828788379,
+      "ring_xy_m": [
+        0.470292805263748,
+        -0.08097241771647187
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.2694841538852506,
+      "bearing_minus_ring_xy_m": [
+        -0.03516141638702667,
+        0.041856449096212014
+      ],
+      "bearing_xy_m": [
+        0.4250579119142601,
+        -0.0021764026763331223
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05466523148478981,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1378669183,
+      "ring_xy_m": [
+        0.4602193283012868,
+        -0.04403285177254514
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.1185750029785475,
+      "bearing_minus_ring_xy_m": [
+        -0.03072745056943088,
+        0.0503684893768899
+      ],
+      "bearing_xy_m": [
+        0.41338382050811845,
+        -0.09837673666041596
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05900136388768219,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1858893158,
+      "ring_xy_m": [
+        0.44411127107754933,
+        -0.14874522603730586
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.574520934252285,
+      "bearing_minus_ring_xy_m": [
+        -0.00023993556209144423,
+        0.06441872205791417
+      ],
+      "bearing_xy_m": [
+        0.4053104266261013,
+        -0.09619804708556282
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06441916889132267,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 2029145581,
+      "ring_xy_m": [
+        0.40555036218819274,
+        -0.160616769143477
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.6710598962338798,
+      "bearing_minus_ring_xy_m": [
+        -0.0064357795749082096,
+        0.06397337847872503
+      ],
+      "bearing_xy_m": [
+        0.5084474072675431,
+        0.08621271243746362
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06429628615028246,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 712761842,
+      "ring_xy_m": [
+        0.5148831868424514,
+        0.02223933395873859
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.5612776230230394,
+      "bearing_minus_ring_xy_m": [
+        -0.04773312703387202,
+        0.03129473536162623
+      ],
+      "bearing_xy_m": [
+        0.46258856614993593,
+        0.042466281839444286
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.057077244833523486,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1567850026,
+      "ring_xy_m": [
+        0.5103216931838079,
+        0.011171546477818053
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.929294319282996,
+      "bearing_minus_ring_xy_m": [
+        -0.0565372953005524,
+        0.012186408951598794
+      ],
+      "bearing_xy_m": [
+        0.49860273095400093,
+        0.0043092901930706085
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.057835752982367844,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 613312906,
+      "ring_xy_m": [
+        0.5551400262545533,
+        -0.007877118758528185
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.7375826316039507,
+      "bearing_minus_ring_xy_m": [
+        -0.05194928448097215,
+        0.02220977897186116
+      ],
+      "bearing_xy_m": [
+        0.45953945775934674,
+        0.09989579390907807
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05649780916162944,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1445417631,
+      "ring_xy_m": [
+        0.5114887422403189,
+        0.07768601493721691
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.608392285740276,
+      "bearing_minus_ring_xy_m": [
+        -0.04234189658344666,
+        0.024991210087918266
+      ],
+      "bearing_xy_m": [
+        0.46223405880705726,
+        -0.019610621955494498
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d0_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04916702948055495,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1507440759,
+      "ring_xy_m": [
+        0.5045759553905039,
+        -0.04460183204341277
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.3981753545626265,
+      "bearing_minus_ring_xy_m": [
+        -0.061502079425854325,
+        -0.056543510212895144
+      ],
+      "bearing_xy_m": [
+        0.40024640071201356,
+        -0.0022119845275495598
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08354444518278802,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 228843287,
+      "ring_xy_m": [
+        0.4617484801378679,
+        0.054331525685345584
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.5291601546095257,
+      "bearing_minus_ring_xy_m": [
+        -0.06751778983627792,
+        -0.04743433833353954
+      ],
+      "bearing_xy_m": [
+        0.42332627703470355,
+        0.05017114548166604
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08251465565289898,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 794334734,
+      "ring_xy_m": [
+        0.4908440668709815,
+        0.09760548381520559
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.449909962214313,
+      "bearing_minus_ring_xy_m": [
+        -0.06424218618757019,
+        -0.05320338379812954
+      ],
+      "bearing_xy_m": [
+        0.4091602590915312,
+        -0.05266234336092049
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08341258018865923,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 712679749,
+      "ring_xy_m": [
+        0.47340244527910136,
+        0.0005410404372090533
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -3.0729427219615024,
+      "bearing_minus_ring_xy_m": [
+        -0.10866612410982042,
+        -0.007471663197317948
+      ],
+      "bearing_xy_m": [
+        0.5110894609599469,
+        0.0129183332792739
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5113338758901795,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10892268946360556,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 698303281,
+      "ring_xy_m": [
+        0.6197555850697674,
+        0.02038999647659185
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.850783190023495,
+      "bearing_minus_ring_xy_m": [
+        -0.02905962782905972,
+        -0.10106286931229055
+      ],
+      "bearing_xy_m": [
+        0.40516366965024014,
+        -0.08865694864589478
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10515781246867292,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1529554975,
+      "ring_xy_m": [
+        0.4342232974792999,
+        0.012405920666395773
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.3385373178377034,
+      "bearing_minus_ring_xy_m": [
+        -0.0648565432974821,
+        -0.06718832462491697
+      ],
+      "bearing_xy_m": [
+        0.40822053597664865,
+        -0.06101951647289688
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09338437864226219,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 2116757716,
+      "ring_xy_m": [
+        0.47307707927413073,
+        0.006168808152020096
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.5781535673688345,
+      "bearing_minus_ring_xy_m": [
+        -0.0006641798874261685,
+        -0.09027405002092954
+      ],
+      "bearing_xy_m": [
+        0.44508353263492695,
+        0.004336088474715519
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09027649329755864,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 784580153,
+      "ring_xy_m": [
+        0.4457477125223531,
+        0.09461013849564506
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.177001405918258,
+      "bearing_minus_ring_xy_m": [
+        -0.04973568362608985,
+        -0.07173915129075949
+      ],
+      "bearing_xy_m": [
+        0.47915392910669785,
+        0.0943110698138114
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08729343648678851,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 27398854,
+      "ring_xy_m": [
+        0.5288896127327877,
+        0.1660502211045709
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.397347522380787,
+      "bearing_minus_ring_xy_m": [
+        0.013474887513327484,
+        -0.07690734680414732
+      ],
+      "bearing_xy_m": [
+        0.4361981264866853,
+        -0.08828941978326287
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.07807888694103046,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1504799845,
+      "ring_xy_m": [
+        0.42272323897335784,
+        -0.011382072979115546
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.0844543740896297,
+      "bearing_minus_ring_xy_m": [
+        0.03718972875472411,
+        -0.07034203521535856
+      ],
+      "bearing_xy_m": [
+        0.44586645329660635,
+        0.05828098992370198
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.07956807049997315,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 96513776,
+      "ring_xy_m": [
+        0.40867672454188225,
+        0.12862302513906054
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.0888889636105668,
+      "bearing_minus_ring_xy_m": [
+        0.04751495893386714,
+        -0.09084425371093349
+      ],
+      "bearing_xy_m": [
+        0.4500552322403044,
+        0.05871578547263759
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10251999685321656,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1319842201,
+      "ring_xy_m": [
+        0.40254027330643727,
+        0.14956003918357108
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.2576298104336674,
+      "bearing_minus_ring_xy_m": [
+        0.023647307883220864,
+        -0.07302552589291739
+      ],
+      "bearing_xy_m": [
+        0.47481076343928713,
+        0.050065405203758656
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0767588600883376,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 382425943,
+      "ring_xy_m": [
+        0.4511634555560663,
+        0.12309093109667604
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7693681520083813,
+      "bearing_minus_ring_xy_m": [
+        0.06754015240513994,
+        -0.06540879667546433
+      ],
+      "bearing_xy_m": [
+        0.4598752703621443,
+        -0.0013546787960598827
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09402118308892823,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 867917830,
+      "ring_xy_m": [
+        0.3923351179570044,
+        0.06405411787940445
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7156782287216918,
+      "bearing_minus_ring_xy_m": [
+        0.07354579195545416,
+        -0.0639444212273774
+      ],
+      "bearing_xy_m": [
+        0.4634515575135859,
+        0.03399963852036872
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09745702909723454,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 812163372,
+      "ring_xy_m": [
+        0.3899057655581317,
+        0.09794405974774612
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.5615058159136485,
+      "bearing_minus_ring_xy_m": [
+        0.08544757560562145,
+        -0.05375073073597366
+      ],
+      "bearing_xy_m": [
+        0.43406458332942954,
+        -0.07361062547680496
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.40544757560562145,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.1009476558991319,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 660054971,
+      "ring_xy_m": [
+        0.3486170077238081,
+        -0.019859894740831295
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7541711768066157,
+      "bearing_minus_ring_xy_m": [
+        0.05997625843708513,
+        -0.05634278414710095
+      ],
+      "bearing_xy_m": [
+        0.4310655195759843,
+        0.019001927668834198
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08229010208742504,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 286360540,
+      "ring_xy_m": [
+        0.3710892611388992,
+        0.07534471181593515
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.08238999288570588,
+      "bearing_minus_ring_xy_m": [
+        0.08845280963044554,
+        0.0073041609919031495
+      ],
+      "bearing_xy_m": [
+        0.47163963682484245,
+        0.021016128835614878
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.40845280963044556,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08875387484113287,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1672904275,
+      "ring_xy_m": [
+        0.3831868271943969,
+        0.013711967843711727
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.16294143238558248,
+      "bearing_minus_ring_xy_m": [
+        0.08736622851642528,
+        0.01436291534514177
+      ],
+      "bearing_xy_m": [
+        0.4249927999010703,
+        0.014106512263445309
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4073662285164253,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08853898137202591,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1336378205,
+      "ring_xy_m": [
+        0.337626571384645,
+        -0.0002564030816964609
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.3500436292931359,
+      "bearing_minus_ring_xy_m": [
+        0.09119565369925711,
+        0.03329352123728923
+      ],
+      "bearing_xy_m": [
+        0.4324305525281213,
+        0.018802851297405623
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41119565369925715,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0970829841424987,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 131974712,
+      "ring_xy_m": [
+        0.34123489882886415,
+        -0.014490669939883606
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.03279716097216141,
+      "bearing_minus_ring_xy_m": [
+        0.08255330304786532,
+        0.0027084851692507697
+      ],
+      "bearing_xy_m": [
+        0.5018962194024766,
+        -0.02821292462143303
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4025533030478653,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0825977223416284,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1575775196,
+      "ring_xy_m": [
+        0.4193429163546113,
+        -0.0309214097906838
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.8528026561975843,
+      "bearing_minus_ring_xy_m": [
+        0.057870442860931,
+        0.06624936919275243
+      ],
+      "bearing_xy_m": [
+        0.48388177466090293,
+        -0.027873762731166526
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08796571534045462,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1588959034,
+      "ring_xy_m": [
+        0.4260113317999719,
+        -0.09412313192391895
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.438226001104462,
+      "bearing_minus_ring_xy_m": [
+        0.01424269503935874,
+        0.10680489092883186
+      ],
+      "bearing_xy_m": [
+        0.45508252547887057,
+        0.07846707099748154
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10775035539757558,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1027928450,
+      "ring_xy_m": [
+        0.4408398304395118,
+        -0.028337819931350317
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.2832895967929816,
+      "bearing_minus_ring_xy_m": [
+        0.03076919040865109,
+        0.10405560388763578
+      ],
+      "bearing_xy_m": [
+        0.4879706042870173,
+        -0.08973799773036557
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10850950086893033,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1214904957,
+      "ring_xy_m": [
+        0.45720141387836616,
+        -0.19379360161800135
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.196994778435739,
+      "bearing_minus_ring_xy_m": [
+        0.03460026570671627,
+        0.08821128261682418
+      ],
+      "bearing_xy_m": [
+        0.4214455157555536,
+        0.03941897558890656
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09475446568832835,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 1386272768,
+      "ring_xy_m": [
+        0.38684525004883735,
+        -0.04879230702791762
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.8649031704009458,
+      "bearing_minus_ring_xy_m": [
+        -0.02674810327547721,
+        0.08830937783926882
+      ],
+      "bearing_xy_m": [
+        0.49177902638029924,
+        -0.09726817492556045
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09227137824479667,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1120243641,
+      "ring_xy_m": [
+        0.5185271296557764,
+        -0.18557755276482926
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.278111716914523,
+      "bearing_minus_ring_xy_m": [
+        -0.06258536570573872,
+        0.07321026715671689
+      ],
+      "bearing_xy_m": [
+        0.45833696690582215,
+        -0.06885191993757787
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09631547756035327,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1382733939,
+      "ring_xy_m": [
+        0.5209223326115608,
+        -0.14206218709429475
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.680133378927607,
+      "bearing_minus_ring_xy_m": [
+        -0.009144722272054519,
+        0.08330435609698743
+      ],
+      "bearing_xy_m": [
+        0.44237327010805977,
+        -0.07385978373655487
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.083804783217706,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 364502323,
+      "ring_xy_m": [
+        0.4515179923801143,
+        -0.1571641398335423
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.203423599365392,
+      "bearing_minus_ring_xy_m": [
+        -0.05626800363177845,
+        0.07674865832814443
+      ],
+      "bearing_xy_m": [
+        0.4694739357139024,
+        0.0065982572413435525
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09516535497688267,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 2141219784,
+      "ring_xy_m": [
+        0.5257419393456808,
+        -0.07015040108680087
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.558156967051418,
+      "bearing_minus_ring_xy_m": [
+        -0.06561713637415537,
+        0.04331321466186488
+      ],
+      "bearing_xy_m": [
+        0.41978381208679516,
+        -0.01176607937797354
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.07862342621820351,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 764496274,
+      "ring_xy_m": [
+        0.4854009484609505,
+        -0.05507929403983842
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.8664564542441475,
+      "bearing_minus_ring_xy_m": [
+        -0.10045416506141894,
+        0.028357775122426186
+      ],
+      "bearing_xy_m": [
+        0.41670672640176953,
+        -0.04777299718527581
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5195458349385811,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10438008760333982,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 139379506,
+      "ring_xy_m": [
+        0.5171608914631884,
+        -0.076130772307702
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.983022591187234,
+      "bearing_minus_ring_xy_m": [
+        -0.10788376458167558,
+        0.01725197548128976
+      ],
+      "bearing_xy_m": [
+        0.48415220804330344,
+        -0.06768270921043212
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5121162354183244,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10925446131999106,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 824011130,
+      "ring_xy_m": [
+        0.592035972624979,
+        -0.08493468469172188
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.614500946810899,
+      "bearing_minus_ring_xy_m": [
+        -0.07966991899758438,
+        0.046369242525667397
+      ],
+      "bearing_xy_m": [
+        0.4861573090580107,
+        -0.09563427743918063
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d1_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09218135736408864,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 950888875,
+      "ring_xy_m": [
+        0.565827228055595,
+        -0.14200351996484803
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -3.129575880658905,
+      "bearing_minus_ring_xy_m": [
+        -0.15934326392844617,
+        -0.0019148839931390593
+      ],
+      "bearing_xy_m": [
+        0.4133064454188521,
+        -0.08233041686180123
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.46065673607155383,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15935476942996601,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 585506653,
+      "ring_xy_m": [
+        0.5726497093472982,
+        -0.08041553286866217
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.5844391527536743,
+      "bearing_minus_ring_xy_m": [
+        -0.10473120335188002,
+        -0.0652466209856555
+      ],
+      "bearing_xy_m": [
+        0.4601829422252403,
+        -0.09018589252212406
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.51526879664812,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12339265174871082,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 677049629,
+      "ring_xy_m": [
+        0.5649141455771203,
+        -0.02493927153646855
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.8269405240228807,
+      "bearing_minus_ring_xy_m": [
+        -0.13091042296717673,
+        -0.04260671902681246
+      ],
+      "bearing_xy_m": [
+        0.41623857181306934,
+        0.07652449606320466
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4890895770328233,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1376694277887246,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 943329615,
+      "ring_xy_m": [
+        0.547148994780246,
+        0.11913121509001712
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.841777642612043,
+      "bearing_minus_ring_xy_m": [
+        -0.1227497174308703,
+        -0.037946058462160225
+      ],
+      "bearing_xy_m": [
+        0.40987502793799363,
+        -0.03900550710043926
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4972502825691297,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12848111332866083,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 351622799,
+      "ring_xy_m": [
+        0.532624745368864,
+        -0.0010594486382790383
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.7873879893705302,
+      "bearing_minus_ring_xy_m": [
+        -0.02704331305401819,
+        -0.12289992795353756
+      ],
+      "bearing_xy_m": [
+        0.47110827177783343,
+        -0.03490012194271293
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12584010915412602,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 731191766,
+      "ring_xy_m": [
+        0.4981515848318516,
+        0.08799980601082463
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.0528436168095836,
+      "bearing_minus_ring_xy_m": [
+        -0.06850156427406164,
+        -0.13092411179926355
+      ],
+      "bearing_xy_m": [
+        0.4298204032498674,
+        -0.07496897045150269
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.09907588820073646
+        ]
+      },
+      "configuration_id": "G4_d2_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14776192797341087,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 379156969,
+      "ring_xy_m": [
+        0.49832196752392904,
+        0.05595514134776086
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.677386630289968,
+      "bearing_minus_ring_xy_m": [
+        -0.013721186341859159,
+        -0.12824039434050308
+      ],
+      "bearing_xy_m": [
+        0.5092321899348853,
+        0.05889094393594149
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1289723601987486,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 494009876,
+      "ring_xy_m": [
+        0.5229533762767444,
+        0.18713133827644457
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.2280527590674795,
+      "bearing_minus_ring_xy_m": [
+        -0.09240053010794017,
+        -0.11973352447201645
+      ],
+      "bearing_xy_m": [
+        0.41116441425122474,
+        0.0776039275187968
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15124144553236496,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 853735787,
+      "ring_xy_m": [
+        0.5035649443591649,
+        0.19733745199081326
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.375779510841875,
+      "bearing_minus_ring_xy_m": [
+        0.026188719225811733,
+        -0.13258279808572526
+      ],
+      "bearing_xy_m": [
+        0.48814093133860526,
+        0.015521947835785116
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.09741720191427475
+        ]
+      },
+      "configuration_id": "G4_d2_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13514454248296004,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 575054284,
+      "ring_xy_m": [
+        0.4619522121127935,
+        0.14810474592151038
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.3119072094344573,
+      "bearing_minus_ring_xy_m": [
+        0.02971142955513216,
+        -0.11218955853222437
+      ],
+      "bearing_xy_m": [
+        0.4630457267665081,
+        0.010524447964063294
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11605716733517572,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 197749450,
+      "ring_xy_m": [
+        0.43333429721137595,
+        0.12271400649628766
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.135242839886545,
+      "bearing_minus_ring_xy_m": [
+        0.05556964185808194,
+        -0.11941220268585541
+      ],
+      "bearing_xy_m": [
+        0.5037236210692745,
+        -0.04269676613458154
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1317089945543709,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1209917677,
+      "ring_xy_m": [
+        0.44815397921119254,
+        0.07671543655127387
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.847569439076402,
+      "bearing_minus_ring_xy_m": [
+        0.08073965634770933,
+        -0.09145930013333811
+      ],
+      "bearing_xy_m": [
+        0.4104997519367824,
+        -0.07383579804374177
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.40073965634770936,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12199875281340469,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 2089720910,
+      "ring_xy_m": [
+        0.32976009558907304,
+        0.017623502089596343
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7425496830830649,
+      "bearing_minus_ring_xy_m": [
+        0.09130707466882128,
+        -0.08379943175481855
+      ],
+      "bearing_xy_m": [
+        0.45862448653872795,
+        -0.014616027493265474
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41130707466882127,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12393275050206945,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1020025112,
+      "ring_xy_m": [
+        0.3673174118699067,
+        0.06918340426155307
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.0776808677014208,
+      "bearing_minus_ring_xy_m": [
+        0.11540174929525664,
+        -0.008982583211011337
+      ],
+      "bearing_xy_m": [
+        0.48421635394703677,
+        -0.027601721683659514
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.43540174929525666,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11575081227165539,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1586880117,
+      "ring_xy_m": [
+        0.3688146046517801,
+        -0.018619138472648178
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7326381404231289,
+      "bearing_minus_ring_xy_m": [
+        0.1159998630406057,
+        -0.10436272788869035
+      ],
+      "bearing_xy_m": [
+        0.4805408977854296,
+        -0.06995812451967598
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4359998630406057,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1560370058601744,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1779051086,
+      "ring_xy_m": [
+        0.3645410347448239,
+        0.03440460336901437
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.4078405244960243,
+      "bearing_minus_ring_xy_m": [
+        0.13595157056081536,
+        -0.0587400782569081
+      ],
+      "bearing_xy_m": [
+        0.46807996738206237,
+        -0.02706179960784992
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.45595157056081537,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14809870469244504,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 568395672,
+      "ring_xy_m": [
+        0.332128396821247,
+        0.03167827864905818
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.31562424856094506,
+      "bearing_minus_ring_xy_m": [
+        0.12157310635792735,
+        0.03969849604689056
+      ],
+      "bearing_xy_m": [
+        0.4828092294602005,
+        -0.04942614205106815
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.44157310635792735,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12789054217533408,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1008268571,
+      "ring_xy_m": [
+        0.36123612310227315,
+        -0.0891246380979587
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.6909478061959704,
+      "bearing_minus_ring_xy_m": [
+        0.09042483748208921,
+        0.07477508190791322
+      ],
+      "bearing_xy_m": [
+        0.510199813648996,
+        -0.014201402401864585
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41042483748208924,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11733696820694396,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1137285862,
+      "ring_xy_m": [
+        0.41977497616690684,
+        -0.08897648430977781
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.7413228017827735,
+      "bearing_minus_ring_xy_m": [
+        0.10697123135459834,
+        0.0979341019777019
+      ],
+      "bearing_xy_m": [
+        0.43853508402017627,
+        0.011549185273983145
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.42697123135459836,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14503079903143992,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 47920682,
+      "ring_xy_m": [
+        0.3315638526655779,
+        -0.08638491670371876
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.5044562507684472,
+      "bearing_minus_ring_xy_m": [
+        0.11446023216281746,
+        0.06319382059560857
+      ],
+      "bearing_xy_m": [
+        0.45924533616838176,
+        0.06665070461648531
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4344602321628175,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13074633344088865,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 2099040291,
+      "ring_xy_m": [
+        0.3447851040055643,
+        0.003456884020876738
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.9765676435179842,
+      "bearing_minus_ring_xy_m": [
+        0.07473001688669303,
+        0.11059685368498204
+      ],
+      "bearing_xy_m": [
+        0.5042678481517207,
+        -0.0712002923362465
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1334774867492745,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 1690081293,
+      "ring_xy_m": [
+        0.42953783126502765,
+        -0.18179714602122854
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.3110525701044473,
+      "bearing_minus_ring_xy_m": [
+        0.02889522658065986,
+        0.10873201442183818
+      ],
+      "bearing_xy_m": [
+        0.5199589813281431,
+        -0.058528584612547244
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1125059335296521,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 2138667833,
+      "ring_xy_m": [
+        0.49106375474748326,
+        -0.16726059903438542
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.4134262893504443,
+      "bearing_minus_ring_xy_m": [
+        0.02328348048466123,
+        0.14673031212184473
+      ],
+      "bearing_xy_m": [
+        0.5102625817316991,
+        0.008320340488028682
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.08326968787815528
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14856616357318236,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1726633424,
+      "ring_xy_m": [
+        0.4869791012470379,
+        -0.13840997163381605
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.1076983676614833,
+      "bearing_minus_ring_xy_m": [
+        0.05376577517114475,
+        0.1076794747263879
+      ],
+      "bearing_xy_m": [
+        0.4744215577846178,
+        0.05080978827785232
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12035625391771254,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 446086784,
+      "ring_xy_m": [
+        0.42065578261347303,
+        -0.056869686448535586
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.1959537812056613,
+      "bearing_minus_ring_xy_m": [
+        -0.087804009785933,
+        0.12165872814469714
+      ],
+      "bearing_xy_m": [
+        0.4078493412401851,
+        -0.08377188214809013
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15003463023006902,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 339714268,
+      "ring_xy_m": [
+        0.4956533510261181,
+        -0.20543061029278725
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.093164404551091,
+      "bearing_minus_ring_xy_m": [
+        -0.06904002401708356,
+        0.11992142518432523
+      ],
+      "bearing_xy_m": [
+        0.4326364733945922,
+        -0.08300449117929379
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13837511746885417,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1865093066,
+      "ring_xy_m": [
+        0.5016764974116757,
+        -0.202925916363619
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.2766590561692555,
+      "bearing_minus_ring_xy_m": [
+        -0.07915653945681855,
+        0.09286746691748947
+      ],
+      "bearing_xy_m": [
+        0.4132441062991556,
+        -0.03631425274394387
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12202509639598681,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 1783561554,
+      "ring_xy_m": [
+        0.49240064575597414,
+        -0.12918171966143333
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.207821682808179,
+      "bearing_minus_ring_xy_m": [
+        -0.07697174006054179,
+        0.10402564874234975
+      ],
+      "bearing_xy_m": [
+        0.4257641469581244,
+        0.09045415059100487
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12940627637102595,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 211125690,
+      "ring_xy_m": [
+        0.5027358870186662,
+        -0.013571498151344882
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.5923470756125115,
+      "bearing_minus_ring_xy_m": [
+        -0.10388354342076234,
+        0.06358375995560295
+      ],
+      "bearing_xy_m": [
+        0.4915978758750176,
+        -0.05859776706798674
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5161164565792377,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1217977221615624,
+      "geometry_scale": 1.0,
+      "position_index": 0,
+      "reference_angle": 0.0,
+      "reset_seed": 553111041,
+      "ring_xy_m": [
+        0.5954814192957799,
+        -0.1221815270235897
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 3.1339800125042325,
+      "bearing_minus_ring_xy_m": [
+        -0.13028535060698523,
+        0.000991834772654961
+      ],
+      "bearing_xy_m": [
+        0.480338849593982,
+        0.008423888409194905
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4897146493930148,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13028912586628755,
+      "geometry_scale": 1.0,
+      "position_index": 1,
+      "reference_angle": 0.0,
+      "reset_seed": 1746751187,
+      "ring_xy_m": [
+        0.6106242002009672,
+        0.007432053636539943
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 3.100301546035512,
+      "bearing_minus_ring_xy_m": [
+        -0.12740839234141482,
+        0.0052638255010946725
+      ],
+      "bearing_xy_m": [
+        0.4420685898504657,
+        0.03504022035272025
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4925916076585852,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12751708237695006,
+      "geometry_scale": 1.0,
+      "position_index": 2,
+      "reference_angle": 0.0,
+      "reset_seed": 961789064,
+      "ring_xy_m": [
+        0.5694769821918806,
+        0.02977639485162558
+      ],
+      "split": "procedural_test"
+    },
+    {
+      "ancestry": "procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.987339066267335,
+      "bearing_minus_ring_xy_m": [
+        -0.11297754506854232,
+        0.017566741805363748
+      ],
+      "bearing_xy_m": [
+        0.4195499539139559,
+        0.08586402096135323
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5070224549314577,
+          0.1
+        ]
+      },
+      "configuration_id": "G4_d2_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11433510444028476,
+      "geometry_scale": 1.0,
+      "position_index": 3,
+      "reference_angle": 0.0,
+      "reset_seed": 975075296,
+      "ring_xy_m": [
+        0.5325274989824982,
+        0.06829727915598949
+      ],
+      "split": "procedural_test"
+    }
+  ],
+  "controller_source_hash": "147552d5363b1f2ae1a988c4b7c0bb9c488efd50ea1d2b6400099b7f7e771b8e",
+  "denominator_policy": "All 96 predeclared cases for each controller; failures and execution exceptions retained",
+  "development_annotations_path": "data/v4_development_annotations.json",
+  "development_annotations_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+  "dimensions_m": {
+    "bearing_height": 0.005,
+    "bearing_inner_diameter": 0.04,
+    "bearing_outer_diameter": 0.05,
+    "ring_height": 0.007,
+    "ring_inner_diameter": 0.02,
+    "ring_outer_diameter": 0.025
+  },
+  "environment": {
+    "action_scale": 0.003,
+    "action_size": 4,
+    "control_dt": 0.05,
+    "obs_size": 30,
+    "schema_version": 2,
+    "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+    "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef"
+  },
+  "execution_signature": {
+    "environment": {
+      "action_scale": 0.003,
+      "action_size": 4,
+      "control_dt": 0.05,
+      "obs_size": 30,
+      "schema_version": 2,
+      "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+      "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef"
+    },
+    "generalization_control_sha256": "147552d5363b1f2ae1a988c4b7c0bb9c488efd50ea1d2b6400099b7f7e771b8e",
+    "reference_angle": 0.0,
+    "reference_max_step_m": 0.002,
+    "shared_across_controllers": [
+      "v4",
+      "straight",
+      "v3_profile"
+    ],
+    "tool_lag_limit_m": 0.004
+  },
+  "expected_cases": 96,
+  "frozen_before_selected_model": true,
+  "geometry_protocol": {
+    "angle_bins": 8,
+    "bearing_bounds_m": {
+      "lower": [
+        0.4,
+        -0.1
+      ],
+      "upper": [
+        0.52,
+        0.1
+      ]
+    },
+    "delta_definition": "bearing minus ring",
+    "distance_bands_m": [
+      [
+        0.045,
+        0.075
+      ],
+      [
+        0.075,
+        0.11
+      ],
+      [
+        0.11,
+        0.16
+      ]
+    ],
+    "placements_per_cell": 4,
+    "ring_bounds_m": {
+      "lower": [
+        0.32,
+        -0.23
+      ],
+      "upper": [
+        0.62,
+        0.23
+      ]
+    },
+    "sampling": "uniform distance and angle within each stratum; uniform bearing within conditional feasible interval"
+  },
+  "locked_selection_protocol_sha256": "576b71adc990e4ffe3bdf866b6a7b30fe0054575c2d39b4d89626f36959d46eb",
+  "outcome_filtering": false,
+  "protocol": "generalization_v4_fixed_geometry_96",
+  "real_episodes_path": "data/real_episodes.json",
+  "real_episodes_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+  "real_motion_path": "data/real_motion.json",
+  "real_motion_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+  "schema_version": 1,
+  "scope": "Same objects, task and fixed reference; procedural position/direction/distance test, no independent human ancestry",
+  "seed": 20261020,
+  "source_splits": {
+    "ood_test": [
+      "E20",
+      "E21",
+      "E22",
+      "E23",
+      "E24"
+    ],
+    "test": [
+      "E08",
+      "E10",
+      "E16"
+    ],
+    "train": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "val": [
+      "E05",
+      "E11",
+      "E12"
+    ]
+  },
+  "source_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "training_implementation_sha256": "64d50b0320ed821e0dd0faa5d8bbd13f974e1b755a6443a7864422839f274bfc",
+  "training_protocol": {
+    "candidate_grid": [
+      {
+        "alpha": 0.02,
+        "degree": 0
+      },
+      {
+        "alpha": 0.2,
+        "degree": 0
+      },
+      {
+        "alpha": 2.0,
+        "degree": 0
+      },
+      {
+        "alpha": 0.02,
+        "degree": 1
+      },
+      {
+        "alpha": 0.2,
+        "degree": 1
+      },
+      {
+        "alpha": 2.0,
+        "degree": 1
+      }
+    ],
+    "direction_std_floor": 0.1,
+    "fit_loss": "source_uniform_weighted_physical_squared_error",
+    "interpolated_weight": 0.25,
+    "maximum_residual_m": 0.025,
+    "method": "direction_conditioned_local_metre_ridge",
+    "observed_weight": 1.0,
+    "progress_definition": "normalized cumulative image-plane XY arc length",
+    "selection": "source_uniform_training_source_lopo_mae",
+    "simplicity_tolerance_m": 0.0001,
+    "source_split_seed": 20261014,
+    "test_used_for_selection": false,
+    "validation_used_for_selection": false
+  },
+  "training_protocol_path": "docs/superpowers/specs/2026-10-14-generalization-design.md",
+  "training_protocol_sha256": "8179e5f2f29c0ff22e201786a0d799b304a054b0ca5bcdfeb1b5698fd864f10c"
+}

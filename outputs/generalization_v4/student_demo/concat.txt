@@ -1,0 +1,6 @@
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_00.mp4'
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_16.mp4'
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_32.mp4'
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_48.mp4'
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_64.mp4'
+file 'D:/model/ring_bearing_20261014/robot_learning/outputs/generalization_v4/student_demo/case_80.mp4'

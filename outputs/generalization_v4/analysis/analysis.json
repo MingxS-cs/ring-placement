@@ -1,0 +1,26 @@
+{
+  "manifest_sha256": "931d478258b834cc200907232ae5aa1576f8292eddcaed360c273ea5905d5410",
+  "rollouts_sha256": "321539a01794bb9cd2cd9808990696cf4c6ba09c155032b3c402d99143824ab2",
+  "fidelity_sha256": "422db5e07b70c446933f142ce6dc3e4a1e53b194fbb7be4b8bfdfaf66f4d373a",
+  "physical_path_contribution": {
+    "v4": {
+      "cases": 96,
+      "successes": 96,
+      "mean_ring_max_lateral_deviation_m": 0.011743633747375254,
+      "mean_command_max_lateral_deviation_m": 0.01226362957040717
+    },
+    "straight": {
+      "cases": 96,
+      "successes": 96,
+      "mean_ring_max_lateral_deviation_m": 4.587689066753442e-05,
+      "mean_command_max_lateral_deviation_m": 4.5135443747549555e-11
+    },
+    "v3_profile": {
+      "cases": 96,
+      "successes": 96,
+      "mean_ring_max_lateral_deviation_m": 0.014888076234205622,
+      "mean_command_max_lateral_deviation_m": 0.015558593885238961
+    }
+  },
+  "interpretation": "Physical path difference demonstrates data-to-motion effect; equal task success does not establish learned placement advantage. Optical paths are approximate, not calibrated 3D."
+}

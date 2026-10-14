@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "annotation_path": "data/v4_holdout_annotations.json",
+  "annotation_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "endpoint_manifest_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+  "existing_motion_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+  "frozen_annotation_created_utc": "2026-10-14T19:56:57.913006+00:00",
+  "reserved_source_ids": [
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "valid_episodes": 3,
+  "measured_samples": 35,
+  "interpolated_measured_samples": 0,
+  "episodes": [
+    {
+      "source_id": "E20",
+      "status": "accepted",
+      "measured_samples": 11,
+      "intermediate_measured_samples": 9,
+      "pixel_uncertainty_px": "approximately 5 clear / 8 blur"
+    },
+    {
+      "source_id": "E21",
+      "status": "accepted",
+      "measured_samples": 12,
+      "intermediate_measured_samples": 10,
+      "pixel_uncertainty_px": "approximately 5 clear / 8 blur"
+    },
+    {
+      "source_id": "E22",
+      "status": "accepted",
+      "measured_samples": 12,
+      "intermediate_measured_samples": 10,
+      "pixel_uncertainty_px": "approximately 5 clear / 8 blur"
+    }
+  ],
+  "withheld_until": "Selected V4 model checkpoint hash and selection protocol frozen; root and training agent must not read annotation labels/overlays before then.",
+  "scope": "New manual trajectory labels from reserved windows of an existing video; endpoint labels had prior development access; no independent video claim.",
+  "sequential_index_verification": {
+    "status": "passed",
+    "receipt_path": "outputs/v4_holdout_review/sequential_index_receipt.json",
+    "receipt_sha256": "9acfa39783009ee5f7ad32854d8d6efdfc3db4728d349fcbc557836d250fe6ba",
+    "checked_raw_images": 35,
+    "ordinal_mismatches": 0,
+    "pts_mismatches": 0,
+    "annotation_correction_applied": false,
+    "verified_utc": "2026-10-14T20:11:02.554194+00:00"
+  }
+}
