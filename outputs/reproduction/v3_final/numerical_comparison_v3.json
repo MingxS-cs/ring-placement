@@ -1,0 +1,28 @@
+{
+  "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+  "checkpoint_state_dict": {
+    "input_mean": true,
+    "input_std": true,
+    "net.0.weight": true,
+    "net.0.bias": true,
+    "net.2.weight": true,
+    "net.2.bias": true,
+    "net.4.weight": true,
+    "net.4.bias": true
+  },
+  "changed_metadata_fields": [
+    "motion_sha256",
+    "real_episodes_sha256"
+  ],
+  "original_checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "reproduced_checkpoint_sha256": "1dd7a4708bb2a41a6651052a1d818519c2b67e2ab86a5a7b9d53515be8566178",
+  "configuration_lists_identical": {
+    "train": true,
+    "val": true,
+    "test": true,
+    "ood_test": true
+  },
+  "changed_manifest_fields": [
+    "real_episodes_sha256"
+  ]
+}

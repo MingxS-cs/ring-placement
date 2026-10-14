@@ -1,0 +1,5 @@
+{
+  "command": "python -m ring_learning.video_analysis --output outputs/v3_analysis_recheck",
+  "seconds": 3.0133647,
+  "exit_code": 0
+}

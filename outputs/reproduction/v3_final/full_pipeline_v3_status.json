@@ -1,0 +1,6 @@
+{
+  "seconds": 105.7262276,
+  "exit_code": 0,
+  "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+  "command": "scripts/reproduce_v3.ps1 -OutputDirectory outputs/v3_full_reproduction -PythonExecutable .venv/Scripts/python.exe"
+}

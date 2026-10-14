@@ -1,0 +1,163 @@
+{
+  "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+  "full_pipeline": {
+    "seconds": 105.7262276,
+    "exit_code": 0,
+    "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+    "command": "scripts/reproduce_v3.ps1 -OutputDirectory outputs/v3_full_reproduction -PythonExecutable .venv/Scripts/python.exe"
+  },
+  "test_results": {
+    "tests": 137,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "extraction": {
+    "endpoints_accepted": 24,
+    "endpoint_json_parsed_identical": true,
+    "endpoint_bytes_identical": false,
+    "endpoint_original_CRLF": 3155,
+    "endpoint_reproduced_CRLF": 3155,
+    "motion_accepted": 9,
+    "motion_episodes_identical": true,
+    "reused_visual_reviews": true,
+    "endpoint_byte_difference_explanation": "Dictionary key ordering differs while complete parsed JSON is identical; confidence_definition is placed earlier in regenerated detection objects."
+  },
+  "model": {
+    "parameter_count": 1218,
+    "best_epoch": 9,
+    "best_validation_loss": 0.13887086510658264,
+    "used_sources": {
+      "train": [
+        "E04",
+        "E02",
+        "E14",
+        "E01",
+        "E09"
+      ],
+      "val": [
+        "E05"
+      ],
+      "test": [
+        "E08"
+      ],
+      "ood_test": [
+        "E23",
+        "E24"
+      ]
+    },
+    "training_points": 66,
+    "validation_points": 10
+  },
+  "evaluation_summaries": {
+    "ood_test/learned_motion": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 2192,
+      "planned_steps": 5314
+    },
+    "ood_test/straight_path": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 7255
+    },
+    "test/learned_motion": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 742,
+      "planned_steps": 3057
+    },
+    "test/straight_path": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 3746
+    }
+  },
+  "number_of_rollouts": 96,
+  "demo": {
+    "configuration_id": "E08_test_000",
+    "source_episode_id": "E08",
+    "checkpoint_sha256": "1dd7a4708bb2a41a6651052a1d818519c2b67e2ab86a5a7b9d53515be8566178",
+    "manifest_sha256": "eb2256367b1720dffbf1ce758092be9673a636dd21ca0b3f303758891adcf1d9",
+    "success": true,
+    "steps": 209,
+    "learned_transfer_scope_steps": 36,
+    "planned_stage_steps": 173,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 209,
+      "ring_xyz": [
+        0.41493004183672866,
+        0.024288454302112364,
+        0.10349944281381321
+      ],
+      "tool_xyz": [
+        0.4151794932166576,
+        0.0354879917953265,
+        0.19270074780657867
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "source_panel_controls_robot": false,
+    "selection": "First frozen test case; deterministic replay, not an additional benchmark case",
+    "scope": "Learned XY transfer; planned grasp/lift/lower/release/Z/gripper"
+  },
+  "optional_analysis": {
+    "command": "python -m ring_learning.video_analysis --output outputs/v3_analysis_recheck",
+    "seconds": 3.0133647,
+    "exit_code": 0
+  },
+  "numeric_comparison": {
+    "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+    "checkpoint_state_dict": {
+      "input_mean": true,
+      "input_std": true,
+      "net.0.weight": true,
+      "net.0.bias": true,
+      "net.2.weight": true,
+      "net.2.bias": true,
+      "net.4.weight": true,
+      "net.4.bias": true
+    },
+    "changed_metadata_fields": [
+      "motion_sha256",
+      "real_episodes_sha256"
+    ],
+    "original_checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+    "reproduced_checkpoint_sha256": "1dd7a4708bb2a41a6651052a1d818519c2b67e2ab86a5a7b9d53515be8566178",
+    "configuration_lists_identical": {
+      "train": true,
+      "val": true,
+      "test": true,
+      "ood_test": true
+    },
+    "changed_manifest_fields": [
+      "real_episodes_sha256"
+    ]
+  },
+  "scope": "Local isolated Windows reproduction using cloned bundled video and included review decisions; no independent new data or GitHub publication.",
+  "rollout_comparison": {
+    "evaluation_summaries_identical": true,
+    "full_rollout_records_identical": true,
+    "original_rollout_count": 96,
+    "reproduced_rollout_count": 96
+  }
+}

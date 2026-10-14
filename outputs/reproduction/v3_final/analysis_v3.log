@@ -1,0 +1,1 @@
+{"learned_motion": {"cases": 48, "mean_ring_max_lateral_deviation_m": 0.015508530484437857, "mean_command_max_lateral_deviation_m": 0.016224569530436914}, "straight_path": {"cases": 48, "mean_ring_max_lateral_deviation_m": 4.099665375807809e-05, "mean_command_max_lateral_deviation_m": 4.265259570835137e-11}}

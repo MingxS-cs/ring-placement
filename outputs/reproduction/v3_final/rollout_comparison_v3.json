@@ -1,0 +1,6 @@
+{
+  "evaluation_summaries_identical": true,
+  "full_rollout_records_identical": true,
+  "original_rollout_count": 96,
+  "reproduced_rollout_count": 96
+}

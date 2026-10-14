@@ -1,0 +1,79 @@
+{
+  "source_commit": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+  "git_blob_bytes_match_working_files": {
+    "data/real_motion.json": true,
+    "data/real_episodes.json": true,
+    "outputs/video_v3/configurations.json": true,
+    "outputs/video_model/policy.pt": true,
+    "data/source/359977334.mp4": true
+  },
+  "checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "parameter_count": 1218,
+  "reviewed_paths": 9,
+  "accepted_observed_points": 106,
+  "accepted_interpolated_points": 26,
+  "training_points": 66,
+  "validation_points": 10,
+  "placement_summaries": {
+    "ood_test/learned_motion": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 2192,
+      "planned_steps": 5314
+    },
+    "ood_test/straight_path": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 7255
+    },
+    "test/learned_motion": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 742,
+      "planned_steps": 3057
+    },
+    "test/straight_path": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 3746
+    }
+  },
+  "actual_neural_forward_calls": 2531,
+  "hybrid_scope": "Neural transfer XY; other stages and all Z/gripper are geometric",
+  "tests": {
+    "passed": 137,
+    "command": ".venv/Scripts/python.exe -m pytest -q",
+    "fresh_run_duration_s": 6.08
+  },
+  "public_repository": "deferred_by_user",
+  "real_robot_tested": false,
+  "clean_full_reproduction": {
+    "report": "docs/reproduction_v3.md",
+    "summary": "outputs/reproduction/v3_final/reproduction_v3_summary.json",
+    "verified_code_commit": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+    "exit_code": 0,
+    "duration_s": 105.7262276,
+    "tests_passed": 137,
+    "tests_skipped": 0,
+    "model_tensors_bit_identical": true,
+    "full_96_rollout_records_identical": true
+  },
+  "independent_reviews": {
+    "method_and_artifact_audit": "PASS",
+    "code_quality_review": "PASS"
+  }
+}

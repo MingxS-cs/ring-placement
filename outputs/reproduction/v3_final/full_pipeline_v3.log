@@ -1,0 +1,54 @@
+{"accepted": 24, "rejected": 0, "review_status": "all candidate endpoint overlays visually reviewed"}
+{"accepted": 9, "total": 24}
+epoch=1 train=0.034024 val=0.242481
+epoch=100 train=0.007548 val=0.295816
+epoch=200 train=0.004741 val=0.303246
+{
+  "parameter_count": 1218,
+  "best_epoch": 9,
+  "checkpoint_sha256": "1dd7a4708bb2a41a6651052a1d818519c2b67e2ab86a5a7b9d53515be8566178",
+  "trajectory_metrics": {
+    "train": {
+      "sources": 5,
+      "network_mean_displacement_m": 0.009448922239243984,
+      "straight_mean_displacement_m": 0.00994757954031229
+    },
+    "val": {
+      "sources": 1,
+      "network_mean_displacement_m": 0.01705351285636425,
+      "straight_mean_displacement_m": 0.00905950739979744
+    },
+    "test": {
+      "sources": 1,
+      "network_mean_displacement_m": 0.009281445294618607,
+      "straight_mean_displacement_m": 0.012736426666378975
+    },
+    "ood_test": {
+      "sources": 2,
+      "network_mean_displacement_m": 0.04079311154782772,
+      "straight_mean_displacement_m": 0.021807227283716202
+    }
+  }
+}
+test/learned_motion 5/18 successful=5
+test/learned_motion 10/18 successful=10
+test/learned_motion 15/18 successful=15
+test/learned_motion 18/18 successful=18
+test/straight_path 5/18 successful=5
+test/straight_path 10/18 successful=10
+test/straight_path 15/18 successful=15
+test/straight_path 18/18 successful=18
+ood_test/learned_motion 5/30 successful=5
+ood_test/learned_motion 10/30 successful=10
+ood_test/learned_motion 15/30 successful=15
+ood_test/learned_motion 20/30 successful=20
+ood_test/learned_motion 25/30 successful=25
+ood_test/learned_motion 30/30 successful=30
+ood_test/straight_path 5/30 successful=5
+ood_test/straight_path 10/30 successful=10
+ood_test/straight_path 15/30 successful=15
+ood_test/straight_path 20/30 successful=20
+ood_test/straight_path 25/30 successful=25
+ood_test/straight_path 30/30 successful=30
+{"ood_test/learned_motion": {"successes": 30, "episodes": 30, "success_rate": 1.0, "source_count": 5, "failure_counts": {}, "learned_steps": 2192, "planned_steps": 5314}, "ood_test/straight_path": {"successes": 30, "episodes": 30, "success_rate": 1.0, "source_count": 5, "failure_counts": {}, "learned_steps": 0, "planned_steps": 7255}, "test/learned_motion": {"successes": 18, "episodes": 18, "success_rate": 1.0, "source_count": 3, "failure_counts": {}, "learned_steps": 742, "planned_steps": 3057}, "test/straight_path": {"successes": 18, "episodes": 18, "success_rate": 1.0, "source_count": 3, "failure_counts": {}, "learned_steps": 0, "planned_steps": 3746}}
+{"configuration_id": "E08_test_000", "source_episode_id": "E08", "checkpoint_sha256": "1dd7a4708bb2a41a6651052a1d818519c2b67e2ab86a5a7b9d53515be8566178", "manifest_sha256": "eb2256367b1720dffbf1ce758092be9673a636dd21ca0b3f303758891adcf1d9", "success": true, "steps": 209, "learned_transfer_scope_steps": 36, "planned_stage_steps": 173, "info": {"success": true, "phase": "retract", "phase_index": 7, "failure_reason": "", "steps": 209, "ring_xyz": [0.41493004183672866, 0.024288454302112364, 0.10349944281381321], "tool_xyz": [0.4151794932166576, 0.0354879917953265, 0.19270074780657867], "settled_for": 2.2, "finger_contacts": 0}, "source_panel_controls_robot": false, "selection": "First frozen test case; deterministic replay, not an additional benchmark case", "scope": "Learned XY transfer; planned grasp/lift/lower/release/Z/gripper"}

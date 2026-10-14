@@ -1,0 +1,691 @@
+{
+  "checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "rollouts_sha256": "24d6f19c080373758b61698a99996fec3000dad2c0ec6fb859e0899d2d4b6805",
+  "summary": {
+    "learned_motion": {
+      "cases": 48,
+      "mean_ring_max_lateral_deviation_m": 0.015508530484437857,
+      "mean_command_max_lateral_deviation_m": 0.016224569530436914
+    },
+    "straight_path": {
+      "cases": 48,
+      "mean_ring_max_lateral_deviation_m": 4.099665375807809e-05,
+      "mean_command_max_lateral_deviation_m": 4.265259570835137e-11
+    }
+  },
+  "per_case": [
+    {
+      "configuration_id": "E08_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011364327782292337,
+      "command_max_lateral_deviation_m": 0.012387263377083875
+    },
+    {
+      "configuration_id": "E08_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011271194067644206,
+      "command_max_lateral_deviation_m": 0.01224922550105666
+    },
+    {
+      "configuration_id": "E08_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011495906118154235,
+      "command_max_lateral_deviation_m": 0.012745488140025527
+    },
+    {
+      "configuration_id": "E08_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011616204619580595,
+      "command_max_lateral_deviation_m": 0.012531948089655577
+    },
+    {
+      "configuration_id": "E08_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01121128240790969,
+      "command_max_lateral_deviation_m": 0.012180523623750574
+    },
+    {
+      "configuration_id": "E08_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01152163343031241,
+      "command_max_lateral_deviation_m": 0.012451383208325574
+    },
+    {
+      "configuration_id": "E16_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009562813777166541,
+      "command_max_lateral_deviation_m": 0.009905267852729462
+    },
+    {
+      "configuration_id": "E16_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009565940090339727,
+      "command_max_lateral_deviation_m": 0.009993719467999271
+    },
+    {
+      "configuration_id": "E16_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009772092229853029,
+      "command_max_lateral_deviation_m": 0.010162287584833491
+    },
+    {
+      "configuration_id": "E16_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009939928574156674,
+      "command_max_lateral_deviation_m": 0.010197601619688176
+    },
+    {
+      "configuration_id": "E16_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009367742176145912,
+      "command_max_lateral_deviation_m": 0.009700524508969618
+    },
+    {
+      "configuration_id": "E16_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.009372114693696294,
+      "command_max_lateral_deviation_m": 0.009656088306701512
+    },
+    {
+      "configuration_id": "E10_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011468216315017725,
+      "command_max_lateral_deviation_m": 0.012450436989023435
+    },
+    {
+      "configuration_id": "E10_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01156674691531461,
+      "command_max_lateral_deviation_m": 0.012517261178016475
+    },
+    {
+      "configuration_id": "E10_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011424576997645323,
+      "command_max_lateral_deviation_m": 0.012357273707264006
+    },
+    {
+      "configuration_id": "E10_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.011703128931635966,
+      "command_max_lateral_deviation_m": 0.01259519891975648
+    },
+    {
+      "configuration_id": "E10_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01143363849746627,
+      "command_max_lateral_deviation_m": 0.012435249000360943
+    },
+    {
+      "configuration_id": "E10_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01139879686488333,
+      "command_max_lateral_deviation_m": 0.012425957264116926
+    },
+    {
+      "configuration_id": "E08_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.821554383296796e-05,
+      "command_max_lateral_deviation_m": 2.570028443491813e-11
+    },
+    {
+      "configuration_id": "E08_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.1317428007784413e-05,
+      "command_max_lateral_deviation_m": 5.374454384857551e-11
+    },
+    {
+      "configuration_id": "E08_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.4995715707443545e-05,
+      "command_max_lateral_deviation_m": 7.691229173491377e-11
+    },
+    {
+      "configuration_id": "E08_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.8109404520075194e-05,
+      "command_max_lateral_deviation_m": 6.369465971332185e-11
+    },
+    {
+      "configuration_id": "E08_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.685425364679747e-05,
+      "command_max_lateral_deviation_m": 4.2455079633903475e-11
+    },
+    {
+      "configuration_id": "E08_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 8.320402601650556e-06,
+      "command_max_lateral_deviation_m": 2.7035906313596018e-12
+    },
+    {
+      "configuration_id": "E16_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.859193337839923e-06,
+      "command_max_lateral_deviation_m": 7.282067304498374e-11
+    },
+    {
+      "configuration_id": "E16_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 7.448356372494621e-05,
+      "command_max_lateral_deviation_m": 1.3629850707805697e-12
+    },
+    {
+      "configuration_id": "E16_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.7645454041870185e-06,
+      "command_max_lateral_deviation_m": 5.919531598827865e-11
+    },
+    {
+      "configuration_id": "E16_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.479351029234321e-05,
+      "command_max_lateral_deviation_m": 1.7226542315984712e-11
+    },
+    {
+      "configuration_id": "E16_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.5994978993861464e-05,
+      "command_max_lateral_deviation_m": 8.559834849015642e-11
+    },
+    {
+      "configuration_id": "E16_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 7.809731667888908e-05,
+      "command_max_lateral_deviation_m": 1.248183382316712e-11
+    },
+    {
+      "configuration_id": "E10_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.321215617406369e-06,
+      "command_max_lateral_deviation_m": 1.6055750380134068e-12
+    },
+    {
+      "configuration_id": "E10_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.282216160760019e-06,
+      "command_max_lateral_deviation_m": 8.726216072592892e-12
+    },
+    {
+      "configuration_id": "E10_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 9.349199278498183e-05,
+      "command_max_lateral_deviation_m": 7.59103185926639e-11
+    },
+    {
+      "configuration_id": "E10_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.998775043528479e-06,
+      "command_max_lateral_deviation_m": 1.44753451712669e-11
+    },
+    {
+      "configuration_id": "E10_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 3.927296295845903e-05,
+      "command_max_lateral_deviation_m": 8.771229893133177e-11
+    },
+    {
+      "configuration_id": "E10_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.779429217211438e-05,
+      "command_max_lateral_deviation_m": 1.132139663769555e-12
+    },
+    {
+      "configuration_id": "E20_ood_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.003829619957238813,
+      "command_max_lateral_deviation_m": 0.0040664753076780965
+    },
+    {
+      "configuration_id": "E20_ood_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.0043933692137340715,
+      "command_max_lateral_deviation_m": 0.004589610619471289
+    },
+    {
+      "configuration_id": "E20_ood_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.003695487892597054,
+      "command_max_lateral_deviation_m": 0.003893525110430176
+    },
+    {
+      "configuration_id": "E20_ood_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.0033944997099849407,
+      "command_max_lateral_deviation_m": 0.0036299806683292874
+    },
+    {
+      "configuration_id": "E20_ood_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.003729722192953507,
+      "command_max_lateral_deviation_m": 0.00388090258371289
+    },
+    {
+      "configuration_id": "E20_ood_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.003948442494133815,
+      "command_max_lateral_deviation_m": 0.00426060327423404
+    },
+    {
+      "configuration_id": "E21_ood_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023343589009456062,
+      "command_max_lateral_deviation_m": 0.024269509282204327
+    },
+    {
+      "configuration_id": "E21_ood_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02364599228655865,
+      "command_max_lateral_deviation_m": 0.024265107961633628
+    },
+    {
+      "configuration_id": "E21_ood_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023651534973360196,
+      "command_max_lateral_deviation_m": 0.02425830787933603
+    },
+    {
+      "configuration_id": "E21_ood_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02344467810033998,
+      "command_max_lateral_deviation_m": 0.02427423906832676
+    },
+    {
+      "configuration_id": "E21_ood_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023618299299333515,
+      "command_max_lateral_deviation_m": 0.024276863116370912
+    },
+    {
+      "configuration_id": "E21_ood_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023340010374469086,
+      "command_max_lateral_deviation_m": 0.024277498594393623
+    },
+    {
+      "configuration_id": "E22_ood_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01731446763610648,
+      "command_max_lateral_deviation_m": 0.01767202923379481
+    },
+    {
+      "configuration_id": "E22_ood_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.017149827244064695,
+      "command_max_lateral_deviation_m": 0.01754347912868008
+    },
+    {
+      "configuration_id": "E22_ood_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01737884966884753,
+      "command_max_lateral_deviation_m": 0.017840356585692194
+    },
+    {
+      "configuration_id": "E22_ood_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01805384375068112,
+      "command_max_lateral_deviation_m": 0.018417053938031783
+    },
+    {
+      "configuration_id": "E22_ood_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.01693199603747025,
+      "command_max_lateral_deviation_m": 0.01726751303016118
+    },
+    {
+      "configuration_id": "E22_ood_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.017031630756942973,
+      "command_max_lateral_deviation_m": 0.01737742979961337
+    },
+    {
+      "configuration_id": "E23_ood_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02366279499322229,
+      "command_max_lateral_deviation_m": 0.02471168210673497
+    },
+    {
+      "configuration_id": "E23_ood_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023397499128096584,
+      "command_max_lateral_deviation_m": 0.024722381604827873
+    },
+    {
+      "configuration_id": "E23_ood_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02323405177478879,
+      "command_max_lateral_deviation_m": 0.024721288718099872
+    },
+    {
+      "configuration_id": "E23_ood_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023375170967253556,
+      "command_max_lateral_deviation_m": 0.024727773194763436
+    },
+    {
+      "configuration_id": "E23_ood_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02339622923680754,
+      "command_max_lateral_deviation_m": 0.0247235491756264
+    },
+    {
+      "configuration_id": "E23_ood_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02359717739201932,
+      "command_max_lateral_deviation_m": 0.024709616063955848
+    },
+    {
+      "configuration_id": "E24_ood_test_000",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023575609371545833,
+      "command_max_lateral_deviation_m": 0.02423088160413927
+    },
+    {
+      "configuration_id": "E24_ood_test_001",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023210252949517896,
+      "command_max_lateral_deviation_m": 0.02423720173586556
+    },
+    {
+      "configuration_id": "E24_ood_test_002",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023388350821219952,
+      "command_max_lateral_deviation_m": 0.024276170601999207
+    },
+    {
+      "configuration_id": "E24_ood_test_003",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023536066656084917,
+      "command_max_lateral_deviation_m": 0.024239064007505976
+    },
+    {
+      "configuration_id": "E24_ood_test_004",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.023578098889545523,
+      "command_max_lateral_deviation_m": 0.024226725533722026
+    },
+    {
+      "configuration_id": "E24_ood_test_005",
+      "controller": "learned_motion",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.02350601598542734,
+      "command_max_lateral_deviation_m": 0.02424981959227935
+    },
+    {
+      "configuration_id": "E20_ood_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.094137891038696e-06,
+      "command_max_lateral_deviation_m": 2.7864915174256794e-11
+    },
+    {
+      "configuration_id": "E20_ood_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.1142145861927204e-05,
+      "command_max_lateral_deviation_m": 4.114751470572956e-11
+    },
+    {
+      "configuration_id": "E20_ood_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.3716690017380638e-05,
+      "command_max_lateral_deviation_m": 3.634796880687613e-11
+    },
+    {
+      "configuration_id": "E20_ood_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.4956803361874857e-05,
+      "command_max_lateral_deviation_m": 7.426694325428932e-11
+    },
+    {
+      "configuration_id": "E20_ood_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 7.385224571495748e-05,
+      "command_max_lateral_deviation_m": 3.738417478103947e-11
+    },
+    {
+      "configuration_id": "E20_ood_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.899144400602927e-05,
+      "command_max_lateral_deviation_m": 4.118002919887194e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.1064653371656796e-05,
+      "command_max_lateral_deviation_m": 4.31334015179845e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.982889648756597e-06,
+      "command_max_lateral_deviation_m": 1.4424405342107161e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.890144478941457e-05,
+      "command_max_lateral_deviation_m": 5.485933604008439e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.458782491267888e-05,
+      "command_max_lateral_deviation_m": 3.9788961051779465e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.090020055921344e-05,
+      "command_max_lateral_deviation_m": 8.07885782689243e-11
+    },
+    {
+      "configuration_id": "E21_ood_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 0.00010213064616229465,
+      "command_max_lateral_deviation_m": 3.720667989085696e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 9.98054891992481e-05,
+      "command_max_lateral_deviation_m": 4.484890288328206e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.216703264357703e-05,
+      "command_max_lateral_deviation_m": 3.355044081118504e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.1082906287685701e-05,
+      "command_max_lateral_deviation_m": 2.3281631750025716e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.438199645025722e-05,
+      "command_max_lateral_deviation_m": 4.7059138818611774e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.165450370444616e-05,
+      "command_max_lateral_deviation_m": 6.733873151347611e-11
+    },
+    {
+      "configuration_id": "E22_ood_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.164495884360912e-06,
+      "command_max_lateral_deviation_m": 5.235536845852225e-12
+    },
+    {
+      "configuration_id": "E23_ood_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 7.891929372856321e-05,
+      "command_max_lateral_deviation_m": 6.949922566330421e-11
+    },
+    {
+      "configuration_id": "E23_ood_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 3.8812242379153214e-05,
+      "command_max_lateral_deviation_m": 6.011478110995669e-11
+    },
+    {
+      "configuration_id": "E23_ood_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 4.513063783433086e-05,
+      "command_max_lateral_deviation_m": 4.9964441406287315e-11
+    },
+    {
+      "configuration_id": "E23_ood_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.8589176033857014e-05,
+      "command_max_lateral_deviation_m": 1.7471720386583573e-11
+    },
+    {
+      "configuration_id": "E23_ood_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 2.8522670001183266e-05,
+      "command_max_lateral_deviation_m": 3.4917760685595506e-11
+    },
+    {
+      "configuration_id": "E23_ood_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.733191944087052e-05,
+      "command_max_lateral_deviation_m": 4.3064706102301924e-11
+    },
+    {
+      "configuration_id": "E24_ood_test_000",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.5183486392252574e-05,
+      "command_max_lateral_deviation_m": 5.708116448728426e-11
+    },
+    {
+      "configuration_id": "E24_ood_test_001",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 6.001439636641708e-05,
+      "command_max_lateral_deviation_m": 8.37127713210363e-11
+    },
+    {
+      "configuration_id": "E24_ood_test_002",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 5.593553093649864e-05,
+      "command_max_lateral_deviation_m": 7.083763692613131e-11
+    },
+    {
+      "configuration_id": "E24_ood_test_003",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 7.895955668423617e-05,
+      "command_max_lateral_deviation_m": 9.772000348295313e-12
+    },
+    {
+      "configuration_id": "E24_ood_test_004",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 3.862537388875306e-05,
+      "command_max_lateral_deviation_m": 7.895759458795786e-11
+    },
+    {
+      "configuration_id": "E24_ood_test_005",
+      "controller": "straight_path",
+      "success": true,
+      "ring_max_lateral_deviation_m": 1.527023474879798e-05,
+      "command_max_lateral_deviation_m": 1.876545812091677e-11
+    }
+  ],
+  "interpretation": "Deviation demonstrates that the trained model changes executed paths; it does not establish better task success or calibrated 3D accuracy."
+}

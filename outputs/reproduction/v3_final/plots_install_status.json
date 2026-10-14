@@ -1,0 +1,5 @@
+{
+  "seconds": 9.5873143,
+  "command": "pip install -r requirements-plots.txt",
+  "exit_code": 0
+}

@@ -1,0 +1,40 @@
+{
+  "git_head": "6d2f8fa3dbe98e38f4ee6f0c58296a1bd5909faf",
+  "files": [
+    {
+      "path": "data/source/359977334.mp4",
+      "bytes": 14256441,
+      "worktree_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+      "git_blob_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+      "git_blob_bytes_preserved": true
+    },
+    {
+      "path": "data/real_episodes.json",
+      "bytes": 117252,
+      "worktree_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+      "git_blob_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+      "git_blob_bytes_preserved": true
+    },
+    {
+      "path": "data/real_motion.json",
+      "bytes": 1345202,
+      "worktree_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+      "git_blob_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+      "git_blob_bytes_preserved": true
+    },
+    {
+      "path": "outputs/video_model/policy.pt",
+      "bytes": 11711,
+      "worktree_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+      "git_blob_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+      "git_blob_bytes_preserved": true
+    },
+    {
+      "path": "outputs/video_v3/configurations.json",
+      "bytes": 385800,
+      "worktree_sha256": "fd55b9491af1414e3242a243763a4cee91d18ca49b4c080bd6b425d40d308c94",
+      "git_blob_sha256": "fd55b9491af1414e3242a243763a4cee91d18ca49b4c080bd6b425d40d308c94",
+      "git_blob_bytes_preserved": true
+    }
+  ]
+}
