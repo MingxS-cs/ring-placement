@@ -1,143 +1,103 @@
-# Ring placement: phone data to a generalizing simulated manipulator
+# TinyVLA: recorded ring motion to visual-language robot actions
 
-A personally recorded fixed-camera phone video supplies measured ring motion. **V4 trains a 12-coefficient, direction-conditioned trajectory model** on real observations and executes its XY reference with a contact-based Panda arm. Geometric control supplies grasp, height, fingers and release.
+V5 is a **33,930-parameter task-specific VLA**: initial tabletop RGB and a text instruction generate23 XYZ/gripper action waypoints, executed by a physical Panda arm with a proprioceptive waypoint servo. Its learned vision, word embeddings and action head are trained from scratch. It is a minimal hierarchical VLA, **not SmolVLA fine-tuning or a pretrained general-purpose VLA**.
 
-The hybrid controller completes **96/96 frozen scenes**, covering new positions, eight directions and 45–160 mm distances. Straight control and the frozen V3 profile also complete **96/96** under identical execution. Learned motion changes the physical path but does not improve placement success. On three newly annotated reserved human paths, V4 improves over V3 and remains worse than straight interpolation. Both findings are retained.
+The existing personally recorded phone video supplies scene geometry and optical transfer motion through the preserved train-only V4 precursor. Robot RGB, heights, grip values and left/right demonstrations are generated in simulation. The visual encoder is **not trained directly on the original phone RGB**. This distinction and all execution conventions are documented in [the method](docs/tiny_vla_method.md).
 
-[Six preset scene replays](outputs/generalization_v4/student_demo.mp4) · [Physical results](outputs/generalization_v4/evaluation/results.json) · [Held-out fidelity](outputs/generalization_v4/fidelity/fidelity.json) · [Detailed method](docs/generalization_v4.md)
+[Watch six preset physical replays](outputs/vla_v5/student_demo.mp4) · [All264 outcomes](outputs/vla_v5/evaluation.json) · [Frozen model/protocol](outputs/vla_v5/model_freeze.json) · [中文说明](docs/tiny_vla_results_zh.md)
 
-[中文结果说明](docs/generalization_results_zh.md)
+![Initial RGB, three text targets and physical outcomes](outputs/vla_v5/student_demo.jpg)
 
-![Six preset physical placements](outputs/generalization_v4/student_demo.jpg)
+## Results: spatial generalization and actual modality use
 
-## Challenge and scope
+Freeze a new seed20261024 before testing:96 combinations of object positions, eight start-to-goal direction bins and45–160mm distances. Both object dimensions and a fixed camera remain unchanged. No test outcome changes weights, model selection or code.
 
-The [Humanoid Robot Learning Research Intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221) asks for personally collected data driving a manipulator in simple simulation, runnable instructions, example outputs, design choices and successes/failures, in a public GitHub repository. It allows hand-coded solutions; VLA, world-model and retargeting approaches are examples. No push-block task is mandated.
+| Experiment | Successes / all attempts |
+|---|---:|
+| Initial RGB + “put the ring inside the bearing” | **96/96** |
+| Same96 scenes and weights, image replaced by zeros | **0/96** |
+| Same24 scenes, inside/left/right instructions | **72/72** |
 
-This is the **local submission version**. The applicant explicitly deferred public GitHub publication, so the public-repository requirement remains outstanding. CV, eligibility and application submission are separate. [Requirement checklist](docs/challenge_checklist.md).
+The72 language attempts include24 repeated inside trials; they are counterfactual/repeat controls, not72 independent new scenes. Each command succeeds24/24. In all24 paired scenes the RGB is identical but the neural waypoint chunk changes by approximately60mm to the instructed side. The repeated inside chunks and complete physical trajectories are bit-identical. All96 black-image cases complete the same23-waypoint execution and fail target scoring; none is discarded or rescued.
 
-Demonstrated generalization is **same-task, same-object motion control in simulation with known positions and a fixed reference**. Runtime positions come from simulator state. Visual recognition in new scenes, calibrated 3D, unfamiliar objects and real-robot transfer are not established.
+Every main distance band is32/32 and every direction bin12/12. Main actual ring-center placement error: mean **0.507mm**, maximum **1.123mm**. All264 controllers finish, with one neural inference per episode, zero execution exceptions and zero forbidden object/phase/teacher accesses through the restricted runtime interface. [Saved-record verification](outputs/vla_v5/analysis/verification.json).
 
-## Real data and supervision
+![Physical ring paths with the same RGB and three instructions](outputs/vla_v5/analysis/language_physical_paths.png)
 
-The applicant recorded [359977334.mp4](data/source/359977334.mp4): 119.4 s, 720×1280 pixels, approximately 30 fps, 3,581 frames. The phone stayed fixed; the bearing had three placements. Resets were removed and demonstrations concatenated. Video SHA-256: `90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4`.
+These tests establish **fixed-camera, same-object simulated spatial generalization and finite command grounding**. Training rotations already span360°, so new directions mean new draws/combinations, not a withheld angular sector. Training video distances extend past160mm; the test includes short-distance extrapolation plus combinations within support. V4 already succeeded at placement; V5 has no demonstrated success-rate advantage over that geometric-assisted baseline.
 
-Twenty-four bounded episodes supply visible endpoints. V4 preserves the original 13 train / 3 validation / 3 test / 5 reserved source split. Reviewed manual centers recover visible motion in eight previously rejected training episodes and all three validation episodes. Missing observations are never replaced with synthetic straight supervision.
+## Model input, output and execution boundary
 
-The applicant supplied the recording; centers were visually annotated with assistant support. Native evidence is included for applicant/reviewer inspection.
+- RGB: fixed256×256 orthographic full-tabletop pass, calibrated span560mm. Robot geometry is hidden in this declared special pass; the camera does not follow objects or use object-centered crops. Wide demonstration views show the arm.
+- Text: nine registered English phrases covering inside,60mm left and60mm right in table X. Learned word embeddings and a nonlinear text head condition action coefficients. There is no runtime language-to-geometry action branch or intent-ID input. Unknown phrases are rejected; open language/Chinese understanding is not claimed.
+- Vision: a small CNN predicts two foreground maps. Squared-sigmoid centroids plus known camera calibration estimate ring/bearing XY; training masks and true coordinates never enter runtime inference.
+- Action:23 learned absolute XYZ/gripper targets. A generic hand-coded executor uses its own tool/command positions, waypoint reach tolerances and hold durations, then sends bounded deltas through unchanged IK, servos and contact physics. It does not read ring/bearing truth, environment phase, contacts, teacher actions or scoring.
 
-| V4 source group | Paths | Observations | Explicit gap interpolation |
-|---|---:|---:|---:|
-| Retained original training paths | 5 | 52 | 14 |
-| Additional manual training paths | 8 | 110 | 0 |
-| Validation, manual replacement | 3 | 40 | 0 |
-| Newly annotated reserved E20/E21/E22 | 3 | 35 | 0 |
+The plan is generated once from the initial RGB; subsequent feedback is proprioceptive. This is **hierarchical VLA with a waypoint executor**, not fully learned per-step or visually replanning control. Task decomposition, camera calibration, downward orientation, IK and scheduling are planned conventions. True object state is used for training labels and scoring only. The original oracle stage FSM is removed from V5 physical execution.
 
-Only **176 points across 13 training paths** fit the model. Validation is diagnostic. The 35 reserved observations (29 intermediate) stay sealed until weights, selection protocol and physical scenes are frozen. These are windows of the same recording with prior endpoint exposure, not independent recordings. Earlier V3 tests informed this redesign; they are not relabeled as fresh tests.
+## Source data, training and failed designs
 
-[Development labels](data/v4_development_annotations.json), [native proof verification](outputs/v4_development_review/verification.json), [blind receipt](outputs/v4_holdout_review/freeze_receipt.json), and [model freeze](outputs/generalization_v4/model_freeze.json) preserve provenance. New manual proof images match sequential decoding. E11/E12 seek ordinal offsets were corrected before training. Fresh holdout ordinals/PTS also match sequential decoding and ffprobe.
+The applicant recorded [359977334.mp4](data/source/359977334.mp4),119.4s,720×1280,3,581 frames. Fixed phone, three bearing placements, edited resets. Video SHA256: `90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4`.
 
-Known 50 mm bearing diameter gives a local pixel scale; image Y is reversed. Labels are **approximate optical XY**, affected by perspective, height, tilt and blur. Center uncertainty is nominally ±5 px for clear rims and ±8 px for blur. Depth, force, gripper commands and human timing were not measured.
+The preserved original split remains13 train /3 validation /3 test /5 reserved. Video measurements and reviewed annotations were produced with assistant support. V4's real-motion model uses only the13 training sources. V5 renders16 descendants per training source (**208 scenes**) and8 per validation source (**24 scenes**), all source-isolated. [Dataset manifest](outputs/vla_v5/dataset/manifest.json) binds the video, precursor, arrays, camera and generation code. [Training record](outputs/vla_v5/model/training.json).
 
-## Model and execution
+Source-uniform least squares fit the action coefficient targets. Actual word embeddings/nonlinear text features are trained, then the final linear layer is refined against training phrase targets. The visual network trains with segmentation and center losses. **Validation selects epoch146 of240**, on RTX5080, in58.16s. No test labels or poses tune weights.
 
-V3 received progress and distance but could not distinguish similar-length paths with different direction-dependent curvature. V4 retains direction and predicts residual directly in metres. Inputs combine normalized observed arc progress and standardized direction in a camera/task reference. Features are `[1, direction_x, direction_y]` times endpoint envelope `4p(1-p)` and optional term `2p-1`. Ridge regression predicts longitudinal/lateral residual, rotated into the new endpoint frame and capped at 25 mm. Endpoints are exact; the simulated goal is the hole center.
-
-The locked grid is degree 0/1 × penalty 0.02/0.2/2, selected by leave-one-training-source-out error with fold-only direction statistics and a 0.1 mm preference for six coefficients. Selected: **12 coefficients, degree 1, penalty 0.02**. Source-normalized arc-cell weights use observed/interpolated base weights 1/0.25. LOPO is selection evidence, not a final test.
-
-| Development diagnostic | V4 mean XY error | Straight |
+| Held-out source validation,24 scenes | Mean | Maximum |
 |---|---:|---:|
-| Selected training-source LOPO | 5.968 mm | 9.965 mm |
-| Fitted training paths | 4.831 mm | 9.965 mm |
-| Three validation paths | 5.023 mm | 6.698 mm |
+| RGB → grasp XY | 0.376mm | 0.850mm |
+| RGB → goal XY | 0.637mm | 0.922mm |
+| True-coordinate text/critical waypoint error | <0.001mm | <0.001mm |
+| Whole-curve XYZ approximation against synthetic teacher | 0.908mm | 6.956mm |
 
-E11 validation regresses: 7.864 mm versus straight 6.601 mm. Frozen model SHA-256: `64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7`.
+Physical validation is24/24 for each of the three primary commands (72/72). Endpoint precision does not imply exact reproduction of intermediate human motion. At256px across560mm, exact segmentation centroids themselves have about0.5mm mean raster error; sub0.2mm localization everywhere is not claimed.
 
-Generate 63 interior waypoints plus exact endpoints. Follow the curve by its own arc length, limiting command displacement to 2 mm per 50 ms step and pausing advance if physical tool lag exceeds 4 mm. A completion guard prevents lowering when a curve passes the goal early. All profiles share this executor, guard, IK, servos and physics.
+The first mean-word/linear text head failed to handle different-length aliases; the second gradient-only head retained accumulated coefficient error. These validation-only attempts are preserved under `model/attempt_01` and `attempt_02`; their outdated bindings are archival, not usable deployment checkpoints. Nonlinear text features and train-only last-layer refinement fixed the issue before testing. Existing V4's worse-than-straight human-path result remains [documented](docs/v4_baseline.md).
 
-Approach, grasp, Z, orientation, fingers, lowering, release and retraction remain geometric. Runtime control never reads a held-out human path. Translation invariance follows from relative geometry; coordinate rotation equivariance requires a co-rotating reference. New directions in a fixed reference are tested empirically.
+Final checkpoint SHA256: `412d3f45dafdd47630000c61527c4056e1d8975c01a1a30fc931ec6810dc4452`. CPU Torch2.11/2.14 outputs agree bitwise for24 validation images; GPU/CPU XYZ differences are at most0.016mm. [Portability evidence](outputs/vla_v5/model/portability.json).
 
-## Frozen physical generalization test
+## Run the delivered model
 
-Freeze 96 procedural cases before selected-model training: three distance bands × eight angular bins × four placements, seed 20261020. Bearing bounds: x=[0.40,0.52] m, y=[−0.10,0.10] m. Conditional geometric sampling keeps ring starts within x=[0.32,0.62] m, y=[−0.23,0.23] m. This is a declared workspace constraint, not a success filter. Cases have no invented human-source ancestry; all attempts remain in denominators.
-
-Measured training endpoint distances span **66.2–201.1 mm**. The procedural 45–160 mm test includes short-distance extrapolation and novel combinations within that range; it does not establish long-distance extrapolation.
-
-| Profile under shared V4 execution | 45–75 mm | 75–110 mm | 110–160 mm | Total |
-|---|---:|---:|---:|---:|
-| V4 learned reference | 32/32 | 32/32 | 32/32 | **96/96** |
-| Straight reference | 32/32 | 32/32 | 32/32 | **96/96** |
-| Frozen V3 profile | 32/32 | 32/32 | 32/32 | **96/96** |
-
-Every distance/direction cell is 4/4 for all profiles. No execution exceptions occurred; maximum tool-to-command lag is about 3.13 mm. [All 288 rollouts](outputs/generalization_v4/evaluation/rollouts.json) retain physical ring/tool states, command, actual actions, contacts, phases and reference progress.
-
-Success requires full ring projection inside the hole with 0.3 mm margin, tilt ≤8°, table height within 1.5 mm, linear speed <0.01 m/s, angular speed <0.15 rad/s, open fingers, zero finger contact and ≥0.4 s settling.
-
-Mean maximum physical lateral deviation: **V4 11.74 mm**, **straight 0.046 mm**, **V3 profile 14.89 mm**. This establishes a data-to-motion effect, not a placement advantage. The V3-profile comparison here differs from its historical 48-scene result.
-
-![Frozen position/distance coverage](outputs/generalization_v4/analysis/configuration_coverage.png)
-
-## Held-out human-path result and failure
-
-All curves share measured endpoints and observed arc progress. Intermediate-only scores remove both exact endpoints and renormalize arc-cell weights per source. Each source has equal weight.
-
-| Method | Whole-path mean XY error | Intermediate-only mean XY error |
-|---|---:|---:|
-| V4 | 10.522 mm | **10.909 mm** |
-| Straight | 8.455 mm | **8.764 mm** |
-| V3 | 15.149 mm | **15.671 mm** |
-
-V4 improves over V3 and loses to straight on mean error in **all three reserved paths**. The predeclared perturbation experiment agrees: ±5/±8 px, 100 draws each, fixed endpoints and recomputed arc progress. V4 beats straight in 0/100 draws and V3 in 100/100 at both bounds. These are measurement sensitivity draws, not confidence intervals or extra demonstrations.
-
-Weights, candidate selection, execution and scoring protocol were frozen before label access. Fidelity code was completed/tested before unsealing and its hash is saved in the output; no separate pre-unseal receipt binds that module's source. Neither fidelity code, weights nor selection changed after unsealing.
-
-![Reserved paths and all prediction failures](outputs/generalization_v4/analysis/holdout_path_predictions.png)
-
-Large clearance and planned grasp/release make success easy. **Placement succeeds over the declared simulated range; faithful human-path imitation remains limited.** Broader perception, camera, object and real-hardware claims need independent recordings and stronger geometry evidence.
-
-## Physics and dimensions
-
-| Object | Outer diameter | Inner diameter | Height |
-|---|---:|---:|---:|
-| Bearing | 50 mm | 40 mm | 5 mm |
-| Ring | 25 mm | 20 mm | 7 mm |
-
-Both start flat. Slender custom fingers pinch the 2.5 mm ring wall. Convex wedges preserve annular holes. The ring is a free body: no weld, attachment or teleport after reset. It rests on the table inside the bearing, protruding 2 mm above it. Mass, friction, gravity compensation and downward orientation are assumptions. Runtime positions are known simulation state.
-
-Panda assets: MuJoCo Menagerie revision `d7b481bac63d3d600ab404ee74f7474c5efe8a67`, [Apache-2.0 attribution](vendor/NOTICE.md). Project code is MIT licensed. Real hardware, changed cameras/backgrounds, clutter, unknown sizes and friction changes are untested.
-
-## Run and reproduce
-
-Windows, Python 3.12, MuJoCo 3.12.0 and PyTorch 2.14.0+cpu were tested. CPU is sufficient. ffmpeg/ffprobe must be on PATH for video. Run from the root; source video, annotations and assets are included.
+The original CPU environment remains supported for inference. Python3.12, NumPy2.5.2, MuJoCo3.12.0, Torch2.14.0+cpu, OpenCV5.0.0.93 were checked. ffmpeg/ffprobe must be on PATH for video.
 
 ```powershell
 python -m venv .venv
 ./.venv/Scripts/python.exe -m pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
 ./.venv/Scripts/python.exe -m pip install -r requirements.txt
 ./.venv/Scripts/python.exe -m pytest -q
+./.venv/Scripts/python.exe -m ring_learning.vla_evaluate run --manifest outputs/vla_v5/configurations.json --receipt outputs/vla_v5/model_freeze.json --out outputs/vla_recheck.json
+./.venv/Scripts/python.exe -m ring_learning.vla_demo --output outputs/vla_recheck_demo.mp4
 ```
 
-Reevaluate and replay the delivered model:
+Frozen receipts and reports are immutable; choose new output paths. The supported primary strings are:
+
+```text
+put the ring inside the bearing
+put the ring left of the bearing
+put the ring right of the bearing
+```
+
+## Retrain and reproduce
+
+GPU training used a separate local `.venv-vla` inheriting installed Anaconda Torch2.11.0+cu128, with local MuJoCo/OpenCV/NumPy. It leaves V4 intact but is not a fully isolated GPU dependency environment; inherited unused packages report dependency conflicts. Actual imports, CUDA operations and CPU portability were checked. A fresh dedicated GPU installation can use:
 
 ```powershell
-./.venv/Scripts/python.exe -m ring_learning.generalization_evaluate --output outputs/recheck_v4/evaluation
-./.venv/Scripts/python.exe -m ring_learning.generalization_fidelity --output outputs/recheck_v4/fidelity
-./.venv/Scripts/python.exe -m ring_learning.generalization_demo --output outputs/recheck_v4/student_demo.mp4
+python -m venv .venv-vla
+./.venv-vla/Scripts/python.exe -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+./.venv-vla/Scripts/python.exe -m pip install -r requirements-vla.txt
+./scripts/reproduce_vla.ps1 -OutputDirectory outputs/full_vla_reproduction -Device cuda
 ```
 
-Full raw video + included reviewed labels → regenerated endpoints/motion → new frozen scenes → model → 288 rollouts → fidelity/sensitivity → video:
+The script regenerates source-isolated RGB/action data, trains240 epochs, freezes model/scenes, reruns all264 attempts and produces six preset clips. CPU training is available with `-Device cpu`, with a different runtime. It uses the delivered train-only V4 motion precursor; raw-video rebuilding of that precursor is separately available through `scripts/reproduce_v4.ps1`. Supplied optical annotations are reused. [Clean-source reproduction report](docs/reproduction_vla.md).
 
-```powershell
-./scripts/reproduce_v4.ps1 -OutputDirectory outputs/full_reproduction_v4
-```
+Optional plots use `requirements-plots.txt` and `python -m ring_learning.vla_analysis`.
 
-Existing output directories are refused. Regenerated measurements must exactly match delivered JSON values; only metadata byte hashes are rebound before fitting. Included visual review/annotations are reused, not newly generated. Metadata hashes can differ with paths while coefficients and rollouts remain reproducible. [Clean-clone verification](docs/reproduction_v4.md).
+## Scope, challenge and licensing
 
-Optional scientific plots:
+Ring OD25/ID20/height7mm; bearing OD50/ID40/height5mm. Both start horizontal. Narrow custom fingers pinch the2.5mm wall. The ring is a free body, with no weld, attachment or teleport after reset. Friction, mass, fixed appearance and tool orientation are assumptions.
 
-```powershell
-./.venv/Scripts/python.exe -m pip install -r requirements-plots.txt
-./.venv/Scripts/python.exe -m ring_learning.generalization_analysis
-```
+Phone-image perception, new cameras/backgrounds, real robot occlusion, new dimensions/materials, friction variation and hardware transfer remain unverified. The special robot-hidden simulator image must not be represented as an ordinary real camera. A minimal finite-command VLA is not a pretrained foundation model; see [official SmolVLA](https://huggingface.co/docs/lerobot/smolvla) for that separate450M route.
 
-Linux uses `.venv/bin/python` and suitable MuJoCo OpenGL/EGL/OSMesa setup; rendering was verified on Windows. Earlier artifacts remain intact: [V3 baseline](docs/v3_baseline.md), [V2 baseline](docs/v2_baseline.md). V4 labels, frozen results, code, tests and native proof are in `data/v4_*`, `outputs/generalization_v4`, `ring_learning/generalization*` and `outputs/v4_*_review`.
+This addresses the technical data-to-manipulator scope of the [Humanoid intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221). Hand-coded solutions are allowed. **Public GitHub publication remains deferred by the applicant**, so that submission requirement is outstanding; no application was submitted. [Checklist](docs/challenge_checklist.md).
+
+Code MIT; Panda assets Apache2.0 with [attribution](vendor/NOTICE.md). Earlier versions remain intact: [V4](docs/v4_baseline.md),[V3](docs/v3_baseline.md),[V2](docs/v2_baseline.md).

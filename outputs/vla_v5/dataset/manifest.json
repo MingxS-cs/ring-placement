@@ -1,0 +1,3843 @@
+{
+  "schema_version": 1,
+  "seed": 20261025,
+  "task_names": [
+    "inside",
+    "left",
+    "right"
+  ],
+  "configurations": {
+    "train": [
+      {
+        "configuration_id": "V5_E01_train_000",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.4787412026868441,
+          0.059896724773627424
+        ],
+        "bearing_xy_m": [
+          0.41708818081675786,
+          -0.03751032950248745
+        ],
+        "rotation_draw_rad": -2.135086413790435,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1370301025
+      },
+      {
+        "configuration_id": "V5_E01_train_001",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5660824331797703,
+          0.020804484531538617
+        ],
+        "bearing_xy_m": [
+          0.4657050423678926,
+          -0.035884215773397954
+        ],
+        "rotation_draw_rad": -2.6274913411595073,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1437711761
+      },
+      {
+        "configuration_id": "V5_E01_train_002",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.38660401748869344,
+          -0.004474896992710031
+        ],
+        "bearing_xy_m": [
+          0.4971780945207921,
+          0.028122692135365612
+        ],
+        "rotation_draw_rad": 0.28668227347713815,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1594147510
+      },
+      {
+        "configuration_id": "V5_E01_train_003",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.6219045799759504,
+          -0.0515515668788538
+        ],
+        "bearing_xy_m": [
+          0.5094852247171686,
+          -0.07706857868790284
+        ],
+        "rotation_draw_rad": -2.9183938567613694,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1877306294
+      },
+      {
+        "configuration_id": "V5_E01_train_004",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.4109423240208299,
+          0.017299686638439116
+        ],
+        "bearing_xy_m": [
+          0.5134218614615083,
+          -0.03549400365129085
+        ],
+        "rotation_draw_rad": -0.47570448273172694,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1526710723
+      },
+      {
+        "configuration_id": "V5_E01_train_005",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5449416868743375,
+          -0.1537280628935574
+        ],
+        "bearing_xy_m": [
+          0.479476077041064,
+          -0.0588413764848682
+        ],
+        "rotation_draw_rad": 2.174735010608348,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1920492333
+      },
+      {
+        "configuration_id": "V5_E01_train_006",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5279167580482301,
+          -0.018426840248326783
+        ],
+        "bearing_xy_m": [
+          0.41439575889807,
+          0.0016283855148669507
+        ],
+        "rotation_draw_rad": 2.9667315921498023,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 380200191
+      },
+      {
+        "configuration_id": "V5_E01_train_007",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.3690570876696805,
+          -0.028894303355659942
+        ],
+        "bearing_xy_m": [
+          0.4839033430004907,
+          -0.038872628112535
+        ],
+        "rotation_draw_rad": -0.08666655698963455,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1408296855
+      },
+      {
+        "configuration_id": "V5_E01_train_008",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.41881842699217603,
+          -0.11715849856533941
+        ],
+        "bearing_xy_m": [
+          0.5119097641890682,
+          -0.04916414389263262
+        ],
+        "rotation_draw_rad": 0.630841746936921,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 435647498
+      },
+      {
+        "configuration_id": "V5_E01_train_009",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5400302471347012,
+          0.1645379794306447
+        ],
+        "bearing_xy_m": [
+          0.47316745135547533,
+          0.07063060022619203
+        ],
+        "rotation_draw_rad": -2.189535904216322,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 953542642
+      },
+      {
+        "configuration_id": "V5_E01_train_010",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.32333849897848016,
+          -0.00313310369783322
+        ],
+        "bearing_xy_m": [
+          0.40145418634152435,
+          0.08164406726382639
+        ],
+        "rotation_draw_rad": 0.8262702670226343,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 523657021
+      },
+      {
+        "configuration_id": "V5_E01_train_011",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.3992879059271761,
+          -0.0746834341675707
+        ],
+        "bearing_xy_m": [
+          0.49651253206537477,
+          -0.01274312902826076
+        ],
+        "rotation_draw_rad": 0.567242155846607,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1564887820
+      },
+      {
+        "configuration_id": "V5_E01_train_012",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5305291752462638,
+          0.10396632796104546
+        ],
+        "bearing_xy_m": [
+          0.45459103150925045,
+          0.017233245148083998
+        ],
+        "rotation_draw_rad": -2.2899311742537014,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1476546664
+      },
+      {
+        "configuration_id": "V5_E01_train_013",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5218330319445381,
+          -0.1880397490254345
+        ],
+        "bearing_xy_m": [
+          0.45263663705568064,
+          -0.09583840270745157
+        ],
+        "rotation_draw_rad": 2.2146123944808327,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 963097145
+      },
+      {
+        "configuration_id": "V5_E01_train_014",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.5074439439851295,
+          -0.09640138216101993
+        ],
+        "bearing_xy_m": [
+          0.43133134375174387,
+          -0.009821353204128497
+        ],
+        "rotation_draw_rad": 2.291944368012313,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 67224987
+      },
+      {
+        "configuration_id": "V5_E01_train_015",
+        "source_episode_id": "E01",
+        "split": "train",
+        "ring_xy_m": [
+          0.6021126142867712,
+          -0.0026416605922583783
+        ],
+        "bearing_xy_m": [
+          0.5041949004024435,
+          -0.06348038704285289
+        ],
+        "rotation_draw_rad": -2.5856403796604592,
+        "source_endpoint_distance_m": 0.11527891970548355,
+        "reset_seed": 1975511270
+      },
+      {
+        "configuration_id": "V5_E02_train_000",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.5764739199730002,
+          -0.015161786654558446
+        ],
+        "bearing_xy_m": [
+          0.5071488979205886,
+          0.048528997405143465
+        ],
+        "rotation_draw_rad": 2.3985268428971613,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1344836130
+      },
+      {
+        "configuration_id": "V5_E02_train_001",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.37538395491419146,
+          -0.0221795657801669
+        ],
+        "bearing_xy_m": [
+          0.4580275356319451,
+          -0.0672629687446181
+        ],
+        "rotation_draw_rad": -0.4993941523856491,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1045704653
+      },
+      {
+        "configuration_id": "V5_E02_train_002",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.4791695397925109,
+          0.1454096068530732
+        ],
+        "bearing_xy_m": [
+          0.4628293582530082,
+          0.052697832390694144
+        ],
+        "rotation_draw_rad": -1.7452517805436587,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1855217978
+      },
+      {
+        "configuration_id": "V5_E02_train_003",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.3989933618262682,
+          -0.10367349012544747
+        ],
+        "bearing_xy_m": [
+          0.4928737160957587,
+          -0.09667679526702291
+        ],
+        "rotation_draw_rad": 0.07439025755588302,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1915185730
+      },
+      {
+        "configuration_id": "V5_E02_train_004",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.42060733811764783,
+          0.12288498482278358
+        ],
+        "bearing_xy_m": [
+          0.4693148982451388,
+          0.04232414915722088
+        ],
+        "rotation_draw_rad": -1.026996983569331,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 966677450
+      },
+      {
+        "configuration_id": "V5_E02_train_005",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.46211736943772236,
+          0.1129308939611155
+        ],
+        "bearing_xy_m": [
+          0.5073851601299402,
+          0.030388166949267242
+        ],
+        "rotation_draw_rad": -1.0691696933553518,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 484584196
+      },
+      {
+        "configuration_id": "V5_E02_train_006",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.3271059019979306,
+          0.04436103646216265
+        ],
+        "bearing_xy_m": [
+          0.4193175338106917,
+          0.06332124783057116
+        ],
+        "rotation_draw_rad": 0.20278993654859478,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1946866358
+      },
+      {
+        "configuration_id": "V5_E02_train_007",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.40878337627526323,
+          -0.13231200292809314
+        ],
+        "bearing_xy_m": [
+          0.41921277276689006,
+          -0.038750780482427194
+        ],
+        "rotation_draw_rad": 1.459783266393841,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 308395087
+      },
+      {
+        "configuration_id": "V5_E02_train_008",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.4424861054181921,
+          0.08834261881709883
+        ],
+        "bearing_xy_m": [
+          0.4745482387361348,
+          -0.00017005973128436658
+        ],
+        "rotation_draw_rad": -1.223266145325233,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 640090784
+      },
+      {
+        "configuration_id": "V5_E02_train_009",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.4315002926914938,
+          0.12226640541004645
+        ],
+        "bearing_xy_m": [
+          0.4686394511571015,
+          0.03576115952765255
+        ],
+        "rotation_draw_rad": -1.1652652088038127,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 259331474
+      },
+      {
+        "configuration_id": "V5_E02_train_010",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.4842646579787001,
+          0.0664780131828651
+        ],
+        "bearing_xy_m": [
+          0.41625612453752814,
+          0.0013833587488185362
+        ],
+        "rotation_draw_rad": -2.3780828738666253,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 544938772
+      },
+      {
+        "configuration_id": "V5_E02_train_011",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.44373790288270065,
+          0.014879542113098512
+        ],
+        "bearing_xy_m": [
+          0.41207555058084366,
+          -0.07377693031514576
+        ],
+        "rotation_draw_rad": -1.9138135291668559,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1887000544
+      },
+      {
+        "configuration_id": "V5_E02_train_012",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.4359502193826344,
+          -0.04532356328450025
+        ],
+        "bearing_xy_m": [
+          0.5112708753623819,
+          0.011150089328797838
+        ],
+        "rotation_draw_rad": 0.6433580092117204,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 2082192522
+      },
+      {
+        "configuration_id": "V5_E02_train_013",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.49224866498434416,
+          0.15725063701218214
+        ],
+        "bearing_xy_m": [
+          0.4819686855810691,
+          0.06367287961131693
+        ],
+        "rotation_draw_rad": -1.6802125306060127,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 509720839
+      },
+      {
+        "configuration_id": "V5_E02_train_014",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.42308659648244734,
+          -0.00010654925354888767
+        ],
+        "bearing_xy_m": [
+          0.4336444907559557,
+          -0.09365335852685529
+        ],
+        "rotation_draw_rad": -1.4584097522747554,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1969768528
+      },
+      {
+        "configuration_id": "V5_E02_train_015",
+        "source_episode_id": "E02",
+        "split": "train",
+        "ring_xy_m": [
+          0.3816024703402138,
+          0.014600289357619756
+        ],
+        "bearing_xy_m": [
+          0.40835675337264293,
+          -0.07565868801376206
+        ],
+        "rotation_draw_rad": -1.2826300461157345,
+        "source_endpoint_distance_m": 0.09414071731565966,
+        "reset_seed": 1515502728
+      },
+      {
+        "configuration_id": "V5_E03_train_000",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.3958988928306426,
+          0.0960174465116437
+        ],
+        "bearing_xy_m": [
+          0.5033548615858174,
+          0.06335355267236156
+        ],
+        "rotation_draw_rad": -0.2950992901082623,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1307198404
+      },
+      {
+        "configuration_id": "V5_E03_train_001",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.3503032485666552,
+          -0.15207204897340112
+        ],
+        "bearing_xy_m": [
+          0.4423459981134431,
+          -0.08771486260137051
+        ],
+        "rotation_draw_rad": 0.6101953871852777,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1637993496
+      },
+      {
+        "configuration_id": "V5_E03_train_002",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.3696471983341349,
+          0.15603780679058218
+        ],
+        "bearing_xy_m": [
+          0.4272483474826796,
+          0.05962295939338866
+        ],
+        "rotation_draw_rad": -1.032268469804738,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 244512018
+      },
+      {
+        "configuration_id": "V5_E03_train_003",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.5655386997217415,
+          -0.07139948072233018
+        ],
+        "bearing_xy_m": [
+          0.4555823982700753,
+          -0.09427582118419853
+        ],
+        "rotation_draw_rad": -2.936469420427682,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1183277978
+      },
+      {
+        "configuration_id": "V5_E03_train_004",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.5417778170339227,
+          0.025037603913930853
+        ],
+        "bearing_xy_m": [
+          0.4601225832133148,
+          -0.05207360131305838
+        ],
+        "rotation_draw_rad": -2.3848075174776064,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1748010443
+      },
+      {
+        "configuration_id": "V5_E03_train_005",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.3454127108656377,
+          -0.059760513209519424
+        ],
+        "bearing_xy_m": [
+          0.4395520493546286,
+          0.0014889776513212355
+        ],
+        "rotation_draw_rad": 0.5768150875271729,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 86283901
+      },
+      {
+        "configuration_id": "V5_E03_train_006",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.45548306735797334,
+          -0.1157709031436497
+        ],
+        "bearing_xy_m": [
+          0.4126714866752964,
+          -0.011939868566758133
+        ],
+        "rotation_draw_rad": 1.9618778113045865,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1158695948
+      },
+      {
+        "configuration_id": "V5_E03_train_007",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.5609669352046945,
+          -0.10144477717473169
+        ],
+        "bearing_xy_m": [
+          0.5066409334301913,
+          -0.003147265949606168
+        ],
+        "rotation_draw_rad": 2.0756864776468946,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 851442125
+      },
+      {
+        "configuration_id": "V5_E03_train_008",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.4316747052118264,
+          -0.03923633394859431
+        ],
+        "bearing_xy_m": [
+          0.404040663915008,
+          0.06962171556297256
+        ],
+        "rotation_draw_rad": 1.8193988955038698,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1239213962
+      },
+      {
+        "configuration_id": "V5_E03_train_009",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.4467572822528356,
+          -0.15886443919860715
+        ],
+        "bearing_xy_m": [
+          0.5123724164563715,
+          -0.06771418223073583
+        ],
+        "rotation_draw_rad": 0.9468675762670236,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 782605601
+      },
+      {
+        "configuration_id": "V5_E03_train_010",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.4173778251068706,
+          -0.06646113053022738
+        ],
+        "bearing_xy_m": [
+          0.43034826309013374,
+          0.04509819413776858
+        ],
+        "rotation_draw_rad": 1.4550510521859827,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 128754293
+      },
+      {
+        "configuration_id": "V5_E03_train_011",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.5478743694519667,
+          0.014734989340863189
+        ],
+        "bearing_xy_m": [
+          0.44878283787246953,
+          -0.038128831473437846
+        ],
+        "rotation_draw_rad": -2.6515174508799197,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 988592045
+      },
+      {
+        "configuration_id": "V5_E03_train_012",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.6109263316362388,
+          0.023498128751643494
+        ],
+        "bearing_xy_m": [
+          0.5004032312393936,
+          0.0434570731256802
+        ],
+        "rotation_draw_rad": 2.962931990761991,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1510700809
+      },
+      {
+        "configuration_id": "V5_E03_train_013",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.3115952286524142,
+          0.0444193352499093
+        ],
+        "bearing_xy_m": [
+          0.4238476206505438,
+          0.048040891897988214
+        ],
+        "rotation_draw_rad": 0.03225143657320917,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 400644578
+      },
+      {
+        "configuration_id": "V5_E03_train_014",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.38434536981685086,
+          0.1285420408214688
+        ],
+        "bearing_xy_m": [
+          0.45154159889247697,
+          0.03855103027112003
+        ],
+        "rotation_draw_rad": -0.9294109829394843,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 1324832459
+      },
+      {
+        "configuration_id": "V5_E03_train_015",
+        "source_episode_id": "E03",
+        "split": "train",
+        "ring_xy_m": [
+          0.4288406450942874,
+          0.029458165575015766
+        ],
+        "bearing_xy_m": [
+          0.429512172017515,
+          -0.0828506240785478
+        ],
+        "rotation_draw_rad": -1.564817107156981,
+        "source_endpoint_distance_m": 0.11231079726302813,
+        "reset_seed": 415414937
+      },
+      {
+        "configuration_id": "V5_E04_train_000",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5500310870925933,
+          0.02230779585628481
+        ],
+        "bearing_xy_m": [
+          0.46420957097223814,
+          0.03104429074738685
+        ],
+        "rotation_draw_rad": 3.0401437044128814,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1666082228
+      },
+      {
+        "configuration_id": "V5_E04_train_001",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.48324532747399973,
+          0.010617260732731212
+        ],
+        "bearing_xy_m": [
+          0.43057355146586407,
+          0.07893521579820009
+        ],
+        "rotation_draw_rad": 2.227589974406567,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 894113303
+      },
+      {
+        "configuration_id": "V5_E04_train_002",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5473149523895725,
+          -0.040171574674682006
+        ],
+        "bearing_xy_m": [
+          0.5029321497513607,
+          0.03380021590900048
+        ],
+        "rotation_draw_rad": 2.111213126190515,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 2049754712
+      },
+      {
+        "configuration_id": "V5_E04_train_003",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.4174009516216116,
+          0.09686862436091559
+        ],
+        "bearing_xy_m": [
+          0.4962268736524911,
+          0.061823895967613035
+        ],
+        "rotation_draw_rad": -0.41834069727543177,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 503270296
+      },
+      {
+        "configuration_id": "V5_E04_train_004",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.4321741398797295,
+          0.08450836480070904
+        ],
+        "bearing_xy_m": [
+          0.5145902079524252,
+          0.059027966538212545
+        ],
+        "rotation_draw_rad": -0.29984629636930427,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 209002696
+      },
+      {
+        "configuration_id": "V5_E04_train_005",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.40500629121679677,
+          -0.07150662992986295
+        ],
+        "bearing_xy_m": [
+          0.4218952276433381,
+          0.013089012975424336
+        ],
+        "rotation_draw_rad": 1.373743963217633,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 926331135
+      },
+      {
+        "configuration_id": "V5_E04_train_006",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5663085324735434,
+          -0.126507656285794
+        ],
+        "bearing_xy_m": [
+          0.48927777184957433,
+          -0.08767569921598609
+        ],
+        "rotation_draw_rad": 2.6746626565721057,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1713674070
+      },
+      {
+        "configuration_id": "V5_E04_train_007",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5250674565468707,
+          0.02452517700215039
+        ],
+        "bearing_xy_m": [
+          0.4412455936252449,
+          0.04491032523626462
+        ],
+        "rotation_draw_rad": 2.9030278629498163,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 553376264
+      },
+      {
+        "configuration_id": "V5_E04_train_008",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.3794108812220326,
+          -0.02338514750400884
+        ],
+        "bearing_xy_m": [
+          0.4607921847958877,
+          -0.051998822570289184
+        ],
+        "rotation_draw_rad": -0.3380995928921924,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1128537287
+      },
+      {
+        "configuration_id": "V5_E04_train_009",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.34651929797972575,
+          0.016400978862445396
+        ],
+        "bearing_xy_m": [
+          0.41250119047390843,
+          -0.039169236496726594
+        ],
+        "rotation_draw_rad": -0.6999506507101501,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 347077174
+      },
+      {
+        "configuration_id": "V5_E04_train_010",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.45654258152628485,
+          0.016637851703602463
+        ],
+        "bearing_xy_m": [
+          0.4705237300721052,
+          -0.06848668328789305
+        ],
+        "rotation_draw_rad": -1.4080062819974546,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1604484247
+      },
+      {
+        "configuration_id": "V5_E04_train_011",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.3713602590214812,
+          -0.10644026770749546
+        ],
+        "bearing_xy_m": [
+          0.44985215528289996,
+          -0.0706536613656626
+        ],
+        "rotation_draw_rad": 0.427772209321474,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1165851589
+      },
+      {
+        "configuration_id": "V5_E04_train_012",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5037043463879014,
+          0.15464151165008744
+        ],
+        "bearing_xy_m": [
+          0.5077163891389352,
+          0.06846980814399148
+        ],
+        "rotation_draw_rad": -1.5242712220670622,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1561959906
+      },
+      {
+        "configuration_id": "V5_E04_train_013",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.5271731680459684,
+          0.05553603840334119
+        ],
+        "bearing_xy_m": [
+          0.4415771128399523,
+          0.044813431194864084
+        ],
+        "rotation_draw_rad": -3.016971943966245,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1663317198
+      },
+      {
+        "configuration_id": "V5_E04_train_014",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.4978310387669059,
+          0.07921723054378832
+        ],
+        "bearing_xy_m": [
+          0.45256611867918517,
+          0.005781912190621921
+        ],
+        "rotation_draw_rad": -2.123181435266961,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 424571591
+      },
+      {
+        "configuration_id": "V5_E04_train_015",
+        "source_episode_id": "E04",
+        "split": "train",
+        "ring_xy_m": [
+          0.4274539681852787,
+          0.050155571297168654
+        ],
+        "bearing_xy_m": [
+          0.5016817441539804,
+          0.09410891300083063
+        ],
+        "rotation_draw_rad": 0.5346211045443545,
+        "source_endpoint_distance_m": 0.08626505069944976,
+        "reset_seed": 1199520725
+      },
+      {
+        "configuration_id": "V5_E06_train_000",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4910290982483826,
+          0.14980001290539283
+        ],
+        "bearing_xy_m": [
+          0.5077929244767427,
+          0.08679524460189578
+        ],
+        "rotation_draw_rad": -1.3107488849951054,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1608939969
+      },
+      {
+        "configuration_id": "V5_E06_train_001",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.49511385545803194,
+          -0.06317721783979827
+        ],
+        "bearing_xy_m": [
+          0.4595965501472678,
+          -0.00850411913253668
+        ],
+        "rotation_draw_rad": 2.146911657749153,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 121906096
+      },
+      {
+        "configuration_id": "V5_E06_train_002",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4735273790175622,
+          -0.11246007231149535
+        ],
+        "bearing_xy_m": [
+          0.5013956486903474,
+          -0.05351954089009634
+        ],
+        "rotation_draw_rad": 1.129128071407286,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1570504534
+      },
+      {
+        "configuration_id": "V5_E06_train_003",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4365292266236648,
+          0.05843978401739904
+        ],
+        "bearing_xy_m": [
+          0.5017228815211527,
+          0.05779630915445397
+        ],
+        "rotation_draw_rad": -0.009869886405254213,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 204170711
+      },
+      {
+        "configuration_id": "V5_E06_train_004",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4329417966982782,
+          0.07097892079437883
+        ],
+        "bearing_xy_m": [
+          0.4979023545186509,
+          0.07652442586227123
+        ],
+        "rotation_draw_rad": 0.08516079243456032,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 707229240
+      },
+      {
+        "configuration_id": "V5_E06_train_005",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.3417854344409014,
+          -0.06374578976814704
+        ],
+        "bearing_xy_m": [
+          0.4065386294648213,
+          -0.07133857799028286
+        ],
+        "rotation_draw_rad": -0.11672434121918762,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 198858020
+      },
+      {
+        "configuration_id": "V5_E06_train_006",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.503563603277364,
+          0.008801216146878094
+        ],
+        "bearing_xy_m": [
+          0.5177511122137509,
+          -0.05483321862685071
+        ],
+        "rotation_draw_rad": -1.3514307891569317,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1894717451
+      },
+      {
+        "configuration_id": "V5_E06_train_007",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.47880009008885827,
+          -0.059296051324816385
+        ],
+        "bearing_xy_m": [
+          0.43794481646570027,
+          -0.008487850058004204
+        ],
+        "rotation_draw_rad": 2.2480370429446985,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1457064368
+      },
+      {
+        "configuration_id": "V5_E06_train_008",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.5497951374394441,
+          0.03218960334398658
+        ],
+        "bearing_xy_m": [
+          0.4962320355088253,
+          0.06935976355835935
+        ],
+        "rotation_draw_rad": 2.534938068094954,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 282416925
+      },
+      {
+        "configuration_id": "V5_E06_train_009",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.3655564297349791,
+          -0.052508045926886814
+        ],
+        "bearing_xy_m": [
+          0.4199487804239385,
+          -0.08845382294340516
+        ],
+        "rotation_draw_rad": -0.5839724388439884,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 408278478
+      },
+      {
+        "configuration_id": "V5_E06_train_010",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4457870202392045,
+          -0.01502309974298005
+        ],
+        "bearing_xy_m": [
+          0.4402531083716586,
+          0.04993844671516884
+        ],
+        "rotation_draw_rad": 1.6557786553663583,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1482325208
+      },
+      {
+        "configuration_id": "V5_E06_train_011",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.417033830972192,
+          -0.013433549762580571
+        ],
+        "bearing_xy_m": [
+          0.4360816757023595,
+          -0.07578582566272259
+        ],
+        "rotation_draw_rad": -1.2743127066681776,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1449347490
+      },
+      {
+        "configuration_id": "V5_E06_train_012",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.5186388334972184,
+          0.020592233882763662
+        ],
+        "bearing_xy_m": [
+          0.5015382397896926,
+          -0.042321964782101575
+        ],
+        "rotation_draw_rad": -1.8361927114002108,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1363363538
+      },
+      {
+        "configuration_id": "V5_E06_train_013",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.5772665467213529,
+          0.05456800903052809
+        ],
+        "bearing_xy_m": [
+          0.5191895813914891,
+          0.08419388955526172
+        ],
+        "rotation_draw_rad": 2.6698865193405057,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 1605563701
+      },
+      {
+        "configuration_id": "V5_E06_train_014",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.4413108039908244,
+          -0.02496855290575089
+        ],
+        "bearing_xy_m": [
+          0.41719518052392124,
+          0.035604241347069854
+        ],
+        "rotation_draw_rad": 1.9496864167932202,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 814429142
+      },
+      {
+        "configuration_id": "V5_E06_train_015",
+        "source_episode_id": "E06",
+        "split": "train",
+        "ring_xy_m": [
+          0.38564118102313555,
+          0.0187467928983358
+        ],
+        "bearing_xy_m": [
+          0.4065251001645193,
+          0.08050833934989535
+        ],
+        "rotation_draw_rad": 1.2447279198277243,
+        "source_endpoint_distance_m": 0.06519683043516765,
+        "reset_seed": 996337547
+      },
+      {
+        "configuration_id": "V5_E07_train_000",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4038310751069778,
+          0.07267182838300419
+        ],
+        "bearing_xy_m": [
+          0.4670914435205531,
+          0.058959183024381995
+        ],
+        "rotation_draw_rad": -0.21346273948958272,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 2035226882
+      },
+      {
+        "configuration_id": "V5_E07_train_001",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4908039704279283,
+          -0.0925881508118492
+        ],
+        "bearing_xy_m": [
+          0.4290309191168734,
+          -0.07324904570653462
+        ],
+        "rotation_draw_rad": 2.838191295034556,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1591975061
+      },
+      {
+        "configuration_id": "V5_E07_train_002",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.5156760265679309,
+          0.11893613776022788
+        ],
+        "bearing_xy_m": [
+          0.4576742493722186,
+          0.0902010599511881
+        ],
+        "rotation_draw_rad": -2.6816180044540276,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 2083266719
+      },
+      {
+        "configuration_id": "V5_E07_train_003",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4544265176794451,
+          -0.01566274281261117
+        ],
+        "bearing_xy_m": [
+          0.5123699933835183,
+          -0.04451520332959485
+        ],
+        "rotation_draw_rad": -0.46199944385403846,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 211765369
+      },
+      {
+        "configuration_id": "V5_E07_train_004",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4377863123705265,
+          0.15397796275620124
+        ],
+        "bearing_xy_m": [
+          0.403957984633486,
+          0.09879141460297827
+        ],
+        "rotation_draw_rad": -2.120706337060608,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1259134362
+      },
+      {
+        "configuration_id": "V5_E07_train_005",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4465655043948902,
+          -0.02773294056566028
+        ],
+        "bearing_xy_m": [
+          0.4743579700632259,
+          -0.08619224013918408
+        ],
+        "rotation_draw_rad": -1.1270089152204434,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 767508262
+      },
+      {
+        "configuration_id": "V5_E07_train_006",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.3643502831732265,
+          -0.03443344875343051
+        ],
+        "bearing_xy_m": [
+          0.40020307632663876,
+          -0.08832675146954966
+        ],
+        "rotation_draw_rad": -0.9837716156385654,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 66746037
+      },
+      {
+        "configuration_id": "V5_E07_train_007",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.5169725493929509,
+          0.08839261121730058
+        ],
+        "bearing_xy_m": [
+          0.4845476582896734,
+          0.03236996140944859
+        ],
+        "rotation_draw_rad": -2.0954680984388228,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 933763113
+      },
+      {
+        "configuration_id": "V5_E07_train_008",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4626765822016249,
+          -0.0928202943085181
+        ],
+        "bearing_xy_m": [
+          0.413275113607702,
+          -0.05099439616733919
+        ],
+        "rotation_draw_rad": 2.439044948118709,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1073432061
+      },
+      {
+        "configuration_id": "V5_E07_train_009",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.414931953144111,
+          0.053598422624355754
+        ],
+        "bearing_xy_m": [
+          0.475265325803673,
+          0.030150714888309504
+        ],
+        "rotation_draw_rad": -0.37067141700843065,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1719431614
+      },
+      {
+        "configuration_id": "V5_E07_train_010",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.5019664358144321,
+          0.08601907154784474
+        ],
+        "bearing_xy_m": [
+          0.49757262095562893,
+          0.02143884821640077
+        ],
+        "rotation_draw_rad": -1.6387281763114503,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1231832320
+      },
+      {
+        "configuration_id": "V5_E07_train_011",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.43076355558421375,
+          0.06110805954122747
+        ],
+        "bearing_xy_m": [
+          0.4442694954647579,
+          -0.0021967620957991096
+        ],
+        "rotation_draw_rad": -1.3605999719125246,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 2043445311
+      },
+      {
+        "configuration_id": "V5_E07_train_012",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.5510761124472631,
+          -0.05549594204664949
+        ],
+        "bearing_xy_m": [
+          0.4864867096370981,
+          -0.05975268953491826
+        ],
+        "rotation_draw_rad": -3.0757830881299757,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 610974468
+      },
+      {
+        "configuration_id": "V5_E07_train_013",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4566487999669157,
+          -0.016749922079595247
+        ],
+        "bearing_xy_m": [
+          0.41940623969844404,
+          -0.06969236780324761
+        ],
+        "rotation_draw_rad": -2.1838364635242353,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1965881227
+      },
+      {
+        "configuration_id": "V5_E07_train_014",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.4618023465025459,
+          0.08182959479838778
+        ],
+        "bearing_xy_m": [
+          0.5021711367515257,
+          0.031230468043210502
+        ],
+        "rotation_draw_rad": -0.8973885435186699,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 1466235438
+      },
+      {
+        "configuration_id": "V5_E07_train_015",
+        "source_episode_id": "E07",
+        "split": "train",
+        "ring_xy_m": [
+          0.5499147572127076,
+          -0.0938550218924581
+        ],
+        "bearing_xy_m": [
+          0.4859052753019921,
+          -0.08422708960798422
+        ],
+        "rotation_draw_rad": 2.9922976867398647,
+        "source_endpoint_distance_m": 0.06472952073476693,
+        "reset_seed": 739723058
+      },
+      {
+        "configuration_id": "V5_E09_train_000",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.4263011277073974,
+          0.044449727403756814
+        ],
+        "bearing_xy_m": [
+          0.47810242405102193,
+          0.08870597470091929
+        ],
+        "rotation_draw_rad": 0.7070119257820866,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 593847817
+      },
+      {
+        "configuration_id": "V5_E09_train_001",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5334238202995192,
+          -0.006329610611346272
+        ],
+        "bearing_xy_m": [
+          0.47732513918876834,
+          0.032334684356257776
+        ],
+        "rotation_draw_rad": 2.5381387470730363,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1423359572
+      },
+      {
+        "configuration_id": "V5_E09_train_002",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5161361488827464,
+          0.06445810792991591
+        ],
+        "bearing_xy_m": [
+          0.4647385800607422,
+          0.019733621941869645
+        ],
+        "rotation_draw_rad": -2.4255062970564865,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 562086723
+      },
+      {
+        "configuration_id": "V5_E09_train_003",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.42936603729423606,
+          0.0459475479335577
+        ],
+        "bearing_xy_m": [
+          0.48944808766590964,
+          0.013820659649080386
+        ],
+        "rotation_draw_rad": -0.49103388594897224,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 583562841
+      },
+      {
+        "configuration_id": "V5_E09_train_004",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5612447136457598,
+          -0.0005747594211231721
+        ],
+        "bearing_xy_m": [
+          0.5034192344612873,
+          -0.036605353154695694
+        ],
+        "rotation_draw_rad": -2.5843665566953047,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 512365500
+      },
+      {
+        "configuration_id": "V5_E09_train_005",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5343408818085477,
+          0.133763840995515
+        ],
+        "bearing_xy_m": [
+          0.5056423558283316,
+          0.07197076424519877
+        ],
+        "rotation_draw_rad": -2.005584799553467,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 945556862
+      },
+      {
+        "configuration_id": "V5_E09_train_006",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5551766677042488,
+          0.04297545330999013
+        ],
+        "bearing_xy_m": [
+          0.5030754390224216,
+          0.08687820604317936
+        ],
+        "rotation_draw_rad": 2.4413850513796413,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 2013765456
+      },
+      {
+        "configuration_id": "V5_E09_train_007",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.46833696926349955,
+          0.03591220527657174
+        ],
+        "bearing_xy_m": [
+          0.42994113861610883,
+          -0.02037056221583662
+        ],
+        "rotation_draw_rad": -2.169472508644967,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 535387263
+      },
+      {
+        "configuration_id": "V5_E09_train_008",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.39154503329538365,
+          0.015057155643962747
+        ],
+        "bearing_xy_m": [
+          0.407308847316242,
+          -0.05122626532405457
+        ],
+        "rotation_draw_rad": -1.3373094811520518,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 265175003
+      },
+      {
+        "configuration_id": "V5_E09_train_009",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.4486611425326837,
+          0.0179225334884476
+        ],
+        "bearing_xy_m": [
+          0.4238245675084815,
+          -0.045521412391161635
+        ],
+        "rotation_draw_rad": -1.9439300679732192,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1645676989
+      },
+      {
+        "configuration_id": "V5_E09_train_010",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5347685466447673,
+          0.1529586820646367
+        ],
+        "bearing_xy_m": [
+          0.50099317599539,
+          0.09378762439955188
+        ],
+        "rotation_draw_rad": -2.0894752343849925,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1373034641
+      },
+      {
+        "configuration_id": "V5_E09_train_011",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.4776784219536398,
+          -0.005602696453761637
+        ],
+        "bearing_xy_m": [
+          0.425778684674871,
+          -0.049743459905500734
+        ],
+        "rotation_draw_rad": -2.4368079726798184,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1752531603
+      },
+      {
+        "configuration_id": "V5_E09_train_012",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.38127325630853653,
+          0.03925851013389087
+        ],
+        "bearing_xy_m": [
+          0.4298870884099377,
+          -0.00847706419097069
+        ],
+        "rotation_draw_rad": -0.7762830739986315,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1262135350
+      },
+      {
+        "configuration_id": "V5_E09_train_013",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.5425088278184943,
+          0.03433136154412806
+        ],
+        "bearing_xy_m": [
+          0.48411198562301555,
+          -0.0007656262084407006
+        ],
+        "rotation_draw_rad": -2.6004320747379017,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1818044505
+      },
+      {
+        "configuration_id": "V5_E09_train_014",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.41511128478110537,
+          -0.0007773979088984209
+        ],
+        "bearing_xy_m": [
+          0.4700213155612085,
+          0.03955718089683269
+        ],
+        "rotation_draw_rad": 0.6335444783096196,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 2143348262
+      },
+      {
+        "configuration_id": "V5_E09_train_015",
+        "source_episode_id": "E09",
+        "split": "train",
+        "ring_xy_m": [
+          0.4300980896581037,
+          -0.055819341412271746
+        ],
+        "bearing_xy_m": [
+          0.4792746040758089,
+          -0.008663640193513025
+        ],
+        "rotation_draw_rad": 0.7644236966596347,
+        "source_endpoint_distance_m": 0.06813214900256419,
+        "reset_seed": 1539236377
+      },
+      {
+        "configuration_id": "V5_E13_train_000",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.5736738020201458,
+          0.04346592762499484
+        ],
+        "bearing_xy_m": [
+          0.45978534898278955,
+          0.00048570026787080056
+        ],
+        "rotation_draw_rad": -2.7807293338196217,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1877176280
+      },
+      {
+        "configuration_id": "V5_E13_train_001",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.3063957782838368,
+          0.047598616853446574
+        ],
+        "bearing_xy_m": [
+          0.4259390152279489,
+          0.024635729843402482
+        ],
+        "rotation_draw_rad": -0.18977695207440126,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 2036881931
+      },
+      {
+        "configuration_id": "V5_E13_train_002",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.45392049604699475,
+          -0.016752575958686025
+        ],
+        "bearing_xy_m": [
+          0.5163324072788911,
+          0.0877588254063999
+        ],
+        "rotation_draw_rad": 1.0324543989337105,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1273764876
+      },
+      {
+        "configuration_id": "V5_E13_train_003",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.39132062841401477,
+          0.17279450969248217
+        ],
+        "bearing_xy_m": [
+          0.40887270103170653,
+          0.05233786012204347
+        ],
+        "rotation_draw_rad": -1.4261018788313773,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1066545414
+      },
+      {
+        "configuration_id": "V5_E13_train_004",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.5494309261850503,
+          0.13131696312873925
+        ],
+        "bearing_xy_m": [
+          0.45144357564304494,
+          0.05909259873091052
+        ],
+        "rotation_draw_rad": -2.506412757333963,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 954834869
+      },
+      {
+        "configuration_id": "V5_E13_train_005",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.34078304393823766,
+          -0.1497036323800203
+        ],
+        "bearing_xy_m": [
+          0.42150872995281013,
+          -0.05859247336868483
+        ],
+        "rotation_draw_rad": 0.84576272291409,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 2054160297
+      },
+      {
+        "configuration_id": "V5_E13_train_006",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.4115048599907762,
+          0.10056610895969947
+        ],
+        "bearing_xy_m": [
+          0.4739395762080299,
+          -0.003931670393658979
+        ],
+        "rotation_draw_rad": -1.0322361789953471,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1338963422
+      },
+      {
+        "configuration_id": "V5_E13_train_007",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.5466084680471478,
+          -0.1052593843344503
+        ],
+        "bearing_xy_m": [
+          0.462415342708527,
+          -0.01734239323132236
+        ],
+        "rotation_draw_rad": 2.33456133516058,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 164768996
+      },
+      {
+        "configuration_id": "V5_E13_train_008",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.301684394244681,
+          -0.05424089937153143
+        ],
+        "bearing_xy_m": [
+          0.4126863732942677,
+          -0.004276508791966588
+        ],
+        "rotation_draw_rad": 0.42295506042249187,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 494204803
+      },
+      {
+        "configuration_id": "V5_E13_train_009",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.4500473991737867,
+          -0.18876227646207297
+        ],
+        "bearing_xy_m": [
+          0.41437762671603295,
+          -0.07237693798800116
+        ],
+        "rotation_draw_rad": 1.8681873741346786,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 452016433
+      },
+      {
+        "configuration_id": "V5_E13_train_010",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.51116319542141,
+          0.06605065684308471
+        ],
+        "bearing_xy_m": [
+          0.4044624238693868,
+          0.007460341695313441
+        ],
+        "rotation_draw_rad": -2.6394340486465495,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1379453765
+      },
+      {
+        "configuration_id": "V5_E13_train_011",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.5388331490898285,
+          -0.00812497572345149
+        ],
+        "bearing_xy_m": [
+          0.41816641221249196,
+          -0.024169236076856088
+        ],
+        "rotation_draw_rad": -3.0094046043905838,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1138916917
+      },
+      {
+        "configuration_id": "V5_E13_train_012",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.5409393414460295,
+          -0.10744095748561239
+        ],
+        "bearing_xy_m": [
+          0.4271487808919895,
+          -0.06420222476008547
+        ],
+        "rotation_draw_rad": 2.778458546949599,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 691996458
+      },
+      {
+        "configuration_id": "V5_E13_train_013",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.41671999232112006,
+          0.16589566805186834
+        ],
+        "bearing_xy_m": [
+          0.507149262664942,
+          0.08440685443922477
+        ],
+        "rotation_draw_rad": -0.7334408011744724,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1965065750
+      },
+      {
+        "configuration_id": "V5_E13_train_014",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.3437274771103017,
+          0.0021003002036260043
+        ],
+        "bearing_xy_m": [
+          0.42610384152541825,
+          0.09172180579609032
+        ],
+        "rotation_draw_rad": 0.8274967109725715,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 1625346109
+      },
+      {
+        "configuration_id": "V5_E13_train_015",
+        "source_episode_id": "E13",
+        "split": "train",
+        "ring_xy_m": [
+          0.4828676091835207,
+          0.06766893489707604
+        ],
+        "bearing_xy_m": [
+          0.44797996482736513,
+          -0.04895324116815867
+        ],
+        "rotation_draw_rad": -1.8614740699247228,
+        "source_endpoint_distance_m": 0.12172871345295731,
+        "reset_seed": 451741282
+      },
+      {
+        "configuration_id": "V5_E14_train_000",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.3544286616075212,
+          0.06276772341679192
+        ],
+        "bearing_xy_m": [
+          0.4297530854088766,
+          0.06599103312868221
+        ],
+        "rotation_draw_rad": 0.04276626643921633,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 262260061
+      },
+      {
+        "configuration_id": "V5_E14_train_001",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.5136352933086623,
+          -0.1376135804351032
+        ],
+        "bearing_xy_m": [
+          0.4614453071869029,
+          -0.08320435424031591
+        ],
+        "rotation_draw_rad": 2.3353789560685634,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 563616372
+      },
+      {
+        "configuration_id": "V5_E14_train_002",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.4914595379080659,
+          0.017656326771526565
+        ],
+        "bearing_xy_m": [
+          0.4437622281815401,
+          -0.0407313876156356
+        ],
+        "rotation_draw_rad": -2.2557614968090367,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1336879141
+      },
+      {
+        "configuration_id": "V5_E14_train_003",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.573051583601138,
+          0.06270286818473464
+        ],
+        "bearing_xy_m": [
+          0.506001840418732,
+          0.09717735854613602
+        ],
+        "rotation_draw_rad": 2.666679028183543,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1110332248
+      },
+      {
+        "configuration_id": "V5_E14_train_004",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.41522000643456475,
+          0.02363769495245907
+        ],
+        "bearing_xy_m": [
+          0.4573960430469566,
+          -0.03885502848135476
+        ],
+        "rotation_draw_rad": -0.9771186872819322,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1699164211
+      },
+      {
+        "configuration_id": "V5_E14_train_005",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.5202606243766895,
+          -0.003075808722647122
+        ],
+        "bearing_xy_m": [
+          0.512929138550225,
+          0.07196023503021415
+        ],
+        "rotation_draw_rad": 1.6681933666759798,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1727118698
+      },
+      {
+        "configuration_id": "V5_E14_train_006",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.4331024133698441,
+          -0.06043856731507151
+        ],
+        "bearing_xy_m": [
+          0.5068136803310478,
+          -0.07627547577218925
+        ],
+        "rotation_draw_rad": -0.21163333738169143,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1900668489
+      },
+      {
+        "configuration_id": "V5_E14_train_007",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.3300503690954706,
+          -0.05890394556221823
+        ],
+        "bearing_xy_m": [
+          0.40397813611016503,
+          -0.07369731606139847
+        ],
+        "rotation_draw_rad": -0.19749723052290324,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1929572209
+      },
+      {
+        "configuration_id": "V5_E14_train_008",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.3992710837165987,
+          0.07569999572077575
+        ],
+        "bearing_xy_m": [
+          0.4746167930220799,
+          0.07838003970528135
+        ],
+        "rotation_draw_rad": 0.035554971647030253,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 325839468
+      },
+      {
+        "configuration_id": "V5_E14_train_009",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.5850404922537734,
+          -0.07596961598124219
+        ],
+        "bearing_xy_m": [
+          0.5198406762922906,
+          -0.038112746788271104
+        ],
+        "rotation_draw_rad": 2.615538719644684,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 548497506
+      },
+      {
+        "configuration_id": "V5_E14_train_010",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.4327737148521393,
+          -0.04557003418008307
+        ],
+        "bearing_xy_m": [
+          0.468627587544585,
+          0.020752347859910453
+        ],
+        "rotation_draw_rad": 1.0751987218793007,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1856605452
+      },
+      {
+        "configuration_id": "V5_E14_train_011",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.44534765062330994,
+          -0.11828393149280139
+        ],
+        "bearing_xy_m": [
+          0.4280991011376137,
+          -0.044890157321251616
+        ],
+        "rotation_draw_rad": 1.8016213613384027,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 661519497
+      },
+      {
+        "configuration_id": "V5_E14_train_012",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.34365594092809015,
+          -0.009396885220369511
+        ],
+        "bearing_xy_m": [
+          0.4190145781991481,
+          -0.007109018276233781
+        ],
+        "rotation_draw_rad": 0.030350395083493797,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 164293651
+      },
+      {
+        "configuration_id": "V5_E14_train_013",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.47606005635925036,
+          0.00014097809636490904
+        ],
+        "bearing_xy_m": [
+          0.40215603651293313,
+          -0.014770574373452167
+        ],
+        "rotation_draw_rad": -2.9424965525131386,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 837451695
+      },
+      {
+        "configuration_id": "V5_E14_train_014",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.40369359468504895,
+          0.0255116523757334
+        ],
+        "bearing_xy_m": [
+          0.47143259461625664,
+          0.05861129640440549
+        ],
+        "rotation_draw_rad": 0.45451431572805534,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 735759486
+      },
+      {
+        "configuration_id": "V5_E14_train_015",
+        "source_episode_id": "E14",
+        "split": "train",
+        "ring_xy_m": [
+          0.4699819508276381,
+          0.14334720936535217
+        ],
+        "bearing_xy_m": [
+          0.4752734758369589,
+          0.06813977416389955
+        ],
+        "rotation_draw_rad": -1.5005530174709583,
+        "source_endpoint_distance_m": 0.07539335876922422,
+        "reset_seed": 1030111697
+      },
+      {
+        "configuration_id": "V5_E15_train_000",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.38350673752940173,
+          0.06016927730663173
+        ],
+        "bearing_xy_m": [
+          0.4592258822322547,
+          0.06400805352505759
+        ],
+        "rotation_draw_rad": 0.050654196286424646,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1534467246
+      },
+      {
+        "configuration_id": "V5_E15_train_001",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.5924869433463695,
+          -0.09614099909522175
+        ],
+        "bearing_xy_m": [
+          0.5166947797280563,
+          -0.09422448887046936
+        ],
+        "rotation_draw_rad": 3.1163116506902435,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 636667453
+      },
+      {
+        "configuration_id": "V5_E15_train_002",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.47856857302894196,
+          0.07541198952088463
+        ],
+        "bearing_xy_m": [
+          0.5193099469404594,
+          0.01147244362643321
+        ],
+        "rotation_draw_rad": -1.0034821044201565,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 275250334
+      },
+      {
+        "configuration_id": "V5_E15_train_003",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.4534942184439833,
+          -0.1640670207416176
+        ],
+        "bearing_xy_m": [
+          0.42686465411304947,
+          -0.09308116735566901
+        ],
+        "rotation_draw_rad": 1.929688882636606,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 256367037
+      },
+      {
+        "configuration_id": "V5_E15_train_004",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.3941127709562621,
+          -0.015978142967003506
+        ],
+        "bearing_xy_m": [
+          0.4453145116453356,
+          0.039937032323749316
+        ],
+        "rotation_draw_rad": 0.8293725065409854,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 563852193
+      },
+      {
+        "configuration_id": "V5_E15_train_005",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.3406998621479564,
+          -0.0543730327442099
+        ],
+        "bearing_xy_m": [
+          0.41543850324911824,
+          -0.06711118817340966
+        ],
+        "rotation_draw_rad": -0.16881388525031316,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1632114144
+      },
+      {
+        "configuration_id": "V5_E15_train_006",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.38361241457173034,
+          -0.11716468525456333
+        ],
+        "bearing_xy_m": [
+          0.4399725655143051,
+          -0.06645316325889722
+        ],
+        "rotation_draw_rad": 0.7326914371964097,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 790647071
+      },
+      {
+        "configuration_id": "V5_E15_train_007",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.4104876638298285,
+          -0.013836313818139774
+        ],
+        "bearing_xy_m": [
+          0.47988276445305744,
+          0.01669965000943023
+        ],
+        "rotation_draw_rad": 0.4145324634980607,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1705317670
+      },
+      {
+        "configuration_id": "V5_E15_train_008",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.40217262672710846,
+          0.038507913239857375
+        ],
+        "bearing_xy_m": [
+          0.47736942946908345,
+          0.048180861847765794
+        ],
+        "rotation_draw_rad": 0.1279325588801754,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 47302805
+      },
+      {
+        "configuration_id": "V5_E15_train_009",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.5657275100965177,
+          0.13198728396086923
+        ],
+        "bearing_xy_m": [
+          0.5138682461765574,
+          0.07668139075710081
+        ],
+        "rotation_draw_rad": -2.3240437265160097,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1353888510
+      },
+      {
+        "configuration_id": "V5_E15_train_010",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.5095548388796625,
+          0.13576144845669263
+        ],
+        "bearing_xy_m": [
+          0.47966375268054606,
+          0.06608614405675672
+        ],
+        "rotation_draw_rad": -1.976054739407931,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 258198354
+      },
+      {
+        "configuration_id": "V5_E15_train_011",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.5742118160359849,
+          0.1297835639506546
+        ],
+        "bearing_xy_m": [
+          0.5147050624916312,
+          0.0828040858777952
+        ],
+        "rotation_draw_rad": -2.4732984507342515,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 509588047
+      },
+      {
+        "configuration_id": "V5_E15_train_012",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.40738567311806656,
+          0.05761861876610726
+        ],
+        "bearing_xy_m": [
+          0.43702332415712475,
+          -0.012164865800613447
+        ],
+        "rotation_draw_rad": -1.1691724628961784,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1742207723
+      },
+      {
+        "configuration_id": "V5_E15_train_013",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.3687969142445196,
+          -0.10680773174405914
+        ],
+        "bearing_xy_m": [
+          0.4011015016162215,
+          -0.03821809176737743
+        ],
+        "rotation_draw_rad": 1.1306302071285597,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 52676966
+      },
+      {
+        "configuration_id": "V5_E15_train_014",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.531826265415162,
+          0.10533521831483696
+        ],
+        "bearing_xy_m": [
+          0.459128132974482,
+          0.08381530620943803
+        ],
+        "rotation_draw_rad": -2.8537936142172153,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 758829562
+      },
+      {
+        "configuration_id": "V5_E15_train_015",
+        "source_episode_id": "E15",
+        "split": "train",
+        "ring_xy_m": [
+          0.44653183127320656,
+          -0.1673749320953994
+        ],
+        "bearing_xy_m": [
+          0.4783545631230496,
+          -0.098560407356797
+        ],
+        "rotation_draw_rad": 1.137643874401138,
+        "source_endpoint_distance_m": 0.07581639055894665,
+        "reset_seed": 1796007447
+      },
+      {
+        "configuration_id": "V5_E17_train_000",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.4907435049197261,
+          0.034881264373477494
+        ],
+        "bearing_xy_m": [
+          0.4290181571255958,
+          -0.06617161039298644
+        ],
+        "rotation_draw_rad": -2.119135410297813,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 1096855569
+      },
+      {
+        "configuration_id": "V5_E17_train_001",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.5538925070841091,
+          -0.047955206008203174
+        ],
+        "bearing_xy_m": [
+          0.48854391762501126,
+          0.050793282155308844
+        ],
+        "rotation_draw_rad": 2.1553998733889275,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 2105381125
+      },
+      {
+        "configuration_id": "V5_E17_train_002",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.3447147591791644,
+          -0.03373436089904612
+        ],
+        "bearing_xy_m": [
+          0.46028184697783325,
+          -0.05954037331103537
+        ],
+        "rotation_draw_rad": -0.21969479500272104,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 1983002315
+      },
+      {
+        "configuration_id": "V5_E17_train_003",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.3254254736415973,
+          0.05852343987425682
+        ],
+        "bearing_xy_m": [
+          0.4413958978022955,
+          0.0824517239510715
+        ],
+        "rotation_draw_rad": 0.2034755037498841,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 852193027
+      },
+      {
+        "configuration_id": "V5_E17_train_004",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.4963272199323123,
+          -0.04980276831304575
+        ],
+        "bearing_xy_m": [
+          0.43300604247626046,
+          0.05025786602659943
+        ],
+        "rotation_draw_rad": 2.1350050172390898,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 432134604
+      },
+      {
+        "configuration_id": "V5_E17_train_005",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.570499725362121,
+          0.1394953938262799
+        ],
+        "bearing_xy_m": [
+          0.4628210711482719,
+          0.09023070580770715
+        ],
+        "rotation_draw_rad": -2.7125061738913363,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 1848430817
+      },
+      {
+        "configuration_id": "V5_E17_train_006",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.37549131958989224,
+          0.08880377386153475
+        ],
+        "bearing_xy_m": [
+          0.4900118148021836,
+          0.05869134727043199
+        ],
+        "rotation_draw_rad": -0.2571232505230485,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 401185636
+      },
+      {
+        "configuration_id": "V5_E17_train_007",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.5108579693686665,
+          -0.04617742277190795
+        ],
+        "bearing_xy_m": [
+          0.4585298306762851,
+          0.06004624671782438
+        ],
+        "rotation_draw_rad": 2.0285243022613137,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 322693473
+      },
+      {
+        "configuration_id": "V5_E17_train_008",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.4103364467261701,
+          0.051549564902122966
+        ],
+        "bearing_xy_m": [
+          0.5010296919612679,
+          -0.024584772473330657
+        ],
+        "rotation_draw_rad": -0.6983495121819532,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 2495614
+      },
+      {
+        "configuration_id": "V5_E17_train_009",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.5341940125978157,
+          0.06766700085509755
+        ],
+        "bearing_xy_m": [
+          0.4503179572656567,
+          -0.01591834116603426
+        ],
+        "rotation_draw_rad": -2.357930490390488,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 487112922
+      },
+      {
+        "configuration_id": "V5_E17_train_010",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.3596824764409986,
+          0.010801186021025411
+        ],
+        "bearing_xy_m": [
+          0.47515569199561525,
+          0.03702404910555576
+        ],
+        "rotation_draw_rad": 0.2233032582376886,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 509028841
+      },
+      {
+        "configuration_id": "V5_E17_train_011",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.5788807381287676,
+          0.019037920248997933
+        ],
+        "bearing_xy_m": [
+          0.5091709198966147,
+          -0.07668168746495577
+        ],
+        "rotation_draw_rad": -2.2002452535046815,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 840259372
+      },
+      {
+        "configuration_id": "V5_E17_train_012",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.31804908950485666,
+          0.055879252162517615
+        ],
+        "bearing_xy_m": [
+          0.42868695184998723,
+          0.09808073880188764
+        ],
+        "rotation_draw_rad": 0.3644029766633312,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 229048025
+      },
+      {
+        "configuration_id": "V5_E17_train_013",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.589761908020664,
+          -0.06466573177178689
+        ],
+        "bearing_xy_m": [
+          0.471735367359167,
+          -0.07422804103017165
+        ],
+        "rotation_draw_rad": -3.060750929337706,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 806687371
+      },
+      {
+        "configuration_id": "V5_E17_train_014",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.4021545527609535,
+          -0.1303895701333037
+        ],
+        "bearing_xy_m": [
+          0.511871818734188,
+          -0.08584943535318068
+        ],
+        "rotation_draw_rad": 0.38562835369857806,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 38740238
+      },
+      {
+        "configuration_id": "V5_E17_train_015",
+        "source_episode_id": "E17",
+        "split": "train",
+        "ring_xy_m": [
+          0.42090724699892257,
+          0.024219002740128198
+        ],
+        "bearing_xy_m": [
+          0.47520314413619147,
+          -0.08101244509240951
+        ],
+        "rotation_draw_rad": -1.0944572940835045,
+        "source_endpoint_distance_m": 0.11841326808627904,
+        "reset_seed": 1819733770
+      },
+      {
+        "configuration_id": "V5_E18_train_000",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.31371227211238506,
+          -0.07597833414743857
+        ],
+        "bearing_xy_m": [
+          0.5165159126718473,
+          -0.05105627189286759
+        ],
+        "rotation_draw_rad": 0.12227460172813487,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1110281432
+      },
+      {
+        "configuration_id": "V5_E18_train_001",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.3010798172132857,
+          -0.0009583745575717367
+        ],
+        "bearing_xy_m": [
+          0.4839829227841245,
+          0.09012883521270759
+        ],
+        "rotation_draw_rad": 0.46205273943364356,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1462687533
+      },
+      {
+        "configuration_id": "V5_E18_train_002",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.33254554881475246,
+          -0.04006593632872635
+        ],
+        "bearing_xy_m": [
+          0.4861616357856795,
+          0.0946653652864991
+        ],
+        "rotation_draw_rad": 0.7199983914784842,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 760951571
+      },
+      {
+        "configuration_id": "V5_E18_train_003",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.3032664753669071,
+          0.1578251122413209
+        ],
+        "bearing_xy_m": [
+          0.4943127183862076,
+          0.08535609238177932
+        ],
+        "rotation_draw_rad": -0.36255889646931916,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1682786710
+      },
+      {
+        "configuration_id": "V5_E18_train_004",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.6111292717741731,
+          -0.12693013296877617
+        ],
+        "bearing_xy_m": [
+          0.4150681269452103,
+          -0.06939359414735634
+        ],
+        "rotation_draw_rad": 2.8561445622046326,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1410720785
+      },
+      {
+        "configuration_id": "V5_E18_train_005",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.47612869369649813,
+          0.14580979396588978
+        ],
+        "bearing_xy_m": [
+          0.4099574433743023,
+          -0.0475080568446072
+        ],
+        "rotation_draw_rad": -1.9005883433605177,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 68758684
+      },
+      {
+        "configuration_id": "V5_E18_train_006",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.4083027400912903,
+          0.22597717549070667
+        ],
+        "bearing_xy_m": [
+          0.4477222740838994,
+          0.025486462112261604
+        ],
+        "rotation_draw_rad": -1.376657431712656,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 665429327
+      },
+      {
+        "configuration_id": "V5_E18_train_007",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.618755806069174,
+          0.002092927579254167
+        ],
+        "bearing_xy_m": [
+          0.42699716975486884,
+          -0.06846946474179949
+        ],
+        "rotation_draw_rad": -2.788995029171374,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1828012125
+      },
+      {
+        "configuration_id": "V5_E18_train_008",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.5912682555790163,
+          -0.18766944033357708
+        ],
+        "bearing_xy_m": [
+          0.45195455090027264,
+          -0.038196641805296076
+        ],
+        "rotation_draw_rad": 2.32103042915136,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1586312018
+      },
+      {
+        "configuration_id": "V5_E18_train_009",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.5852985294770935,
+          -0.2199111593000555
+        ],
+        "bearing_xy_m": [
+          0.4425697919427688,
+          -0.07369579316827671
+        ],
+        "rotation_draw_rad": 2.3441282831246353,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 53226481
+      },
+      {
+        "configuration_id": "V5_E18_train_010",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.545851021305086,
+          -0.1267483593710983
+        ],
+        "bearing_xy_m": [
+          0.4244943482243189,
+          0.03763833020552192
+        ],
+        "rotation_draw_rad": 2.20672783721066,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 338371072
+      },
+      {
+        "configuration_id": "V5_E18_train_011",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.3120629263872523,
+          0.21784678992817147
+        ],
+        "bearing_xy_m": [
+          0.4222133689830458,
+          0.045749997955912225
+        ],
+        "rotation_draw_rad": -1.0014481151828871,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 340725600
+      },
+      {
+        "configuration_id": "V5_E18_train_012",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.31438864723970733,
+          -0.21146646020206872
+        ],
+        "bearing_xy_m": [
+          0.43763508167163484,
+          -0.04849179281167682
+        ],
+        "rotation_draw_rad": 0.9233195296811312,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1897354850
+      },
+      {
+        "configuration_id": "V5_E18_train_013",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.5474795918413338,
+          0.10129314510316259
+        ],
+        "bearing_xy_m": [
+          0.4713964744129535,
+          -0.08834278254128874
+        ],
+        "rotation_draw_rad": -1.9523421329350608,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 274530942
+      },
+      {
+        "configuration_id": "V5_E18_train_014",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.539366526634125,
+          -0.24053273891968305
+        ],
+        "bearing_xy_m": [
+          0.46704344149743443,
+          -0.04943120264249015
+        ],
+        "rotation_draw_rad": 1.9325914626267702,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 1553830437
+      },
+      {
+        "configuration_id": "V5_E18_train_015",
+        "source_episode_id": "E18",
+        "split": "train",
+        "ring_xy_m": [
+          0.5892038689256515,
+          -0.08133567906724798
+        ],
+        "bearing_xy_m": [
+          0.40035634357879135,
+          -0.00331620725694097
+        ],
+        "rotation_draw_rad": 2.7498147621491142,
+        "source_endpoint_distance_m": 0.20432920939305832,
+        "reset_seed": 648744352
+      },
+      {
+        "configuration_id": "V5_E19_train_000",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.5345588193629539,
+          -0.012363335092056182
+        ],
+        "bearing_xy_m": [
+          0.44812419645187557,
+          -0.03649547170160579
+        ],
+        "rotation_draw_rad": -2.8693303458524517,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1468386171
+      },
+      {
+        "configuration_id": "V5_E19_train_001",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.3844149407491798,
+          0.025499543504230296
+        ],
+        "bearing_xy_m": [
+          0.4655959721155959,
+          0.06374799708613663
+        ],
+        "rotation_draw_rad": 0.4403025056727716,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 34973697
+      },
+      {
+        "configuration_id": "V5_E19_train_002",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.42322464748734934,
+          -0.0067156998061615875
+        ],
+        "bearing_xy_m": [
+          0.46260768822612414,
+          -0.08735241698444379
+        ],
+        "rotation_draw_rad": -1.1164710260328983,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 142771880
+      },
+      {
+        "configuration_id": "V5_E19_train_003",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.3572209140074339,
+          -0.026333849002286424
+        ],
+        "bearing_xy_m": [
+          0.4466380139722897,
+          -0.0187255450521768
+        ],
+        "rotation_draw_rad": 0.08488333998336994,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1278897579
+      },
+      {
+        "configuration_id": "V5_E19_train_004",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.45248473994506666,
+          0.16107258131673852
+        ],
+        "bearing_xy_m": [
+          0.5140123271817383,
+          0.0957452511711093
+        ],
+        "rotation_draw_rad": -0.8153426638579151,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1166951452
+      },
+      {
+        "configuration_id": "V5_E19_train_005",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.4182904626547387,
+          -0.01165964102736379
+        ],
+        "bearing_xy_m": [
+          0.4913136221833123,
+          0.04050281891833621
+        ],
+        "rotation_draw_rad": 0.6202772355773294,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1394888572
+      },
+      {
+        "configuration_id": "V5_E19_train_006",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.42464984004341,
+          -0.06977079539748152
+        ],
+        "bearing_xy_m": [
+          0.5112968963049185,
+          -0.0931286997627548
+        ],
+        "rotation_draw_rad": -0.26331592954190164,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1598089053
+      },
+      {
+        "configuration_id": "V5_E19_train_007",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.5388319066211505,
+          0.006695760789197605
+        ],
+        "bearing_xy_m": [
+          0.5185993266769936,
+          0.09412542831644816
+        ],
+        "rotation_draw_rad": 1.7982086775410284,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 392511830
+      },
+      {
+        "configuration_id": "V5_E19_train_008",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.5359206407179116,
+          -0.06062626952241458
+        ],
+        "bearing_xy_m": [
+          0.45810878435592206,
+          -0.015920351965301505
+        ],
+        "rotation_draw_rad": 2.620105172720349,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1891626644
+      },
+      {
+        "configuration_id": "V5_E19_train_009",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.4544763496091122,
+          0.060643263147248425
+        ],
+        "bearing_xy_m": [
+          0.4549259773887959,
+          -0.02909581356954205
+        ],
+        "rotation_draw_rad": -1.5657859786421875,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 972371655
+      },
+      {
+        "configuration_id": "V5_E19_train_010",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.4979049652273564,
+          -0.043727235194743516
+        ],
+        "bearing_xy_m": [
+          0.40827489664659955,
+          -0.048171879312229285
+        ],
+        "rotation_draw_rad": -3.092044478965828,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 83668234
+      },
+      {
+        "configuration_id": "V5_E19_train_011",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.35894684217927114,
+          -0.1458546273489419
+        ],
+        "bearing_xy_m": [
+          0.4025627611149582,
+          -0.06742659874616591
+        ],
+        "rotation_draw_rad": 1.0632615051776426,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 2034224602
+      },
+      {
+        "configuration_id": "V5_E19_train_012",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.4281816109790217,
+          -0.10552224358766049
+        ],
+        "bearing_xy_m": [
+          0.41420000914337335,
+          -0.016877904426991774
+        ],
+        "rotation_draw_rad": 1.7272345004462126,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1097443707
+      },
+      {
+        "configuration_id": "V5_E19_train_013",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.538862867881146,
+          0.01959966412296446
+        ],
+        "bearing_xy_m": [
+          0.5104414220979638,
+          -0.06552098833409736
+        ],
+        "rotation_draw_rad": -1.8930532000199458,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 811162202
+      },
+      {
+        "configuration_id": "V5_E19_train_014",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.4049412363804871,
+          0.0495608226185133
+        ],
+        "bearing_xy_m": [
+          0.46869728977144876,
+          -0.01359350986256927
+        ],
+        "rotation_draw_rad": -0.7806568934303422,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 837468070
+      },
+      {
+        "configuration_id": "V5_E19_train_015",
+        "source_episode_id": "E19",
+        "split": "train",
+        "ring_xy_m": [
+          0.45615494450744404,
+          -0.014828376921656991
+        ],
+        "bearing_xy_m": [
+          0.5087697079142943,
+          0.05786956477385072
+        ],
+        "rotation_draw_rad": 0.9443113147893856,
+        "source_endpoint_distance_m": 0.08974020311500454,
+        "reset_seed": 1492448527
+      }
+    ],
+    "val": [
+      {
+        "configuration_id": "V5_E05_val_000",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.525573986164677,
+          0.01519370951286668
+        ],
+        "bearing_xy_m": [
+          0.46627970232652693,
+          0.02243252653281136
+        ],
+        "rotation_draw_rad": 3.0201109226050518,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 366391957
+      },
+      {
+        "configuration_id": "V5_E05_val_001",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.44058130668769246,
+          0.011045840986916425
+        ],
+        "bearing_xy_m": [
+          0.40748591429831854,
+          0.06077417868606652
+        ],
+        "rotation_draw_rad": 2.158007299173857,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 1248874106
+      },
+      {
+        "configuration_id": "V5_E05_val_002",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.5020050752779245,
+          0.05703673329585455
+        ],
+        "bearing_xy_m": [
+          0.45132071139939756,
+          0.025424902821229722
+        ],
+        "rotation_draw_rad": -2.5839288193042393,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 387390848
+      },
+      {
+        "configuration_id": "V5_E05_val_003",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.5348130834298338,
+          -0.1303761816994584
+        ],
+        "bearing_xy_m": [
+          0.5172204898513468,
+          -0.0732910416110823
+        ],
+        "rotation_draw_rad": 1.8697422323326762,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 2084672379
+      },
+      {
+        "configuration_id": "V5_E05_val_004",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.38763451877321464,
+          -0.07043678789411775
+        ],
+        "bearing_xy_m": [
+          0.447261378848616,
+          -0.06685208075463607
+        ],
+        "rotation_draw_rad": 0.06004672638790609,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 535519977
+      },
+      {
+        "configuration_id": "V5_E05_val_005",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.47353609722668094,
+          0.01532574606001709
+        ],
+        "bearing_xy_m": [
+          0.4807107183688316,
+          0.07462783185127697
+        ],
+        "rotation_draw_rad": 1.4503971900198218,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 1085314856
+      },
+      {
+        "configuration_id": "V5_E05_val_006",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.43431505242634455,
+          -0.0829021817283465
+        ],
+        "bearing_xy_m": [
+          0.42597528919812494,
+          -0.023752702296786166
+        ],
+        "rotation_draw_rad": 1.7108677153978995,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 879581683
+      },
+      {
+        "configuration_id": "V5_E05_val_007",
+        "source_episode_id": "E05",
+        "split": "val",
+        "ring_xy_m": [
+          0.49342176514943215,
+          0.062277514432199144
+        ],
+        "bearing_xy_m": [
+          0.43399641254369653,
+          0.06834711371150379
+        ],
+        "rotation_draw_rad": 3.0398074104889874,
+        "source_endpoint_distance_m": 0.05973451738925613,
+        "reset_seed": 667080327
+      },
+      {
+        "configuration_id": "V5_E11_val_000",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5778742532952122,
+          0.08088147816465323
+        ],
+        "bearing_xy_m": [
+          0.4949310123429555,
+          0.05057047956922189
+        ],
+        "rotation_draw_rad": -2.7912272343497917,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 972359762
+      },
+      {
+        "configuration_id": "V5_E11_val_001",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5273630030096541,
+          0.11671070051657087
+        ],
+        "bearing_xy_m": [
+          0.49373334489985243,
+          0.03505665009080078
+        ],
+        "rotation_draw_rad": -1.9614808776283004,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 1951678801
+      },
+      {
+        "configuration_id": "V5_E11_val_002",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5251689843305714,
+          0.048416408814795406
+        ],
+        "bearing_xy_m": [
+          0.4750397035230043,
+          -0.0242842999935267
+        ],
+        "rotation_draw_rad": -2.1744604654832234,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 2139329915
+      },
+      {
+        "configuration_id": "V5_E11_val_003",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5055900490355507,
+          0.1477627846426169
+        ],
+        "bearing_xy_m": [
+          0.44540178426212357,
+          0.08314304586969876
+        ],
+        "rotation_draw_rad": -2.320703071142037,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 865887054
+      },
+      {
+        "configuration_id": "V5_E11_val_004",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.40781643656864824,
+          -0.0008393257736474709
+        ],
+        "bearing_xy_m": [
+          0.49388186872299766,
+          0.018936397818712786
+        ],
+        "rotation_draw_rad": 0.2258551115118692,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 256494930
+      },
+      {
+        "configuration_id": "V5_E11_val_005",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5011326157570224,
+          0.02387976327767459
+        ],
+        "bearing_xy_m": [
+          0.44850684649266603,
+          0.0947942629575784
+        ],
+        "rotation_draw_rad": 2.209223316437586,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 777475779
+      },
+      {
+        "configuration_id": "V5_E11_val_006",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.3839520472255243,
+          -0.1666075533189803
+        ],
+        "bearing_xy_m": [
+          0.4111459819864369,
+          -0.08259072305423168
+        ],
+        "rotation_draw_rad": 1.2577656036384042,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 608604457
+      },
+      {
+        "configuration_id": "V5_E11_val_007",
+        "source_episode_id": "E11",
+        "split": "val",
+        "ring_xy_m": [
+          0.5462577874827482,
+          0.06548600006451813
+        ],
+        "bearing_xy_m": [
+          0.4584460717259621,
+          0.05613504121711885
+        ],
+        "rotation_draw_rad": -3.0355037203890243,
+        "source_endpoint_distance_m": 0.08830819812178456,
+        "reset_seed": 510093801
+      },
+      {
+        "configuration_id": "V5_E12_val_000",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.42021493657938586,
+          0.019625774465305154
+        ],
+        "bearing_xy_m": [
+          0.48529970792103744,
+          -0.04368262233625719
+        ],
+        "rotation_draw_rad": -0.7715636172545879,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 1534166873
+      },
+      {
+        "configuration_id": "V5_E12_val_001",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.4144139815454123,
+          0.1655834166285427
+        ],
+        "bearing_xy_m": [
+          0.46490649491372726,
+          0.0901215940960218
+        ],
+        "rotation_draw_rad": -0.9811017732367291,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 1026584765
+      },
+      {
+        "configuration_id": "V5_E12_val_002",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.4037839135771099,
+          -0.14575406345416925
+        ],
+        "bearing_xy_m": [
+          0.43012043362255187,
+          -0.058861208292912304
+        ],
+        "rotation_draw_rad": 1.2765053517478444,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 1605874621
+      },
+      {
+        "configuration_id": "V5_E12_val_003",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.5631014678318826,
+          -0.01828738598329457
+        ],
+        "bearing_xy_m": [
+          0.47519269104133166,
+          -0.04100362531484365
+        ],
+        "rotation_draw_rad": -2.888717347063842,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 528757654
+      },
+      {
+        "configuration_id": "V5_E12_val_004",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.4397812523296584,
+          -0.018052039984307294
+        ],
+        "bearing_xy_m": [
+          0.4196260507436301,
+          0.07047901905830048
+        ],
+        "rotation_draw_rad": 1.7946435184775469,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 909774429
+      },
+      {
+        "configuration_id": "V5_E12_val_005",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.498073521535164,
+          -0.05599867634876406
+        ],
+        "bearing_xy_m": [
+          0.512034902849699,
+          0.033717879525663574
+        ],
+        "rotation_draw_rad": 1.4164179935433676,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 1047747380
+      },
+      {
+        "configuration_id": "V5_E12_val_006",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.3786560537176644,
+          -0.0037471310825065024
+        ],
+        "bearing_xy_m": [
+          0.46285592880788623,
+          -0.03772302843592726
+        ],
+        "rotation_draw_rad": -0.3835327162633222,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 2131267994
+      },
+      {
+        "configuration_id": "V5_E12_val_007",
+        "source_episode_id": "E12",
+        "split": "val",
+        "ring_xy_m": [
+          0.40289452509742346,
+          -0.008608382496736136
+        ],
+        "bearing_xy_m": [
+          0.4126159633380843,
+          -0.09888282076534104
+        ],
+        "rotation_draw_rad": -1.4635221178370477,
+        "source_endpoint_distance_m": 0.09079636868388043,
+        "reset_seed": 200867249
+      }
+    ]
+  },
+  "files": {
+    "train.npz": {
+      "sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc",
+      "images": 208,
+      "bytes": 13904220
+    },
+    "val.npz": {
+      "sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c",
+      "images": 24,
+      "bytes": 1605756
+    }
+  },
+  "split_sources": {
+    "train": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "val": [
+      "E05",
+      "E11",
+      "E12"
+    ]
+  },
+  "source_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "real_episodes_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+  "development_annotations_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+  "video_teacher": {
+    "checkpoint": "outputs/generalization_v4/model/policy.json",
+    "sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+    "training_sources": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "description": "Frozen train-only real optical motion model; robot height/grip and left/right instruction labels are synthetic, not observed phone actions"
+  },
+  "camera": {
+    "specification": {
+      "name": "tabletop",
+      "projection": "orthographic",
+      "image_size": 256,
+      "center_xy_m": [
+        0.47,
+        0.0
+      ],
+      "height_m": 0.8,
+      "vertical_span_m": 0.56,
+      "horizontal_span_m": 0.56,
+      "xyaxes": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "pixel_coordinates": "normalized raster edges; pixel centers (index+0.5)/256",
+      "world_to_pixel_axes": [
+        "positive X goes right",
+        "positive Y goes up"
+      ],
+      "robot_geometry_hidden": true,
+      "hidden_geom_group": 5,
+      "crop_uses_object_coordinates": false,
+      "camera_motion": "fixed in world",
+      "masks": "geom segmentation; training only"
+    },
+    "sha256": "e182e32cf868ede73e0966090b8fe7f32b64504c0e10542568aa6cba1f1f2c2a"
+  },
+  "camera_convention": "Static robot-hidden full-tabletop RGB pass; training masks never runtime inputs",
+  "source_isolation": true,
+  "test_data_generated": false,
+  "code_sources": {
+    "vla_data": "83f5d3432fbc3345fa4b336238cfa6aa8c5d0bac395145e2d82c803f7d663e2a",
+    "vla_env": "f5f5dbbbb46635a6f46837a1841530e5f8c536f254fc70403aa9798071bf2187"
+  },
+  "supervision": "Rendered initial RGB/masks and23 absolute XYZ/grip targets; not measured robot demonstrations",
+  "training_workspace": {
+    "ring_lower": [
+      0.3,
+      -0.25
+    ],
+    "ring_upper": [
+      0.64,
+      0.25
+    ],
+    "bearing_lower": [
+      0.4,
+      -0.1
+    ],
+    "bearing_upper": [
+      0.52,
+      0.1
+    ]
+  }
+}

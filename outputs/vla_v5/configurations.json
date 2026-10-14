@@ -1,0 +1,3629 @@
+{
+  "configurations": [
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.7558637323024326,
+      "bearing_minus_ring_xy_m": [
+        -0.06277352409558305,
+        -0.02549050071200224
+      ],
+      "bearing_xy_m": [
+        0.440445656102616,
+        0.03642982952962934
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06775161218692388,
+      "position_index": 0,
+      "reset_seed": 1582166921,
+      "ring_xy_m": [
+        0.503219180198199,
+        0.06192033024163158
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.5385398754061264,
+      "bearing_minus_ring_xy_m": [
+        -0.03803594136737219,
+        -0.026192607081339362
+      ],
+      "bearing_xy_m": [
+        0.44750679593255094,
+        -0.03738413836204953
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.046182090699962944,
+      "position_index": 1,
+      "reset_seed": 1387383736,
+      "ring_xy_m": [
+        0.48554273729992314,
+        -0.011191531280710165
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.3667791254826525,
+      "bearing_minus_ring_xy_m": [
+        -0.042672131621670065,
+        -0.04177822204481805
+      ],
+      "bearing_xy_m": [
+        0.4589984829651924,
+        -0.08369444492675993
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05971876300094682,
+      "position_index": 2,
+      "reset_seed": 1838913797,
+      "ring_xy_m": [
+        0.5016706145868625,
+        -0.04191622288194188
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.579181758564535,
+      "bearing_minus_ring_xy_m": [
+        -0.051982021576794976,
+        -0.03276495233186955
+      ],
+      "bearing_xy_m": [
+        0.49491985646334724,
+        0.023792892505852856
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.061446502492168445,
+      "position_index": 3,
+      "reset_seed": 852721874,
+      "ring_xy_m": [
+        0.5469018780401422,
+        0.05655784483772241
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.1348417925309184,
+      "bearing_minus_ring_xy_m": [
+        -0.03508180891131963,
+        -0.05545658692372868
+      ],
+      "bearing_xy_m": [
+        0.5033860315298602,
+        -0.08471998634248878
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.065621386374561,
+      "position_index": 0,
+      "reset_seed": 1691800598,
+      "ring_xy_m": [
+        0.5384678404411798,
+        -0.029263399418760105
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.6434823510040841,
+      "bearing_minus_ring_xy_m": [
+        -0.0053362180392125475,
+        -0.07328530135523559
+      ],
+      "bearing_xy_m": [
+        0.47238310109330184,
+        -0.04501838651171593
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.0734793210208812,
+      "position_index": 1,
+      "reset_seed": 1407828249,
+      "ring_xy_m": [
+        0.47771931913251436,
+        0.02826691484351966
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.872359475213396,
+      "bearing_minus_ring_xy_m": [
+        -0.020302791899255157,
+        -0.06527183634303478
+      ],
+      "bearing_xy_m": [
+        0.49763087081530877,
+        0.05369911812009287
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06835653574089588,
+      "position_index": 2,
+      "reset_seed": 1482696797,
+      "ring_xy_m": [
+        0.5179336627145639,
+        0.11897095446312765
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.2075653042654664,
+      "bearing_minus_ring_xy_m": [
+        -0.032206322629128266,
+        -0.04354949779767126
+      ],
+      "bearing_xy_m": [
+        0.49469416822273754,
+        -0.04324800528255757
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.0541646192243689,
+      "position_index": 3,
+      "reset_seed": 59049080,
+      "ring_xy_m": [
+        0.5269004908518659,
+        0.0003014925151136952
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.1048230131741623,
+      "bearing_minus_ring_xy_m": [
+        0.029237201485151517,
+        -0.05813599097997679
+      ],
+      "bearing_xy_m": [
+        0.4832173802573685,
+        0.00015489841672762517
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06507386109573712,
+      "position_index": 0,
+      "reset_seed": 593102361,
+      "ring_xy_m": [
+        0.45398017877221697,
+        0.05829088939670442
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.2916898776971326,
+      "bearing_minus_ring_xy_m": [
+        0.013781388402427819,
+        -0.04808795159875626
+      ],
+      "bearing_xy_m": [
+        0.5179123217728304,
+        -0.04034191904074629
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05002377190159591,
+      "position_index": 1,
+      "reset_seed": 1211731350,
+      "ring_xy_m": [
+        0.5041309333704026,
+        0.0077460325580099645
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.8858042755829351,
+      "bearing_minus_ring_xy_m": [
+        0.04099272255193104,
+        -0.0501776740726841
+      ],
+      "bearing_xy_m": [
+        0.48502191285561475,
+        -0.09520516432046987
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06479353576989073,
+      "position_index": 2,
+      "reset_seed": 1815527331,
+      "ring_xy_m": [
+        0.4440291903036837,
+        -0.04502749024778577
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.4269831024209219,
+      "bearing_minus_ring_xy_m": [
+        0.008363206670272282,
+        -0.0577517848306963
+      ],
+      "bearing_xy_m": [
+        0.5061877597278509,
+        -0.030341347241958833
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05835419331068445,
+      "position_index": 3,
+      "reset_seed": 1964402236,
+      "ring_xy_m": [
+        0.4978245530575786,
+        0.027410437588737464
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.02252063348025024,
+      "bearing_minus_ring_xy_m": [
+        0.07213392990036532,
+        -0.0016247764901994432
+      ],
+      "bearing_xy_m": [
+        0.5101559768211472,
+        0.07946104376528407
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07215222617157369,
+      "position_index": 0,
+      "reset_seed": 788355570,
+      "ring_xy_m": [
+        0.4380220469207819,
+        0.08108582025548351
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.5546551995316924,
+      "bearing_minus_ring_xy_m": [
+        0.05036997524489363,
+        -0.031205643912232756
+      ],
+      "bearing_xy_m": [
+        0.4407525790035831,
+        0.08926774651807054
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05925307264731734,
+      "position_index": 1,
+      "reset_seed": 1619999062,
+      "ring_xy_m": [
+        0.3903826037586895,
+        0.12047339043030329
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.12514782589869944,
+      "bearing_minus_ring_xy_m": [
+        0.06259089230198382,
+        -0.007874265940685767
+      ],
+      "bearing_xy_m": [
+        0.4186402925408023,
+        -0.07108115486060272
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06308426002786417,
+      "position_index": 2,
+      "reset_seed": 1608739898,
+      "ring_xy_m": [
+        0.3560494002388185,
+        -0.06320688891991695
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.23733760533773995,
+      "bearing_minus_ring_xy_m": [
+        0.04814696940918912,
+        -0.011646592911212922
+      ],
+      "bearing_xy_m": [
+        0.4811531500246989,
+        0.09989744806683878
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04953558104765612,
+      "position_index": 3,
+      "reset_seed": 1783378858,
+      "ring_xy_m": [
+        0.4330061806155098,
+        0.1115440409780517
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.3412603862730895,
+      "bearing_minus_ring_xy_m": [
+        0.07019064578421103,
+        0.024928601581432064
+      ],
+      "bearing_xy_m": [
+        0.4333080121966115,
+        -0.08193361857938007
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07448598480526628,
+      "position_index": 0,
+      "reset_seed": 763732995,
+      "ring_xy_m": [
+        0.3631173664124005,
+        -0.10686222016081214
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.32221656312710506,
+      "bearing_minus_ring_xy_m": [
+        0.04451690151019927,
+        0.014862021047012232
+      ],
+      "bearing_xy_m": [
+        0.4466555264275975,
+        -0.06459530812789313
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.046932229753876134,
+      "position_index": 1,
+      "reset_seed": 1833790808,
+      "ring_xy_m": [
+        0.4021386249173982,
+        -0.07945732917490536
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.38552344133294136,
+      "bearing_minus_ring_xy_m": [
+        0.0517304303742445,
+        0.020993840550651097
+      ],
+      "bearing_xy_m": [
+        0.42903149528138707,
+        -0.08877709549692372
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05582811807477232,
+      "position_index": 2,
+      "reset_seed": 1924222572,
+      "ring_xy_m": [
+        0.37730106490714255,
+        -0.10977093604757482
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.007066950719511596,
+      "bearing_minus_ring_xy_m": [
+        0.05447291732385543,
+        0.0003849638308916369
+      ],
+      "bearing_xy_m": [
+        0.42743467146577235,
+        0.09031301518595886
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05447427758972746,
+      "position_index": 3,
+      "reset_seed": 324704433,
+      "ring_xy_m": [
+        0.3729617541419169,
+        0.08992805135506722
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.4238739794997655,
+      "bearing_minus_ring_xy_m": [
+        0.007611195389166145,
+        0.051430915849439554
+      ],
+      "bearing_xy_m": [
+        0.4228143407248028,
+        0.07963211249484414
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05199105115656152,
+      "position_index": 0,
+      "reset_seed": 1890564216,
+      "ring_xy_m": [
+        0.4152031453356366,
+        0.02820119664540459
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.4783778181763882,
+      "bearing_minus_ring_xy_m": [
+        0.005874210122534519,
+        0.06337990570558832
+      ],
+      "bearing_xy_m": [
+        0.4183759702841471,
+        -0.0512794107887554
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.0636515419437185,
+      "position_index": 1,
+      "reset_seed": 1156205413,
+      "ring_xy_m": [
+        0.41250176016161255,
+        -0.11465931649434372
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.8619854570929704,
+      "bearing_minus_ring_xy_m": [
+        0.04387631872037298,
+        0.051169918894828234
+      ],
+      "bearing_xy_m": [
+        0.42044699329657365,
+        0.045222040260845
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06740542963408105,
+      "position_index": 2,
+      "reset_seed": 2038992455,
+      "ring_xy_m": [
+        0.37657067457620064,
+        -0.005947878633983231
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.2673120454449172,
+      "bearing_minus_ring_xy_m": [
+        0.014238602376133726,
+        0.04546778006174622
+      ],
+      "bearing_xy_m": [
+        0.41356561169539413,
+        0.06557510094726762
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04764511329999088,
+      "position_index": 3,
+      "reset_seed": 1591928537,
+      "ring_xy_m": [
+        0.3993270093192604,
+        0.020107320885521404
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.7020925000419704,
+      "bearing_minus_ring_xy_m": [
+        -0.007131997590519,
+        0.05400742574836848
+      ],
+      "bearing_xy_m": [
+        0.41972705347645534,
+        0.011992240992294373
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.054476301504385406,
+      "position_index": 0,
+      "reset_seed": 1031485926,
+      "ring_xy_m": [
+        0.42685905106697436,
+        -0.04201518475607411
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.9276912166777809,
+      "bearing_minus_ring_xy_m": [
+        -0.01826128931677354,
+        0.04897600796782193
+      ],
+      "bearing_xy_m": [
+        0.47256175071609563,
+        -0.07282265845030458
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05226972397071812,
+      "position_index": 1,
+      "reset_seed": 647612327,
+      "ring_xy_m": [
+        0.4908230400328692,
+        -0.1217986664181265
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.9363284874359934,
+      "bearing_minus_ring_xy_m": [
+        -0.020938098767328762,
+        0.05470693892786154
+      ],
+      "bearing_xy_m": [
+        0.44820318860037944,
+        -0.025108636771172546
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.058576899430126776,
+      "position_index": 2,
+      "reset_seed": 120270025,
+      "ring_xy_m": [
+        0.4691412873677082,
+        -0.07981557569903408
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.2971415539932334,
+      "bearing_minus_ring_xy_m": [
+        -0.047065873455911914,
+        0.052980800518413806
+      ],
+      "bearing_xy_m": [
+        0.5108653654617096,
+        0.06446406193109297
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.07086721151378732,
+      "position_index": 3,
+      "reset_seed": 976676793,
+      "ring_xy_m": [
+        0.5579312389176215,
+        0.011483261412679163
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.8067720448474454,
+      "bearing_minus_ring_xy_m": [
+        -0.057240919257302646,
+        0.01991526040108935
+      ],
+      "bearing_xy_m": [
+        0.49919554016166234,
+        -0.013319011023635835
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.06060643888452974,
+      "position_index": 0,
+      "reset_seed": 2064466798,
+      "ring_xy_m": [
+        0.556436459418965,
+        -0.03323427142472518
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.9080865674929703,
+      "bearing_minus_ring_xy_m": [
+        -0.05436708882207597,
+        0.012930924839449656
+      ],
+      "bearing_xy_m": [
+        0.4306394778494875,
+        0.0014250619989895769
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05588371108105647,
+      "position_index": 1,
+      "reset_seed": 2066804101,
+      "ring_xy_m": [
+        0.48500656667156344,
+        -0.011505862840460079
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.9636839912524655,
+      "bearing_minus_ring_xy_m": [
+        -0.05692759708538033,
+        0.010236137562195276
+      ],
+      "bearing_xy_m": [
+        0.4791010253714679,
+        -0.04031266032350825
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.05784055516769863,
+      "position_index": 2,
+      "reset_seed": 139240699,
+      "ring_xy_m": [
+        0.5360286224568482,
+        -0.050548797885703524
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.649462781426635,
+      "bearing_minus_ring_xy_m": [
+        -0.04047361056757518,
+        0.021698999029194848
+      ],
+      "bearing_xy_m": [
+        0.4633927144613874,
+        0.06489706440509843
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d0_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 0,
+      "distance_band_m": [
+        0.045,
+        0.075
+      ],
+      "endpoint_distance_m": 0.04592341136332026,
+      "position_index": 3,
+      "reset_seed": 981358909,
+      "ring_xy_m": [
+        0.5038663250289626,
+        0.04319806537590358
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.5071447145422296,
+      "bearing_minus_ring_xy_m": [
+        -0.07426778638048423,
+        -0.05465733579587117
+      ],
+      "bearing_xy_m": [
+        0.5191884017741608,
+        0.033057647934633366
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0922124094152184,
+      "position_index": 0,
+      "reset_seed": 1983838272,
+      "ring_xy_m": [
+        0.5934561881546451,
+        0.08771498373050454
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.792624699243905,
+      "bearing_minus_ring_xy_m": [
+        -0.07931957781224704,
+        -0.028861171884988494
+      ],
+      "bearing_xy_m": [
+        0.4427215432227402,
+        0.054413243784299764
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08440712450313637,
+      "position_index": 1,
+      "reset_seed": 231449761,
+      "ring_xy_m": [
+        0.5220411210349872,
+        0.08327441566928825
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.678362505135,
+      "bearing_minus_ring_xy_m": [
+        -0.0792874428047141,
+        -0.03960235581024889
+      ],
+      "bearing_xy_m": [
+        0.41088051223504474,
+        0.05702991200788701
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08862756440426625,
+      "position_index": 2,
+      "reset_seed": 862244062,
+      "ring_xy_m": [
+        0.49016795503975885,
+        0.0966322678181359
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.554470438973036,
+      "bearing_minus_ring_xy_m": [
+        -0.0799155528912915,
+        -0.0531754684039393
+      ],
+      "bearing_xy_m": [
+        0.4504162191224001,
+        -0.06420551401697613
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09599023926368325,
+      "position_index": 3,
+      "reset_seed": 1700185171,
+      "ring_xy_m": [
+        0.5303317720136916,
+        -0.011030045613036832
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.002671809194264,
+      "bearing_minus_ring_xy_m": [
+        -0.04334092094510575,
+        -0.09403685168004211
+      ],
+      "bearing_xy_m": [
+        0.4794579712273743,
+        0.024959276967936844
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10354402398141646,
+      "position_index": 0,
+      "reset_seed": 2030055942,
+      "ring_xy_m": [
+        0.5227988921724801,
+        0.11899612864797895
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.1964513161235923,
+      "bearing_minus_ring_xy_m": [
+        -0.05636853762198947,
+        -0.07802080522034073
+      ],
+      "bearing_xy_m": [
+        0.5082568909918527,
+        -0.09970316386860352
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09625309387688268,
+      "position_index": 1,
+      "reset_seed": 1066648222,
+      "ring_xy_m": [
+        0.5646254286138421,
+        -0.02168235864826279
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.270844926068855,
+      "bearing_minus_ring_xy_m": [
+        -0.054589662111398075,
+        -0.0648047382678693
+      ],
+      "bearing_xy_m": [
+        0.4760280448839589,
+        -0.079075867346293
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08473302373575284,
+      "position_index": 2,
+      "reset_seed": 161271502,
+      "ring_xy_m": [
+        0.5306177069953569,
+        -0.014271129078423705
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.054695392039499,
+      "bearing_minus_ring_xy_m": [
+        -0.04325114083870248,
+        -0.08229271304257778
+      ],
+      "bearing_xy_m": [
+        0.4844395756121585,
+        -0.005528023925570794
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09296640147793894,
+      "position_index": 3,
+      "reset_seed": 767167003,
+      "ring_xy_m": [
+        0.527690716450861,
+        0.07676468911700698
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.9416066413963567,
+      "bearing_minus_ring_xy_m": [
+        0.055567643934966444,
+        -0.07634235477119257
+      ],
+      "bearing_xy_m": [
+        0.49150074753180223,
+        0.06863931929815525
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09442413983984096,
+      "position_index": 0,
+      "reset_seed": 286879570,
+      "ring_xy_m": [
+        0.4359331035968358,
+        0.1449816740693478
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.5223092424249511,
+      "bearing_minus_ring_xy_m": [
+        0.0039886041144085145,
+        -0.08219669100777265
+      ],
+      "bearing_xy_m": [
+        0.4617693555214805,
+        -0.08021427910919754
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08229340784904177,
+      "position_index": 1,
+      "reset_seed": 1350537291,
+      "ring_xy_m": [
+        0.45778075140707203,
+        0.0019824118985751066
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.3697319696588832,
+      "bearing_minus_ring_xy_m": [
+        0.016477177981200738,
+        -0.08084245859180769
+      ],
+      "bearing_xy_m": [
+        0.5145930179957066,
+        0.06245011907707071
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0825045483921481,
+      "position_index": 2,
+      "reset_seed": 2118700954,
+      "ring_xy_m": [
+        0.4981158400145058,
+        0.1432925776688784
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.8663671294191333,
+      "bearing_minus_ring_xy_m": [
+        0.06307024339119117,
+        -0.07421004077376972
+      ],
+      "bearing_xy_m": [
+        0.4901703135694068,
+        0.06267415611726299
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09739089153031026,
+      "position_index": 3,
+      "reset_seed": 749819662,
+      "ring_xy_m": [
+        0.42710007017821566,
+        0.1368841968910327
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.640229287143935,
+      "bearing_minus_ring_xy_m": [
+        0.07045062207330546,
+        -0.052478687722498966
+      ],
+      "bearing_xy_m": [
+        0.42841141980009523,
+        0.01800382418324123
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08784818049106811,
+      "position_index": 0,
+      "reset_seed": 578572308,
+      "ring_xy_m": [
+        0.3579607977267898,
+        0.0704825119057402
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.10161414417177062,
+      "bearing_minus_ring_xy_m": [
+        0.09778551914728889,
+        -0.00997073286896293
+      ],
+      "bearing_xy_m": [
+        0.4661452741753422,
+        0.07693776029574265
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4177855191472889,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09829253923288898,
+      "position_index": 1,
+      "reset_seed": 314882059,
+      "ring_xy_m": [
+        0.3683597550280533,
+        0.08690849316470557
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.2146559405829498,
+      "bearing_minus_ring_xy_m": [
+        0.09093644328239983,
+        -0.019825488072274907
+      ],
+      "bearing_xy_m": [
+        0.44373198382826384,
+        -0.023167918231797577
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41093644328239987,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09307248086387854,
+      "position_index": 2,
+      "reset_seed": 1642379977,
+      "ring_xy_m": [
+        0.35279554054586404,
+        -0.0033424301595226698
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.3571723678561054,
+      "bearing_minus_ring_xy_m": [
+        0.0761513095090732,
+        -0.028417995419394163
+      ],
+      "bearing_xy_m": [
+        0.42562249560697357,
+        -0.037202838390890544
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08128102117716884,
+      "position_index": 3,
+      "reset_seed": 2129881912,
+      "ring_xy_m": [
+        0.3494711860979004,
+        -0.008784842971496381
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.6179390406866753,
+      "bearing_minus_ring_xy_m": [
+        0.06547148251727174,
+        0.0465372746653086
+      ],
+      "bearing_xy_m": [
+        0.5032242652684811,
+        -0.008316565424819622
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08032579259667341,
+      "position_index": 0,
+      "reset_seed": 1832861160,
+      "ring_xy_m": [
+        0.4377527827512093,
+        -0.054853840090128225
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.06761237964784407,
+      "bearing_minus_ring_xy_m": [
+        0.08302881136446642,
+        0.00562234552144273
+      ],
+      "bearing_xy_m": [
+        0.4832415687830774,
+        -0.09433223982894778
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.40302881136446644,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08321895388526965,
+      "position_index": 1,
+      "reset_seed": 1418673597,
+      "ring_xy_m": [
+        0.40021275741861095,
+        -0.0999545853503905
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.4097243919239326,
+      "bearing_minus_ring_xy_m": [
+        0.095342926806547,
+        0.041407773697577144
+      ],
+      "bearing_xy_m": [
+        0.5035750770075148,
+        -0.030685524432609856
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.415342926806547,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10394651227736475,
+      "position_index": 2,
+      "reset_seed": 1144990,
+      "ring_xy_m": [
+        0.4082321502009678,
+        -0.072093298130187
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.5035362494831999,
+      "bearing_minus_ring_xy_m": [
+        0.06966209578605533,
+        0.0383770594406354
+      ],
+      "bearing_xy_m": [
+        0.41598363471565225,
+        -0.03433581426537649
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.07953368016517035,
+      "position_index": 3,
+      "reset_seed": 75904015,
+      "ring_xy_m": [
+        0.34632153892959694,
+        -0.0727128737060119
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.8231025647780259,
+      "bearing_minus_ring_xy_m": [
+        0.0669866080605433,
+        0.07223849624447068
+      ],
+      "bearing_xy_m": [
+        0.4239154439616136,
+        -0.02506484953816568
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09851703405563551,
+      "position_index": 0,
+      "reset_seed": 237478398,
+      "ring_xy_m": [
+        0.35692883590107033,
+        -0.09730334578263636
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.9519684938750685,
+      "bearing_minus_ring_xy_m": [
+        0.055824545984932035,
+        0.07838974790958438
+      ],
+      "bearing_xy_m": [
+        0.44267402094365976,
+        -0.087448439092174
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09623581719792262,
+      "position_index": 1,
+      "reset_seed": 190362270,
+      "ring_xy_m": [
+        0.38684947495872773,
+        -0.16583818700175837
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.8857804100158639,
+      "bearing_minus_ring_xy_m": [
+        0.0592698034048652,
+        0.07254643830033923
+      ],
+      "bearing_xy_m": [
+        0.45224887907708,
+        0.053157474416010514
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.09367974864246967,
+      "position_index": 2,
+      "reset_seed": 1213108072,
+      "ring_xy_m": [
+        0.3929790756722148,
+        -0.019388963884328717
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.5099323882633222,
+      "bearing_minus_ring_xy_m": [
+        0.006198572254141632,
+        0.10171731367182625
+      ],
+      "bearing_xy_m": [
+        0.4759665978419175,
+        -0.07292247463863114
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10190600668558505,
+      "position_index": 3,
+      "reset_seed": 1219702366,
+      "ring_xy_m": [
+        0.4697680255877759,
+        -0.1746397883104574
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.717720344783327,
+      "bearing_minus_ring_xy_m": [
+        -0.01133936352569787,
+        0.07662227724758203
+      ],
+      "bearing_xy_m": [
+        0.5170119600556442,
+        0.06114281005982233
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.07745679141155573,
+      "position_index": 0,
+      "reset_seed": 895891579,
+      "ring_xy_m": [
+        0.5283513235813421,
+        -0.015479467187759693
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.7104045894584758,
+      "bearing_minus_ring_xy_m": [
+        -0.015217575378369395,
+        0.10829287969484304
+      ],
+      "bearing_xy_m": [
+        0.47971580711231654,
+        -0.00035803382725260735
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10935685800624532,
+      "position_index": 1,
+      "reset_seed": 435763000,
+      "ring_xy_m": [
+        0.4949333824906859,
+        -0.10865091352209565
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.239919622525325,
+      "bearing_minus_ring_xy_m": [
+        -0.06350420927330523,
+        0.08030089301211915
+      ],
+      "bearing_xy_m": [
+        0.41507085438548186,
+        -0.011715767632317187
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10237684315298823,
+      "position_index": 2,
+      "reset_seed": 1448679729,
+      "ring_xy_m": [
+        0.4785750636587871,
+        -0.09201666064443634
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.8910098285774282,
+      "bearing_minus_ring_xy_m": [
+        -0.027718674160873695,
+        0.08358404711462
+      ],
+      "bearing_xy_m": [
+        0.47974655323256377,
+        -0.08345297227338827
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08806030791052064,
+      "position_index": 3,
+      "reset_seed": 826434374,
+      "ring_xy_m": [
+        0.5074652273934375,
+        -0.16703701938800827
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.9652934975029384,
+      "bearing_minus_ring_xy_m": [
+        -0.08975477376965127,
+        0.01598969582420549
+      ],
+      "bearing_xy_m": [
+        0.44638847343047733,
+        -0.0019820420000362937
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.0911679208219201,
+      "position_index": 0,
+      "reset_seed": 1547403914,
+      "ring_xy_m": [
+        0.5361432472001286,
+        -0.017971737824241784
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.983649129922477,
+      "bearing_minus_ring_xy_m": [
+        -0.1005597725305001,
+        0.016016167437179235
+      ],
+      "bearing_xy_m": [
+        0.41640643214695866,
+        -0.05124267330017849
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5194402274694999,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.10182723344352278,
+      "position_index": 1,
+      "reset_seed": 1453039189,
+      "ring_xy_m": [
+        0.5169662046774588,
+        -0.06725884073735772
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.6886798952519206,
+      "bearing_minus_ring_xy_m": [
+        -0.07491861782681368,
+        0.03645933755566337
+      ],
+      "bearing_xy_m": [
+        0.4694253063329373,
+        -0.07683987998250244
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.08331916101400667,
+      "position_index": 2,
+      "reset_seed": 84728655,
+      "ring_xy_m": [
+        0.544343924159751,
+        -0.11329921753816581
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 3.043820731471744,
+      "bearing_minus_ring_xy_m": [
+        -0.10850472989639036,
+        0.01064264989986608
+      ],
+      "bearing_xy_m": [
+        0.4733719081492399,
+        -0.05080694188286714
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5114952701036096,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d1_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 1,
+      "distance_band_m": [
+        0.075,
+        0.11
+      ],
+      "endpoint_distance_m": 0.1090254209199843,
+      "position_index": 3,
+      "reset_seed": 485745894,
+      "ring_xy_m": [
+        0.5818766380456303,
+        -0.06144959178273322
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.787769404602255,
+      "bearing_minus_ring_xy_m": [
+        -0.12828491242130066,
+        -0.04738424557192906
+      ],
+      "bearing_xy_m": [
+        0.462135846044828,
+        0.0905805512839016
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4917150875786993,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a0_p0",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13675629961124883,
+      "position_index": 0,
+      "reset_seed": 31767614,
+      "ring_xy_m": [
+        0.5904207584661286,
+        0.13796479685583066
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.9847556946522,
+      "bearing_minus_ring_xy_m": [
+        -0.13808132159602726,
+        -0.021835584861619992
+      ],
+      "bearing_xy_m": [
+        0.44438122718518824,
+        0.0583718424806253
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.48191867840397273,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a0_p1",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13979715354739708,
+      "position_index": 1,
+      "reset_seed": 965571607,
+      "ring_xy_m": [
+        0.5824625487812155,
+        0.08020742734224529
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.6389272970729314,
+      "bearing_minus_ring_xy_m": [
+        -0.12528134991272724,
+        -0.06887572319284678
+      ],
+      "bearing_xy_m": [
+        0.40521048588506764,
+        0.08829367016756126
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.4947186500872728,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a0_p2",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14296601652593127,
+      "position_index": 2,
+      "reset_seed": 1511681856,
+      "ring_xy_m": [
+        0.5304918357977949,
+        0.15716939336040803
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -2.5974083154491954,
+      "bearing_minus_ring_xy_m": [
+        -0.12972445886888806,
+        -0.0785003947774975
+      ],
+      "bearing_xy_m": [
+        0.40897688568190854,
+        -0.0999330227235977
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.49027554113111194,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a0_p3",
+      "direction_bin_index": 0,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15162700026396614,
+      "position_index": 3,
+      "reset_seed": 1115374530,
+      "ring_xy_m": [
+        0.5387013445507967,
+        -0.021432627946100208
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.8483137108609318,
+      "bearing_minus_ring_xy_m": [
+        -0.03552361407106298,
+        -0.12470186756755787
+      ],
+      "bearing_xy_m": [
+        0.40097182681044036,
+        -0.09935707691125327
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a1_p0",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12966295898022134,
+      "position_index": 0,
+      "reset_seed": 682688808,
+      "ring_xy_m": [
+        0.4364954408815033,
+        0.0253447906563046
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.8270761079199538,
+      "bearing_minus_ring_xy_m": [
+        -0.03627698898158585,
+        -0.13843961194677518
+      ],
+      "bearing_xy_m": [
+        0.4315898691167146,
+        -0.044604907125259025
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.09156038805322483
+        ]
+      },
+      "configuration_id": "G5_d2_a1_p1",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14311375225862746,
+      "position_index": 1,
+      "reset_seed": 292633626,
+      "ring_xy_m": [
+        0.4678668580983004,
+        0.09383470482151615
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.720776540861768,
+      "bearing_minus_ring_xy_m": [
+        -0.02027642527821709,
+        -0.13417879052258425
+      ],
+      "bearing_xy_m": [
+        0.4664639284203585,
+        0.021798368534987816
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.09582120947741576
+        ]
+      },
+      "configuration_id": "G5_d2_a1_p2",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13570217849454985,
+      "position_index": 2,
+      "reset_seed": 2067223899,
+      "ring_xy_m": [
+        0.4867403536985756,
+        0.15597715905757206
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.624779166929058,
+      "bearing_minus_ring_xy_m": [
+        -0.007597281320044137,
+        -0.1405983827846062
+      ],
+      "bearing_xy_m": [
+        0.5134732242227729,
+        0.011701369481327856
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.0894016172153938
+        ]
+      },
+      "configuration_id": "G5_d2_a1_p3",
+      "direction_bin_index": 1,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1408034940088581,
+      "position_index": 3,
+      "reset_seed": 1552390800,
+      "ring_xy_m": [
+        0.521070505542817,
+        0.15229975226593406
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.5205983586969938,
+      "bearing_minus_ring_xy_m": [
+        0.007122420396225707,
+        -0.14176743037374118
+      ],
+      "bearing_xy_m": [
+        0.5173496217790945,
+        -0.09731084782063755
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.08823256962625883
+        ]
+      },
+      "configuration_id": "G5_d2_a2_p0",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14194623343743265,
+      "position_index": 0,
+      "reset_seed": 2106268810,
+      "ring_xy_m": [
+        0.5102272013828688,
+        0.04445658255310363
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.5682509956988515,
+      "bearing_minus_ring_xy_m": [
+        0.00039470794132847914,
+        -0.15507101985353514
+      ],
+      "bearing_xy_m": [
+        0.5150382820068802,
+        0.05296524630994251
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.07492898014646487
+        ]
+      },
+      "configuration_id": "G5_d2_a2_p1",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1550715221850048,
+      "position_index": 1,
+      "reset_seed": 1927495688,
+      "ring_xy_m": [
+        0.5146435740655517,
+        0.20803626616347765
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.24804319962383,
+      "bearing_minus_ring_xy_m": [
+        0.037870254302617534,
+        -0.1132322244588089
+      ],
+      "bearing_xy_m": [
+        0.4460390120996152,
+        -0.017193659580613654
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a2_p2",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1193972060679604,
+      "position_index": 2,
+      "reset_seed": 1367777259,
+      "ring_xy_m": [
+        0.4081687577969977,
+        0.09603856487819525
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -1.3228199582445097,
+      "bearing_minus_ring_xy_m": [
+        0.034518771556021684,
+        -0.1363368134876616
+      ],
+      "bearing_xy_m": [
+        0.4699267154425489,
+        -0.007349978195987983
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.0936631865123384
+        ]
+      },
+      "configuration_id": "G5_d2_a2_p3",
+      "direction_bin_index": 2,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14063880083997532,
+      "position_index": 3,
+      "reset_seed": 1675655481,
+      "ring_xy_m": [
+        0.4354079438865272,
+        0.12898683529167362
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.02988443647993011,
+      "bearing_minus_ring_xy_m": [
+        0.14382955910953296,
+        -0.004299545344689423
+      ],
+      "bearing_xy_m": [
+        0.48487309543688806,
+        -0.014137109186216315
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.46382955910953294,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a3_p0",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1438938086361386,
+      "position_index": 0,
+      "reset_seed": 506922533,
+      "ring_xy_m": [
+        0.34104353632735507,
+        -0.009837563841526892
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.6680904186663909,
+      "bearing_minus_ring_xy_m": [
+        0.0977487204779668,
+        -0.07713847160088423
+      ],
+      "bearing_xy_m": [
+        0.48881351235393244,
+        0.08168279947995852
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4177487204779668,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a3_p1",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12451970187885976,
+      "position_index": 1,
+      "reset_seed": 437598215,
+      "ring_xy_m": [
+        0.39106479187596566,
+        0.15882127108084276
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.7307954736698556,
+      "bearing_minus_ring_xy_m": [
+        0.09828652099226527,
+        -0.08809923126806753
+      ],
+      "bearing_xy_m": [
+        0.4254596412484706,
+        0.041644162844280574
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41828652099226526,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a3_p2",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13199134349944108,
+      "position_index": 2,
+      "reset_seed": 1134420704,
+      "ring_xy_m": [
+        0.3271731202562053,
+        0.1297433941123481
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": -0.046189428835394786,
+      "bearing_minus_ring_xy_m": [
+        0.15061756743446705,
+        -0.00696189109650149
+      ],
+      "bearing_xy_m": [
+        0.4970566481852584,
+        0.07502910852897693
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.47061756743446703,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a3_p3",
+      "direction_bin_index": 3,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15077837891261392,
+      "position_index": 3,
+      "reset_seed": 1287759170,
+      "ring_xy_m": [
+        0.34643908075079133,
+        0.08199099962547841
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.04119882032184023,
+      "bearing_minus_ring_xy_m": [
+        0.15076976359802008,
+        0.006215053156970612
+      ],
+      "bearing_xy_m": [
+        0.505930815887921,
+        0.04260927821664018
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4707697635980201,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a4_p0",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.15089780813897474,
+      "position_index": 0,
+      "reset_seed": 1195923251,
+      "ring_xy_m": [
+        0.3551610522899009,
+        0.03639422505966956
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.7713350709799546,
+      "bearing_minus_ring_xy_m": [
+        0.08574640336858667,
+        0.08336797543394417
+      ],
+      "bearing_xy_m": [
+        0.45325601832790413,
+        -0.042706520799240116
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4057464033685867,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a4_p1",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1195937499144629,
+      "position_index": 1,
+      "reset_seed": 1441034544,
+      "ring_xy_m": [
+        0.36750961495931744,
+        -0.12607449623318429
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.2996284288604399,
+      "bearing_minus_ring_xy_m": [
+        0.14082215178067706,
+        0.04350407046748913
+      ],
+      "bearing_xy_m": [
+        0.47471146355188504,
+        -0.031078636566125445
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4608221517806771,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a4_p2",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14738888214305823,
+      "position_index": 2,
+      "reset_seed": 1665862741,
+      "ring_xy_m": [
+        0.33388931177120795,
+        -0.07458270703361458
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.7225773586680649,
+      "bearing_minus_ring_xy_m": [
+        0.09913783498391897,
+        0.08740370518635895
+      ],
+      "bearing_xy_m": [
+        0.4517124529429406,
+        0.03353092086986936
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.419137834983919,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a4_p3",
+      "direction_bin_index": 4,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13216549476169148,
+      "position_index": 3,
+      "reset_seed": 63589433,
+      "ring_xy_m": [
+        0.3525746179590216,
+        -0.05387278431648959
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.8947469725990992,
+      "bearing_minus_ring_xy_m": [
+        0.07020847134371458,
+        0.08752557804833054
+      ],
+      "bearing_xy_m": [
+        0.40359525501949,
+        0.004117725196705502
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a5_p0",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11220497431538226,
+      "position_index": 0,
+      "reset_seed": 1416110122,
+      "ring_xy_m": [
+        0.33338678367577546,
+        -0.08340785285162504
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.9148951108743102,
+      "bearing_minus_ring_xy_m": [
+        0.09703198338891604,
+        0.12608793054018905
+      ],
+      "bearing_xy_m": [
+        0.4576330251991779,
+        -0.0322604748545718
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.41703198338891606,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a5_p1",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1591017662639055,
+      "position_index": 1,
+      "reset_seed": 751257435,
+      "ring_xy_m": [
+        0.36060104181026187,
+        -0.15834840539476086
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 0.79487482875729,
+      "bearing_minus_ring_xy_m": [
+        0.09402315775867832,
+        0.09582231362038347
+      ],
+      "bearing_xy_m": [
+        0.5016306581441902,
+        0.033044591940053686
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4140231577586783,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a5_p2",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13424704831941908,
+      "position_index": 2,
+      "reset_seed": 772280201,
+      "ring_xy_m": [
+        0.40760750038551186,
+        -0.06277772168032979
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.4144445137344643,
+      "bearing_minus_ring_xy_m": [
+        0.021508845292352977,
+        0.1364441572623211
+      ],
+      "bearing_xy_m": [
+        0.40141052275909883,
+        -0.0006987567296829755
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.09355584273767892
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a5_p3",
+      "direction_bin_index": 5,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13812906456222523,
+      "position_index": 3,
+      "reset_seed": 826723507,
+      "ring_xy_m": [
+        0.37990167746674586,
+        -0.13714291399200407
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.2733006827176423,
+      "bearing_minus_ring_xy_m": [
+        -0.07641454534012988,
+        0.0902627984078999
+      ],
+      "bearing_xy_m": [
+        0.49572203282913496,
+        -0.06660598073862196
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a6_p0",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.118264768701266,
+      "position_index": 0,
+      "reset_seed": 1018176695,
+      "ring_xy_m": [
+        0.5721365781692649,
+        -0.15686877914652186
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.8279072443964213,
+      "bearing_minus_ring_xy_m": [
+        -0.02930687359825127,
+        0.11146248801258699
+      ],
+      "bearing_xy_m": [
+        0.48500650870733936,
+        -0.06476259570555883
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a6_p1",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11525093957994431,
+      "position_index": 1,
+      "reset_seed": 1817844892,
+      "ring_xy_m": [
+        0.5143133823055906,
+        -0.17622508371814583
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.9439301391159651,
+      "bearing_minus_ring_xy_m": [
+        -0.04461350973877058,
+        0.11396323774097432
+      ],
+      "bearing_xy_m": [
+        0.40929266971537637,
+        -0.005698317553999341
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a6_p2",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12238457749086366,
+      "position_index": 2,
+      "reset_seed": 1497624984,
+      "ring_xy_m": [
+        0.45390617945414696,
+        -0.11966155529497366
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 1.8345096370297111,
+      "bearing_minus_ring_xy_m": [
+        -0.036363982605801835,
+        0.13468062725291916
+      ],
+      "bearing_xy_m": [
+        0.5003712926483249,
+        -0.045830780712691165
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.09531937274708085
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a6_p3",
+      "direction_bin_index": 6,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.13950344292595365,
+      "position_index": 3,
+      "reset_seed": 1182595504,
+      "ring_xy_m": [
+        0.5367352752541268,
+        -0.18051140796561033
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 3.033353956057224,
+      "bearing_minus_ring_xy_m": [
+        -0.143396600968764,
+        0.015581959649557157
+      ],
+      "bearing_xy_m": [
+        0.4207358163600482,
+        0.06237670973040105
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.476603399031236,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a7_p0",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.1442407107439344,
+      "position_index": 0,
+      "reset_seed": 84978043,
+      "ring_xy_m": [
+        0.5641324173288123,
+        0.04679475008084389
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.8614590865019336,
+      "bearing_minus_ring_xy_m": [
+        -0.11819024633227061,
+        0.03400320890871128
+      ],
+      "bearing_xy_m": [
+        0.41941959603646783,
+        0.06716701411077142
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5018097536677294,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a7_p1",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.12298435894117703,
+      "position_index": 1,
+      "reset_seed": 1261450175,
+      "ring_xy_m": [
+        0.5376098423687384,
+        0.03316380520206014
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.371102348245688,
+      "bearing_minus_ring_xy_m": [
+        -0.10420851026044262,
+        0.10114687451999138
+      ],
+      "bearing_xy_m": [
+        0.468101699316616,
+        0.0437754012484351
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.5157914897395574,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a7_p2",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.14522432246653333,
+      "position_index": 2,
+      "reset_seed": 63570845,
+      "ring_xy_m": [
+        0.5723102095770586,
+        -0.057371473271556284
+      ]
+    },
+    {
+      "ancestry": "independent procedural geometry; no human source trajectory ancestor",
+      "angle_rad": 2.4562587635342314,
+      "bearing_minus_ring_xy_m": [
+        -0.0883387793572101,
+        0.07221885793762037
+      ],
+      "bearing_xy_m": [
+        0.44612453105956057,
+        -0.008241544023242175
+      ],
+      "conditional_bearing_interval_m": {
+        "lower": [
+          0.4,
+          -0.1
+        ],
+        "upper": [
+          0.52,
+          0.1
+        ]
+      },
+      "configuration_id": "G5_d2_a7_p3",
+      "direction_bin_index": 7,
+      "distance_band_index": 2,
+      "distance_band_m": [
+        0.11,
+        0.16
+      ],
+      "endpoint_distance_m": 0.11410216203094506,
+      "position_index": 3,
+      "reset_seed": 1905112820,
+      "ring_xy_m": [
+        0.5344633104167706,
+        -0.08046040196086254
+      ]
+    }
+  ],
+  "dataset_files": {
+    "train.npz": {
+      "path": "outputs/vla_v5/dataset/train.npz",
+      "sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc"
+    },
+    "val.npz": {
+      "path": "outputs/vla_v5/dataset/val.npz",
+      "sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c"
+    }
+  },
+  "dataset_manifest_path": "outputs/vla_v5/dataset/manifest.json",
+  "dataset_manifest_sha256": "da058885c7bf4c877120a965124a3f5618cecea23bb0099fa12315f2481435e3",
+  "denominator_policy": "All registered attempts including exceptions, timeouts and unexecuted cases",
+  "environment": {
+    "action_scale": 0.003,
+    "action_size": 4,
+    "control_dt": 0.05,
+    "obs_size": 30,
+    "schema_version": 2,
+    "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+    "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef"
+  },
+  "evaluation_protocol": {
+    "black_image_cases": 96,
+    "frozen_model_selection": "development validation only; never evaluation outcomes",
+    "language_attempts": 72,
+    "language_inside_repeats_of_main": 24,
+    "language_instructions": [
+      "put the ring inside the bearing",
+      "put the ring left of the bearing",
+      "put the ring right of the bearing"
+    ],
+    "language_scene_indices": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92
+    ],
+    "main_cases": 96,
+    "object_coordinates": "reset, record and score only; never passed to runtime policy",
+    "outcome_filtering": false,
+    "policy_api": "RGB and own proprioception only; forbidden attributes blocked at runtime",
+    "score_used_for_termination": false,
+    "success_definition": "controller finished and post-execution target score valid",
+    "suites": [
+      "main",
+      "black_image",
+      "language_counterfactual"
+    ],
+    "total_attempts": 264
+  },
+  "expected_cases": 96,
+  "geometry_protocol": {
+    "bearing_bounds_m": {
+      "lower": [
+        0.4,
+        -0.1
+      ],
+      "upper": [
+        0.52,
+        0.1
+      ]
+    },
+    "direction_bins": 8,
+    "distance_bands_m": [
+      [
+        0.045,
+        0.075
+      ],
+      [
+        0.075,
+        0.11
+      ],
+      [
+        0.11,
+        0.16
+      ]
+    ],
+    "max_steps": 800,
+    "placements_per_cell": 4,
+    "ring_bounds_m": {
+      "lower": [
+        0.32,
+        -0.23
+      ],
+      "upper": [
+        0.62,
+        0.23
+      ]
+    },
+    "sampling": "uniform distance/angle in each cell and conditional feasible bearing interval",
+    "source_trajectory_ancestry": false
+  },
+  "implementation_sources": {
+    "vla_control": {
+      "path": "ring_learning/vla_control.py",
+      "sha256": "aefa665e83856ebecf741167480bd330ce3b26b1d6a12aa993296e1bfbd3fe33"
+    },
+    "vla_data": {
+      "path": "ring_learning/vla_data.py",
+      "sha256": "83f5d3432fbc3345fa4b336238cfa6aa8c5d0bac395145e2d82c803f7d663e2a"
+    },
+    "vla_env": {
+      "path": "ring_learning/vla_env.py",
+      "sha256": "f5f5dbbbb46635a6f46837a1841530e5f8c536f254fc70403aa9798071bf2187"
+    },
+    "vla_evaluate": {
+      "path": "ring_learning/vla_evaluate.py",
+      "sha256": "d041fb09e6ad9a1aa43eec830f3515b9f287f024bf0c61b62ac79cca18c472d8"
+    },
+    "vla_policy": {
+      "path": "ring_learning/vla_policy.py",
+      "sha256": "499e54879541b9cee1bf3e357dad0393fb6f5fab624bae978c439dcf52adb8ff"
+    },
+    "vla_train": {
+      "path": "ring_learning/vla_train.py",
+      "sha256": "a58ae7f2e797537549f658e99b11fd2458d73137ccfbb1732bf08665d6a9f71b"
+    }
+  },
+  "outcome_filtering": false,
+  "protocol": "vla_v5_fixed_geometry_96",
+  "protocol_path": "docs/superpowers/specs/2026-10-14-tiny-vla-design.md",
+  "protocol_sha256": "e07f8ae73922e6ff61c25420e8f873b93d10a74ec6f54f37e6d4b0491d12e899",
+  "schema_version": 1,
+  "scope": "Same object dimensions, fixed robot-hidden simulated RGB camera; new positions/directions/distances",
+  "seed": 20261024,
+  "source_splits": {
+    "train": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "val": [
+      "E05",
+      "E11",
+      "E12"
+    ]
+  },
+  "source_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4"
+}

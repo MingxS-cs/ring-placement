@@ -1,0 +1,5101 @@
+{
+  "frozen_checkpoint_sha256": "886cda28cc64051ddbc97563c619603ab9617419373c3c4301809105bf8a3481",
+  "metadata": {
+    "action_label_origin": "video-derived V4 planar trajectory with manually designed height/gripper stages; robot chunks are simulation-generated",
+    "data_manifest": {
+      "camera": {
+        "sha256": "e182e32cf868ede73e0966090b8fe7f32b64504c0e10542568aa6cba1f1f2c2a",
+        "specification": {
+          "camera_motion": "fixed in world",
+          "center_xy_m": [
+            0.47,
+            0.0
+          ],
+          "crop_uses_object_coordinates": false,
+          "height_m": 0.8,
+          "hidden_geom_group": 5,
+          "horizontal_span_m": 0.56,
+          "image_size": 256,
+          "masks": "geom segmentation; training only",
+          "name": "tabletop",
+          "pixel_coordinates": "normalized raster edges; pixel centers (index+0.5)/256",
+          "projection": "orthographic",
+          "robot_geometry_hidden": true,
+          "vertical_span_m": 0.56,
+          "world_to_pixel_axes": [
+            "positive X goes right",
+            "positive Y goes up"
+          ],
+          "xyaxes": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      "camera_convention": "Static robot-hidden full-tabletop RGB pass; training masks never runtime inputs",
+      "code_sources": {
+        "vla_data": "83f5d3432fbc3345fa4b336238cfa6aa8c5d0bac395145e2d82c803f7d663e2a",
+        "vla_env": "f5f5dbbbb46635a6f46837a1841530e5f8c536f254fc70403aa9798071bf2187"
+      },
+      "configurations": {
+        "train": [
+          {
+            "bearing_xy_m": [
+              0.41708818081675786,
+              -0.03751032950248745
+            ],
+            "configuration_id": "V5_E01_train_000",
+            "reset_seed": 1370301025,
+            "ring_xy_m": [
+              0.4787412026868441,
+              0.059896724773627424
+            ],
+            "rotation_draw_rad": -2.135086413790435,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4657050423678926,
+              -0.035884215773397954
+            ],
+            "configuration_id": "V5_E01_train_001",
+            "reset_seed": 1437711761,
+            "ring_xy_m": [
+              0.5660824331797703,
+              0.020804484531538617
+            ],
+            "rotation_draw_rad": -2.6274913411595073,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4971780945207921,
+              0.028122692135365612
+            ],
+            "configuration_id": "V5_E01_train_002",
+            "reset_seed": 1594147510,
+            "ring_xy_m": [
+              0.38660401748869344,
+              -0.004474896992710031
+            ],
+            "rotation_draw_rad": 0.28668227347713815,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5094852247171686,
+              -0.07706857868790284
+            ],
+            "configuration_id": "V5_E01_train_003",
+            "reset_seed": 1877306294,
+            "ring_xy_m": [
+              0.6219045799759504,
+              -0.0515515668788538
+            ],
+            "rotation_draw_rad": -2.9183938567613694,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5134218614615083,
+              -0.03549400365129085
+            ],
+            "configuration_id": "V5_E01_train_004",
+            "reset_seed": 1526710723,
+            "ring_xy_m": [
+              0.4109423240208299,
+              0.017299686638439116
+            ],
+            "rotation_draw_rad": -0.47570448273172694,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.479476077041064,
+              -0.0588413764848682
+            ],
+            "configuration_id": "V5_E01_train_005",
+            "reset_seed": 1920492333,
+            "ring_xy_m": [
+              0.5449416868743375,
+              -0.1537280628935574
+            ],
+            "rotation_draw_rad": 2.174735010608348,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41439575889807,
+              0.0016283855148669507
+            ],
+            "configuration_id": "V5_E01_train_006",
+            "reset_seed": 380200191,
+            "ring_xy_m": [
+              0.5279167580482301,
+              -0.018426840248326783
+            ],
+            "rotation_draw_rad": 2.9667315921498023,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4839033430004907,
+              -0.038872628112535
+            ],
+            "configuration_id": "V5_E01_train_007",
+            "reset_seed": 1408296855,
+            "ring_xy_m": [
+              0.3690570876696805,
+              -0.028894303355659942
+            ],
+            "rotation_draw_rad": -0.08666655698963455,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5119097641890682,
+              -0.04916414389263262
+            ],
+            "configuration_id": "V5_E01_train_008",
+            "reset_seed": 435647498,
+            "ring_xy_m": [
+              0.41881842699217603,
+              -0.11715849856533941
+            ],
+            "rotation_draw_rad": 0.630841746936921,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47316745135547533,
+              0.07063060022619203
+            ],
+            "configuration_id": "V5_E01_train_009",
+            "reset_seed": 953542642,
+            "ring_xy_m": [
+              0.5400302471347012,
+              0.1645379794306447
+            ],
+            "rotation_draw_rad": -2.189535904216322,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40145418634152435,
+              0.08164406726382639
+            ],
+            "configuration_id": "V5_E01_train_010",
+            "reset_seed": 523657021,
+            "ring_xy_m": [
+              0.32333849897848016,
+              -0.00313310369783322
+            ],
+            "rotation_draw_rad": 0.8262702670226343,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.49651253206537477,
+              -0.01274312902826076
+            ],
+            "configuration_id": "V5_E01_train_011",
+            "reset_seed": 1564887820,
+            "ring_xy_m": [
+              0.3992879059271761,
+              -0.0746834341675707
+            ],
+            "rotation_draw_rad": 0.567242155846607,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45459103150925045,
+              0.017233245148083998
+            ],
+            "configuration_id": "V5_E01_train_012",
+            "reset_seed": 1476546664,
+            "ring_xy_m": [
+              0.5305291752462638,
+              0.10396632796104546
+            ],
+            "rotation_draw_rad": -2.2899311742537014,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45263663705568064,
+              -0.09583840270745157
+            ],
+            "configuration_id": "V5_E01_train_013",
+            "reset_seed": 963097145,
+            "ring_xy_m": [
+              0.5218330319445381,
+              -0.1880397490254345
+            ],
+            "rotation_draw_rad": 2.2146123944808327,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43133134375174387,
+              -0.009821353204128497
+            ],
+            "configuration_id": "V5_E01_train_014",
+            "reset_seed": 67224987,
+            "ring_xy_m": [
+              0.5074439439851295,
+              -0.09640138216101993
+            ],
+            "rotation_draw_rad": 2.291944368012313,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5041949004024435,
+              -0.06348038704285289
+            ],
+            "configuration_id": "V5_E01_train_015",
+            "reset_seed": 1975511270,
+            "ring_xy_m": [
+              0.6021126142867712,
+              -0.0026416605922583783
+            ],
+            "rotation_draw_rad": -2.5856403796604592,
+            "source_endpoint_distance_m": 0.11527891970548355,
+            "source_episode_id": "E01",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5071488979205886,
+              0.048528997405143465
+            ],
+            "configuration_id": "V5_E02_train_000",
+            "reset_seed": 1344836130,
+            "ring_xy_m": [
+              0.5764739199730002,
+              -0.015161786654558446
+            ],
+            "rotation_draw_rad": 2.3985268428971613,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4580275356319451,
+              -0.0672629687446181
+            ],
+            "configuration_id": "V5_E02_train_001",
+            "reset_seed": 1045704653,
+            "ring_xy_m": [
+              0.37538395491419146,
+              -0.0221795657801669
+            ],
+            "rotation_draw_rad": -0.4993941523856491,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4628293582530082,
+              0.052697832390694144
+            ],
+            "configuration_id": "V5_E02_train_002",
+            "reset_seed": 1855217978,
+            "ring_xy_m": [
+              0.4791695397925109,
+              0.1454096068530732
+            ],
+            "rotation_draw_rad": -1.7452517805436587,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4928737160957587,
+              -0.09667679526702291
+            ],
+            "configuration_id": "V5_E02_train_003",
+            "reset_seed": 1915185730,
+            "ring_xy_m": [
+              0.3989933618262682,
+              -0.10367349012544747
+            ],
+            "rotation_draw_rad": 0.07439025755588302,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4693148982451388,
+              0.04232414915722088
+            ],
+            "configuration_id": "V5_E02_train_004",
+            "reset_seed": 966677450,
+            "ring_xy_m": [
+              0.42060733811764783,
+              0.12288498482278358
+            ],
+            "rotation_draw_rad": -1.026996983569331,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5073851601299402,
+              0.030388166949267242
+            ],
+            "configuration_id": "V5_E02_train_005",
+            "reset_seed": 484584196,
+            "ring_xy_m": [
+              0.46211736943772236,
+              0.1129308939611155
+            ],
+            "rotation_draw_rad": -1.0691696933553518,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4193175338106917,
+              0.06332124783057116
+            ],
+            "configuration_id": "V5_E02_train_006",
+            "reset_seed": 1946866358,
+            "ring_xy_m": [
+              0.3271059019979306,
+              0.04436103646216265
+            ],
+            "rotation_draw_rad": 0.20278993654859478,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41921277276689006,
+              -0.038750780482427194
+            ],
+            "configuration_id": "V5_E02_train_007",
+            "reset_seed": 308395087,
+            "ring_xy_m": [
+              0.40878337627526323,
+              -0.13231200292809314
+            ],
+            "rotation_draw_rad": 1.459783266393841,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4745482387361348,
+              -0.00017005973128436658
+            ],
+            "configuration_id": "V5_E02_train_008",
+            "reset_seed": 640090784,
+            "ring_xy_m": [
+              0.4424861054181921,
+              0.08834261881709883
+            ],
+            "rotation_draw_rad": -1.223266145325233,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4686394511571015,
+              0.03576115952765255
+            ],
+            "configuration_id": "V5_E02_train_009",
+            "reset_seed": 259331474,
+            "ring_xy_m": [
+              0.4315002926914938,
+              0.12226640541004645
+            ],
+            "rotation_draw_rad": -1.1652652088038127,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41625612453752814,
+              0.0013833587488185362
+            ],
+            "configuration_id": "V5_E02_train_010",
+            "reset_seed": 544938772,
+            "ring_xy_m": [
+              0.4842646579787001,
+              0.0664780131828651
+            ],
+            "rotation_draw_rad": -2.3780828738666253,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41207555058084366,
+              -0.07377693031514576
+            ],
+            "configuration_id": "V5_E02_train_011",
+            "reset_seed": 1887000544,
+            "ring_xy_m": [
+              0.44373790288270065,
+              0.014879542113098512
+            ],
+            "rotation_draw_rad": -1.9138135291668559,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5112708753623819,
+              0.011150089328797838
+            ],
+            "configuration_id": "V5_E02_train_012",
+            "reset_seed": 2082192522,
+            "ring_xy_m": [
+              0.4359502193826344,
+              -0.04532356328450025
+            ],
+            "rotation_draw_rad": 0.6433580092117204,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4819686855810691,
+              0.06367287961131693
+            ],
+            "configuration_id": "V5_E02_train_013",
+            "reset_seed": 509720839,
+            "ring_xy_m": [
+              0.49224866498434416,
+              0.15725063701218214
+            ],
+            "rotation_draw_rad": -1.6802125306060127,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4336444907559557,
+              -0.09365335852685529
+            ],
+            "configuration_id": "V5_E02_train_014",
+            "reset_seed": 1969768528,
+            "ring_xy_m": [
+              0.42308659648244734,
+              -0.00010654925354888767
+            ],
+            "rotation_draw_rad": -1.4584097522747554,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40835675337264293,
+              -0.07565868801376206
+            ],
+            "configuration_id": "V5_E02_train_015",
+            "reset_seed": 1515502728,
+            "ring_xy_m": [
+              0.3816024703402138,
+              0.014600289357619756
+            ],
+            "rotation_draw_rad": -1.2826300461157345,
+            "source_endpoint_distance_m": 0.09414071731565966,
+            "source_episode_id": "E02",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5033548615858174,
+              0.06335355267236156
+            ],
+            "configuration_id": "V5_E03_train_000",
+            "reset_seed": 1307198404,
+            "ring_xy_m": [
+              0.3958988928306426,
+              0.0960174465116437
+            ],
+            "rotation_draw_rad": -0.2950992901082623,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4423459981134431,
+              -0.08771486260137051
+            ],
+            "configuration_id": "V5_E03_train_001",
+            "reset_seed": 1637993496,
+            "ring_xy_m": [
+              0.3503032485666552,
+              -0.15207204897340112
+            ],
+            "rotation_draw_rad": 0.6101953871852777,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4272483474826796,
+              0.05962295939338866
+            ],
+            "configuration_id": "V5_E03_train_002",
+            "reset_seed": 244512018,
+            "ring_xy_m": [
+              0.3696471983341349,
+              0.15603780679058218
+            ],
+            "rotation_draw_rad": -1.032268469804738,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4555823982700753,
+              -0.09427582118419853
+            ],
+            "configuration_id": "V5_E03_train_003",
+            "reset_seed": 1183277978,
+            "ring_xy_m": [
+              0.5655386997217415,
+              -0.07139948072233018
+            ],
+            "rotation_draw_rad": -2.936469420427682,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4601225832133148,
+              -0.05207360131305838
+            ],
+            "configuration_id": "V5_E03_train_004",
+            "reset_seed": 1748010443,
+            "ring_xy_m": [
+              0.5417778170339227,
+              0.025037603913930853
+            ],
+            "rotation_draw_rad": -2.3848075174776064,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4395520493546286,
+              0.0014889776513212355
+            ],
+            "configuration_id": "V5_E03_train_005",
+            "reset_seed": 86283901,
+            "ring_xy_m": [
+              0.3454127108656377,
+              -0.059760513209519424
+            ],
+            "rotation_draw_rad": 0.5768150875271729,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4126714866752964,
+              -0.011939868566758133
+            ],
+            "configuration_id": "V5_E03_train_006",
+            "reset_seed": 1158695948,
+            "ring_xy_m": [
+              0.45548306735797334,
+              -0.1157709031436497
+            ],
+            "rotation_draw_rad": 1.9618778113045865,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5066409334301913,
+              -0.003147265949606168
+            ],
+            "configuration_id": "V5_E03_train_007",
+            "reset_seed": 851442125,
+            "ring_xy_m": [
+              0.5609669352046945,
+              -0.10144477717473169
+            ],
+            "rotation_draw_rad": 2.0756864776468946,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.404040663915008,
+              0.06962171556297256
+            ],
+            "configuration_id": "V5_E03_train_008",
+            "reset_seed": 1239213962,
+            "ring_xy_m": [
+              0.4316747052118264,
+              -0.03923633394859431
+            ],
+            "rotation_draw_rad": 1.8193988955038698,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5123724164563715,
+              -0.06771418223073583
+            ],
+            "configuration_id": "V5_E03_train_009",
+            "reset_seed": 782605601,
+            "ring_xy_m": [
+              0.4467572822528356,
+              -0.15886443919860715
+            ],
+            "rotation_draw_rad": 0.9468675762670236,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43034826309013374,
+              0.04509819413776858
+            ],
+            "configuration_id": "V5_E03_train_010",
+            "reset_seed": 128754293,
+            "ring_xy_m": [
+              0.4173778251068706,
+              -0.06646113053022738
+            ],
+            "rotation_draw_rad": 1.4550510521859827,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.44878283787246953,
+              -0.038128831473437846
+            ],
+            "configuration_id": "V5_E03_train_011",
+            "reset_seed": 988592045,
+            "ring_xy_m": [
+              0.5478743694519667,
+              0.014734989340863189
+            ],
+            "rotation_draw_rad": -2.6515174508799197,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5004032312393936,
+              0.0434570731256802
+            ],
+            "configuration_id": "V5_E03_train_012",
+            "reset_seed": 1510700809,
+            "ring_xy_m": [
+              0.6109263316362388,
+              0.023498128751643494
+            ],
+            "rotation_draw_rad": 2.962931990761991,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4238476206505438,
+              0.048040891897988214
+            ],
+            "configuration_id": "V5_E03_train_013",
+            "reset_seed": 400644578,
+            "ring_xy_m": [
+              0.3115952286524142,
+              0.0444193352499093
+            ],
+            "rotation_draw_rad": 0.03225143657320917,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45154159889247697,
+              0.03855103027112003
+            ],
+            "configuration_id": "V5_E03_train_014",
+            "reset_seed": 1324832459,
+            "ring_xy_m": [
+              0.38434536981685086,
+              0.1285420408214688
+            ],
+            "rotation_draw_rad": -0.9294109829394843,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.429512172017515,
+              -0.0828506240785478
+            ],
+            "configuration_id": "V5_E03_train_015",
+            "reset_seed": 415414937,
+            "ring_xy_m": [
+              0.4288406450942874,
+              0.029458165575015766
+            ],
+            "rotation_draw_rad": -1.564817107156981,
+            "source_endpoint_distance_m": 0.11231079726302813,
+            "source_episode_id": "E03",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.46420957097223814,
+              0.03104429074738685
+            ],
+            "configuration_id": "V5_E04_train_000",
+            "reset_seed": 1666082228,
+            "ring_xy_m": [
+              0.5500310870925933,
+              0.02230779585628481
+            ],
+            "rotation_draw_rad": 3.0401437044128814,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43057355146586407,
+              0.07893521579820009
+            ],
+            "configuration_id": "V5_E04_train_001",
+            "reset_seed": 894113303,
+            "ring_xy_m": [
+              0.48324532747399973,
+              0.010617260732731212
+            ],
+            "rotation_draw_rad": 2.227589974406567,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5029321497513607,
+              0.03380021590900048
+            ],
+            "configuration_id": "V5_E04_train_002",
+            "reset_seed": 2049754712,
+            "ring_xy_m": [
+              0.5473149523895725,
+              -0.040171574674682006
+            ],
+            "rotation_draw_rad": 2.111213126190515,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4962268736524911,
+              0.061823895967613035
+            ],
+            "configuration_id": "V5_E04_train_003",
+            "reset_seed": 503270296,
+            "ring_xy_m": [
+              0.4174009516216116,
+              0.09686862436091559
+            ],
+            "rotation_draw_rad": -0.41834069727543177,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5145902079524252,
+              0.059027966538212545
+            ],
+            "configuration_id": "V5_E04_train_004",
+            "reset_seed": 209002696,
+            "ring_xy_m": [
+              0.4321741398797295,
+              0.08450836480070904
+            ],
+            "rotation_draw_rad": -0.29984629636930427,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4218952276433381,
+              0.013089012975424336
+            ],
+            "configuration_id": "V5_E04_train_005",
+            "reset_seed": 926331135,
+            "ring_xy_m": [
+              0.40500629121679677,
+              -0.07150662992986295
+            ],
+            "rotation_draw_rad": 1.373743963217633,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.48927777184957433,
+              -0.08767569921598609
+            ],
+            "configuration_id": "V5_E04_train_006",
+            "reset_seed": 1713674070,
+            "ring_xy_m": [
+              0.5663085324735434,
+              -0.126507656285794
+            ],
+            "rotation_draw_rad": 2.6746626565721057,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4412455936252449,
+              0.04491032523626462
+            ],
+            "configuration_id": "V5_E04_train_007",
+            "reset_seed": 553376264,
+            "ring_xy_m": [
+              0.5250674565468707,
+              0.02452517700215039
+            ],
+            "rotation_draw_rad": 2.9030278629498163,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4607921847958877,
+              -0.051998822570289184
+            ],
+            "configuration_id": "V5_E04_train_008",
+            "reset_seed": 1128537287,
+            "ring_xy_m": [
+              0.3794108812220326,
+              -0.02338514750400884
+            ],
+            "rotation_draw_rad": -0.3380995928921924,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41250119047390843,
+              -0.039169236496726594
+            ],
+            "configuration_id": "V5_E04_train_009",
+            "reset_seed": 347077174,
+            "ring_xy_m": [
+              0.34651929797972575,
+              0.016400978862445396
+            ],
+            "rotation_draw_rad": -0.6999506507101501,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4705237300721052,
+              -0.06848668328789305
+            ],
+            "configuration_id": "V5_E04_train_010",
+            "reset_seed": 1604484247,
+            "ring_xy_m": [
+              0.45654258152628485,
+              0.016637851703602463
+            ],
+            "rotation_draw_rad": -1.4080062819974546,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.44985215528289996,
+              -0.0706536613656626
+            ],
+            "configuration_id": "V5_E04_train_011",
+            "reset_seed": 1165851589,
+            "ring_xy_m": [
+              0.3713602590214812,
+              -0.10644026770749546
+            ],
+            "rotation_draw_rad": 0.427772209321474,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5077163891389352,
+              0.06846980814399148
+            ],
+            "configuration_id": "V5_E04_train_012",
+            "reset_seed": 1561959906,
+            "ring_xy_m": [
+              0.5037043463879014,
+              0.15464151165008744
+            ],
+            "rotation_draw_rad": -1.5242712220670622,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4415771128399523,
+              0.044813431194864084
+            ],
+            "configuration_id": "V5_E04_train_013",
+            "reset_seed": 1663317198,
+            "ring_xy_m": [
+              0.5271731680459684,
+              0.05553603840334119
+            ],
+            "rotation_draw_rad": -3.016971943966245,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45256611867918517,
+              0.005781912190621921
+            ],
+            "configuration_id": "V5_E04_train_014",
+            "reset_seed": 424571591,
+            "ring_xy_m": [
+              0.4978310387669059,
+              0.07921723054378832
+            ],
+            "rotation_draw_rad": -2.123181435266961,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5016817441539804,
+              0.09410891300083063
+            ],
+            "configuration_id": "V5_E04_train_015",
+            "reset_seed": 1199520725,
+            "ring_xy_m": [
+              0.4274539681852787,
+              0.050155571297168654
+            ],
+            "rotation_draw_rad": 0.5346211045443545,
+            "source_endpoint_distance_m": 0.08626505069944976,
+            "source_episode_id": "E04",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5077929244767427,
+              0.08679524460189578
+            ],
+            "configuration_id": "V5_E06_train_000",
+            "reset_seed": 1608939969,
+            "ring_xy_m": [
+              0.4910290982483826,
+              0.14980001290539283
+            ],
+            "rotation_draw_rad": -1.3107488849951054,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4595965501472678,
+              -0.00850411913253668
+            ],
+            "configuration_id": "V5_E06_train_001",
+            "reset_seed": 121906096,
+            "ring_xy_m": [
+              0.49511385545803194,
+              -0.06317721783979827
+            ],
+            "rotation_draw_rad": 2.146911657749153,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5013956486903474,
+              -0.05351954089009634
+            ],
+            "configuration_id": "V5_E06_train_002",
+            "reset_seed": 1570504534,
+            "ring_xy_m": [
+              0.4735273790175622,
+              -0.11246007231149535
+            ],
+            "rotation_draw_rad": 1.129128071407286,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5017228815211527,
+              0.05779630915445397
+            ],
+            "configuration_id": "V5_E06_train_003",
+            "reset_seed": 204170711,
+            "ring_xy_m": [
+              0.4365292266236648,
+              0.05843978401739904
+            ],
+            "rotation_draw_rad": -0.009869886405254213,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4979023545186509,
+              0.07652442586227123
+            ],
+            "configuration_id": "V5_E06_train_004",
+            "reset_seed": 707229240,
+            "ring_xy_m": [
+              0.4329417966982782,
+              0.07097892079437883
+            ],
+            "rotation_draw_rad": 0.08516079243456032,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4065386294648213,
+              -0.07133857799028286
+            ],
+            "configuration_id": "V5_E06_train_005",
+            "reset_seed": 198858020,
+            "ring_xy_m": [
+              0.3417854344409014,
+              -0.06374578976814704
+            ],
+            "rotation_draw_rad": -0.11672434121918762,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5177511122137509,
+              -0.05483321862685071
+            ],
+            "configuration_id": "V5_E06_train_006",
+            "reset_seed": 1894717451,
+            "ring_xy_m": [
+              0.503563603277364,
+              0.008801216146878094
+            ],
+            "rotation_draw_rad": -1.3514307891569317,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43794481646570027,
+              -0.008487850058004204
+            ],
+            "configuration_id": "V5_E06_train_007",
+            "reset_seed": 1457064368,
+            "ring_xy_m": [
+              0.47880009008885827,
+              -0.059296051324816385
+            ],
+            "rotation_draw_rad": 2.2480370429446985,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4962320355088253,
+              0.06935976355835935
+            ],
+            "configuration_id": "V5_E06_train_008",
+            "reset_seed": 282416925,
+            "ring_xy_m": [
+              0.5497951374394441,
+              0.03218960334398658
+            ],
+            "rotation_draw_rad": 2.534938068094954,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4199487804239385,
+              -0.08845382294340516
+            ],
+            "configuration_id": "V5_E06_train_009",
+            "reset_seed": 408278478,
+            "ring_xy_m": [
+              0.3655564297349791,
+              -0.052508045926886814
+            ],
+            "rotation_draw_rad": -0.5839724388439884,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4402531083716586,
+              0.04993844671516884
+            ],
+            "configuration_id": "V5_E06_train_010",
+            "reset_seed": 1482325208,
+            "ring_xy_m": [
+              0.4457870202392045,
+              -0.01502309974298005
+            ],
+            "rotation_draw_rad": 1.6557786553663583,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4360816757023595,
+              -0.07578582566272259
+            ],
+            "configuration_id": "V5_E06_train_011",
+            "reset_seed": 1449347490,
+            "ring_xy_m": [
+              0.417033830972192,
+              -0.013433549762580571
+            ],
+            "rotation_draw_rad": -1.2743127066681776,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5015382397896926,
+              -0.042321964782101575
+            ],
+            "configuration_id": "V5_E06_train_012",
+            "reset_seed": 1363363538,
+            "ring_xy_m": [
+              0.5186388334972184,
+              0.020592233882763662
+            ],
+            "rotation_draw_rad": -1.8361927114002108,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5191895813914891,
+              0.08419388955526172
+            ],
+            "configuration_id": "V5_E06_train_013",
+            "reset_seed": 1605563701,
+            "ring_xy_m": [
+              0.5772665467213529,
+              0.05456800903052809
+            ],
+            "rotation_draw_rad": 2.6698865193405057,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41719518052392124,
+              0.035604241347069854
+            ],
+            "configuration_id": "V5_E06_train_014",
+            "reset_seed": 814429142,
+            "ring_xy_m": [
+              0.4413108039908244,
+              -0.02496855290575089
+            ],
+            "rotation_draw_rad": 1.9496864167932202,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4065251001645193,
+              0.08050833934989535
+            ],
+            "configuration_id": "V5_E06_train_015",
+            "reset_seed": 996337547,
+            "ring_xy_m": [
+              0.38564118102313555,
+              0.0187467928983358
+            ],
+            "rotation_draw_rad": 1.2447279198277243,
+            "source_endpoint_distance_m": 0.06519683043516765,
+            "source_episode_id": "E06",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4670914435205531,
+              0.058959183024381995
+            ],
+            "configuration_id": "V5_E07_train_000",
+            "reset_seed": 2035226882,
+            "ring_xy_m": [
+              0.4038310751069778,
+              0.07267182838300419
+            ],
+            "rotation_draw_rad": -0.21346273948958272,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4290309191168734,
+              -0.07324904570653462
+            ],
+            "configuration_id": "V5_E07_train_001",
+            "reset_seed": 1591975061,
+            "ring_xy_m": [
+              0.4908039704279283,
+              -0.0925881508118492
+            ],
+            "rotation_draw_rad": 2.838191295034556,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4576742493722186,
+              0.0902010599511881
+            ],
+            "configuration_id": "V5_E07_train_002",
+            "reset_seed": 2083266719,
+            "ring_xy_m": [
+              0.5156760265679309,
+              0.11893613776022788
+            ],
+            "rotation_draw_rad": -2.6816180044540276,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5123699933835183,
+              -0.04451520332959485
+            ],
+            "configuration_id": "V5_E07_train_003",
+            "reset_seed": 211765369,
+            "ring_xy_m": [
+              0.4544265176794451,
+              -0.01566274281261117
+            ],
+            "rotation_draw_rad": -0.46199944385403846,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.403957984633486,
+              0.09879141460297827
+            ],
+            "configuration_id": "V5_E07_train_004",
+            "reset_seed": 1259134362,
+            "ring_xy_m": [
+              0.4377863123705265,
+              0.15397796275620124
+            ],
+            "rotation_draw_rad": -2.120706337060608,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4743579700632259,
+              -0.08619224013918408
+            ],
+            "configuration_id": "V5_E07_train_005",
+            "reset_seed": 767508262,
+            "ring_xy_m": [
+              0.4465655043948902,
+              -0.02773294056566028
+            ],
+            "rotation_draw_rad": -1.1270089152204434,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40020307632663876,
+              -0.08832675146954966
+            ],
+            "configuration_id": "V5_E07_train_006",
+            "reset_seed": 66746037,
+            "ring_xy_m": [
+              0.3643502831732265,
+              -0.03443344875343051
+            ],
+            "rotation_draw_rad": -0.9837716156385654,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4845476582896734,
+              0.03236996140944859
+            ],
+            "configuration_id": "V5_E07_train_007",
+            "reset_seed": 933763113,
+            "ring_xy_m": [
+              0.5169725493929509,
+              0.08839261121730058
+            ],
+            "rotation_draw_rad": -2.0954680984388228,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.413275113607702,
+              -0.05099439616733919
+            ],
+            "configuration_id": "V5_E07_train_008",
+            "reset_seed": 1073432061,
+            "ring_xy_m": [
+              0.4626765822016249,
+              -0.0928202943085181
+            ],
+            "rotation_draw_rad": 2.439044948118709,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.475265325803673,
+              0.030150714888309504
+            ],
+            "configuration_id": "V5_E07_train_009",
+            "reset_seed": 1719431614,
+            "ring_xy_m": [
+              0.414931953144111,
+              0.053598422624355754
+            ],
+            "rotation_draw_rad": -0.37067141700843065,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.49757262095562893,
+              0.02143884821640077
+            ],
+            "configuration_id": "V5_E07_train_010",
+            "reset_seed": 1231832320,
+            "ring_xy_m": [
+              0.5019664358144321,
+              0.08601907154784474
+            ],
+            "rotation_draw_rad": -1.6387281763114503,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4442694954647579,
+              -0.0021967620957991096
+            ],
+            "configuration_id": "V5_E07_train_011",
+            "reset_seed": 2043445311,
+            "ring_xy_m": [
+              0.43076355558421375,
+              0.06110805954122747
+            ],
+            "rotation_draw_rad": -1.3605999719125246,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4864867096370981,
+              -0.05975268953491826
+            ],
+            "configuration_id": "V5_E07_train_012",
+            "reset_seed": 610974468,
+            "ring_xy_m": [
+              0.5510761124472631,
+              -0.05549594204664949
+            ],
+            "rotation_draw_rad": -3.0757830881299757,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41940623969844404,
+              -0.06969236780324761
+            ],
+            "configuration_id": "V5_E07_train_013",
+            "reset_seed": 1965881227,
+            "ring_xy_m": [
+              0.4566487999669157,
+              -0.016749922079595247
+            ],
+            "rotation_draw_rad": -2.1838364635242353,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5021711367515257,
+              0.031230468043210502
+            ],
+            "configuration_id": "V5_E07_train_014",
+            "reset_seed": 1466235438,
+            "ring_xy_m": [
+              0.4618023465025459,
+              0.08182959479838778
+            ],
+            "rotation_draw_rad": -0.8973885435186699,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4859052753019921,
+              -0.08422708960798422
+            ],
+            "configuration_id": "V5_E07_train_015",
+            "reset_seed": 739723058,
+            "ring_xy_m": [
+              0.5499147572127076,
+              -0.0938550218924581
+            ],
+            "rotation_draw_rad": 2.9922976867398647,
+            "source_endpoint_distance_m": 0.06472952073476693,
+            "source_episode_id": "E07",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47810242405102193,
+              0.08870597470091929
+            ],
+            "configuration_id": "V5_E09_train_000",
+            "reset_seed": 593847817,
+            "ring_xy_m": [
+              0.4263011277073974,
+              0.044449727403756814
+            ],
+            "rotation_draw_rad": 0.7070119257820866,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47732513918876834,
+              0.032334684356257776
+            ],
+            "configuration_id": "V5_E09_train_001",
+            "reset_seed": 1423359572,
+            "ring_xy_m": [
+              0.5334238202995192,
+              -0.006329610611346272
+            ],
+            "rotation_draw_rad": 2.5381387470730363,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4647385800607422,
+              0.019733621941869645
+            ],
+            "configuration_id": "V5_E09_train_002",
+            "reset_seed": 562086723,
+            "ring_xy_m": [
+              0.5161361488827464,
+              0.06445810792991591
+            ],
+            "rotation_draw_rad": -2.4255062970564865,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.48944808766590964,
+              0.013820659649080386
+            ],
+            "configuration_id": "V5_E09_train_003",
+            "reset_seed": 583562841,
+            "ring_xy_m": [
+              0.42936603729423606,
+              0.0459475479335577
+            ],
+            "rotation_draw_rad": -0.49103388594897224,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5034192344612873,
+              -0.036605353154695694
+            ],
+            "configuration_id": "V5_E09_train_004",
+            "reset_seed": 512365500,
+            "ring_xy_m": [
+              0.5612447136457598,
+              -0.0005747594211231721
+            ],
+            "rotation_draw_rad": -2.5843665566953047,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5056423558283316,
+              0.07197076424519877
+            ],
+            "configuration_id": "V5_E09_train_005",
+            "reset_seed": 945556862,
+            "ring_xy_m": [
+              0.5343408818085477,
+              0.133763840995515
+            ],
+            "rotation_draw_rad": -2.005584799553467,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5030754390224216,
+              0.08687820604317936
+            ],
+            "configuration_id": "V5_E09_train_006",
+            "reset_seed": 2013765456,
+            "ring_xy_m": [
+              0.5551766677042488,
+              0.04297545330999013
+            ],
+            "rotation_draw_rad": 2.4413850513796413,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42994113861610883,
+              -0.02037056221583662
+            ],
+            "configuration_id": "V5_E09_train_007",
+            "reset_seed": 535387263,
+            "ring_xy_m": [
+              0.46833696926349955,
+              0.03591220527657174
+            ],
+            "rotation_draw_rad": -2.169472508644967,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.407308847316242,
+              -0.05122626532405457
+            ],
+            "configuration_id": "V5_E09_train_008",
+            "reset_seed": 265175003,
+            "ring_xy_m": [
+              0.39154503329538365,
+              0.015057155643962747
+            ],
+            "rotation_draw_rad": -1.3373094811520518,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4238245675084815,
+              -0.045521412391161635
+            ],
+            "configuration_id": "V5_E09_train_009",
+            "reset_seed": 1645676989,
+            "ring_xy_m": [
+              0.4486611425326837,
+              0.0179225334884476
+            ],
+            "rotation_draw_rad": -1.9439300679732192,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.50099317599539,
+              0.09378762439955188
+            ],
+            "configuration_id": "V5_E09_train_010",
+            "reset_seed": 1373034641,
+            "ring_xy_m": [
+              0.5347685466447673,
+              0.1529586820646367
+            ],
+            "rotation_draw_rad": -2.0894752343849925,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.425778684674871,
+              -0.049743459905500734
+            ],
+            "configuration_id": "V5_E09_train_011",
+            "reset_seed": 1752531603,
+            "ring_xy_m": [
+              0.4776784219536398,
+              -0.005602696453761637
+            ],
+            "rotation_draw_rad": -2.4368079726798184,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4298870884099377,
+              -0.00847706419097069
+            ],
+            "configuration_id": "V5_E09_train_012",
+            "reset_seed": 1262135350,
+            "ring_xy_m": [
+              0.38127325630853653,
+              0.03925851013389087
+            ],
+            "rotation_draw_rad": -0.7762830739986315,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.48411198562301555,
+              -0.0007656262084407006
+            ],
+            "configuration_id": "V5_E09_train_013",
+            "reset_seed": 1818044505,
+            "ring_xy_m": [
+              0.5425088278184943,
+              0.03433136154412806
+            ],
+            "rotation_draw_rad": -2.6004320747379017,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4700213155612085,
+              0.03955718089683269
+            ],
+            "configuration_id": "V5_E09_train_014",
+            "reset_seed": 2143348262,
+            "ring_xy_m": [
+              0.41511128478110537,
+              -0.0007773979088984209
+            ],
+            "rotation_draw_rad": 0.6335444783096196,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4792746040758089,
+              -0.008663640193513025
+            ],
+            "configuration_id": "V5_E09_train_015",
+            "reset_seed": 1539236377,
+            "ring_xy_m": [
+              0.4300980896581037,
+              -0.055819341412271746
+            ],
+            "rotation_draw_rad": 0.7644236966596347,
+            "source_endpoint_distance_m": 0.06813214900256419,
+            "source_episode_id": "E09",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45978534898278955,
+              0.00048570026787080056
+            ],
+            "configuration_id": "V5_E13_train_000",
+            "reset_seed": 1877176280,
+            "ring_xy_m": [
+              0.5736738020201458,
+              0.04346592762499484
+            ],
+            "rotation_draw_rad": -2.7807293338196217,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4259390152279489,
+              0.024635729843402482
+            ],
+            "configuration_id": "V5_E13_train_001",
+            "reset_seed": 2036881931,
+            "ring_xy_m": [
+              0.3063957782838368,
+              0.047598616853446574
+            ],
+            "rotation_draw_rad": -0.18977695207440126,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5163324072788911,
+              0.0877588254063999
+            ],
+            "configuration_id": "V5_E13_train_002",
+            "reset_seed": 1273764876,
+            "ring_xy_m": [
+              0.45392049604699475,
+              -0.016752575958686025
+            ],
+            "rotation_draw_rad": 1.0324543989337105,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40887270103170653,
+              0.05233786012204347
+            ],
+            "configuration_id": "V5_E13_train_003",
+            "reset_seed": 1066545414,
+            "ring_xy_m": [
+              0.39132062841401477,
+              0.17279450969248217
+            ],
+            "rotation_draw_rad": -1.4261018788313773,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45144357564304494,
+              0.05909259873091052
+            ],
+            "configuration_id": "V5_E13_train_004",
+            "reset_seed": 954834869,
+            "ring_xy_m": [
+              0.5494309261850503,
+              0.13131696312873925
+            ],
+            "rotation_draw_rad": -2.506412757333963,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42150872995281013,
+              -0.05859247336868483
+            ],
+            "configuration_id": "V5_E13_train_005",
+            "reset_seed": 2054160297,
+            "ring_xy_m": [
+              0.34078304393823766,
+              -0.1497036323800203
+            ],
+            "rotation_draw_rad": 0.84576272291409,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4739395762080299,
+              -0.003931670393658979
+            ],
+            "configuration_id": "V5_E13_train_006",
+            "reset_seed": 1338963422,
+            "ring_xy_m": [
+              0.4115048599907762,
+              0.10056610895969947
+            ],
+            "rotation_draw_rad": -1.0322361789953471,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.462415342708527,
+              -0.01734239323132236
+            ],
+            "configuration_id": "V5_E13_train_007",
+            "reset_seed": 164768996,
+            "ring_xy_m": [
+              0.5466084680471478,
+              -0.1052593843344503
+            ],
+            "rotation_draw_rad": 2.33456133516058,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4126863732942677,
+              -0.004276508791966588
+            ],
+            "configuration_id": "V5_E13_train_008",
+            "reset_seed": 494204803,
+            "ring_xy_m": [
+              0.301684394244681,
+              -0.05424089937153143
+            ],
+            "rotation_draw_rad": 0.42295506042249187,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41437762671603295,
+              -0.07237693798800116
+            ],
+            "configuration_id": "V5_E13_train_009",
+            "reset_seed": 452016433,
+            "ring_xy_m": [
+              0.4500473991737867,
+              -0.18876227646207297
+            ],
+            "rotation_draw_rad": 1.8681873741346786,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4044624238693868,
+              0.007460341695313441
+            ],
+            "configuration_id": "V5_E13_train_010",
+            "reset_seed": 1379453765,
+            "ring_xy_m": [
+              0.51116319542141,
+              0.06605065684308471
+            ],
+            "rotation_draw_rad": -2.6394340486465495,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41816641221249196,
+              -0.024169236076856088
+            ],
+            "configuration_id": "V5_E13_train_011",
+            "reset_seed": 1138916917,
+            "ring_xy_m": [
+              0.5388331490898285,
+              -0.00812497572345149
+            ],
+            "rotation_draw_rad": -3.0094046043905838,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4271487808919895,
+              -0.06420222476008547
+            ],
+            "configuration_id": "V5_E13_train_012",
+            "reset_seed": 691996458,
+            "ring_xy_m": [
+              0.5409393414460295,
+              -0.10744095748561239
+            ],
+            "rotation_draw_rad": 2.778458546949599,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.507149262664942,
+              0.08440685443922477
+            ],
+            "configuration_id": "V5_E13_train_013",
+            "reset_seed": 1965065750,
+            "ring_xy_m": [
+              0.41671999232112006,
+              0.16589566805186834
+            ],
+            "rotation_draw_rad": -0.7334408011744724,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42610384152541825,
+              0.09172180579609032
+            ],
+            "configuration_id": "V5_E13_train_014",
+            "reset_seed": 1625346109,
+            "ring_xy_m": [
+              0.3437274771103017,
+              0.0021003002036260043
+            ],
+            "rotation_draw_rad": 0.8274967109725715,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.44797996482736513,
+              -0.04895324116815867
+            ],
+            "configuration_id": "V5_E13_train_015",
+            "reset_seed": 451741282,
+            "ring_xy_m": [
+              0.4828676091835207,
+              0.06766893489707604
+            ],
+            "rotation_draw_rad": -1.8614740699247228,
+            "source_endpoint_distance_m": 0.12172871345295731,
+            "source_episode_id": "E13",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4297530854088766,
+              0.06599103312868221
+            ],
+            "configuration_id": "V5_E14_train_000",
+            "reset_seed": 262260061,
+            "ring_xy_m": [
+              0.3544286616075212,
+              0.06276772341679192
+            ],
+            "rotation_draw_rad": 0.04276626643921633,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4614453071869029,
+              -0.08320435424031591
+            ],
+            "configuration_id": "V5_E14_train_001",
+            "reset_seed": 563616372,
+            "ring_xy_m": [
+              0.5136352933086623,
+              -0.1376135804351032
+            ],
+            "rotation_draw_rad": 2.3353789560685634,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4437622281815401,
+              -0.0407313876156356
+            ],
+            "configuration_id": "V5_E14_train_002",
+            "reset_seed": 1336879141,
+            "ring_xy_m": [
+              0.4914595379080659,
+              0.017656326771526565
+            ],
+            "rotation_draw_rad": -2.2557614968090367,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.506001840418732,
+              0.09717735854613602
+            ],
+            "configuration_id": "V5_E14_train_003",
+            "reset_seed": 1110332248,
+            "ring_xy_m": [
+              0.573051583601138,
+              0.06270286818473464
+            ],
+            "rotation_draw_rad": 2.666679028183543,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4573960430469566,
+              -0.03885502848135476
+            ],
+            "configuration_id": "V5_E14_train_004",
+            "reset_seed": 1699164211,
+            "ring_xy_m": [
+              0.41522000643456475,
+              0.02363769495245907
+            ],
+            "rotation_draw_rad": -0.9771186872819322,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.512929138550225,
+              0.07196023503021415
+            ],
+            "configuration_id": "V5_E14_train_005",
+            "reset_seed": 1727118698,
+            "ring_xy_m": [
+              0.5202606243766895,
+              -0.003075808722647122
+            ],
+            "rotation_draw_rad": 1.6681933666759798,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5068136803310478,
+              -0.07627547577218925
+            ],
+            "configuration_id": "V5_E14_train_006",
+            "reset_seed": 1900668489,
+            "ring_xy_m": [
+              0.4331024133698441,
+              -0.06043856731507151
+            ],
+            "rotation_draw_rad": -0.21163333738169143,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40397813611016503,
+              -0.07369731606139847
+            ],
+            "configuration_id": "V5_E14_train_007",
+            "reset_seed": 1929572209,
+            "ring_xy_m": [
+              0.3300503690954706,
+              -0.05890394556221823
+            ],
+            "rotation_draw_rad": -0.19749723052290324,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4746167930220799,
+              0.07838003970528135
+            ],
+            "configuration_id": "V5_E14_train_008",
+            "reset_seed": 325839468,
+            "ring_xy_m": [
+              0.3992710837165987,
+              0.07569999572077575
+            ],
+            "rotation_draw_rad": 0.035554971647030253,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5198406762922906,
+              -0.038112746788271104
+            ],
+            "configuration_id": "V5_E14_train_009",
+            "reset_seed": 548497506,
+            "ring_xy_m": [
+              0.5850404922537734,
+              -0.07596961598124219
+            ],
+            "rotation_draw_rad": 2.615538719644684,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.468627587544585,
+              0.020752347859910453
+            ],
+            "configuration_id": "V5_E14_train_010",
+            "reset_seed": 1856605452,
+            "ring_xy_m": [
+              0.4327737148521393,
+              -0.04557003418008307
+            ],
+            "rotation_draw_rad": 1.0751987218793007,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4280991011376137,
+              -0.044890157321251616
+            ],
+            "configuration_id": "V5_E14_train_011",
+            "reset_seed": 661519497,
+            "ring_xy_m": [
+              0.44534765062330994,
+              -0.11828393149280139
+            ],
+            "rotation_draw_rad": 1.8016213613384027,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4190145781991481,
+              -0.007109018276233781
+            ],
+            "configuration_id": "V5_E14_train_012",
+            "reset_seed": 164293651,
+            "ring_xy_m": [
+              0.34365594092809015,
+              -0.009396885220369511
+            ],
+            "rotation_draw_rad": 0.030350395083493797,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40215603651293313,
+              -0.014770574373452167
+            ],
+            "configuration_id": "V5_E14_train_013",
+            "reset_seed": 837451695,
+            "ring_xy_m": [
+              0.47606005635925036,
+              0.00014097809636490904
+            ],
+            "rotation_draw_rad": -2.9424965525131386,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47143259461625664,
+              0.05861129640440549
+            ],
+            "configuration_id": "V5_E14_train_014",
+            "reset_seed": 735759486,
+            "ring_xy_m": [
+              0.40369359468504895,
+              0.0255116523757334
+            ],
+            "rotation_draw_rad": 0.45451431572805534,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4752734758369589,
+              0.06813977416389955
+            ],
+            "configuration_id": "V5_E14_train_015",
+            "reset_seed": 1030111697,
+            "ring_xy_m": [
+              0.4699819508276381,
+              0.14334720936535217
+            ],
+            "rotation_draw_rad": -1.5005530174709583,
+            "source_endpoint_distance_m": 0.07539335876922422,
+            "source_episode_id": "E14",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4592258822322547,
+              0.06400805352505759
+            ],
+            "configuration_id": "V5_E15_train_000",
+            "reset_seed": 1534467246,
+            "ring_xy_m": [
+              0.38350673752940173,
+              0.06016927730663173
+            ],
+            "rotation_draw_rad": 0.050654196286424646,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5166947797280563,
+              -0.09422448887046936
+            ],
+            "configuration_id": "V5_E15_train_001",
+            "reset_seed": 636667453,
+            "ring_xy_m": [
+              0.5924869433463695,
+              -0.09614099909522175
+            ],
+            "rotation_draw_rad": 3.1163116506902435,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5193099469404594,
+              0.01147244362643321
+            ],
+            "configuration_id": "V5_E15_train_002",
+            "reset_seed": 275250334,
+            "ring_xy_m": [
+              0.47856857302894196,
+              0.07541198952088463
+            ],
+            "rotation_draw_rad": -1.0034821044201565,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42686465411304947,
+              -0.09308116735566901
+            ],
+            "configuration_id": "V5_E15_train_003",
+            "reset_seed": 256367037,
+            "ring_xy_m": [
+              0.4534942184439833,
+              -0.1640670207416176
+            ],
+            "rotation_draw_rad": 1.929688882636606,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4453145116453356,
+              0.039937032323749316
+            ],
+            "configuration_id": "V5_E15_train_004",
+            "reset_seed": 563852193,
+            "ring_xy_m": [
+              0.3941127709562621,
+              -0.015978142967003506
+            ],
+            "rotation_draw_rad": 0.8293725065409854,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41543850324911824,
+              -0.06711118817340966
+            ],
+            "configuration_id": "V5_E15_train_005",
+            "reset_seed": 1632114144,
+            "ring_xy_m": [
+              0.3406998621479564,
+              -0.0543730327442099
+            ],
+            "rotation_draw_rad": -0.16881388525031316,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4399725655143051,
+              -0.06645316325889722
+            ],
+            "configuration_id": "V5_E15_train_006",
+            "reset_seed": 790647071,
+            "ring_xy_m": [
+              0.38361241457173034,
+              -0.11716468525456333
+            ],
+            "rotation_draw_rad": 0.7326914371964097,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47988276445305744,
+              0.01669965000943023
+            ],
+            "configuration_id": "V5_E15_train_007",
+            "reset_seed": 1705317670,
+            "ring_xy_m": [
+              0.4104876638298285,
+              -0.013836313818139774
+            ],
+            "rotation_draw_rad": 0.4145324634980607,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47736942946908345,
+              0.048180861847765794
+            ],
+            "configuration_id": "V5_E15_train_008",
+            "reset_seed": 47302805,
+            "ring_xy_m": [
+              0.40217262672710846,
+              0.038507913239857375
+            ],
+            "rotation_draw_rad": 0.1279325588801754,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5138682461765574,
+              0.07668139075710081
+            ],
+            "configuration_id": "V5_E15_train_009",
+            "reset_seed": 1353888510,
+            "ring_xy_m": [
+              0.5657275100965177,
+              0.13198728396086923
+            ],
+            "rotation_draw_rad": -2.3240437265160097,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47966375268054606,
+              0.06608614405675672
+            ],
+            "configuration_id": "V5_E15_train_010",
+            "reset_seed": 258198354,
+            "ring_xy_m": [
+              0.5095548388796625,
+              0.13576144845669263
+            ],
+            "rotation_draw_rad": -1.976054739407931,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5147050624916312,
+              0.0828040858777952
+            ],
+            "configuration_id": "V5_E15_train_011",
+            "reset_seed": 509588047,
+            "ring_xy_m": [
+              0.5742118160359849,
+              0.1297835639506546
+            ],
+            "rotation_draw_rad": -2.4732984507342515,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43702332415712475,
+              -0.012164865800613447
+            ],
+            "configuration_id": "V5_E15_train_012",
+            "reset_seed": 1742207723,
+            "ring_xy_m": [
+              0.40738567311806656,
+              0.05761861876610726
+            ],
+            "rotation_draw_rad": -1.1691724628961784,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4011015016162215,
+              -0.03821809176737743
+            ],
+            "configuration_id": "V5_E15_train_013",
+            "reset_seed": 52676966,
+            "ring_xy_m": [
+              0.3687969142445196,
+              -0.10680773174405914
+            ],
+            "rotation_draw_rad": 1.1306302071285597,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.459128132974482,
+              0.08381530620943803
+            ],
+            "configuration_id": "V5_E15_train_014",
+            "reset_seed": 758829562,
+            "ring_xy_m": [
+              0.531826265415162,
+              0.10533521831483696
+            ],
+            "rotation_draw_rad": -2.8537936142172153,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4783545631230496,
+              -0.098560407356797
+            ],
+            "configuration_id": "V5_E15_train_015",
+            "reset_seed": 1796007447,
+            "ring_xy_m": [
+              0.44653183127320656,
+              -0.1673749320953994
+            ],
+            "rotation_draw_rad": 1.137643874401138,
+            "source_endpoint_distance_m": 0.07581639055894665,
+            "source_episode_id": "E15",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4290181571255958,
+              -0.06617161039298644
+            ],
+            "configuration_id": "V5_E17_train_000",
+            "reset_seed": 1096855569,
+            "ring_xy_m": [
+              0.4907435049197261,
+              0.034881264373477494
+            ],
+            "rotation_draw_rad": -2.119135410297813,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.48854391762501126,
+              0.050793282155308844
+            ],
+            "configuration_id": "V5_E17_train_001",
+            "reset_seed": 2105381125,
+            "ring_xy_m": [
+              0.5538925070841091,
+              -0.047955206008203174
+            ],
+            "rotation_draw_rad": 2.1553998733889275,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.46028184697783325,
+              -0.05954037331103537
+            ],
+            "configuration_id": "V5_E17_train_002",
+            "reset_seed": 1983002315,
+            "ring_xy_m": [
+              0.3447147591791644,
+              -0.03373436089904612
+            ],
+            "rotation_draw_rad": -0.21969479500272104,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4413958978022955,
+              0.0824517239510715
+            ],
+            "configuration_id": "V5_E17_train_003",
+            "reset_seed": 852193027,
+            "ring_xy_m": [
+              0.3254254736415973,
+              0.05852343987425682
+            ],
+            "rotation_draw_rad": 0.2034755037498841,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43300604247626046,
+              0.05025786602659943
+            ],
+            "configuration_id": "V5_E17_train_004",
+            "reset_seed": 432134604,
+            "ring_xy_m": [
+              0.4963272199323123,
+              -0.04980276831304575
+            ],
+            "rotation_draw_rad": 2.1350050172390898,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4628210711482719,
+              0.09023070580770715
+            ],
+            "configuration_id": "V5_E17_train_005",
+            "reset_seed": 1848430817,
+            "ring_xy_m": [
+              0.570499725362121,
+              0.1394953938262799
+            ],
+            "rotation_draw_rad": -2.7125061738913363,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4900118148021836,
+              0.05869134727043199
+            ],
+            "configuration_id": "V5_E17_train_006",
+            "reset_seed": 401185636,
+            "ring_xy_m": [
+              0.37549131958989224,
+              0.08880377386153475
+            ],
+            "rotation_draw_rad": -0.2571232505230485,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4585298306762851,
+              0.06004624671782438
+            ],
+            "configuration_id": "V5_E17_train_007",
+            "reset_seed": 322693473,
+            "ring_xy_m": [
+              0.5108579693686665,
+              -0.04617742277190795
+            ],
+            "rotation_draw_rad": 2.0285243022613137,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5010296919612679,
+              -0.024584772473330657
+            ],
+            "configuration_id": "V5_E17_train_008",
+            "reset_seed": 2495614,
+            "ring_xy_m": [
+              0.4103364467261701,
+              0.051549564902122966
+            ],
+            "rotation_draw_rad": -0.6983495121819532,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4503179572656567,
+              -0.01591834116603426
+            ],
+            "configuration_id": "V5_E17_train_009",
+            "reset_seed": 487112922,
+            "ring_xy_m": [
+              0.5341940125978157,
+              0.06766700085509755
+            ],
+            "rotation_draw_rad": -2.357930490390488,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47515569199561525,
+              0.03702404910555576
+            ],
+            "configuration_id": "V5_E17_train_010",
+            "reset_seed": 509028841,
+            "ring_xy_m": [
+              0.3596824764409986,
+              0.010801186021025411
+            ],
+            "rotation_draw_rad": 0.2233032582376886,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5091709198966147,
+              -0.07668168746495577
+            ],
+            "configuration_id": "V5_E17_train_011",
+            "reset_seed": 840259372,
+            "ring_xy_m": [
+              0.5788807381287676,
+              0.019037920248997933
+            ],
+            "rotation_draw_rad": -2.2002452535046815,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42868695184998723,
+              0.09808073880188764
+            ],
+            "configuration_id": "V5_E17_train_012",
+            "reset_seed": 229048025,
+            "ring_xy_m": [
+              0.31804908950485666,
+              0.055879252162517615
+            ],
+            "rotation_draw_rad": 0.3644029766633312,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.471735367359167,
+              -0.07422804103017165
+            ],
+            "configuration_id": "V5_E17_train_013",
+            "reset_seed": 806687371,
+            "ring_xy_m": [
+              0.589761908020664,
+              -0.06466573177178689
+            ],
+            "rotation_draw_rad": -3.060750929337706,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.511871818734188,
+              -0.08584943535318068
+            ],
+            "configuration_id": "V5_E17_train_014",
+            "reset_seed": 38740238,
+            "ring_xy_m": [
+              0.4021545527609535,
+              -0.1303895701333037
+            ],
+            "rotation_draw_rad": 0.38562835369857806,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.47520314413619147,
+              -0.08101244509240951
+            ],
+            "configuration_id": "V5_E17_train_015",
+            "reset_seed": 1819733770,
+            "ring_xy_m": [
+              0.42090724699892257,
+              0.024219002740128198
+            ],
+            "rotation_draw_rad": -1.0944572940835045,
+            "source_endpoint_distance_m": 0.11841326808627904,
+            "source_episode_id": "E17",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5165159126718473,
+              -0.05105627189286759
+            ],
+            "configuration_id": "V5_E18_train_000",
+            "reset_seed": 1110281432,
+            "ring_xy_m": [
+              0.31371227211238506,
+              -0.07597833414743857
+            ],
+            "rotation_draw_rad": 0.12227460172813487,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4839829227841245,
+              0.09012883521270759
+            ],
+            "configuration_id": "V5_E18_train_001",
+            "reset_seed": 1462687533,
+            "ring_xy_m": [
+              0.3010798172132857,
+              -0.0009583745575717367
+            ],
+            "rotation_draw_rad": 0.46205273943364356,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4861616357856795,
+              0.0946653652864991
+            ],
+            "configuration_id": "V5_E18_train_002",
+            "reset_seed": 760951571,
+            "ring_xy_m": [
+              0.33254554881475246,
+              -0.04006593632872635
+            ],
+            "rotation_draw_rad": 0.7199983914784842,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4943127183862076,
+              0.08535609238177932
+            ],
+            "configuration_id": "V5_E18_train_003",
+            "reset_seed": 1682786710,
+            "ring_xy_m": [
+              0.3032664753669071,
+              0.1578251122413209
+            ],
+            "rotation_draw_rad": -0.36255889646931916,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4150681269452103,
+              -0.06939359414735634
+            ],
+            "configuration_id": "V5_E18_train_004",
+            "reset_seed": 1410720785,
+            "ring_xy_m": [
+              0.6111292717741731,
+              -0.12693013296877617
+            ],
+            "rotation_draw_rad": 2.8561445622046326,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4099574433743023,
+              -0.0475080568446072
+            ],
+            "configuration_id": "V5_E18_train_005",
+            "reset_seed": 68758684,
+            "ring_xy_m": [
+              0.47612869369649813,
+              0.14580979396588978
+            ],
+            "rotation_draw_rad": -1.9005883433605177,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4477222740838994,
+              0.025486462112261604
+            ],
+            "configuration_id": "V5_E18_train_006",
+            "reset_seed": 665429327,
+            "ring_xy_m": [
+              0.4083027400912903,
+              0.22597717549070667
+            ],
+            "rotation_draw_rad": -1.376657431712656,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.42699716975486884,
+              -0.06846946474179949
+            ],
+            "configuration_id": "V5_E18_train_007",
+            "reset_seed": 1828012125,
+            "ring_xy_m": [
+              0.618755806069174,
+              0.002092927579254167
+            ],
+            "rotation_draw_rad": -2.788995029171374,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45195455090027264,
+              -0.038196641805296076
+            ],
+            "configuration_id": "V5_E18_train_008",
+            "reset_seed": 1586312018,
+            "ring_xy_m": [
+              0.5912682555790163,
+              -0.18766944033357708
+            ],
+            "rotation_draw_rad": 2.32103042915136,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4425697919427688,
+              -0.07369579316827671
+            ],
+            "configuration_id": "V5_E18_train_009",
+            "reset_seed": 53226481,
+            "ring_xy_m": [
+              0.5852985294770935,
+              -0.2199111593000555
+            ],
+            "rotation_draw_rad": 2.3441282831246353,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4244943482243189,
+              0.03763833020552192
+            ],
+            "configuration_id": "V5_E18_train_010",
+            "reset_seed": 338371072,
+            "ring_xy_m": [
+              0.545851021305086,
+              -0.1267483593710983
+            ],
+            "rotation_draw_rad": 2.20672783721066,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4222133689830458,
+              0.045749997955912225
+            ],
+            "configuration_id": "V5_E18_train_011",
+            "reset_seed": 340725600,
+            "ring_xy_m": [
+              0.3120629263872523,
+              0.21784678992817147
+            ],
+            "rotation_draw_rad": -1.0014481151828871,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.43763508167163484,
+              -0.04849179281167682
+            ],
+            "configuration_id": "V5_E18_train_012",
+            "reset_seed": 1897354850,
+            "ring_xy_m": [
+              0.31438864723970733,
+              -0.21146646020206872
+            ],
+            "rotation_draw_rad": 0.9233195296811312,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4713964744129535,
+              -0.08834278254128874
+            ],
+            "configuration_id": "V5_E18_train_013",
+            "reset_seed": 274530942,
+            "ring_xy_m": [
+              0.5474795918413338,
+              0.10129314510316259
+            ],
+            "rotation_draw_rad": -1.9523421329350608,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.46704344149743443,
+              -0.04943120264249015
+            ],
+            "configuration_id": "V5_E18_train_014",
+            "reset_seed": 1553830437,
+            "ring_xy_m": [
+              0.539366526634125,
+              -0.24053273891968305
+            ],
+            "rotation_draw_rad": 1.9325914626267702,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40035634357879135,
+              -0.00331620725694097
+            ],
+            "configuration_id": "V5_E18_train_015",
+            "reset_seed": 648744352,
+            "ring_xy_m": [
+              0.5892038689256515,
+              -0.08133567906724798
+            ],
+            "rotation_draw_rad": 2.7498147621491142,
+            "source_endpoint_distance_m": 0.20432920939305832,
+            "source_episode_id": "E18",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.44812419645187557,
+              -0.03649547170160579
+            ],
+            "configuration_id": "V5_E19_train_000",
+            "reset_seed": 1468386171,
+            "ring_xy_m": [
+              0.5345588193629539,
+              -0.012363335092056182
+            ],
+            "rotation_draw_rad": -2.8693303458524517,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4655959721155959,
+              0.06374799708613663
+            ],
+            "configuration_id": "V5_E19_train_001",
+            "reset_seed": 34973697,
+            "ring_xy_m": [
+              0.3844149407491798,
+              0.025499543504230296
+            ],
+            "rotation_draw_rad": 0.4403025056727716,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.46260768822612414,
+              -0.08735241698444379
+            ],
+            "configuration_id": "V5_E19_train_002",
+            "reset_seed": 142771880,
+            "ring_xy_m": [
+              0.42322464748734934,
+              -0.0067156998061615875
+            ],
+            "rotation_draw_rad": -1.1164710260328983,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4466380139722897,
+              -0.0187255450521768
+            ],
+            "configuration_id": "V5_E19_train_003",
+            "reset_seed": 1278897579,
+            "ring_xy_m": [
+              0.3572209140074339,
+              -0.026333849002286424
+            ],
+            "rotation_draw_rad": 0.08488333998336994,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5140123271817383,
+              0.0957452511711093
+            ],
+            "configuration_id": "V5_E19_train_004",
+            "reset_seed": 1166951452,
+            "ring_xy_m": [
+              0.45248473994506666,
+              0.16107258131673852
+            ],
+            "rotation_draw_rad": -0.8153426638579151,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4913136221833123,
+              0.04050281891833621
+            ],
+            "configuration_id": "V5_E19_train_005",
+            "reset_seed": 1394888572,
+            "ring_xy_m": [
+              0.4182904626547387,
+              -0.01165964102736379
+            ],
+            "rotation_draw_rad": 0.6202772355773294,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5112968963049185,
+              -0.0931286997627548
+            ],
+            "configuration_id": "V5_E19_train_006",
+            "reset_seed": 1598089053,
+            "ring_xy_m": [
+              0.42464984004341,
+              -0.06977079539748152
+            ],
+            "rotation_draw_rad": -0.26331592954190164,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5185993266769936,
+              0.09412542831644816
+            ],
+            "configuration_id": "V5_E19_train_007",
+            "reset_seed": 392511830,
+            "ring_xy_m": [
+              0.5388319066211505,
+              0.006695760789197605
+            ],
+            "rotation_draw_rad": 1.7982086775410284,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.45810878435592206,
+              -0.015920351965301505
+            ],
+            "configuration_id": "V5_E19_train_008",
+            "reset_seed": 1891626644,
+            "ring_xy_m": [
+              0.5359206407179116,
+              -0.06062626952241458
+            ],
+            "rotation_draw_rad": 2.620105172720349,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4549259773887959,
+              -0.02909581356954205
+            ],
+            "configuration_id": "V5_E19_train_009",
+            "reset_seed": 972371655,
+            "ring_xy_m": [
+              0.4544763496091122,
+              0.060643263147248425
+            ],
+            "rotation_draw_rad": -1.5657859786421875,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.40827489664659955,
+              -0.048171879312229285
+            ],
+            "configuration_id": "V5_E19_train_010",
+            "reset_seed": 83668234,
+            "ring_xy_m": [
+              0.4979049652273564,
+              -0.043727235194743516
+            ],
+            "rotation_draw_rad": -3.092044478965828,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.4025627611149582,
+              -0.06742659874616591
+            ],
+            "configuration_id": "V5_E19_train_011",
+            "reset_seed": 2034224602,
+            "ring_xy_m": [
+              0.35894684217927114,
+              -0.1458546273489419
+            ],
+            "rotation_draw_rad": 1.0632615051776426,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.41420000914337335,
+              -0.016877904426991774
+            ],
+            "configuration_id": "V5_E19_train_012",
+            "reset_seed": 1097443707,
+            "ring_xy_m": [
+              0.4281816109790217,
+              -0.10552224358766049
+            ],
+            "rotation_draw_rad": 1.7272345004462126,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5104414220979638,
+              -0.06552098833409736
+            ],
+            "configuration_id": "V5_E19_train_013",
+            "reset_seed": 811162202,
+            "ring_xy_m": [
+              0.538862867881146,
+              0.01959966412296446
+            ],
+            "rotation_draw_rad": -1.8930532000199458,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.46869728977144876,
+              -0.01359350986256927
+            ],
+            "configuration_id": "V5_E19_train_014",
+            "reset_seed": 837468070,
+            "ring_xy_m": [
+              0.4049412363804871,
+              0.0495608226185133
+            ],
+            "rotation_draw_rad": -0.7806568934303422,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          },
+          {
+            "bearing_xy_m": [
+              0.5087697079142943,
+              0.05786956477385072
+            ],
+            "configuration_id": "V5_E19_train_015",
+            "reset_seed": 1492448527,
+            "ring_xy_m": [
+              0.45615494450744404,
+              -0.014828376921656991
+            ],
+            "rotation_draw_rad": 0.9443113147893856,
+            "source_endpoint_distance_m": 0.08974020311500454,
+            "source_episode_id": "E19",
+            "split": "train"
+          }
+        ],
+        "val": [
+          {
+            "bearing_xy_m": [
+              0.46627970232652693,
+              0.02243252653281136
+            ],
+            "configuration_id": "V5_E05_val_000",
+            "reset_seed": 366391957,
+            "ring_xy_m": [
+              0.525573986164677,
+              0.01519370951286668
+            ],
+            "rotation_draw_rad": 3.0201109226050518,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.40748591429831854,
+              0.06077417868606652
+            ],
+            "configuration_id": "V5_E05_val_001",
+            "reset_seed": 1248874106,
+            "ring_xy_m": [
+              0.44058130668769246,
+              0.011045840986916425
+            ],
+            "rotation_draw_rad": 2.158007299173857,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.45132071139939756,
+              0.025424902821229722
+            ],
+            "configuration_id": "V5_E05_val_002",
+            "reset_seed": 387390848,
+            "ring_xy_m": [
+              0.5020050752779245,
+              0.05703673329585455
+            ],
+            "rotation_draw_rad": -2.5839288193042393,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.5172204898513468,
+              -0.0732910416110823
+            ],
+            "configuration_id": "V5_E05_val_003",
+            "reset_seed": 2084672379,
+            "ring_xy_m": [
+              0.5348130834298338,
+              -0.1303761816994584
+            ],
+            "rotation_draw_rad": 1.8697422323326762,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.447261378848616,
+              -0.06685208075463607
+            ],
+            "configuration_id": "V5_E05_val_004",
+            "reset_seed": 535519977,
+            "ring_xy_m": [
+              0.38763451877321464,
+              -0.07043678789411775
+            ],
+            "rotation_draw_rad": 0.06004672638790609,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4807107183688316,
+              0.07462783185127697
+            ],
+            "configuration_id": "V5_E05_val_005",
+            "reset_seed": 1085314856,
+            "ring_xy_m": [
+              0.47353609722668094,
+              0.01532574606001709
+            ],
+            "rotation_draw_rad": 1.4503971900198218,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.42597528919812494,
+              -0.023752702296786166
+            ],
+            "configuration_id": "V5_E05_val_006",
+            "reset_seed": 879581683,
+            "ring_xy_m": [
+              0.43431505242634455,
+              -0.0829021817283465
+            ],
+            "rotation_draw_rad": 1.7108677153978995,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.43399641254369653,
+              0.06834711371150379
+            ],
+            "configuration_id": "V5_E05_val_007",
+            "reset_seed": 667080327,
+            "ring_xy_m": [
+              0.49342176514943215,
+              0.062277514432199144
+            ],
+            "rotation_draw_rad": 3.0398074104889874,
+            "source_endpoint_distance_m": 0.05973451738925613,
+            "source_episode_id": "E05",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4949310123429555,
+              0.05057047956922189
+            ],
+            "configuration_id": "V5_E11_val_000",
+            "reset_seed": 972359762,
+            "ring_xy_m": [
+              0.5778742532952122,
+              0.08088147816465323
+            ],
+            "rotation_draw_rad": -2.7912272343497917,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.49373334489985243,
+              0.03505665009080078
+            ],
+            "configuration_id": "V5_E11_val_001",
+            "reset_seed": 1951678801,
+            "ring_xy_m": [
+              0.5273630030096541,
+              0.11671070051657087
+            ],
+            "rotation_draw_rad": -1.9614808776283004,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4750397035230043,
+              -0.0242842999935267
+            ],
+            "configuration_id": "V5_E11_val_002",
+            "reset_seed": 2139329915,
+            "ring_xy_m": [
+              0.5251689843305714,
+              0.048416408814795406
+            ],
+            "rotation_draw_rad": -2.1744604654832234,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.44540178426212357,
+              0.08314304586969876
+            ],
+            "configuration_id": "V5_E11_val_003",
+            "reset_seed": 865887054,
+            "ring_xy_m": [
+              0.5055900490355507,
+              0.1477627846426169
+            ],
+            "rotation_draw_rad": -2.320703071142037,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.49388186872299766,
+              0.018936397818712786
+            ],
+            "configuration_id": "V5_E11_val_004",
+            "reset_seed": 256494930,
+            "ring_xy_m": [
+              0.40781643656864824,
+              -0.0008393257736474709
+            ],
+            "rotation_draw_rad": 0.2258551115118692,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.44850684649266603,
+              0.0947942629575784
+            ],
+            "configuration_id": "V5_E11_val_005",
+            "reset_seed": 777475779,
+            "ring_xy_m": [
+              0.5011326157570224,
+              0.02387976327767459
+            ],
+            "rotation_draw_rad": 2.209223316437586,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4111459819864369,
+              -0.08259072305423168
+            ],
+            "configuration_id": "V5_E11_val_006",
+            "reset_seed": 608604457,
+            "ring_xy_m": [
+              0.3839520472255243,
+              -0.1666075533189803
+            ],
+            "rotation_draw_rad": 1.2577656036384042,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4584460717259621,
+              0.05613504121711885
+            ],
+            "configuration_id": "V5_E11_val_007",
+            "reset_seed": 510093801,
+            "ring_xy_m": [
+              0.5462577874827482,
+              0.06548600006451813
+            ],
+            "rotation_draw_rad": -3.0355037203890243,
+            "source_endpoint_distance_m": 0.08830819812178456,
+            "source_episode_id": "E11",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.48529970792103744,
+              -0.04368262233625719
+            ],
+            "configuration_id": "V5_E12_val_000",
+            "reset_seed": 1534166873,
+            "ring_xy_m": [
+              0.42021493657938586,
+              0.019625774465305154
+            ],
+            "rotation_draw_rad": -0.7715636172545879,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.46490649491372726,
+              0.0901215940960218
+            ],
+            "configuration_id": "V5_E12_val_001",
+            "reset_seed": 1026584765,
+            "ring_xy_m": [
+              0.4144139815454123,
+              0.1655834166285427
+            ],
+            "rotation_draw_rad": -0.9811017732367291,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.43012043362255187,
+              -0.058861208292912304
+            ],
+            "configuration_id": "V5_E12_val_002",
+            "reset_seed": 1605874621,
+            "ring_xy_m": [
+              0.4037839135771099,
+              -0.14575406345416925
+            ],
+            "rotation_draw_rad": 1.2765053517478444,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.47519269104133166,
+              -0.04100362531484365
+            ],
+            "configuration_id": "V5_E12_val_003",
+            "reset_seed": 528757654,
+            "ring_xy_m": [
+              0.5631014678318826,
+              -0.01828738598329457
+            ],
+            "rotation_draw_rad": -2.888717347063842,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4196260507436301,
+              0.07047901905830048
+            ],
+            "configuration_id": "V5_E12_val_004",
+            "reset_seed": 909774429,
+            "ring_xy_m": [
+              0.4397812523296584,
+              -0.018052039984307294
+            ],
+            "rotation_draw_rad": 1.7946435184775469,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.512034902849699,
+              0.033717879525663574
+            ],
+            "configuration_id": "V5_E12_val_005",
+            "reset_seed": 1047747380,
+            "ring_xy_m": [
+              0.498073521535164,
+              -0.05599867634876406
+            ],
+            "rotation_draw_rad": 1.4164179935433676,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.46285592880788623,
+              -0.03772302843592726
+            ],
+            "configuration_id": "V5_E12_val_006",
+            "reset_seed": 2131267994,
+            "ring_xy_m": [
+              0.3786560537176644,
+              -0.0037471310825065024
+            ],
+            "rotation_draw_rad": -0.3835327162633222,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          },
+          {
+            "bearing_xy_m": [
+              0.4126159633380843,
+              -0.09888282076534104
+            ],
+            "configuration_id": "V5_E12_val_007",
+            "reset_seed": 200867249,
+            "ring_xy_m": [
+              0.40289452509742346,
+              -0.008608382496736136
+            ],
+            "rotation_draw_rad": -1.4635221178370477,
+            "source_endpoint_distance_m": 0.09079636868388043,
+            "source_episode_id": "E12",
+            "split": "val"
+          }
+        ]
+      },
+      "development_annotations_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+      "files": {
+        "train.npz": {
+          "bytes": 13904220,
+          "images": 208,
+          "sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc"
+        },
+        "val.npz": {
+          "bytes": 1605756,
+          "images": 24,
+          "sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c"
+        }
+      },
+      "real_episodes_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+      "schema_version": 1,
+      "seed": 20261025,
+      "source_isolation": true,
+      "source_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+      "split_sources": {
+        "train": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E06",
+          "E07",
+          "E09",
+          "E13",
+          "E14",
+          "E15",
+          "E17",
+          "E18",
+          "E19"
+        ],
+        "val": [
+          "E05",
+          "E11",
+          "E12"
+        ]
+      },
+      "supervision": "Rendered initial RGB/masks and23 absolute XYZ/grip targets; not measured robot demonstrations",
+      "task_names": [
+        "inside",
+        "left",
+        "right"
+      ],
+      "test_data_generated": false,
+      "training_workspace": {
+        "bearing_lower": [
+          0.4,
+          -0.1
+        ],
+        "bearing_upper": [
+          0.52,
+          0.1
+        ],
+        "ring_lower": [
+          0.3,
+          -0.25
+        ],
+        "ring_upper": [
+          0.64,
+          0.25
+        ]
+      },
+      "video_teacher": {
+        "checkpoint": "outputs/generalization_v4/model/policy.json",
+        "description": "Frozen train-only real optical motion model; robot height/grip and left/right instruction labels are synthetic, not observed phone actions",
+        "sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+        "training_sources": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E06",
+          "E07",
+          "E09",
+          "E13",
+          "E14",
+          "E15",
+          "E17",
+          "E18",
+          "E19"
+        ]
+      }
+    },
+    "dataset_manifest_sha256": "da058885c7bf4c877120a965124a3f5618cecea23bb0099fa12315f2481435e3",
+    "decoder_prefit": {
+      "all_trained_phrases": [
+        "put the ring inside the bearing",
+        "place the ring inside the bearing",
+        "insert the ring into the bearing",
+        "put the ring left of the bearing",
+        "place the ring to the left of the bearing",
+        "move the ring to the left of the bearing",
+        "put the ring right of the bearing",
+        "place the ring to the right of the bearing",
+        "move the ring to the right of the bearing"
+      ],
+      "loss": 2.381191052336362e-06,
+      "maximum_coefficient_error": 0.011701703071594238,
+      "method": "weighted scene-feature least squares then word-network coefficient supervision",
+      "steps": 2000
+    },
+    "environment": {
+      "deterministic_algorithms": true,
+      "device": "cuda",
+      "gpu_name": "NVIDIA GeForce RTX 5080",
+      "numpy": "2.5.2",
+      "torch": "2.11.0+cu128"
+    },
+    "hyperparameters": {
+      "batch_size": 8,
+      "brightness_jitter": 0.08,
+      "centre_loss_weight": 0.02,
+      "centroid": "squared sigmoid foreground mass",
+      "decoder_steps": 2000,
+      "epochs": 60,
+      "learning_rate": 0.003,
+      "seed": 20261025,
+      "source_weighting": "equal total contribution per original human source"
+    },
+    "implementation_sources": {
+      "vla_policy": "499e54879541b9cee1bf3e357dad0393fb6f5fab624bae978c439dcf52adb8ff",
+      "vla_train": "fdd4464a0cb015f915e00b00b2f8939aabe4c0c2c1eba16192518e7724a9d593"
+    },
+    "language_scope": "nine registered English phrases covering inside/left/right; no open-vocabulary claims",
+    "method": "hierarchical task-specific VLA with learned visual masks and word-conditioned 23-waypoint XYZ/gripper chunk",
+    "parameter_count": 33930,
+    "runtime_object_coordinates": "predicted from learned RGB masks only; no simulator object state input",
+    "selection": {
+      "blind_test_opened": false,
+      "criterion": "minimum maximum critical-waypoint XY error, then mean critical XY error",
+      "selected_epoch": 40,
+      "split": "validation only",
+      "trained_epochs": 60
+    },
+    "train_npz_sha256": "26f4f792060797e5ee5f113f107c912c8bc9ff29a7fb79e926cdf6aefefc77cc",
+    "training_metrics": {
+      "all_xyz_max_mm": 15.271487004621036,
+      "all_xyz_mean_mm": 5.032661912829292,
+      "bearing_mask_iou": 0.7893643818903482,
+      "bearing_xy_max_mm": 2.066067695617676,
+      "bearing_xy_mean_mm": 0.9001535177230835,
+      "critical_xy_max_mm": 12.859595635067427,
+      "critical_xy_mean_mm": 4.733356064932583,
+      "goal_xy_max_mm": 12.859595635067427,
+      "goal_xy_mean_mm": 5.824984258939419,
+      "grasp_xy_max_mm": 9.039100934268884,
+      "grasp_xy_mean_mm": 5.3087105816829165,
+      "gripper_max_error": 0.012153148651123047,
+      "ring_mask_iou": 0.6002913301691881,
+      "ring_xy_max_mm": 1.434468388557434,
+      "ring_xy_mean_mm": 0.5661294460296631
+    },
+    "training_sample_count": 208,
+    "training_sources": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "val_npz_sha256": "ef598d798678ff6ab5715e5b3fbbf4461f65de72d09da43b0e817f4c8d40750c",
+    "validation_metrics": {
+      "all_xyz_max_mm": 15.006257949952317,
+      "all_xyz_mean_mm": 5.094287460467152,
+      "bearing_mask_iou": 0.7880889253862664,
+      "bearing_xy_max_mm": 2.023749351501465,
+      "bearing_xy_mean_mm": 0.8754315376281738,
+      "critical_xy_max_mm": 12.247499601791787,
+      "critical_xy_mean_mm": 4.727739546891367,
+      "goal_xy_max_mm": 12.247499601791787,
+      "goal_xy_mean_mm": 5.685386872942917,
+      "grasp_xy_max_mm": 7.642194512887423,
+      "grasp_xy_mean_mm": 5.436186756623588,
+      "gripper_max_error": 0.012054085731506348,
+      "ring_mask_iou": 0.6011119831642423,
+      "ring_xy_max_mm": 1.4436612129211426,
+      "ring_xy_mean_mm": 0.6159623265266418
+    },
+    "validation_sample_count": 24,
+    "validation_sources": [
+      "E05",
+      "E11",
+      "E12"
+    ],
+    "wall_time_seconds": 17.698059099988313
+  },
+  "validation_history": [
+    {
+      "all_xyz_max_mm": 199.2612369288311,
+      "all_xyz_mean_mm": 75.12233647834768,
+      "bearing_mask_iou": 0.13545475726323974,
+      "bearing_xy_max_mm": 106.3011474609375,
+      "bearing_xy_mean_mm": 65.51802062988281,
+      "critical_xy_max_mm": 199.24140651185,
+      "critical_xy_mean_mm": 78.56038448742751,
+      "epoch": 1,
+      "goal_xy_max_mm": 110.02897327893844,
+      "goal_xy_mean_mm": 65.95260804599761,
+      "grasp_xy_max_mm": 199.24140651185,
+      "grasp_xy_mean_mm": 91.41790654573333,
+      "gripper_max_error": 0.011860132217407227,
+      "ring_mask_iou": 0.0005886075184839917,
+      "ring_xy_max_mm": 195.44439697265625,
+      "ring_xy_mean_mm": 91.16341400146484,
+      "training_loss": 1.283993111206935
+    },
+    {
+      "all_xyz_max_mm": 210.47124487761488,
+      "all_xyz_mean_mm": 69.67645455287554,
+      "bearing_mask_iou": 0.23225154575675497,
+      "bearing_xy_max_mm": 97.64146423339844,
+      "bearing_xy_mean_mm": 56.17206954956055,
+      "critical_xy_max_mm": 210.45109574904404,
+      "critical_xy_mean_mm": 73.76550606511842,
+      "epoch": 2,
+      "goal_xy_max_mm": 99.64576575281248,
+      "goal_xy_mean_mm": 55.95386450959103,
+      "grasp_xy_max_mm": 210.45109574904404,
+      "grasp_xy_mean_mm": 91.624703365308,
+      "gripper_max_error": 0.01189267635345459,
+      "ring_mask_iou": 0.0008116389804918412,
+      "ring_xy_max_mm": 206.56576538085938,
+      "ring_xy_mean_mm": 91.1465072631836,
+      "training_loss": 0.8475050238462595
+    },
+    {
+      "all_xyz_max_mm": 188.47069518517407,
+      "all_xyz_mean_mm": 61.613727384414986,
+      "bearing_mask_iou": 0.3479986141269551,
+      "bearing_xy_max_mm": 66.98915100097656,
+      "bearing_xy_mean_mm": 38.39511489868164,
+      "critical_xy_max_mm": 188.4482137735416,
+      "critical_xy_mean_mm": 65.3313522875369,
+      "epoch": 3,
+      "goal_xy_max_mm": 68.27721016358902,
+      "goal_xy_mean_mm": 37.75446116524276,
+      "grasp_xy_max_mm": 188.4482137735416,
+      "grasp_xy_mean_mm": 92.2238883415081,
+      "gripper_max_error": 0.011847972869873047,
+      "ring_mask_iou": 0.5048019241280565,
+      "ring_xy_max_mm": 184.7985076904297,
+      "ring_xy_mean_mm": 91.76367950439453,
+      "training_loss": 0.5527061659556168
+    },
+    {
+      "all_xyz_max_mm": 198.88142312857644,
+      "all_xyz_mean_mm": 57.01210035073278,
+      "bearing_mask_iou": 0.5929259091368841,
+      "bearing_xy_max_mm": 34.538047790527344,
+      "bearing_xy_mean_mm": 19.957000732421875,
+      "critical_xy_max_mm": 198.88036753652295,
+      "critical_xy_mean_mm": 59.202702329206005,
+      "epoch": 4,
+      "goal_xy_max_mm": 36.67582284125561,
+      "goal_xy_mean_mm": 20.30575859402997,
+      "grasp_xy_max_mm": 197.54525034120073,
+      "grasp_xy_mean_mm": 98.21944463805762,
+      "gripper_max_error": 0.011820793151855469,
+      "ring_mask_iou": 0.5536949394700215,
+      "ring_xy_max_mm": 194.62294006347656,
+      "ring_xy_mean_mm": 97.7835464477539,
+      "training_loss": 0.3386921836779668
+    },
+    {
+      "all_xyz_max_mm": 14.459450320671886,
+      "all_xyz_mean_mm": 6.005920169770091,
+      "bearing_mask_iou": 0.878131671915746,
+      "bearing_xy_max_mm": 2.058521270751953,
+      "bearing_xy_mean_mm": 1.0336097478866577,
+      "critical_xy_max_mm": 13.133823148891235,
+      "critical_xy_mean_mm": 6.384058306257635,
+      "epoch": 5,
+      "goal_xy_max_mm": 12.927675606086826,
+      "goal_xy_mean_mm": 5.837648015244006,
+      "grasp_xy_max_mm": 12.877989574277422,
+      "grasp_xy_mean_mm": 7.278912686639463,
+      "gripper_max_error": 0.012050867080688477,
+      "ring_mask_iou": 0.5894354304932109,
+      "ring_xy_max_mm": 10.156180381774902,
+      "ring_xy_mean_mm": 7.217484951019287,
+      "training_loss": 3.756636227552707
+    },
+    {
+      "all_xyz_max_mm": 14.345906908129438,
+      "all_xyz_mean_mm": 5.297239795070724,
+      "bearing_mask_iou": 0.7954086478633012,
+      "bearing_xy_max_mm": 1.7736742496490479,
+      "bearing_xy_mean_mm": 0.7281829714775085,
+      "critical_xy_max_mm": 12.711744644328595,
+      "critical_xy_mean_mm": 5.380130972000151,
+      "epoch": 6,
+      "goal_xy_max_mm": 12.711744644328595,
+      "goal_xy_mean_mm": 5.714714078193989,
+      "grasp_xy_max_mm": 9.589089891131241,
+      "grasp_xy_mean_mm": 5.766280617072296,
+      "gripper_max_error": 0.012052536010742188,
+      "ring_mask_iou": 0.6009558464300547,
+      "ring_xy_max_mm": 6.692555904388428,
+      "ring_xy_mean_mm": 4.770717144012451,
+      "training_loss": 1.083583184159719
+    },
+    {
+      "all_xyz_max_mm": 14.638703048013905,
+      "all_xyz_mean_mm": 5.023022374793888,
+      "bearing_mask_iou": 0.7304622856197306,
+      "bearing_xy_max_mm": 1.99884033203125,
+      "bearing_xy_mean_mm": 0.7623353600502014,
+      "critical_xy_max_mm": 12.666371881744135,
+      "critical_xy_mean_mm": 4.644582322039627,
+      "epoch": 7,
+      "goal_xy_max_mm": 12.666371881744135,
+      "goal_xy_mean_mm": 5.731381337787683,
+      "grasp_xy_max_mm": 7.267855585592192,
+      "grasp_xy_mean_mm": 5.103353589884168,
+      "gripper_max_error": 0.012055158615112305,
+      "ring_mask_iou": 0.5887703622145503,
+      "ring_xy_max_mm": 2.1858408451080322,
+      "ring_xy_mean_mm": 0.9536401629447937,
+      "training_loss": 2.2169717710751753
+    },
+    {
+      "all_xyz_max_mm": 14.430381681439773,
+      "all_xyz_mean_mm": 4.952190122950705,
+      "bearing_mask_iou": 0.7866649551720671,
+      "bearing_xy_max_mm": 1.6987961530685425,
+      "bearing_xy_mean_mm": 0.6537914872169495,
+      "critical_xy_max_mm": 12.559984060866265,
+      "critical_xy_mean_mm": 4.696310280218262,
+      "epoch": 8,
+      "goal_xy_max_mm": 12.559984060866265,
+      "goal_xy_mean_mm": 5.700515233787211,
+      "grasp_xy_max_mm": 7.408194296493925,
+      "grasp_xy_mean_mm": 5.0156102061999555,
+      "gripper_max_error": 0.012054085731506348,
+      "ring_mask_iou": 0.5857744906804826,
+      "ring_xy_max_mm": 3.8869686126708984,
+      "ring_xy_mean_mm": 2.293739080429077,
+      "training_loss": 0.7431947846825306
+    },
+    {
+      "all_xyz_max_mm": 14.641969975557881,
+      "all_xyz_mean_mm": 4.936922578203517,
+      "bearing_mask_iou": 0.8764148589403024,
+      "bearing_xy_max_mm": 1.328371286392212,
+      "bearing_xy_mean_mm": 0.5841619372367859,
+      "critical_xy_max_mm": 12.538870794327066,
+      "critical_xy_mean_mm": 4.619670711292843,
+      "epoch": 9,
+      "goal_xy_max_mm": 12.538870794327066,
+      "goal_xy_mean_mm": 5.695585977014394,
+      "grasp_xy_max_mm": 6.84605223197327,
+      "grasp_xy_mean_mm": 4.999707590859286,
+      "gripper_max_error": 0.012054204940795898,
+      "ring_mask_iou": 0.5789085050484194,
+      "ring_xy_max_mm": 3.116732120513916,
+      "ring_xy_mean_mm": 1.6847904920578003,
+      "training_loss": 0.4353611755829591
+    },
+    {
+      "all_xyz_max_mm": 14.894385617479971,
+      "all_xyz_mean_mm": 5.035653951545599,
+      "bearing_mask_iou": 0.8668597927977612,
+      "bearing_xy_max_mm": 1.4096033573150635,
+      "bearing_xy_mean_mm": 0.7146843075752258,
+      "critical_xy_max_mm": 12.491483545625957,
+      "critical_xy_mean_mm": 4.653204979530645,
+      "epoch": 10,
+      "goal_xy_max_mm": 12.491483545625957,
+      "goal_xy_mean_mm": 5.67287131848767,
+      "grasp_xy_max_mm": 7.466138428838872,
+      "grasp_xy_mean_mm": 5.216183159802585,
+      "gripper_max_error": 0.012055277824401855,
+      "ring_mask_iou": 0.6089514268300608,
+      "ring_xy_max_mm": 1.86777925491333,
+      "ring_xy_mean_mm": 0.7692611813545227,
+      "training_loss": 0.33451976913672227
+    },
+    {
+      "all_xyz_max_mm": 14.877807373388295,
+      "all_xyz_mean_mm": 5.076077768851124,
+      "bearing_mask_iou": 0.8861579696885328,
+      "bearing_xy_max_mm": 1.3389188051223755,
+      "bearing_xy_mean_mm": 0.564736008644104,
+      "critical_xy_max_mm": 12.531255399895189,
+      "critical_xy_mean_mm": 4.692060909108098,
+      "epoch": 11,
+      "goal_xy_max_mm": 12.531255399895189,
+      "goal_xy_mean_mm": 5.715291953475605,
+      "grasp_xy_max_mm": 7.724341444732288,
+      "grasp_xy_mean_mm": 5.243385230578732,
+      "gripper_max_error": 0.012055635452270508,
+      "ring_mask_iou": 0.5907689839933362,
+      "ring_xy_max_mm": 2.5770230293273926,
+      "ring_xy_mean_mm": 1.0556176900863647,
+      "training_loss": 0.45430371165275574
+    },
+    {
+      "all_xyz_max_mm": 14.617146946758792,
+      "all_xyz_mean_mm": 5.0843413295615125,
+      "bearing_mask_iou": 0.830406655568428,
+      "bearing_xy_max_mm": 1.3745008707046509,
+      "bearing_xy_mean_mm": 0.5367581844329834,
+      "critical_xy_max_mm": 12.446564223530716,
+      "critical_xy_mean_mm": 4.689811986730433,
+      "epoch": 12,
+      "goal_xy_max_mm": 12.446564223530716,
+      "goal_xy_mean_mm": 5.717972117244918,
+      "grasp_xy_max_mm": 7.511208275078705,
+      "grasp_xy_mean_mm": 5.269348450094487,
+      "gripper_max_error": 0.012054800987243652,
+      "ring_mask_iou": 0.5940902577517401,
+      "ring_xy_max_mm": 1.6589746475219727,
+      "ring_xy_mean_mm": 0.6625564098358154,
+      "training_loss": 4.500473311314216
+    },
+    {
+      "all_xyz_max_mm": 14.755868979797897,
+      "all_xyz_mean_mm": 5.036761573822249,
+      "bearing_mask_iou": 0.8887119828027462,
+      "bearing_xy_max_mm": 1.21989905834198,
+      "bearing_xy_mean_mm": 0.5204069018363953,
+      "critical_xy_max_mm": 12.474492643367116,
+      "critical_xy_mean_mm": 4.65650171638492,
+      "epoch": 13,
+      "goal_xy_max_mm": 12.474492643367116,
+      "goal_xy_mean_mm": 5.6962875669343385,
+      "grasp_xy_max_mm": 7.30874833815044,
+      "grasp_xy_mean_mm": 5.2220682610054645,
+      "gripper_max_error": 0.012055158615112305,
+      "ring_mask_iou": 0.5614337910848067,
+      "ring_xy_max_mm": 1.6083146333694458,
+      "ring_xy_mean_mm": 0.6245408654212952,
+      "training_loss": 7.179723194298836
+    },
+    {
+      "all_xyz_max_mm": 14.860589439372315,
+      "all_xyz_mean_mm": 5.075020562051967,
+      "bearing_mask_iou": 0.8762489647436986,
+      "bearing_xy_max_mm": 1.278206706047058,
+      "bearing_xy_mean_mm": 0.6483900547027588,
+      "critical_xy_max_mm": 12.531874410393735,
+      "critical_xy_mean_mm": 4.690424425584973,
+      "epoch": 14,
+      "goal_xy_max_mm": 12.531874410393735,
+      "goal_xy_mean_mm": 5.663785124393518,
+      "grasp_xy_max_mm": 7.610177635711637,
+      "grasp_xy_mean_mm": 5.323578587673797,
+      "gripper_max_error": 0.012055754661560059,
+      "ring_mask_iou": 0.5951411512379144,
+      "ring_xy_max_mm": 1.679721474647522,
+      "ring_xy_mean_mm": 0.6849815845489502,
+      "training_loss": 0.2839486404107167
+    },
+    {
+      "all_xyz_max_mm": 14.822893288295647,
+      "all_xyz_mean_mm": 5.10424216089057,
+      "bearing_mask_iou": 0.8945006001674205,
+      "bearing_xy_max_mm": 1.2166833877563477,
+      "bearing_xy_mean_mm": 0.5056262612342834,
+      "critical_xy_max_mm": 12.48958462008367,
+      "critical_xy_mean_mm": 4.71351775392243,
+      "epoch": 15,
+      "goal_xy_max_mm": 12.48958462008367,
+      "goal_xy_mean_mm": 5.7130093974048926,
+      "grasp_xy_max_mm": 7.620289370388961,
+      "grasp_xy_mean_mm": 5.334724373183205,
+      "gripper_max_error": 0.012055516242980957,
+      "ring_mask_iou": 0.6043471555871432,
+      "ring_xy_max_mm": 1.772572636604309,
+      "ring_xy_mean_mm": 0.7108572125434875,
+      "training_loss": 0.23994841770483896
+    },
+    {
+      "all_xyz_max_mm": 14.719369498132776,
+      "all_xyz_mean_mm": 5.1222313989761075,
+      "bearing_mask_iou": 0.8793590983629039,
+      "bearing_xy_max_mm": 1.1188242435455322,
+      "bearing_xy_mean_mm": 0.4669606387615204,
+      "critical_xy_max_mm": 12.474322383709683,
+      "critical_xy_mean_mm": 4.728567674210821,
+      "epoch": 16,
+      "goal_xy_max_mm": 12.474322383709683,
+      "goal_xy_mean_mm": 5.734677294586222,
+      "grasp_xy_max_mm": 7.6524921021459305,
+      "grasp_xy_mean_mm": 5.359930861658739,
+      "gripper_max_error": 0.012055158615112305,
+      "ring_mask_iou": 0.5781579767346385,
+      "ring_xy_max_mm": 1.3372782468795776,
+      "ring_xy_mean_mm": 0.5854002833366394,
+      "training_loss": 0.9200156001517406
+    },
+    {
+      "all_xyz_max_mm": 14.788490634200514,
+      "all_xyz_mean_mm": 5.1245261114933855,
+      "bearing_mask_iou": 0.8925117160901408,
+      "bearing_xy_max_mm": 1.1669970750808716,
+      "bearing_xy_mean_mm": 0.47440847754478455,
+      "critical_xy_max_mm": 12.494107278659666,
+      "critical_xy_mean_mm": 4.7338699533590285,
+      "epoch": 17,
+      "goal_xy_max_mm": 12.494107278659666,
+      "goal_xy_mean_mm": 5.724961464796711,
+      "grasp_xy_max_mm": 7.694597956019064,
+      "grasp_xy_mean_mm": 5.380879324146945,
+      "gripper_max_error": 0.012055516242980957,
+      "ring_mask_iou": 0.5681926026669577,
+      "ring_xy_max_mm": 1.228959321975708,
+      "ring_xy_mean_mm": 0.5547473430633545,
+      "training_loss": 0.22689511684271005
+    },
+    {
+      "all_xyz_max_mm": 14.539629755137343,
+      "all_xyz_mean_mm": 5.146136232349858,
+      "bearing_mask_iou": 0.7999490839957644,
+      "bearing_xy_max_mm": 1.3798046112060547,
+      "bearing_xy_mean_mm": 0.5294473767280579,
+      "critical_xy_max_mm": 12.553492214239412,
+      "critical_xy_mean_mm": 4.747196052823005,
+      "epoch": 18,
+      "goal_xy_max_mm": 12.553492214239412,
+      "goal_xy_mean_mm": 5.740807244772593,
+      "grasp_xy_max_mm": 7.701227190341405,
+      "grasp_xy_mean_mm": 5.3851790076673165,
+      "gripper_max_error": 0.012054800987243652,
+      "ring_mask_iou": 0.5859727113397294,
+      "ring_xy_max_mm": 1.4170738458633423,
+      "ring_xy_mean_mm": 0.612966775894165,
+      "training_loss": 0.4493260011076927
+    },
+    {
+      "all_xyz_max_mm": 14.823076944416316,
+      "all_xyz_mean_mm": 5.124939912727541,
+      "bearing_mask_iou": 0.897290934320513,
+      "bearing_xy_max_mm": 1.1880645751953125,
+      "bearing_xy_mean_mm": 0.54348224401474,
+      "critical_xy_max_mm": 12.65935718534543,
+      "critical_xy_mean_mm": 4.7379969145654215,
+      "epoch": 19,
+      "goal_xy_max_mm": 12.65935718534543,
+      "goal_xy_mean_mm": 5.692355647160273,
+      "grasp_xy_max_mm": 7.7682523794322265,
+      "grasp_xy_mean_mm": 5.415881156158234,
+      "gripper_max_error": 0.012056112289428711,
+      "ring_mask_iou": 0.5610834663509948,
+      "ring_xy_max_mm": 1.185534119606018,
+      "ring_xy_mean_mm": 0.5433180928230286,
+      "training_loss": 0.23317457348681414
+    },
+    {
+      "all_xyz_max_mm": 14.8147481119074,
+      "all_xyz_mean_mm": 5.141473850784229,
+      "bearing_mask_iou": 0.9001822596575696,
+      "bearing_xy_max_mm": 1.14866304397583,
+      "bearing_xy_mean_mm": 0.46886304020881653,
+      "critical_xy_max_mm": 12.614619031259679,
+      "critical_xy_mean_mm": 4.749420177083901,
+      "epoch": 20,
+      "goal_xy_max_mm": 12.614619031259679,
+      "goal_xy_mean_mm": 5.737486372836485,
+      "grasp_xy_max_mm": 7.700968645259161,
+      "grasp_xy_mean_mm": 5.401485070889918,
+      "gripper_max_error": 0.012055754661560059,
+      "ring_mask_iou": 0.593838748119511,
+      "ring_xy_max_mm": 1.527875542640686,
+      "ring_xy_mean_mm": 0.6424243450164795,
+      "training_loss": 0.2540974417844644
+    },
+    {
+      "all_xyz_max_mm": 14.72023342882856,
+      "all_xyz_mean_mm": 5.163068696435244,
+      "bearing_mask_iou": 0.8816884672241834,
+      "bearing_xy_max_mm": 1.0543975830078125,
+      "bearing_xy_mean_mm": 0.4515306055545807,
+      "critical_xy_max_mm": 12.491120177984632,
+      "critical_xy_mean_mm": 4.767130533224186,
+      "epoch": 21,
+      "goal_xy_max_mm": 12.491120177984632,
+      "goal_xy_mean_mm": 5.762599735609796,
+      "grasp_xy_max_mm": 7.762292094271548,
+      "grasp_xy_mean_mm": 5.425756484582446,
+      "gripper_max_error": 0.012055158615112305,
+      "ring_mask_iou": 0.5743390000122081,
+      "ring_xy_max_mm": 1.2590910196304321,
+      "ring_xy_mean_mm": 0.5837221741676331,
+      "training_loss": 0.18101892634653127
+    },
+    {
+      "all_xyz_max_mm": 14.839169594468627,
+      "all_xyz_mean_mm": 5.114615609675834,
+      "bearing_mask_iou": 0.8797958410343146,
+      "bearing_xy_max_mm": 1.3942917585372925,
+      "bearing_xy_mean_mm": 0.5981821417808533,
+      "critical_xy_max_mm": 12.645178273959848,
+      "critical_xy_mean_mm": 4.731765220323644,
+      "epoch": 22,
+      "goal_xy_max_mm": 12.645178273959848,
+      "goal_xy_mean_mm": 5.6592703468569985,
+      "grasp_xy_max_mm": 7.766222002489169,
+      "grasp_xy_mean_mm": 5.437077789808319,
+      "gripper_max_error": 0.012056112289428711,
+      "ring_mask_iou": 0.5790952624811017,
+      "ring_xy_max_mm": 1.2923141717910767,
+      "ring_xy_mean_mm": 0.5953065156936646,
+      "training_loss": 0.11874241009354591
+    },
+    {
+      "all_xyz_max_mm": 14.834888417086878,
+      "all_xyz_mean_mm": 5.137798809799341,
+      "bearing_mask_iou": 0.9045509979412683,
+      "bearing_xy_max_mm": 1.1683820486068726,
+      "bearing_xy_mean_mm": 0.488973468542099,
+      "critical_xy_max_mm": 12.711411043284132,
+      "critical_xy_mean_mm": 4.747756985195556,
+      "epoch": 23,
+      "goal_xy_max_mm": 12.711411043284132,
+      "goal_xy_mean_mm": 5.740860674468949,
+      "grasp_xy_max_mm": 7.633359073170222,
+      "grasp_xy_mean_mm": 5.387641402187636,
+      "gripper_max_error": 0.012056112289428711,
+      "ring_mask_iou": 0.6154052141019215,
+      "ring_xy_max_mm": 1.8728833198547363,
+      "ring_xy_mean_mm": 0.7147632241249084,
+      "training_loss": 0.19639775343239307
+    },
+    {
+      "all_xyz_max_mm": 14.847096506384286,
+      "all_xyz_mean_mm": 5.118032822602349,
+      "bearing_mask_iou": 0.8904986324227758,
+      "bearing_xy_max_mm": 1.167359709739685,
+      "bearing_xy_mean_mm": 0.5582706928253174,
+      "critical_xy_max_mm": 12.775907279863432,
+      "critical_xy_mean_mm": 4.733192977736729,
+      "epoch": 24,
+      "goal_xy_max_mm": 12.775907279863432,
+      "goal_xy_mean_mm": 5.695083109736765,
+      "grasp_xy_max_mm": 7.636482587680147,
+      "grasp_xy_mean_mm": 5.394948550772955,
+      "gripper_max_error": 0.012056350708007812,
+      "ring_mask_iou": 0.6156057440867752,
+      "ring_xy_max_mm": 1.8742481470108032,
+      "ring_xy_mean_mm": 0.7149834036827087,
+      "training_loss": 0.11922170221805573
+    },
+    {
+      "all_xyz_max_mm": 14.808704184517085,
+      "all_xyz_mean_mm": 5.166202617304185,
+      "bearing_mask_iou": 0.9061429088105868,
+      "bearing_xy_max_mm": 1.0910351276397705,
+      "bearing_xy_mean_mm": 0.47258034348487854,
+      "critical_xy_max_mm": 12.68944538410297,
+      "critical_xy_mean_mm": 4.780063268108894,
+      "epoch": 25,
+      "goal_xy_max_mm": 12.68944538410297,
+      "goal_xy_mean_mm": 5.715924851660338,
+      "grasp_xy_max_mm": 7.884056550935497,
+      "grasp_xy_mean_mm": 5.48845645236456,
+      "gripper_max_error": 0.012056231498718262,
+      "ring_mask_iou": 0.5402576590008312,
+      "ring_xy_max_mm": 0.9538224935531616,
+      "ring_xy_mean_mm": 0.4879647195339203,
+      "training_loss": 0.1126171125528904
+    },
+    {
+      "all_xyz_max_mm": 14.771569208133098,
+      "all_xyz_mean_mm": 5.176985992799087,
+      "bearing_mask_iou": 0.9008301885260387,
+      "bearing_xy_max_mm": 1.0396642684936523,
+      "bearing_xy_mean_mm": 0.43903017044067383,
+      "critical_xy_max_mm": 12.596269124597418,
+      "critical_xy_mean_mm": 4.792635335734112,
+      "epoch": 26,
+      "goal_xy_max_mm": 12.596269124597418,
+      "goal_xy_mean_mm": 5.748184544564318,
+      "grasp_xy_max_mm": 7.855275683505199,
+      "grasp_xy_mean_mm": 5.4893018647949265,
+      "gripper_max_error": 0.01205599308013916,
+      "ring_mask_iou": 0.5278777640739147,
+      "ring_xy_max_mm": 0.8263795375823975,
+      "ring_xy_mean_mm": 0.4184868335723877,
+      "training_loss": 0.1380970089767988
+    },
+    {
+      "all_xyz_max_mm": 14.76593124903165,
+      "all_xyz_mean_mm": 5.190991817047626,
+      "bearing_mask_iou": 0.8995180945384712,
+      "bearing_xy_max_mm": 1.0402264595031738,
+      "bearing_xy_mean_mm": 0.44633376598358154,
+      "critical_xy_max_mm": 12.601659664708276,
+      "critical_xy_mean_mm": 4.804028413622337,
+      "epoch": 27,
+      "goal_xy_max_mm": 12.601659664708276,
+      "goal_xy_mean_mm": 5.760139807262646,
+      "grasp_xy_max_mm": 7.895589407856434,
+      "grasp_xy_mean_mm": 5.503600962856888,
+      "gripper_max_error": 0.01205599308013916,
+      "ring_mask_iou": 0.5304092419214815,
+      "ring_xy_max_mm": 0.8374977111816406,
+      "ring_xy_mean_mm": 0.4439719021320343,
+      "training_loss": 0.12678032268125278
+    },
+    {
+      "all_xyz_max_mm": 14.822046334130514,
+      "all_xyz_mean_mm": 5.173872909682186,
+      "bearing_mask_iou": 0.9087682242179015,
+      "bearing_xy_max_mm": 1.1444578170776367,
+      "bearing_xy_mean_mm": 0.49412021040916443,
+      "critical_xy_max_mm": 12.794196538609778,
+      "critical_xy_mean_mm": 4.781764638702941,
+      "epoch": 28,
+      "goal_xy_max_mm": 12.794196538609778,
+      "goal_xy_mean_mm": 5.762454129242413,
+      "grasp_xy_max_mm": 7.739896197691066,
+      "grasp_xy_mean_mm": 5.448092535083873,
+      "gripper_max_error": 0.012056350708007812,
+      "ring_mask_iou": 0.5872696149633135,
+      "ring_xy_max_mm": 1.2852046489715576,
+      "ring_xy_mean_mm": 0.5877733826637268,
+      "training_loss": 0.29515835370581883
+    },
+    {
+      "all_xyz_max_mm": 14.741981002771501,
+      "all_xyz_mean_mm": 5.206296633401597,
+      "bearing_mask_iou": 0.8922295868922152,
+      "bearing_xy_max_mm": 1.0332880020141602,
+      "bearing_xy_mean_mm": 0.4644738733768463,
+      "critical_xy_max_mm": 12.598510788624969,
+      "critical_xy_mean_mm": 4.812191414272945,
+      "epoch": 29,
+      "goal_xy_max_mm": 12.598510788624969,
+      "goal_xy_mean_mm": 5.784155880521955,
+      "grasp_xy_max_mm": 7.903995201655275,
+      "grasp_xy_mean_mm": 5.502090557438785,
+      "gripper_max_error": 0.012055754661560059,
+      "ring_mask_iou": 0.5502994905544162,
+      "ring_xy_max_mm": 0.9600673913955688,
+      "ring_xy_mean_mm": 0.5114890933036804,
+      "training_loss": 0.2568955502401178
+    },
+    {
+      "all_xyz_max_mm": 14.812594575907648,
+      "all_xyz_mean_mm": 5.165807565303626,
+      "bearing_mask_iou": 0.896281217377194,
+      "bearing_xy_max_mm": 1.1126940250396729,
+      "bearing_xy_mean_mm": 0.5322409868240356,
+      "critical_xy_max_mm": 12.84482676867748,
+      "critical_xy_mean_mm": 4.778917756584807,
+      "epoch": 30,
+      "goal_xy_max_mm": 12.84482676867748,
+      "goal_xy_mean_mm": 5.713338482629039,
+      "grasp_xy_max_mm": 7.8487695547416765,
+      "grasp_xy_mean_mm": 5.485493245043781,
+      "gripper_max_error": 0.012056708335876465,
+      "ring_mask_iou": 0.5630912337849399,
+      "ring_xy_max_mm": 1.0590081214904785,
+      "ring_xy_mean_mm": 0.5417293906211853,
+      "training_loss": 0.12035656104294154
+    },
+    {
+      "all_xyz_max_mm": 14.819675557912628,
+      "all_xyz_mean_mm": 5.191266284226504,
+      "bearing_mask_iou": 0.9053858555097632,
+      "bearing_xy_max_mm": 1.1289697885513306,
+      "bearing_xy_mean_mm": 0.5121322870254517,
+      "critical_xy_max_mm": 12.843015518645878,
+      "critical_xy_mean_mm": 4.805439817831877,
+      "epoch": 31,
+      "goal_xy_max_mm": 12.843015518645878,
+      "goal_xy_mean_mm": 5.734060785871257,
+      "grasp_xy_max_mm": 7.9438196065274544,
+      "grasp_xy_mean_mm": 5.520417754737837,
+      "gripper_max_error": 0.012056827545166016,
+      "ring_mask_iou": 0.540939784289224,
+      "ring_xy_max_mm": 0.9030945301055908,
+      "ring_xy_mean_mm": 0.50052410364151,
+      "training_loss": 0.08093164001519863
+    },
+    {
+      "all_xyz_max_mm": 14.812432128460962,
+      "all_xyz_mean_mm": 5.172079320906246,
+      "bearing_mask_iou": 0.9034762722325441,
+      "bearing_xy_max_mm": 1.1654552221298218,
+      "bearing_xy_mean_mm": 0.5362740159034729,
+      "critical_xy_max_mm": 12.897468951475473,
+      "critical_xy_mean_mm": 4.78222084787085,
+      "epoch": 32,
+      "goal_xy_max_mm": 12.897468951475473,
+      "goal_xy_mean_mm": 5.743668707991862,
+      "grasp_xy_max_mm": 7.770943768420669,
+      "grasp_xy_mean_mm": 5.462746848618014,
+      "gripper_max_error": 0.012056708335876465,
+      "ring_mask_iou": 0.5792460555688476,
+      "ring_xy_max_mm": 1.1604387760162354,
+      "ring_xy_mean_mm": 0.5631921887397766,
+      "training_loss": 0.19644207808260733
+    },
+    {
+      "all_xyz_max_mm": 14.796101461290341,
+      "all_xyz_mean_mm": 5.164016107906166,
+      "bearing_mask_iou": 0.8972996044336604,
+      "bearing_xy_max_mm": 1.1221147775650024,
+      "bearing_xy_mean_mm": 0.5355567336082458,
+      "critical_xy_max_mm": 12.862388950322758,
+      "critical_xy_mean_mm": 4.776282260996104,
+      "epoch": 33,
+      "goal_xy_max_mm": 12.862388950322758,
+      "goal_xy_mean_mm": 5.715226647708978,
+      "grasp_xy_max_mm": 7.820427328942139,
+      "grasp_xy_mean_mm": 5.478051460759158,
+      "gripper_max_error": 0.012056708335876465,
+      "ring_mask_iou": 0.5681489336610017,
+      "ring_xy_max_mm": 1.0736137628555298,
+      "ring_xy_mean_mm": 0.5441597700119019,
+      "training_loss": 0.06640369946566912
+    },
+    {
+      "all_xyz_max_mm": 14.854880767493711,
+      "all_xyz_mean_mm": 5.125070972885341,
+      "bearing_mask_iou": 0.8326190088288774,
+      "bearing_xy_max_mm": 1.34944748878479,
+      "bearing_xy_mean_mm": 0.5636086463928223,
+      "critical_xy_max_mm": 12.66588265498948,
+      "critical_xy_mean_mm": 4.743604378105988,
+      "epoch": 34,
+      "goal_xy_max_mm": 12.66588265498948,
+      "goal_xy_mean_mm": 5.7038656780520265,
+      "grasp_xy_max_mm": 7.617770497485627,
+      "grasp_xy_mean_mm": 5.410692521328634,
+      "gripper_max_error": 0.012056112289428711,
+      "ring_mask_iou": 0.629206482484649,
+      "ring_xy_max_mm": 1.994988203048706,
+      "ring_xy_mean_mm": 0.7326065897941589,
+      "training_loss": 0.5573385935276747
+    },
+    {
+      "all_xyz_max_mm": 14.783056942790049,
+      "all_xyz_mean_mm": 5.185970001903326,
+      "bearing_mask_iou": 0.8849163134661544,
+      "bearing_xy_max_mm": 1.15540611743927,
+      "bearing_xy_mean_mm": 0.5674539804458618,
+      "critical_xy_max_mm": 12.872591792176506,
+      "critical_xy_mean_mm": 4.801164378373707,
+      "epoch": 35,
+      "goal_xy_max_mm": 12.872591792176506,
+      "goal_xy_mean_mm": 5.718573525735918,
+      "grasp_xy_max_mm": 7.956341673418441,
+      "grasp_xy_mean_mm": 5.522829796530459,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.547774281921,
+      "ring_xy_max_mm": 0.9364429712295532,
+      "ring_xy_mean_mm": 0.5107347369194031,
+      "training_loss": 0.090928815305233
+    },
+    {
+      "all_xyz_max_mm": 14.808559705112838,
+      "all_xyz_mean_mm": 5.206169616989897,
+      "bearing_mask_iou": 0.900491960775371,
+      "bearing_xy_max_mm": 1.1549748182296753,
+      "bearing_xy_mean_mm": 0.5508045554161072,
+      "critical_xy_max_mm": 12.91256666621265,
+      "critical_xy_mean_mm": 4.824725249591544,
+      "epoch": 36,
+      "goal_xy_max_mm": 12.91256666621265,
+      "goal_xy_mean_mm": 5.738278674503347,
+      "grasp_xy_max_mm": 8.00400318303808,
+      "grasp_xy_mean_mm": 5.553181393226655,
+      "gripper_max_error": 0.012057185173034668,
+      "ring_mask_iou": 0.5270686851265499,
+      "ring_xy_max_mm": 0.8471313714981079,
+      "ring_xy_mean_mm": 0.4727528989315033,
+      "training_loss": 0.0880925995655931
+    },
+    {
+      "all_xyz_max_mm": 14.821585680334913,
+      "all_xyz_mean_mm": 5.202486356321932,
+      "bearing_mask_iou": 0.9068510052630842,
+      "bearing_xy_max_mm": 1.1162598133087158,
+      "bearing_xy_mean_mm": 0.5275728106498718,
+      "critical_xy_max_mm": 12.881875103725058,
+      "critical_xy_mean_mm": 4.826882334482162,
+      "epoch": 37,
+      "goal_xy_max_mm": 12.881875103725058,
+      "goal_xy_mean_mm": 5.735563098546262,
+      "grasp_xy_max_mm": 7.968844819604496,
+      "grasp_xy_mean_mm": 5.5600958961992415,
+      "gripper_max_error": 0.012057304382324219,
+      "ring_mask_iou": 0.5106489666247678,
+      "ring_xy_max_mm": 0.6917849779129028,
+      "ring_xy_mean_mm": 0.42047715187072754,
+      "training_loss": 0.15292756689282563
+    },
+    {
+      "all_xyz_max_mm": 14.794224494317056,
+      "all_xyz_mean_mm": 5.194217469741137,
+      "bearing_mask_iou": 0.8996432708315062,
+      "bearing_xy_max_mm": 1.0932024717330933,
+      "bearing_xy_mean_mm": 0.5328250527381897,
+      "critical_xy_max_mm": 12.880830322808155,
+      "critical_xy_mean_mm": 4.811836338846987,
+      "epoch": 38,
+      "goal_xy_max_mm": 12.880830322808155,
+      "goal_xy_mean_mm": 5.718071939581545,
+      "grasp_xy_max_mm": 8.000409222421254,
+      "grasp_xy_mean_mm": 5.547545275882114,
+      "gripper_max_error": 0.012057185173034668,
+      "ring_mask_iou": 0.5333231606841723,
+      "ring_xy_max_mm": 0.8935505747795105,
+      "ring_xy_mean_mm": 0.48622453212738037,
+      "training_loss": 0.10813668370246887
+    },
+    {
+      "all_xyz_max_mm": 14.814040809310292,
+      "all_xyz_mean_mm": 5.21915534933862,
+      "bearing_mask_iou": 0.9135836768888984,
+      "bearing_xy_max_mm": 1.1087374687194824,
+      "bearing_xy_mean_mm": 0.5200213193893433,
+      "critical_xy_max_mm": 12.880017363688042,
+      "critical_xy_mean_mm": 4.833995874886719,
+      "epoch": 39,
+      "goal_xy_max_mm": 12.880017363688042,
+      "goal_xy_mean_mm": 5.763455404725196,
+      "grasp_xy_max_mm": 8.006200004200096,
+      "grasp_xy_mean_mm": 5.551569787654703,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5295443719062218,
+      "ring_xy_max_mm": 0.8804417252540588,
+      "ring_xy_mean_mm": 0.48019683361053467,
+      "training_loss": 0.0557459771919709
+    },
+    {
+      "all_xyz_max_mm": 15.006257949952317,
+      "all_xyz_mean_mm": 5.094287460467152,
+      "bearing_mask_iou": 0.7880889253862664,
+      "bearing_xy_max_mm": 2.023749351501465,
+      "bearing_xy_mean_mm": 0.8754315376281738,
+      "critical_xy_max_mm": 12.247499601791787,
+      "critical_xy_mean_mm": 4.727739546891367,
+      "epoch": 40,
+      "goal_xy_max_mm": 12.247499601791787,
+      "goal_xy_mean_mm": 5.685386872942917,
+      "grasp_xy_max_mm": 7.642194512887423,
+      "grasp_xy_mean_mm": 5.436186756623588,
+      "gripper_max_error": 0.012054085731506348,
+      "ring_mask_iou": 0.6011119831642423,
+      "ring_xy_max_mm": 1.4436612129211426,
+      "ring_xy_mean_mm": 0.6159623265266418,
+      "training_loss": 0.22031907160551503
+    },
+    {
+      "all_xyz_max_mm": 14.783881230644074,
+      "all_xyz_mean_mm": 5.197417155577434,
+      "bearing_mask_iou": 0.9036707353027916,
+      "bearing_xy_max_mm": 1.1696407794952393,
+      "bearing_xy_mean_mm": 0.5660608410835266,
+      "critical_xy_max_mm": 12.971215738930905,
+      "critical_xy_mean_mm": 4.807302368986553,
+      "epoch": 41,
+      "goal_xy_max_mm": 12.971215738930905,
+      "goal_xy_mean_mm": 5.761253582954495,
+      "grasp_xy_max_mm": 7.890536447343277,
+      "grasp_xy_mean_mm": 5.496545334837219,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5601515706616933,
+      "ring_xy_max_mm": 0.9510496854782104,
+      "ring_xy_mean_mm": 0.5134076476097107,
+      "training_loss": 0.7867632872926501
+    },
+    {
+      "all_xyz_max_mm": 14.592601559886408,
+      "all_xyz_mean_mm": 5.210842696628949,
+      "bearing_mask_iou": 0.8601414104740535,
+      "bearing_xy_max_mm": 0.9709373712539673,
+      "bearing_xy_mean_mm": 0.49269354343414307,
+      "critical_xy_max_mm": 12.54047311441281,
+      "critical_xy_mean_mm": 4.8090738917125275,
+      "epoch": 42,
+      "goal_xy_max_mm": 12.54047311441281,
+      "goal_xy_mean_mm": 5.799167386276052,
+      "grasp_xy_max_mm": 7.874849168140033,
+      "grasp_xy_mean_mm": 5.483938060357671,
+      "gripper_max_error": 0.012055277824401855,
+      "ring_mask_iou": 0.5611919838700197,
+      "ring_xy_max_mm": 0.9456594586372375,
+      "ring_xy_mean_mm": 0.5043471455574036,
+      "training_loss": 4.0611763012308915
+    },
+    {
+      "all_xyz_max_mm": 14.761923513640822,
+      "all_xyz_mean_mm": 5.1958991867216175,
+      "bearing_mask_iou": 0.8892799141682303,
+      "bearing_xy_max_mm": 1.2572673559188843,
+      "bearing_xy_mean_mm": 0.626811683177948,
+      "critical_xy_max_mm": 13.010602549855294,
+      "critical_xy_mean_mm": 4.805170266308718,
+      "epoch": 43,
+      "goal_xy_max_mm": 13.010602549855294,
+      "goal_xy_mean_mm": 5.768627580082537,
+      "grasp_xy_max_mm": 7.86672411968294,
+      "grasp_xy_mean_mm": 5.481733109683692,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5682036017204868,
+      "ring_xy_max_mm": 0.9982227087020874,
+      "ring_xy_mean_mm": 0.523921549320221,
+      "training_loss": 0.22818929551599118
+    },
+    {
+      "all_xyz_max_mm": 14.767865557016524,
+      "all_xyz_mean_mm": 5.206932341207262,
+      "bearing_mask_iou": 0.90588852470687,
+      "bearing_xy_max_mm": 1.0628246068954468,
+      "bearing_xy_mean_mm": 0.54024338722229,
+      "critical_xy_max_mm": 12.78277850771673,
+      "critical_xy_mean_mm": 4.808964413948329,
+      "epoch": 44,
+      "goal_xy_max_mm": 12.78277850771673,
+      "goal_xy_mean_mm": 5.804014796629163,
+      "grasp_xy_max_mm": 7.830890397692641,
+      "grasp_xy_mean_mm": 5.4667414639362475,
+      "gripper_max_error": 0.012056112289428711,
+      "ring_mask_iou": 0.5696419416896568,
+      "ring_xy_max_mm": 1.0141847133636475,
+      "ring_xy_mean_mm": 0.5178982019424438,
+      "training_loss": 0.16053444139945966
+    },
+    {
+      "all_xyz_max_mm": 14.843819718053233,
+      "all_xyz_mean_mm": 5.13900559704237,
+      "bearing_mask_iou": 0.8084461320386479,
+      "bearing_xy_max_mm": 1.1797637939453125,
+      "bearing_xy_mean_mm": 0.5486149191856384,
+      "critical_xy_max_mm": 12.699173354642182,
+      "critical_xy_mean_mm": 4.752320049753954,
+      "epoch": 45,
+      "goal_xy_max_mm": 12.699173354642182,
+      "goal_xy_mean_mm": 5.7257690831781725,
+      "grasp_xy_max_mm": 7.588990008885492,
+      "grasp_xy_mean_mm": 5.412385986846543,
+      "gripper_max_error": 0.01205599308013916,
+      "ring_mask_iou": 0.6231874471706661,
+      "ring_xy_max_mm": 1.6868337392807007,
+      "ring_xy_mean_mm": 0.6616686582565308,
+      "training_loss": 0.12285221203301962
+    },
+    {
+      "all_xyz_max_mm": 14.77456264846371,
+      "all_xyz_mean_mm": 5.198927567514201,
+      "bearing_mask_iou": 0.8736869467204659,
+      "bearing_xy_max_mm": 1.1502777338027954,
+      "bearing_xy_mean_mm": 0.5690390467643738,
+      "critical_xy_max_mm": 12.92243557666518,
+      "critical_xy_mean_mm": 4.812912475311088,
+      "epoch": 46,
+      "goal_xy_max_mm": 12.92243557666518,
+      "goal_xy_mean_mm": 5.7332698794016155,
+      "grasp_xy_max_mm": 7.997168102856606,
+      "grasp_xy_mean_mm": 5.532446413490673,
+      "gripper_max_error": 0.012056946754455566,
+      "ring_mask_iou": 0.5431876379561482,
+      "ring_xy_max_mm": 0.9263123273849487,
+      "ring_xy_mean_mm": 0.4944933354854584,
+      "training_loss": 0.08140119946060273
+    },
+    {
+      "all_xyz_max_mm": 14.789458572525465,
+      "all_xyz_mean_mm": 5.1694517721397615,
+      "bearing_mask_iou": 0.8402520910306445,
+      "bearing_xy_max_mm": 1.2676368951797485,
+      "bearing_xy_mean_mm": 0.5489292144775391,
+      "critical_xy_max_mm": 12.778396385690163,
+      "critical_xy_mean_mm": 4.780655554638959,
+      "epoch": 47,
+      "goal_xy_max_mm": 12.778396385690163,
+      "goal_xy_mean_mm": 5.714245859062263,
+      "grasp_xy_max_mm": 7.861672950393477,
+      "grasp_xy_mean_mm": 5.484905081895745,
+      "gripper_max_error": 0.012056350708007812,
+      "ring_mask_iou": 0.5694359351308304,
+      "ring_xy_max_mm": 0.9603365659713745,
+      "ring_xy_mean_mm": 0.5127072334289551,
+      "training_loss": 0.19499154249206185
+    },
+    {
+      "all_xyz_max_mm": 14.678928423605754,
+      "all_xyz_mean_mm": 5.237422803172051,
+      "bearing_mask_iou": 0.8746413778067241,
+      "bearing_xy_max_mm": 0.9582823514938354,
+      "bearing_xy_mean_mm": 0.49597644805908203,
+      "critical_xy_max_mm": 12.535306789210356,
+      "critical_xy_mean_mm": 4.855788261601606,
+      "epoch": 48,
+      "goal_xy_max_mm": 12.535306789210356,
+      "goal_xy_mean_mm": 5.800573552415987,
+      "grasp_xy_max_mm": 7.965224593502763,
+      "grasp_xy_mean_mm": 5.575302464827852,
+      "gripper_max_error": 0.01205599308013916,
+      "ring_mask_iou": 0.4983392607211088,
+      "ring_xy_max_mm": 0.6502374410629272,
+      "ring_xy_mean_mm": 0.3957214057445526,
+      "training_loss": 0.14824353939352128
+    },
+    {
+      "all_xyz_max_mm": 14.769819281409173,
+      "all_xyz_mean_mm": 5.201395794468724,
+      "bearing_mask_iou": 0.8825013372567762,
+      "bearing_xy_max_mm": 1.135684847831726,
+      "bearing_xy_mean_mm": 0.5612463355064392,
+      "critical_xy_max_mm": 12.940716704570775,
+      "critical_xy_mean_mm": 4.816188170345135,
+      "epoch": 49,
+      "goal_xy_max_mm": 12.940716704570775,
+      "goal_xy_mean_mm": 5.730134996629122,
+      "grasp_xy_max_mm": 8.019049751354673,
+      "grasp_xy_mean_mm": 5.5425629457565355,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5364748995571961,
+      "ring_xy_max_mm": 0.907042384147644,
+      "ring_xy_mean_mm": 0.48355403542518616,
+      "training_loss": 0.10223059392032716
+    },
+    {
+      "all_xyz_max_mm": 14.757757548981981,
+      "all_xyz_mean_mm": 5.199249553859349,
+      "bearing_mask_iou": 0.8965692753535214,
+      "bearing_xy_max_mm": 1.136121392250061,
+      "bearing_xy_mean_mm": 0.5763165354728699,
+      "critical_xy_max_mm": 13.008524341767265,
+      "critical_xy_mean_mm": 4.809498563133328,
+      "epoch": 50,
+      "goal_xy_max_mm": 13.008524341767265,
+      "goal_xy_mean_mm": 5.751331566625142,
+      "grasp_xy_max_mm": 7.9462420177495705,
+      "grasp_xy_mean_mm": 5.508712791306729,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5525891416557652,
+      "ring_xy_max_mm": 0.9414499998092651,
+      "ring_xy_mean_mm": 0.48865628242492676,
+      "training_loss": 0.06313180540186855
+    },
+    {
+      "all_xyz_max_mm": 14.780773150039275,
+      "all_xyz_mean_mm": 5.1501920230626155,
+      "bearing_mask_iou": 0.8547345083566672,
+      "bearing_xy_max_mm": 1.2037047147750854,
+      "bearing_xy_mean_mm": 0.5513982176780701,
+      "critical_xy_max_mm": 12.870484198357817,
+      "critical_xy_mean_mm": 4.759908930614849,
+      "epoch": 51,
+      "goal_xy_max_mm": 12.870484198357817,
+      "goal_xy_mean_mm": 5.7270153373611565,
+      "grasp_xy_max_mm": 7.634073227299351,
+      "grasp_xy_mean_mm": 5.431740282663714,
+      "gripper_max_error": 0.012056708335876465,
+      "ring_mask_iou": 0.5972767386914904,
+      "ring_xy_max_mm": 1.2159605026245117,
+      "ring_xy_mean_mm": 0.5563321709632874,
+      "training_loss": 0.08302641201477784
+    },
+    {
+      "all_xyz_max_mm": 14.763451454547605,
+      "all_xyz_mean_mm": 5.2120974887557985,
+      "bearing_mask_iou": 0.9028285211158806,
+      "bearing_xy_max_mm": 1.1393020153045654,
+      "bearing_xy_mean_mm": 0.5804694294929504,
+      "critical_xy_max_mm": 13.022198023258508,
+      "critical_xy_mean_mm": 4.822249639259581,
+      "epoch": 52,
+      "goal_xy_max_mm": 13.022198023258508,
+      "goal_xy_mean_mm": 5.766913068252967,
+      "grasp_xy_max_mm": 7.977195049273513,
+      "grasp_xy_mean_mm": 5.520546765431155,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5452465431814082,
+      "ring_xy_max_mm": 0.9331416487693787,
+      "ring_xy_mean_mm": 0.4818629324436188,
+      "training_loss": 0.04300345996251473
+    },
+    {
+      "all_xyz_max_mm": 14.767224944478262,
+      "all_xyz_mean_mm": 5.219539985413826,
+      "bearing_mask_iou": 0.906753712558884,
+      "bearing_xy_max_mm": 1.1354131698608398,
+      "bearing_xy_mean_mm": 0.5819597244262695,
+      "critical_xy_max_mm": 13.015339966261337,
+      "critical_xy_mean_mm": 4.830657680410514,
+      "epoch": 53,
+      "goal_xy_max_mm": 13.015339966261337,
+      "goal_xy_mean_mm": 5.770857401703342,
+      "grasp_xy_max_mm": 8.004215899673309,
+      "grasp_xy_mean_mm": 5.534019688027613,
+      "gripper_max_error": 0.012057185173034668,
+      "ring_mask_iou": 0.5390141620502661,
+      "ring_xy_max_mm": 0.9196771383285522,
+      "ring_xy_mean_mm": 0.47682368755340576,
+      "training_loss": 0.04869470953081663
+    },
+    {
+      "all_xyz_max_mm": 14.803069064693823,
+      "all_xyz_mean_mm": 5.238655328313181,
+      "bearing_mask_iou": 0.9147099680810098,
+      "bearing_xy_max_mm": 1.052588701248169,
+      "bearing_xy_mean_mm": 0.5473508834838867,
+      "critical_xy_max_mm": 12.921438244971924,
+      "critical_xy_mean_mm": 4.860016615616672,
+      "epoch": 54,
+      "goal_xy_max_mm": 12.921438244971924,
+      "goal_xy_mean_mm": 5.773551783001316,
+      "grasp_xy_max_mm": 8.046228613032698,
+      "grasp_xy_mean_mm": 5.593887592693412,
+      "gripper_max_error": 0.01205742359161377,
+      "ring_mask_iou": 0.50741496472622,
+      "ring_xy_max_mm": 0.7443065047264099,
+      "ring_xy_mean_mm": 0.439684122800827,
+      "training_loss": 0.036677283664735466
+    },
+    {
+      "all_xyz_max_mm": 14.735349233277558,
+      "all_xyz_mean_mm": 5.182715851840743,
+      "bearing_mask_iou": 0.8934589271394543,
+      "bearing_xy_max_mm": 1.082201361656189,
+      "bearing_xy_mean_mm": 0.565066397190094,
+      "critical_xy_max_mm": 12.985885411801458,
+      "critical_xy_mean_mm": 4.791546824499483,
+      "epoch": 55,
+      "goal_xy_max_mm": 12.985885411801458,
+      "goal_xy_mean_mm": 5.7377288286471515,
+      "grasp_xy_max_mm": 7.854244812167234,
+      "grasp_xy_mean_mm": 5.484530370236794,
+      "gripper_max_error": 0.012056946754455566,
+      "ring_mask_iou": 0.5655228385673315,
+      "ring_xy_max_mm": 0.939620852470398,
+      "ring_xy_mean_mm": 0.48469796776771545,
+      "training_loss": 0.05681206497292106
+    },
+    {
+      "all_xyz_max_mm": 14.74997839281205,
+      "all_xyz_mean_mm": 5.151664095333701,
+      "bearing_mask_iou": 0.8659367613693284,
+      "bearing_xy_max_mm": 1.2316668033599854,
+      "bearing_xy_mean_mm": 0.5428259968757629,
+      "critical_xy_max_mm": 12.883469549751684,
+      "critical_xy_mean_mm": 4.7612404560761625,
+      "epoch": 56,
+      "goal_xy_max_mm": 12.883469549751684,
+      "goal_xy_mean_mm": 5.713385244206403,
+      "grasp_xy_max_mm": 7.6848659504228545,
+      "grasp_xy_mean_mm": 5.447727373654909,
+      "gripper_max_error": 0.012056708335876465,
+      "ring_mask_iou": 0.5867740049221866,
+      "ring_xy_max_mm": 1.0275468826293945,
+      "ring_xy_mean_mm": 0.5107720494270325,
+      "training_loss": 0.05778318528945629
+    },
+    {
+      "all_xyz_max_mm": 14.943658734989624,
+      "all_xyz_mean_mm": 5.10277307267884,
+      "bearing_mask_iou": 0.7959178823596892,
+      "bearing_xy_max_mm": 1.697975993156433,
+      "bearing_xy_mean_mm": 0.6644604206085205,
+      "critical_xy_max_mm": 12.408317802203893,
+      "critical_xy_mean_mm": 4.723824413569384,
+      "epoch": 57,
+      "goal_xy_max_mm": 12.408317802203893,
+      "goal_xy_mean_mm": 5.683105847098945,
+      "grasp_xy_max_mm": 7.568543625209496,
+      "grasp_xy_mean_mm": 5.421348844681868,
+      "gripper_max_error": 0.012054681777954102,
+      "ring_mask_iou": 0.6067577664855234,
+      "ring_xy_max_mm": 1.292611837387085,
+      "ring_xy_mean_mm": 0.5713323950767517,
+      "training_loss": 0.34452538564801216
+    },
+    {
+      "all_xyz_max_mm": 14.779014244081331,
+      "all_xyz_mean_mm": 5.1651319078991005,
+      "bearing_mask_iou": 0.8368642193970736,
+      "bearing_xy_max_mm": 1.2374207973480225,
+      "bearing_xy_mean_mm": 0.5467236042022705,
+      "critical_xy_max_mm": 12.78410219645939,
+      "critical_xy_mean_mm": 4.774692281670161,
+      "epoch": 58,
+      "goal_xy_max_mm": 12.78410219645939,
+      "goal_xy_mean_mm": 5.711165722839836,
+      "grasp_xy_max_mm": 7.8023817424595565,
+      "grasp_xy_mean_mm": 5.473970334005835,
+      "gripper_max_error": 0.012056231498718262,
+      "ring_mask_iou": 0.5728718682339582,
+      "ring_xy_max_mm": 0.9332978129386902,
+      "ring_xy_mean_mm": 0.4883292019367218,
+      "training_loss": 0.0914885734136288
+    },
+    {
+      "all_xyz_max_mm": 14.739680814990997,
+      "all_xyz_mean_mm": 5.205820948946867,
+      "bearing_mask_iou": 0.8914189380569137,
+      "bearing_xy_max_mm": 1.1242882013320923,
+      "bearing_xy_mean_mm": 0.5869781374931335,
+      "critical_xy_max_mm": 13.0227649534479,
+      "critical_xy_mean_mm": 4.815665887174092,
+      "epoch": 59,
+      "goal_xy_max_mm": 13.0227649534479,
+      "goal_xy_mean_mm": 5.750591033057023,
+      "grasp_xy_max_mm": 7.9795552311409255,
+      "grasp_xy_mean_mm": 5.520363248800007,
+      "gripper_max_error": 0.012057065963745117,
+      "ring_mask_iou": 0.5459594707949996,
+      "ring_xy_max_mm": 0.9359560608863831,
+      "ring_xy_mean_mm": 0.47393426299095154,
+      "training_loss": 0.19910014105530885
+    },
+    {
+      "all_xyz_max_mm": 14.738608434014582,
+      "all_xyz_mean_mm": 5.187121508407426,
+      "bearing_mask_iou": 0.8773159948475492,
+      "bearing_xy_max_mm": 1.1186293363571167,
+      "bearing_xy_mean_mm": 0.5637845993041992,
+      "critical_xy_max_mm": 12.961370581443498,
+      "critical_xy_mean_mm": 4.79613891950579,
+      "epoch": 60,
+      "goal_xy_max_mm": 12.961370581443498,
+      "goal_xy_mean_mm": 5.732223634859649,
+      "grasp_xy_max_mm": 7.907540056783669,
+      "grasp_xy_mean_mm": 5.4977554470962415,
+      "gripper_max_error": 0.012056946754455566,
+      "ring_mask_iou": 0.5575676832819453,
+      "ring_xy_max_mm": 0.9422230124473572,
+      "ring_xy_mean_mm": 0.47479143738746643,
+      "training_loss": 0.045870657078921795
+    }
+  ]
+}

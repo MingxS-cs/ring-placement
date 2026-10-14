@@ -1,0 +1,10 @@
+{
+  "source_torch": "2.11.0+cu128 CPU",
+  "target_torch": "2.14.0+cpu",
+  "maximum_absolute_action_chunk_difference": 0.0,
+  "maximum_xyz_difference_mm": 0.0,
+  "reference_file": "outputs/vla_v5/model/portability_reference.npz",
+  "sample_count": 24,
+  "declared_absolute_tolerance": 1e-06,
+  "passed": true
+}
