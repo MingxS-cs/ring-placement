@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "raw_video_location": "repository data/source/359977334.mp4",
+  "command": "python -m pytest -q",
+  "git_head": "1a9ac49bc16d05bdfa801ee64d6e70e3766c279c",
+  "seconds": 9.1616782
+}

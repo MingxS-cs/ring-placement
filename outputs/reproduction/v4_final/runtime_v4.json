@@ -1,0 +1,28 @@
+{
+  "git_head": "1a9ac49bc16d05bdfa801ee64d6e70e3766c279c",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "prefix": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv",
+  "base_prefix": "C:\\Users\\minso\\AppData\\Local\\Programs\\Python\\Python312",
+  "include_system_site_packages": false,
+  "module_files": {
+    "numpy": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\numpy\\__init__.py",
+    "torch": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\torch\\__init__.py",
+    "mujoco": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\mujoco\\__init__.py",
+    "cv2": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\cv2\\__init__.py",
+    "PIL": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\PIL\\__init__.py",
+    "pytest": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\pytest\\__init__.py",
+    "matplotlib": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\.venv\\Lib\\site-packages\\matplotlib\\__init__.py",
+    "ring_learning": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3\\ring_learning\\__init__.py"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "torch": "2.14.0+cpu",
+    "mujoco": "3.12.0",
+    "cv2": "5.0.0",
+    "PIL": "12.3.0",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2",
+    "ring_learning": null
+  },
+  "cuda_available": false
+}

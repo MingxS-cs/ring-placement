@@ -1,0 +1,6 @@
+{
+  "command": "scripts/reproduce_v4.ps1 -OutputDirectory outputs/reproduced_v4_clean -PythonExecutable .venv/Scripts/python.exe",
+  "git_head": "1a9ac49bc16d05bdfa801ee64d6e70e3766c279c",
+  "seconds": 259.250784,
+  "exit_code": 0
+}

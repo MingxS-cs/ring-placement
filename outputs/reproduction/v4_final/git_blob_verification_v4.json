@@ -1,0 +1,68 @@
+{
+  "git_head": "1a9ac49bc16d05bdfa801ee64d6e70e3766c279c",
+  "files": [
+    {
+      "path": "data/source/359977334.mp4",
+      "bytes": 14256441,
+      "worktree_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+      "git_blob_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+      "bytes_preserved": true
+    },
+    {
+      "path": "data/real_episodes.json",
+      "bytes": 117252,
+      "worktree_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+      "git_blob_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+      "bytes_preserved": true
+    },
+    {
+      "path": "data/real_motion.json",
+      "bytes": 1345202,
+      "worktree_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+      "git_blob_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+      "bytes_preserved": true
+    },
+    {
+      "path": "data/v4_development_annotations.json",
+      "bytes": 238469,
+      "worktree_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+      "git_blob_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+      "bytes_preserved": true
+    },
+    {
+      "path": "data/v4_holdout_annotations.json",
+      "bytes": 92341,
+      "worktree_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+      "git_blob_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+      "bytes_preserved": true
+    },
+    {
+      "path": "outputs/v4_holdout_review/freeze_receipt.json",
+      "bytes": 2100,
+      "worktree_sha256": "73a3addb23c4e50055d210863b3e5ebf4aa5d437173190c26eca23850e25f542",
+      "git_blob_sha256": "73a3addb23c4e50055d210863b3e5ebf4aa5d437173190c26eca23850e25f542",
+      "bytes_preserved": true
+    },
+    {
+      "path": "outputs/generalization_v4/model/policy.json",
+      "bytes": 90368,
+      "worktree_sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+      "git_blob_sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+      "bytes_preserved": true
+    },
+    {
+      "path": "outputs/generalization_v4/configurations.json",
+      "bytes": 100220,
+      "worktree_sha256": "931d478258b834cc200907232ae5aa1576f8292eddcaed360c273ea5905d5410",
+      "git_blob_sha256": "931d478258b834cc200907232ae5aa1576f8292eddcaed360c273ea5905d5410",
+      "bytes_preserved": true
+    },
+    {
+      "path": "outputs/generalization_v4/model_freeze.json",
+      "bytes": 3414,
+      "worktree_sha256": "c0468ef6e129c16b18c8bd49f519fe49337e4bc61f82571b82ff310d10035857",
+      "git_blob_sha256": "c0468ef6e129c16b18c8bd49f519fe49337e4bc61f82571b82ff310d10035857",
+      "bytes_preserved": true
+    }
+  ]
+}

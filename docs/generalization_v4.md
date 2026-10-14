@@ -12,6 +12,8 @@ V4 retains direction information and predicts residuals in approximate metres di
 
 Additional manual labels recover visible ring centers in eight original training episodes and three validation episodes. These are 110 training and 40 validation observations, drawn from the existing recording. Together with the five retained automatic training paths, the final training set contains 176 points: 162 observations and 14 explicitly labeled gap interpolations, across 13 original training episodes. Validation uses 40 observations across three original episodes.
 
+The applicant provided the recording. These centers were visually annotated with assistant support, and native source evidence is included for inspection; this does not claim that the applicant independently labeled or verified every center.
+
 The newly annotated E20/E21/E22 paths are withheld until the model, protocol and physical scene manifest are frozen. They contain 35 observations, including 29 intermediate points and no gap interpolation. These are reserved windows in the same edited recording, with previously visible endpoint configurations; they are not independent recordings. Earlier V3 test diagnostics influenced the redesign. None of these new trajectory labels enters model selection.
 
 Known bearing outer diameter supplies a local pixel-to-metre scale. Image Y is reversed. This approximation treats image displacement as planar displacement; perspective, lifted-object height, tilt and blur can distort it. Reviewed centers have nominal uncertainty of about 5 pixels for clear rims and 8 pixels for blurred rims. Raw proof images, sequential frame ordinals, source PTS and hashes preserve provenance. Sequential decoding corrected the E11/E12 FFmpeg seek ordinal offset before training; V3's historical records remain unchanged. The fresh holdout's 35 ordinals and PTS were independently checked against sequential decoding and ffprobe.
@@ -41,6 +43,8 @@ All three comparisons use this same new executor and unchanged physics: V4, zero
 ## Frozen tests
 
 Ninety-six procedural configurations cover three distance bands (45–75, 75–110, 110–160 mm), eight angular bins across the circle and four positions per cell, seed 20261020. Bearing positions lie within x=[0.40,0.52] m, y=[-0.10,0.10] m. The generator conditions geometric positions so the ring starts within x=[0.32,0.62] m, y=[-0.23,0.23] m. This is a declared workspace constraint, not an outcome-based filter. Procedural cases have no human-source ancestry. Every attempted scene stays in the denominator.
+
+The 13 measured training endpoint distances span 66.209–201.077 mm; validation spans 53.486–92.262 mm. Thus the procedural range includes short-distance extrapolation below 66.2 mm, plus novel geometry combinations within the measured distance range. It does not establish long-distance extrapolation.
 
 Success requires the full ring projection inside the bearing hole with 0.3 mm margin, tilt at most 8 degrees, table height within 1.5 mm, linear speed below 0.01 m/s, angular speed below 0.15 rad/s, open fingers, no finger contact and at least 0.4 seconds settling. Reports retain all failures, stage, contacts, physical paths and command paths.
 

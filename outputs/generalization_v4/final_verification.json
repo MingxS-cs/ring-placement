@@ -1,0 +1,47 @@
+{
+  "early_lowerings": 0,
+  "files": {
+    "outputs\\generalization_v4\\configurations.json": "931d478258b834cc200907232ae5aa1576f8292eddcaed360c273ea5905d5410",
+    "outputs\\generalization_v4\\evaluation\\results.json": "f8c4270b47b56c3176d7546e3c763071e13f171f2d5932f7d1c1beeeb1aa927f",
+    "outputs\\generalization_v4\\evaluation\\rollouts.json": "321539a01794bb9cd2cd9808990696cf4c6ba09c155032b3c402d99143824ab2",
+    "outputs\\generalization_v4\\fidelity\\fidelity.json": "422db5e07b70c446933f142ce6dc3e4a1e53b194fbb7be4b8bfdfaf66f4d373a",
+    "outputs\\generalization_v4\\model\\policy.json": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+    "outputs\\generalization_v4\\model_freeze.json": "c0468ef6e129c16b18c8bd49f519fe49337e4bc61f82571b82ff310d10035857"
+  },
+  "maximum_transfer_action_displacement_m": 0.0020000000983609293,
+  "model_parameters": 12,
+  "physical_attempts": 288,
+  "physical_contact_preserved_in_all_transfer_steps": true,
+  "provenance": {
+    "development_annotations_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+    "fidelity_source_hash": "2171e4aaa96877bff6dedb6b63b2d1150f70ea589906103d28daccce6e7b8c17",
+    "holdout_annotations_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+    "model_freeze_receipt_sha256": "c0468ef6e129c16b18c8bd49f519fe49337e4bc61f82571b82ff310d10035857",
+    "original_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+    "real_episodes_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+    "selected_checkpoint_sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+    "training_protocol_sha256": "8179e5f2f29c0ff22e201786a0d799b304a054b0ca5bcdfeb1b5698fd864f10c",
+    "training_sources": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "v3_checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea"
+  },
+  "status": "passed",
+  "successes": {
+    "straight": 96,
+    "v3_profile": 96,
+    "v4": 96
+  }
+}

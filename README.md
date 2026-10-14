@@ -6,6 +6,8 @@ The hybrid controller completes **96/96 frozen scenes**, covering new positions,
 
 [Six preset scene replays](outputs/generalization_v4/student_demo.mp4) · [Physical results](outputs/generalization_v4/evaluation/results.json) · [Held-out fidelity](outputs/generalization_v4/fidelity/fidelity.json) · [Detailed method](docs/generalization_v4.md)
 
+[中文结果说明](docs/generalization_results_zh.md)
+
 ![Six preset physical placements](outputs/generalization_v4/student_demo.jpg)
 
 ## Challenge and scope
@@ -21,6 +23,8 @@ Demonstrated generalization is **same-task, same-object motion control in simula
 The applicant recorded [359977334.mp4](data/source/359977334.mp4): 119.4 s, 720×1280 pixels, approximately 30 fps, 3,581 frames. The phone stayed fixed; the bearing had three placements. Resets were removed and demonstrations concatenated. Video SHA-256: `90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4`.
 
 Twenty-four bounded episodes supply visible endpoints. V4 preserves the original 13 train / 3 validation / 3 test / 5 reserved source split. Reviewed manual centers recover visible motion in eight previously rejected training episodes and all three validation episodes. Missing observations are never replaced with synthetic straight supervision.
+
+The applicant supplied the recording; centers were visually annotated with assistant support. Native evidence is included for applicant/reviewer inspection.
 
 | V4 source group | Paths | Observations | Explicit gap interpolation |
 |---|---:|---:|---:|
@@ -56,6 +60,8 @@ Approach, grasp, Z, orientation, fingers, lowering, release and retraction remai
 ## Frozen physical generalization test
 
 Freeze 96 procedural cases before selected-model training: three distance bands × eight angular bins × four placements, seed 20261020. Bearing bounds: x=[0.40,0.52] m, y=[−0.10,0.10] m. Conditional geometric sampling keeps ring starts within x=[0.32,0.62] m, y=[−0.23,0.23] m. This is a declared workspace constraint, not a success filter. Cases have no invented human-source ancestry; all attempts remain in denominators.
+
+Measured training endpoint distances span **66.2–201.1 mm**. The procedural 45–160 mm test includes short-distance extrapolation and novel combinations within that range; it does not establish long-distance extrapolation.
 
 | Profile under shared V4 execution | 45–75 mm | 75–110 mm | 110–160 mm | Total |
 |---|---:|---:|---:|---:|
@@ -125,7 +131,7 @@ Full raw video + included reviewed labels → regenerated endpoints/motion → n
 ./scripts/reproduce_v4.ps1 -OutputDirectory outputs/full_reproduction_v4
 ```
 
-Existing output directories are refused. Regenerated measurements must exactly match delivered JSON values; only metadata byte hashes are rebound before fitting. Included human review/annotations are reused, not newly generated. Metadata hashes can differ with paths while coefficients and rollouts remain reproducible. [Clean-clone verification](docs/reproduction_v4.md).
+Existing output directories are refused. Regenerated measurements must exactly match delivered JSON values; only metadata byte hashes are rebound before fitting. Included visual review/annotations are reused, not newly generated. Metadata hashes can differ with paths while coefficients and rollouts remain reproducible. [Clean-clone verification](docs/reproduction_v4.md).
 
 Optional scientific plots:
 

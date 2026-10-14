@@ -1,0 +1,22 @@
+{
+  "model_values_identical": true,
+  "coefficients_float64_bytes_identical": true,
+  "direction_mean_float64_bytes_identical": true,
+  "direction_std_float64_bytes_identical": true,
+  "selection_identical": true,
+  "model_metadata_changed_fields": [
+    "input_sources",
+    "motion_sha256",
+    "real_episodes_sha256"
+  ],
+  "manifest_configuration_count": 96,
+  "manifest_configuration_records_identical": true,
+  "manifest_changed_fields": [
+    "real_episodes_path",
+    "real_episodes_sha256",
+    "real_motion_path",
+    "real_motion_sha256"
+  ],
+  "delivered_policy_sha256": "64310bf46ad153531358711719b74a12c4e1484f9f28b9bc1e4f204ba573f9a7",
+  "reproduced_policy_sha256": "b1009c78274c8c7a3edc8c6faee2a737079e3bd6177822a15561e2d6179986ee"
+}

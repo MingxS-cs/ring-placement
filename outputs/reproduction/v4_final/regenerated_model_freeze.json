@@ -1,0 +1,84 @@
+{
+  "blind_receipt_path": "outputs/reproduced_v4_clean/reproduction_blind_receipt.json",
+  "blind_receipt_sha256": "0e1c554ec4bd67fcde82f02fe67c11daf9aad1de4c5fa450b0e69128c34e3875",
+  "controller_source_hash": "147552d5363b1f2ae1a988c4b7c0bb9c488efd50ea1d2b6400099b7f7e771b8e",
+  "development_annotations_path": "data/v4_development_annotations.json",
+  "development_annotations_sha256": "65fcebde93e73e94d37b7bb41cabae12e4c930c7525797b89ae61634b71ca0e6",
+  "environment": {
+    "action_scale": 0.003,
+    "action_size": 4,
+    "control_dt": 0.05,
+    "obs_size": 30,
+    "schema_version": 2,
+    "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+    "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef"
+  },
+  "evaluator_source_hash": "376611daa6cbaf53e410d06588538246ae32804ea943cddc0c7ae3e9ab37e28b",
+  "execution_signature": {
+    "environment": {
+      "action_scale": 0.003,
+      "action_size": 4,
+      "control_dt": 0.05,
+      "obs_size": 30,
+      "schema_version": 2,
+      "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+      "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef"
+    },
+    "generalization_control_sha256": "147552d5363b1f2ae1a988c4b7c0bb9c488efd50ea1d2b6400099b7f7e771b8e",
+    "reference_angle": 0.0,
+    "reference_max_step_m": 0.002,
+    "shared_across_controllers": [
+      "v4",
+      "straight",
+      "v3_profile"
+    ],
+    "tool_lag_limit_m": 0.004
+  },
+  "frozen_before_holdout_unseal": true,
+  "frozen_utc": "2026-10-14T20:30:32.436857+00:00",
+  "holdout_annotations_sha256": "589d89d5e7e9727da92dab153cd66d75e41108c3b18a281c8262d8f6a95741ba",
+  "holdout_measured_samples": 35,
+  "holdout_sources": [
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "holdout_valid_episodes": 3,
+  "locked_selection_protocol_sha256": "576b71adc990e4ffe3bdf866b6a7b30fe0054575c2d39b4d89626f36959d46eb",
+  "manifest_path": "outputs/reproduced_v4_clean/configurations.json",
+  "manifest_sha256": "3df7960bdcd98a471d256d396c6c2e72859ac52d9bc2f66d2f9742a913d7f2f0",
+  "original_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "policy_train_sources": {
+    "generalization_policy": "376a9666723d0dca0ed60f7d2f187c8c73fac5d230ce1222b46e87e357559c24",
+    "generalization_train": "64d50b0320ed821e0dd0faa5d8bbd13f974e1b755a6443a7864422839f274bfc"
+  },
+  "real_episodes_path": "outputs/reproduced_v4_clean/data/real_episodes.json",
+  "real_episodes_sha256": "1313d7c208367624955cd7498e19545c873a4143d0d5ff25938e12da831060aa",
+  "schema_version": 1,
+  "selected_checkpoint_path": "outputs/reproduced_v4_clean/model/policy.json",
+  "selected_checkpoint_sha256": "b1009c78274c8c7a3edc8c6faee2a737079e3bd6177822a15561e2d6179986ee",
+  "training_protocol_path": "docs/superpowers/specs/2026-10-14-generalization-design.md",
+  "training_protocol_sha256": "8179e5f2f29c0ff22e201786a0d799b304a054b0ca5bcdfeb1b5698fd864f10c",
+  "training_sources": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E06",
+    "E07",
+    "E09",
+    "E13",
+    "E14",
+    "E15",
+    "E17",
+    "E18",
+    "E19"
+  ],
+  "v3_checkpoint_path": "outputs/video_model/policy.pt",
+  "v3_checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "validation_sources": [
+    "E05",
+    "E11",
+    "E12"
+  ]
+}

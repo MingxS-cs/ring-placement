@@ -1,0 +1,20 @@
+{
+  "v4": {
+    "cases": 96,
+    "successes": 96,
+    "mean_ring_max_lateral_deviation_m": 0.011743633747375254,
+    "mean_command_max_lateral_deviation_m": 0.01226362957040717
+  },
+  "straight": {
+    "cases": 96,
+    "successes": 96,
+    "mean_ring_max_lateral_deviation_m": 4.587689066753442e-05,
+    "mean_command_max_lateral_deviation_m": 4.5135443747549555e-11
+  },
+  "v3_profile": {
+    "cases": 96,
+    "successes": 96,
+    "mean_ring_max_lateral_deviation_m": 0.014888076234205622,
+    "mean_command_max_lateral_deviation_m": 0.015558593885238961
+  }
+}

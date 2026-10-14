@@ -1,0 +1,5 @@
+{
+  "seconds": 3.4505191,
+  "exit_code": 0,
+  "command": "python -m ring_learning.generalization_analysis --output outputs/v4_analysis_recheck"
+}

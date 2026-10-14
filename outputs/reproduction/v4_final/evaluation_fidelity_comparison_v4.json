@@ -1,0 +1,41 @@
+{
+  "delivered_rollouts": 288,
+  "reproduced_rollouts": 288,
+  "all_complete_rollout_records_identical": true,
+  "summaries_identical": true,
+  "fidelity_complete_body_excluding_provenance_identical": true,
+  "observed_sources": 3,
+  "observed_points": 35,
+  "intermediate_points": 29,
+  "measurement_sensitivity_identical": true,
+  "total_sensitivity_draws": 200,
+  "changed_fidelity_fields": [
+    "provenance"
+  ],
+  "fidelity_metrics": {
+    "straight": {
+      "maximum_intermediate_xy_error_m": 0.029693153856515424,
+      "maximum_xy_error_m": 0.029693153856515424,
+      "source_uniform_mean_intermediate_xy_error_m": 0.008764190259539836,
+      "source_uniform_mean_xy_error_m": 0.008454538197970853,
+      "source_uniform_rms_intermediate_xy_error_m": 0.011285007350235623,
+      "source_uniform_rms_xy_error_m": 0.011113478247558465
+    },
+    "v3": {
+      "maximum_intermediate_xy_error_m": 0.036177731760258874,
+      "maximum_xy_error_m": 0.036177731760258874,
+      "source_uniform_mean_intermediate_xy_error_m": 0.015670536020554623,
+      "source_uniform_mean_xy_error_m": 0.015149279052169664,
+      "source_uniform_rms_intermediate_xy_error_m": 0.01872295574721333,
+      "source_uniform_rms_xy_error_m": 0.018452561155429044
+    },
+    "v4": {
+      "maximum_intermediate_xy_error_m": 0.025551540586831914,
+      "maximum_xy_error_m": 0.025551540586831914,
+      "source_uniform_mean_intermediate_xy_error_m": 0.0109093359365701,
+      "source_uniform_mean_xy_error_m": 0.01052180585513871,
+      "source_uniform_rms_intermediate_xy_error_m": 0.013255825490108671,
+      "source_uniform_rms_xy_error_m": 0.013050579869589764
+    }
+  }
+}

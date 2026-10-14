@@ -1,0 +1,128 @@
+{
+  "clip_count": 6,
+  "all_case_metadata_identical": true,
+  "all_cases_successful": true,
+  "changed_demo_top_level_fields": [
+    "checkpoint_sha256",
+    "manifest_sha256"
+  ],
+  "clips": [
+    {
+      "case_index": 0,
+      "configuration_id": "G4_d0_a0_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_00.mp4",
+      "bytes": 699954,
+      "reported_frames": 228,
+      "decoded_frames": 228,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 228
+    },
+    {
+      "case_index": 16,
+      "configuration_id": "G4_d0_a4_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_16.mp4",
+      "bytes": 605702,
+      "reported_frames": 201,
+      "decoded_frames": 201,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 201
+    },
+    {
+      "case_index": 32,
+      "configuration_id": "G4_d1_a0_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_32.mp4",
+      "bytes": 647281,
+      "reported_frames": 218,
+      "decoded_frames": 218,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 218
+    },
+    {
+      "case_index": 48,
+      "configuration_id": "G4_d1_a4_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_48.mp4",
+      "bytes": 650598,
+      "reported_frames": 223,
+      "decoded_frames": 223,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 223
+    },
+    {
+      "case_index": 64,
+      "configuration_id": "G4_d2_a0_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_64.mp4",
+      "bytes": 878500,
+      "reported_frames": 269,
+      "decoded_frames": 269,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 269
+    },
+    {
+      "case_index": 80,
+      "configuration_id": "G4_d2_a4_p0",
+      "success": true,
+      "path": "outputs\\reproduced_v4_clean\\student_demo\\case_80.mp4",
+      "bytes": 740196,
+      "reported_frames": 243,
+      "decoded_frames": 243,
+      "fps": 20.0,
+      "frame_shapes": [
+        [
+          414,
+          960,
+          3
+        ]
+      ],
+      "expected_from_steps_and_terminal_hold": 243
+    }
+  ],
+  "concatenated_video": {
+    "path": "outputs\\reproduced_v4_clean\\student_demo.mp4",
+    "bytes": 4218277,
+    "reported_frames": 1382,
+    "decoded_frames": 1382,
+    "fps": 20.0,
+    "width": 960,
+    "height": 414
+  }
+}
