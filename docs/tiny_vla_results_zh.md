@@ -51,6 +51,6 @@ V6先冻结新种子20261028、96个场景及192次测试安排，再运行两�
 
 尚未验证手机真实RGB控制、新相机、遮挡、新物体、不同材质或实机。当前相机固定顶视且隐藏机器人几何，模型只看初始图像。下一步最有价值的是补真实图像感知和在线视觉反馈，并在有障碍或更小间隙的任务中检验曲线是否有用。
 
-申请者提供了任务、手机录像和物体尺寸；AI辅助分析、代码、实验和写作。这里保留贡献说明和真实失败，不虚构个人调试经历。本版仍是本地提交稿，尚未公开仓库或提交申请。
+申请者提供了任务、手机录像和物体尺寸；AI辅助分析、代码、实验和写作。这里保留贡献说明和真实失败，不虚构个人调试经历。代码、数据和实验记录已放入[公开仓库](https://github.com/MingxS-cs/phone-demo-ring-placement)，申请表尚未提交。
 
 [英文运行命令](../README.md)、[V6完整测试](../outputs/motion_ablation_v6_final/evaluation.json)、[V6对照细节](video_motion_ablation.md)、[V6复现范围](reproduction_motion_ablation.md)、[V5方法](tiny_vla_method.md)、[V5复现](reproduction_vla.md)和[AI贡献说明](AI_ASSISTANCE.md)。

@@ -64,4 +64,4 @@ Phone-image perception, ordinary robot-visible camera input, new objects/materia
 
 AI assisted annotation, code, experiments and writing; the applicant supplied the recording, dimensions and task choice. [Contribution details](docs/AI_ASSISTANCE.md).
 
-Code: MIT. Panda assets: Apache 2.0, [attribution](vendor/NOTICE.md). This remains a local submission draft for the [Humanoid intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221); public GitHub publication is deferred.
+Code: MIT. Panda assets: Apache 2.0, [attribution](vendor/NOTICE.md). Public repository: [MingxS-cs/phone-demo-ring-placement](https://github.com/MingxS-cs/phone-demo-ring-placement). This project is prepared for the [Humanoid intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221); the internship application has not been submitted.

@@ -10,7 +10,7 @@ Reference: [official Humanoid Robot Learning Research Intern challenge](https://
 | Run instructions | README commands and isolated-clone report | Included; tested scope recorded |
 | Example outputs | Source overlays, six preset V5 case videos, frozen checkpoint, all 264 V5 attempts; V6 adds 192 paired attempts, saved observations and preset actual-path plots. V4 and the failed initial V6 image control remain archived | Included |
 | Design choices, successes and failures | Finite-command VLA: 96/96 main, 0/96 black-image, 72/72 language (24 inside repeats). V6 both 96/96 with distinct executed paths and no success advantage for curvature; all 96 paired input/common-action checks pass. Two failed heads, V4 negative path result and first V6 image-control failure retained; camera and execution limits disclosed | Included |
-| Public GitHub repository | User chose MingxS-cs, then explicitly deferred publication and requested local version | Deferred by user |
+| Public GitHub repository | [MingxS-cs/phone-demo-ring-placement](https://github.com/MingxS-cs/phone-demo-ring-placement), published at the user's request on 2026-10-15 | Included |
 
 Hand-coded solutions are allowed; Libero, SmolVLA and VLA/world-model approaches are examples. No specific push-block task is mandated. Official acceptance or internship selection is not guaranteed. Creativity and research quality remain subjective review criteria.
 
