@@ -108,3 +108,17 @@ def test_lift_completion_uses_height_and_contact_not_cached_initial_xy():
         assert env.phase == 4
     finally:
         env.close()
+
+
+def test_schema2_observes_own_command_lag_and_teacher_lifts_vertically():
+    from ring_learning.teacher import teacher
+    env = RingEnv()
+    try:
+        env.reset()
+        env.command_xyz += [.001, -.002, .003]
+        np.testing.assert_allclose(env.observe()[15:18], env.command_xyz-env.tool_xyz, atol=1e-8)
+        env.phase = 3
+        env.grasp_xyz[:2] += [.01, .01]
+        np.testing.assert_allclose(teacher(env)[:2], [0, 0], atol=1e-8)
+    finally:
+        env.close()

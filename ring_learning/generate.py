@@ -9,6 +9,7 @@ import time
 import numpy as np
 
 from .dataset import make_configurations, split_episodes, validate_lineage, write_json
+from .integrity import environment_signature
 
 
 def run_controller(env, configuration, controller, max_steps=500, capture_every=0):
@@ -20,9 +21,10 @@ def run_controller(env, configuration, controller, max_steps=500, capture_every=
         action = np.asarray(controller(env, obs), dtype=np.float32)
         if action.shape != (4,) or not np.isfinite(action).all():
             raise ValueError("Controller returned invalid action")
+        action = np.clip(action, -1., 1.)
         observations.append(np.asarray(obs, dtype=np.float32).copy())
         actions.append(action.copy())
-        obs, done, info = env.step(np.clip(action, -1., 1.))
+        obs, done, info = env.step(action)
         if capture_every and step % capture_every == 0:
             images.append(env.render())
         if done:
@@ -32,7 +34,8 @@ def run_controller(env, configuration, controller, max_steps=500, capture_every=
             "images": images}
 
 
-def generate(data_path, output_dir, augment=16, seed=20261014, force=False):
+def generate(data_path, output_dir, augment=16, seed=20261014, force=False,
+             rotation_deg=30., translation=.010, configuration_seed=None, fresh_tests=False):
     from .sim import RingEnv
     from .teacher import teacher
 
@@ -45,15 +48,37 @@ def generate(data_path, output_dir, augment=16, seed=20261014, force=False):
     episodes = real["episodes"]
     splits = split_episodes(episodes, seed)
     counts = {"train": augment, "val": max(3, augment // 4), "test": 6, "ood_test": 6}
-    configurations = make_configurations(splits, counts, seed=seed)
+    configuration_seed = seed if configuration_seed is None else configuration_seed
+    configurations = make_configurations(splits, counts, seed=configuration_seed,
+                                        angle_limit=np.deg2rad(rotation_deg), translation_limit=translation)
+    if fresh_tests:
+        # Frozen before teacher generation and training. These are new simulated
+        # scenes descended only from held-out real sources, after V1 diagnostics.
+        rng = np.random.default_rng(982451653)
+        for split in ("test", "ood_test"):
+            for cfg in configurations[split]:
+                old_bearing = np.asarray(cfg["bearing_xy_m"])
+                delta = np.asarray(cfg["ring_xy_m"]) - old_bearing
+                new_bearing = rng.uniform([.40, -.10], [.52, .10])
+                cfg["bearing_xy_m"] = new_bearing.tolist()
+                cfg["ring_xy_m"] = (new_bearing + delta).tolist()
+                cfg["augmentation"]["fresh_test_target_bounds_m"] = [[.40, -.10], [.52, .10]]
+                cfg["augmentation"]["bearing_relocation_m"] = (new_bearing-old_bearing).tolist()
+                cfg["augmentation"]["identity"] = False
+                cfg["fresh_test_scene"] = True
     validate_lineage(configurations)
-    manifest = {"seed": seed, "source_counts": {s: len(e) for s, e in splits.items()},
+    manifest = {"seed": seed, "configuration_seed": configuration_seed,
+                "environment": environment_signature(),
+                "source_counts": {s: len(e) for s, e in splits.items()},
                 "configurations": configurations, "augmentation_bounds": {
-                    "rotation_deg": 30, "translation_m": .010, "reset_jitter_m": .001,
+                    "rotation_deg": rotation_deg, "translation_m": translation, "reset_jitter_m": .001,
                     "object_geometry_scale": 1.0},
                 "robot_label_source": "MuJoCo teacher using video-derived configurations",
                 "metric_mapping": "uncalibrated known-diameter approximation",
-                "evaluation_configurations_not_used_for_training": True}
+                "evaluation_configurations_not_used_for_training": True,
+                "protocol": "fresh_simulated_scenes_frozen_after_V1_diagnostics" if fresh_tests else "original_source_group_holdout",
+                "fresh_test_seed": 982451653 if fresh_tests else None,
+                "fresh_test_note": "New seeded simulated scenes; correlated descendants of original held-out sources, not independent new human recordings." if fresh_tests else None}
     write_json(manifest_path, manifest)
     env = RingEnv()
     start = time.monotonic()
@@ -95,8 +120,13 @@ def main():
     parser.add_argument("--augment", type=int, default=16)
     parser.add_argument("--seed", type=int, default=20261014)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--rotation", type=float, default=30.)
+    parser.add_argument("--translation", type=float, default=.010)
+    parser.add_argument("--configuration-seed", type=int)
+    parser.add_argument("--fresh-tests", action="store_true")
     args = parser.parse_args()
-    generate(args.data, args.output, args.augment, args.seed, args.force)
+    generate(args.data, args.output, args.augment, args.seed, args.force,
+             args.rotation, args.translation, args.configuration_seed, args.fresh_tests)
 
 
 if __name__ == "__main__":

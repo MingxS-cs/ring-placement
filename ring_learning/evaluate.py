@@ -12,6 +12,14 @@ import torch
 from .dataset import noisy_observation, validate_lineage, write_json
 from .generate import run_controller
 from .policy import Policy, load_checkpoint
+from .integrity import verify_binding, sha256_file
+
+
+def validate_evaluation_request(configurations, splits, limit):
+    if not splits or len(set(splits)) != len(splits) or any(s not in configurations for s in splits):
+        raise ValueError("Evaluation splits must be nonempty, unique and known")
+    if limit is not None and (isinstance(limit, bool) or not isinstance(limit, int) or limit <= 0):
+        raise ValueError("Evaluation limit must be a positive integer")
 
 
 def save_video(path, frames, fps=20):
@@ -43,8 +51,12 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
     output_dir.mkdir(parents=True, exist_ok=True)
     manifest = json.loads((dataset_dir/"configurations.json").read_text(encoding="utf-8"))
     configurations = manifest["configurations"]
+    validate_evaluation_request(configurations, splits, limit)
     validate_lineage(configurations)
     model, normalizer, metadata = load_checkpoint(checkpoint)
+    if "binding" not in metadata:
+        raise ValueError("Unbound legacy checkpoint; use its recorded V1 source revision or train a schema-bound model")
+    binding_check = verify_binding(metadata["binding"], dataset_dir/"configurations.json")
     torch.manual_seed(814)
     untrained = Policy(model.obs_size, model.hidden_size, model.feature_indices)
     trained_sources = set(metadata["training_sources"])
@@ -53,6 +65,7 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
     env = RingEnv()
     rows, summaries = [], {}
     rendered = False
+    video_case = None
     try:
         for split in splits:
             configs = configurations[split] if limit is None else configurations[split][:limit]
@@ -61,7 +74,15 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
                 controllers += ["zero_action", "untrained_mlp"]
             for controller_name in controllers:
                 # Negative controls use one identity configuration per source.
-                cases = configs if controller_name in ("student", "geometry") else [c for c in configs if c["augmentation"]["identity"]]
+                if controller_name in ("student", "geometry"):
+                    cases = configs
+                else:
+                    seen = set()
+                    cases = []
+                    for c in configs:
+                        if c["source_episode_id"] not in seen:
+                            cases.append(c)
+                            seen.add(c["source_episode_id"])
                 for i, cfg in enumerate(cases):
                     rng = np.random.default_rng(cfg["reset_seed"] + 97)
                     if controller_name == "student":
@@ -77,6 +98,9 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
                     if capture:
                         save_video(output_dir/"student_rollout.mp4", result["images"], fps=round(1/CONTROL_DT))
                         rendered = True
+                        video_case = {"configuration_id": cfg["configuration_id"], "split": split,
+                                      "source_episode_id": cfg["source_episode_id"],
+                                      "success": result["success"], "steps": result["steps"]}
                     row = {"controller": controller_name, "split": split,
                            "configuration_id": cfg["configuration_id"], "source_episode_id": cfg["source_episode_id"],
                            "success": result["success"], "steps": result["steps"], "info": result["info"],
@@ -102,6 +126,9 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
         env.close()
         write_json(output_dir/"rollouts.json", rows)
     report = {"checkpoint": str(checkpoint), "training_metadata": metadata, "summaries": summaries,
+              "checkpoint_sha256": sha256_file(checkpoint), "binding_verification": binding_check,
+              "protocol": manifest.get("protocol"),
+              "video_case": video_case,
               "no_teacher_actions_or_rescue_in_student_rollouts": True,
               "success_criteria": {"full_projection_inside_hole": True, "containment_margin_m": .0003,
                   "max_tilt_deg": 8, "table_height_tolerance_m": .0015,
@@ -116,9 +143,9 @@ def evaluate(dataset_dir, checkpoint, output_dir, splits=("test", "ood_test"), n
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dataset", default="outputs/dataset")
-    parser.add_argument("--checkpoint", default="outputs/model/policy.pt")
-    parser.add_argument("--output", default="outputs/evaluation")
+    parser.add_argument("--dataset", default="outputs/dataset_dagger")
+    parser.add_argument("--checkpoint", default="outputs/model_dagger/policy.pt")
+    parser.add_argument("--output", default="outputs/evaluation_final")
     parser.add_argument("--split", nargs="+", default=["test", "ood_test"])
     parser.add_argument("--noise", type=float, default=0.)
     parser.add_argument("--no-baselines", action="store_true")

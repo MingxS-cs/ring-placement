@@ -1,3 +1,4 @@
+import ast
 import copy
 import hashlib
 import json
@@ -29,6 +30,14 @@ def arrays(split="train", source="E01"):
     }
 
 
+def test_normalized_action_labels_reject_out_of_range_values():
+    from ring_learning.integrity import validate_split_arrays
+    rows = arrays()
+    rows["actions"][0, 0] = 1.25
+    with pytest.raises(ValueError, match="normalized"):
+        validate_split_arrays(manifest(), "train", rows)
+
+
 def test_split_rows_must_match_manifest_configuration_source_pairs():
     from ring_learning.integrity import validate_split_arrays
 
@@ -42,7 +51,8 @@ def test_split_rows_must_match_manifest_configuration_source_pairs():
 
 
 @pytest.mark.parametrize("first,second", [("train", "val"), ("train", "test"),
-                                           ("val", "test"), ("test", "ood_test")])
+                                           ("train", "ood_test"), ("val", "test"),
+                                           ("val", "ood_test"), ("test", "ood_test")])
 def test_manifest_rejects_source_leakage_between_every_split_pair(first, second):
     from ring_learning.integrity import validate_split_arrays
 
@@ -135,11 +145,37 @@ def test_environment_signature_hashes_normalized_sources_and_schema():
         source = (root / f"{name}.py").read_text(encoding="utf-8-sig")
         normalized = source.replace("\r\n", "\n").replace("\r", "\n")
         assert signature[f"{name}_sha256"] == hashlib.sha256(normalized.encode("utf-8")).hexdigest()
-    assert signature["schema_version"] == 1
+    sim_ast = ast.parse((root / "sim.py").read_text(encoding="utf-8-sig"))
+    schema_assignments = [node for node in sim_ast.body if isinstance(node, ast.Assign)
+                          and any(isinstance(target, ast.Name) and target.id == "OBS_SCHEMA_VERSION"
+                                  for target in node.targets)]
+    expected_schema = ast.literal_eval(schema_assignments[0].value) if schema_assignments else 1
+    assert signature["schema_version"] == expected_schema
     assert signature["obs_size"] == 30
     assert signature["action_size"] == 4
     assert signature["action_scale"] == 0.003
     assert signature["control_dt"] == 0.05
+
+
+@pytest.mark.parametrize("schema", [None, 2])
+def test_signature_derives_observation_schema_version_without_importing_source(tmp_path, monkeypatch, schema):
+    from ring_learning import integrity
+
+    sim_source = "OBS_SIZE = 30\nACTION_SIZE = 4\nACTION_SCALE = .003\nCONTROL_DT = .05\n"
+    if schema is not None:
+        sim_source += f"OBS_SCHEMA_VERSION = {schema}\n"
+    sim_source += "raise RuntimeError('source must not be imported')\n"
+    (tmp_path / "sim.py").write_bytes(b"\xef\xbb\xbf" + sim_source.replace("\n", "\r\n").encode("utf-8"))
+    (tmp_path / "teacher.py").write_text("raise RuntimeError('source must not be imported')\n", encoding="utf-8")
+    monkeypatch.setattr(integrity, "_SOURCE_ROOT", tmp_path)
+    signature = integrity.environment_signature()
+    assert signature["schema_version"] == (1 if schema is None else schema)
+    assert signature["sim_sha256"] == hashlib.sha256(sim_source.encode("utf-8")).hexdigest()
+    manifest_path = tmp_path / "manifest.json"
+    manifest_path.write_text("{}", encoding="utf-8")
+    binding = integrity.binding_for_manifest(manifest_path)
+    assert binding["schema_version"] == signature["schema_version"]
+    assert integrity.verify_binding(binding, manifest_path)["environment_changed"] is False
 
 
 def test_signature_does_not_import_mujoco_or_construct_environment():
@@ -155,7 +191,7 @@ def test_binding_round_trip_is_verified(tmp_path):
     path = tmp_path / "manifest.json"
     path.write_text(json.dumps(manifest()), encoding="utf-8")
     binding = binding_for_manifest(path)
-    assert binding["schema_version"] == 1
+    assert binding["schema_version"] == binding["environment"]["schema_version"]
     assert binding["manifest_sha256"] == sha256_file(path)
     verified = verify_binding(binding, path)
     assert verified["environment_changed"] is False
@@ -202,7 +238,7 @@ def test_binding_records_explicit_environment_override_without_mutating_saved_bi
     assert binding == original
 
 
-@pytest.mark.parametrize("key,new_value", [("schema_version", 2), ("obs_size", 29), ("action_size", 3)])
+@pytest.mark.parametrize("key,new_value", [("schema_version", 999), ("obs_size", 29), ("action_size", 3)])
 def test_binding_cannot_override_schema_incompatibility(tmp_path, key, new_value):
     from ring_learning.integrity import binding_for_manifest, verify_binding
 

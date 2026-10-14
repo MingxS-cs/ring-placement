@@ -66,14 +66,17 @@ def augment_episode(episode: dict, rng: np.random.Generator, split: str,
 
 
 def make_configurations(splits: dict, counts: dict[str, int], seed: int = 20261014,
-                        angle_limit: float = np.pi / 6) -> dict[str, list[dict]]:
+                        angle_limit: float = np.pi / 6, translation_limit: float = .010,
+                        start_jitter: float = .001) -> dict[str, list[dict]]:
     result = {}
     for split, episodes in splits.items():
         rng = np.random.default_rng(np.random.SeedSequence([seed, list(splits).index(split)]))
         configs = []
         for ep in episodes:
             for i in range(counts.get(split, 1)):
-                child = augment_episode(ep, rng, split, angle_limit=angle_limit, identity=i == 0)
+                child = augment_episode(ep, rng, split, angle_limit=angle_limit,
+                                        translation_limit=translation_limit, start_jitter=start_jitter,
+                                        identity=i == 0)
                 child["configuration_id"] = f"{ep['episode_id']}_{split}_{i:03d}"
                 child["reset_seed"] = int(rng.integers(0, 2**31 - 1))
                 configs.append(child)
@@ -98,11 +101,14 @@ def noisy_observation(observation, rng: np.random.Generator, std: float = .0002)
     obs = np.array(observation, dtype=np.float32, copy=True)
     if obs.shape != (30,):
         raise ValueError("Expected the documented 30-element simulator observation")
-    if std < 0:
-        raise ValueError("Noise standard deviation must be nonnegative")
-    obs[:9] += rng.normal(0, std, 9).astype(np.float32)
+    if not np.isfinite(std) or std < 0:
+        raise ValueError("Noise standard deviation must be finite and nonnegative")
+    command = obs[:3] + obs[15:18]
+    perturbation = np.clip(rng.normal(0, std, 9), -3*std, 3*std).astype(np.float32)
+    obs[:9] += perturbation
     obs[9:12] = obs[3:6] - obs[0:3]
     obs[12:15] = obs[6:9] - obs[3:6]
+    obs[15:18] = command - obs[:3]
     return obs
 
 

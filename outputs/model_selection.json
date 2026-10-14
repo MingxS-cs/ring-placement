@@ -1,0 +1,12 @@
+{
+  "selected_checkpoint": "outputs\\model_dagger\\policy.pt",
+  "checkpoint_sha256": "a01af2311f2f88a82c45946e38c01549dde26f96a57296a43bdfa4ff59d93773",
+  "selection_uses": "V2 validation only",
+  "frozen_before_fresh_test": true,
+  "BC_V2_validation_successes": 24,
+  "DAgger_validation_successes": 24,
+  "validation_episodes": 24,
+  "BC_V2_validation_loss": 0.0002880418614950031,
+  "DAgger_validation_loss": 0.00015157611051108688,
+  "initial_V1_test_diagnostics_informed_V2": true
+}

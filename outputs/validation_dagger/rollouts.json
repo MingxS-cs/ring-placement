@@ -1,0 +1,698 @@
+[
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_000",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.44888077845402047,
+        0.0745230294523584,
+        0.10349944281381566
+      ],
+      "tool_xyz": [
+        0.44905599932877693,
+        0.08538897865170621,
+        0.19271329602202478
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_001",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 216,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 216,
+      "ring_xyz": [
+        0.48941799626232163,
+        0.07921061245439362,
+        0.10349944281381511
+      ],
+      "tool_xyz": [
+        0.48960856493237565,
+        0.090086053552943,
+        0.19272370071608885
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_002",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 198,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 198,
+      "ring_xyz": [
+        0.47204451725275576,
+        0.06537736076802962,
+        0.10349944281381379
+      ],
+      "tool_xyz": [
+        0.4722240899466815,
+        0.07619740181652639,
+        0.19271799284292246
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_003",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 225,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 225,
+      "ring_xyz": [
+        0.47382434379495847,
+        0.053598775623643256,
+        0.10349944281381411
+      ],
+      "tool_xyz": [
+        0.4739919612375395,
+        0.06444941647569355,
+        0.19271815989038793
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_004",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 210,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 210,
+      "ring_xyz": [
+        0.3750485574137881,
+        -0.0006541173241258151,
+        0.10349944281381539
+      ],
+      "tool_xyz": [
+        0.37518788737101777,
+        0.010122023860893812,
+        0.1926858313745261
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_005",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 225,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 225,
+      "ring_xyz": [
+        0.47531504680475123,
+        0.10566623527553849,
+        0.10349944281381515
+      ],
+      "tool_xyz": [
+        0.47548798273325965,
+        0.1165016064606172,
+        0.19271973756642352
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_006",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4234517590457957,
+        0.07046992265492975,
+        0.10349944281381439
+      ],
+      "tool_xyz": [
+        0.42362768164103304,
+        0.0813455594506059,
+        0.1927059991804578
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E12_val_007",
+    "source_episode_id": "E12",
+    "success": true,
+    "steps": 214,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 214,
+      "ring_xyz": [
+        0.44129368352323095,
+        0.06412692860320628,
+        0.10349944281381543
+      ],
+      "tool_xyz": [
+        0.44143089612552244,
+        0.0749903780687454,
+        0.1927094891283535
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_000",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.42980603301698633,
+        -0.0023040167126583185,
+        0.10349944281381397
+      ],
+      "tool_xyz": [
+        0.42998703119814186,
+        0.008489307048351125,
+        0.19270565392304245
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_001",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.3815750574102051,
+        0.016410576495396928,
+        0.10349944281381737
+      ],
+      "tool_xyz": [
+        0.3817330459877443,
+        0.027260525860158872,
+        0.192689249502351
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_002",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.47332789096153566,
+        -0.08072578450464614,
+        0.10349944281381407
+      ],
+      "tool_xyz": [
+        0.4735220875561971,
+        -0.06994559289243375,
+        0.19271709230578493
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_003",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 181,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 181,
+      "ring_xyz": [
+        0.5080018757052647,
+        -0.0017341423100378976,
+        0.10349944281381544
+      ],
+      "tool_xyz": [
+        0.5081654039737817,
+        0.009087631171362378,
+        0.19272817492582103
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_004",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 198,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 198,
+      "ring_xyz": [
+        0.384696650944193,
+        -0.05025987384492674,
+        0.10349944281381293
+      ],
+      "tool_xyz": [
+        0.3849754254825703,
+        -0.03857571362147861,
+        0.19269522267341854
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_005",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.3644859351708985,
+        0.011593627207405815,
+        0.10349944281381479
+      ],
+      "tool_xyz": [
+        0.36467016937399543,
+        0.022401966468151537,
+        0.19268585856524756
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_006",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 179,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 179,
+      "ring_xyz": [
+        0.3718592147264963,
+        0.07261096255833822,
+        0.10349944281381429
+      ],
+      "tool_xyz": [
+        0.37204698515039153,
+        0.08345493729801953,
+        0.1926874682308711
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E05_val_007",
+    "source_episode_id": "E05",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.46902984746929693,
+        -0.024714014375638062,
+        0.1034994428138167
+      ],
+      "tool_xyz": [
+        0.4694638953159739,
+        -0.010998333129861546,
+        0.19274338750986045
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_000",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.4316042693114111,
+        0.0007254250233118623,
+        0.10349944281381633
+      ],
+      "tool_xyz": [
+        0.4317473715893457,
+        0.01153361342496263,
+        0.19270531919579076
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_001",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 203,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 203,
+      "ring_xyz": [
+        0.4691670735626776,
+        -0.0002706359393805245,
+        0.10349944281381526
+      ],
+      "tool_xyz": [
+        0.46934695140566435,
+        0.010520096511233505,
+        0.19271641030940445
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_002",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.46717948670256054,
+        0.00010249235952344626,
+        0.10349944281381371
+      ],
+      "tool_xyz": [
+        0.4673574329294805,
+        0.010931762660275759,
+        0.1927150386014112
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_003",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 201,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 201,
+      "ring_xyz": [
+        0.4298220473232656,
+        0.054312295889054105,
+        0.10349944281381444
+      ],
+      "tool_xyz": [
+        0.43001168150859026,
+        0.06515836654856957,
+        0.1927052187508278
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_004",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.4922540548589483,
+        -0.07174079766156183,
+        0.10349944281381504
+      ],
+      "tool_xyz": [
+        0.4924015048219351,
+        -0.06096513837551381,
+        0.19272249675204592
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_005",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.365457067227374,
+        0.052446203777374474,
+        0.10349944281381433
+      ],
+      "tool_xyz": [
+        0.36562221288834895,
+        0.06331950750301227,
+        0.19268675764143295
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_006",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.47216068780517867,
+        0.04598219939513618,
+        0.10349944281381368
+      ],
+      "tool_xyz": [
+        0.4723321776985325,
+        0.056792210517688915,
+        0.19271640718408162
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  },
+  {
+    "controller": "student",
+    "split": "val",
+    "configuration_id": "E11_val_007",
+    "source_episode_id": "E11",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4868589857615185,
+        -0.07396347672112313,
+        0.10349944281381206
+      ],
+      "tool_xyz": [
+        0.48700883019449637,
+        -0.06318806911624232,
+        0.19272152026026917
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  }
+]

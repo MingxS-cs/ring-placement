@@ -14,6 +14,7 @@ import numpy as np
 
 PHASES = ("approach", "descend", "grasp", "lift", "transfer", "lower", "release", "retract")
 OBS_SIZE = 30
+OBS_SCHEMA_VERSION = 2
 ACTION_SIZE = 4
 ACTION_SCALE = 0.003
 CONTROL_DT = 0.05
@@ -94,7 +95,9 @@ class RingEnv:
     """Normalized xyz delta + gripper action; fixed downward Cartesian tool.
 
     Observation order: tool/ring/bearing xyz, ring-tool xyz, bearing-ring xyz,
-    tool velocity xyz, ring velocity xyz, half-opening, eight phase indicators.
+    integrated command minus tool xyz, ring velocity xyz, half-opening, eight
+    phase indicators. The command is the student's own servo setpoint, not a
+    teacher waypoint. Schema2 distinguishes setpoint lag from physical position.
     SI units, float32, length30. No teacher waypoint is present in observations.
     """
     table_z = 0.10
@@ -222,12 +225,11 @@ class RingEnv:
 
     def observe(self):
         tool, ring, bearing = self.tool_xyz, self.ring_xyz, self.bearing_xyz
-        mujoco.mj_jacSite(self.model, self.data, self._jacp, self._jacr, self.tool_site_id)
-        tool_velocity = self._jacp @ self.data.qvel
+        command_lag = self.command_xyz - tool
         ring_velocity = self.data.qvel[self.ring_dof_adr:self.ring_dof_adr+3]
         phase = np.zeros(len(PHASES)); phase[self.phase] = 1
         return np.r_[tool, ring, bearing, ring-tool, bearing-ring,
-                     tool_velocity, ring_velocity, self.finger_opening, phase].astype(np.float32)
+                     command_lag, ring_velocity, self.finger_opening, phase].astype(np.float32)
 
     def _placement_valid(self):
         ring, bearing = self.ring_xyz, self.bearing_xyz

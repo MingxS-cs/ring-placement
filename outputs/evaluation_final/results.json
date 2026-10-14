@@ -1,0 +1,1772 @@
+{
+  "checkpoint": "outputs/model_dagger/policy.pt",
+  "training_metadata": {
+    "seed": 20261014,
+    "device": "cpu",
+    "parameter_count": 19844,
+    "training_samples": 96704,
+    "validation_samples": 4714,
+    "training_sources": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "validation_sources": [
+      "E05",
+      "E11",
+      "E12"
+    ],
+    "best_epoch": 149,
+    "best_validation_loss": 0.00015157611051108688,
+    "observation_noise_std_m": 0.0002,
+    "feature_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "observation_noise_absolute_bound_m": 0.0006000000000000001,
+    "architecture": "21->128->128->4 tanh",
+    "duration_s": 107.65600000001723,
+    "label_source": "synthetic_robot_teacher_actions_from_video_derived_scene_configs",
+    "no_test_data_used_for_model_selection": true,
+    "binding": {
+      "schema_version": 2,
+      "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+      "environment": {
+        "schema_version": 2,
+        "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+        "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+        "obs_size": 30,
+        "action_size": 4,
+        "action_scale": 0.003,
+        "control_dt": 0.05
+      }
+    },
+    "training_array_sha256": "d649476cdad3939c29315c8bd96ccef6bd78a873364e38ffedb58ff84c71fc85",
+    "validation_array_sha256": "2f66f3061e3ff24d401e7f8d2b1464d244e1dba116951b8ee197570fc50279d9",
+    "protocol": "fresh_simulated_scenes_frozen_after_V1_diagnostics",
+    "validation_phase_metrics": {
+      "0": {
+        "samples": 938,
+        "cartesian_normalized_mae": 0.006665469147264957,
+        "gripper_sign_accuracy": 1.0
+      },
+      "1": {
+        "samples": 576,
+        "cartesian_normalized_mae": 0.004610305652022362,
+        "gripper_sign_accuracy": 1.0
+      },
+      "2": {
+        "samples": 480,
+        "cartesian_normalized_mae": 0.005186120513826609,
+        "gripper_sign_accuracy": 1.0
+      },
+      "3": {
+        "samples": 528,
+        "cartesian_normalized_mae": 0.004117997828871012,
+        "gripper_sign_accuracy": 1.0
+      },
+      "4": {
+        "samples": 608,
+        "cartesian_normalized_mae": 0.012286290526390076,
+        "gripper_sign_accuracy": 1.0
+      },
+      "5": {
+        "samples": 528,
+        "cartesian_normalized_mae": 0.0042970385402441025,
+        "gripper_sign_accuracy": 1.0
+      },
+      "6": {
+        "samples": 288,
+        "cartesian_normalized_mae": 0.004339315928518772,
+        "gripper_sign_accuracy": 1.0
+      },
+      "7": {
+        "samples": 768,
+        "cartesian_normalized_mae": 0.0034999512135982513,
+        "gripper_sign_accuracy": 1.0
+      }
+    },
+    "validation_near_target_normalized_mae": 0.007303342223167419,
+    "initialized_checkpoint": "outputs/model_v2/policy.pt",
+    "initialized_checkpoint_sha256": "d129c3d7df59887d086056604457d743fc1fcb3adeb62d86f604fbcbf546e8eb",
+    "dagger_collection": {
+      "algorithm": "train_only_DAgger",
+      "source_dataset": "D:\\model\\ring_bearing_20261014\\robot_learning\\outputs\\dataset_v2",
+      "baseline_checkpoint": "D:\\model\\ring_bearing_20261014\\robot_learning\\outputs\\model_v2\\policy.pt",
+      "baseline_checkpoint_sha256": "d129c3d7df59887d086056604457d743fc1fcb3adeb62d86f604fbcbf546e8eb",
+      "binding_verification": {
+        "current_binding": {
+          "schema_version": 2,
+          "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+          "environment": {
+            "schema_version": 2,
+            "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+            "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+            "obs_size": 30,
+            "action_size": 4,
+            "action_scale": 0.003,
+            "control_dt": 0.05
+          }
+        },
+        "saved_environment": {
+          "schema_version": 2,
+          "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+          "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+          "obs_size": 30,
+          "action_size": 4,
+          "action_scale": 0.003,
+          "control_dt": 0.05
+        },
+        "environment_changed": false,
+        "environment_change_allowed": false
+      },
+      "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+      "validation_npz_sha256": "2f66f3061e3ff24d401e7f8d2b1464d244e1dba116951b8ee197570fc50279d9",
+      "original_training_npz_sha256": "5ad9163f92a789c58483476b03ab6089f417b02387678763d9d8ac29cd9286f6",
+      "per_source": 4,
+      "beta": 0.25,
+      "seed": 20261016,
+      "observation_noise_std_m": 0.0002,
+      "source_episode_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E06",
+        "E07",
+        "E09",
+        "E13",
+        "E14",
+        "E15",
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "original_train_rows": 85691,
+      "correction_row_count": 11013,
+      "combined_train_rows": 96704,
+      "teacher_interventions": 2665,
+      "student_steps": 8348,
+      "all_label_states_train_only": true,
+      "teacher_labels_at_every_visited_state": true,
+      "manifest_and_validation_bytes_preserved": true,
+      "held_out_rollouts_used_for_collection": false,
+      "rollouts": [
+        {
+          "configuration_id": "E01_train_000",
+          "source_episode_id": "E01",
+          "split": "train",
+          "success": true,
+          "steps": 193,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 193,
+            "ring_xyz": [
+              0.43054964133543994,
+              -0.0033463597820031486,
+              0.10349944281381551
+            ],
+            "tool_xyz": [
+              0.43057881793290737,
+              0.007954366685622986,
+              0.19269399168252907
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 50,
+          "student_steps": 143
+        },
+        {
+          "configuration_id": "E01_train_021",
+          "source_episode_id": "E01",
+          "split": "train",
+          "success": true,
+          "steps": 199,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 199,
+            "ring_xyz": [
+              0.4554412958086661,
+              0.04253708480807792,
+              0.103499442813816
+            ],
+            "tool_xyz": [
+              0.4556300219225128,
+              0.05382374747069443,
+              0.19265294295480134
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 45,
+          "student_steps": 154
+        },
+        {
+          "configuration_id": "E01_train_013",
+          "source_episode_id": "E01",
+          "split": "train",
+          "success": true,
+          "steps": 209,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 209,
+            "ring_xyz": [
+              0.4014210627422382,
+              -0.07258606516353396,
+              0.10349944281381497
+            ],
+            "tool_xyz": [
+              0.40162343062505035,
+              -0.06136281395367813,
+              0.19264929836306727
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 44,
+          "student_steps": 165
+        },
+        {
+          "configuration_id": "E01_train_011",
+          "source_episode_id": "E01",
+          "split": "train",
+          "success": true,
+          "steps": 220,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 220,
+            "ring_xyz": [
+              0.36374203066307065,
+              -0.028110978318245345,
+              0.10349944281381564
+            ],
+            "tool_xyz": [
+              0.363833785616288,
+              -0.016804287267390722,
+              0.19264282039730274
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 52,
+          "student_steps": 168
+        },
+        {
+          "configuration_id": "E02_train_000",
+          "source_episode_id": "E02",
+          "split": "train",
+          "success": true,
+          "steps": 195,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 195,
+            "ring_xyz": [
+              0.42985254435465753,
+              -0.002734903101964814,
+              0.10349944281381557
+            ],
+            "tool_xyz": [
+              0.43005153681644576,
+              0.00851525030197651,
+              0.19270765188897437
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 54,
+          "student_steps": 141
+        },
+        {
+          "configuration_id": "E02_train_016",
+          "source_episode_id": "E02",
+          "split": "train",
+          "success": true,
+          "steps": 221,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 221,
+            "ring_xyz": [
+              0.40789836570476085,
+              0.033071177965912094,
+              0.10349944281381589
+            ],
+            "tool_xyz": [
+              0.40805904644936813,
+              0.04445538458048843,
+              0.19267893173287648
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 49,
+          "student_steps": 172
+        },
+        {
+          "configuration_id": "E02_train_023",
+          "source_episode_id": "E02",
+          "split": "train",
+          "success": true,
+          "steps": 201,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 201,
+            "ring_xyz": [
+              0.4195826593412407,
+              0.029934826031095152,
+              0.10349944281381364
+            ],
+            "tool_xyz": [
+              0.4197609242787866,
+              0.04127666315103332,
+              0.19259401314939117
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 43,
+          "student_steps": 158
+        },
+        {
+          "configuration_id": "E02_train_019",
+          "source_episode_id": "E02",
+          "split": "train",
+          "success": true,
+          "steps": 195,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 195,
+            "ring_xyz": [
+              0.38303676212181226,
+              -0.059100987832004,
+              0.10349944281381539
+            ],
+            "tool_xyz": [
+              0.3832133982919258,
+              -0.047916122063848605,
+              0.1926464263951298
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 43,
+          "student_steps": 152
+        },
+        {
+          "configuration_id": "E03_train_000",
+          "source_episode_id": "E03",
+          "split": "train",
+          "success": true,
+          "steps": 197,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 197,
+            "ring_xyz": [
+              0.42949597671271733,
+              -0.002534209577304971,
+              0.10349944281381361
+            ],
+            "tool_xyz": [
+              0.42977696698793616,
+              0.008719993954829076,
+              0.1926078745289625
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 48,
+          "student_steps": 149
+        },
+        {
+          "configuration_id": "E03_train_008",
+          "source_episode_id": "E03",
+          "split": "train",
+          "success": true,
+          "steps": 198,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 198,
+            "ring_xyz": [
+              0.42791402407957524,
+              -0.031654723382016164,
+              0.10349944281381303
+            ],
+            "tool_xyz": [
+              0.42804393276910524,
+              -0.020349313957794588,
+              0.19256482257139912
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 52,
+          "student_steps": 146
+        },
+        {
+          "configuration_id": "E03_train_018",
+          "source_episode_id": "E03",
+          "split": "train",
+          "success": true,
+          "steps": 210,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 210,
+            "ring_xyz": [
+              0.37396738701185017,
+              -0.024447711874311526,
+              0.10349944281367919
+            ],
+            "tool_xyz": [
+              0.37411422797484284,
+              -0.013064322703756398,
+              0.19259779711272207
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 43,
+          "student_steps": 167
+        },
+        {
+          "configuration_id": "E03_train_028",
+          "source_episode_id": "E03",
+          "split": "train",
+          "success": true,
+          "steps": 224,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 224,
+            "ring_xyz": [
+              0.4068436097917932,
+              0.015025295929889685,
+              0.10349944281381424
+            ],
+            "tool_xyz": [
+              0.40694930505965055,
+              0.026387089965295762,
+              0.19264315966385032
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 62,
+          "student_steps": 162
+        },
+        {
+          "configuration_id": "E04_train_000",
+          "source_episode_id": "E04",
+          "split": "train",
+          "success": true,
+          "steps": 192,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 192,
+            "ring_xyz": [
+              0.4297646881927328,
+              -0.002529260542583091,
+              0.10349944281381451
+            ],
+            "tool_xyz": [
+              0.4299481183876345,
+              0.008698081127121145,
+              0.19281878230258154
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 50,
+          "student_steps": 142
+        },
+        {
+          "configuration_id": "E04_train_022",
+          "source_episode_id": "E04",
+          "split": "train",
+          "success": true,
+          "steps": 209,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 209,
+            "ring_xyz": [
+              0.3606725846925041,
+              -0.06721311447007243,
+              0.10349944281381508
+            ],
+            "tool_xyz": [
+              0.3608919078659952,
+              -0.05606111100971381,
+              0.19269192740530017
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 55,
+          "student_steps": 154
+        },
+        {
+          "configuration_id": "E04_train_004",
+          "source_episode_id": "E04",
+          "split": "train",
+          "success": true,
+          "steps": 203,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 203,
+            "ring_xyz": [
+              0.47756695885169553,
+              -0.07597695261031807,
+              0.10349944281381467
+            ],
+            "tool_xyz": [
+              0.47760768137768567,
+              -0.06463558313058322,
+              0.19269618018565265
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 45,
+          "student_steps": 158
+        },
+        {
+          "configuration_id": "E04_train_016",
+          "source_episode_id": "E04",
+          "split": "train",
+          "success": true,
+          "steps": 202,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 202,
+            "ring_xyz": [
+              0.4219279163614631,
+              -0.07057604996772411,
+              0.10349944281381342
+            ],
+            "tool_xyz": [
+              0.4221248629738664,
+              -0.059308825857267884,
+              0.1925658390871659
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 40,
+          "student_steps": 162
+        },
+        {
+          "configuration_id": "E06_train_000",
+          "source_episode_id": "E06",
+          "split": "train",
+          "success": true,
+          "steps": 182,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 182,
+            "ring_xyz": [
+              0.430149456342276,
+              -0.003455510380835484,
+              0.10349944281381526
+            ],
+            "tool_xyz": [
+              0.43029624494521923,
+              0.007840160008201959,
+              0.19279254958750291
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 40,
+          "student_steps": 142
+        },
+        {
+          "configuration_id": "E06_train_002",
+          "source_episode_id": "E06",
+          "split": "train",
+          "success": true,
+          "steps": 183,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 183,
+            "ring_xyz": [
+              0.47763406031645944,
+              -0.0070632234198553315,
+              0.10349944281381318
+            ],
+            "tool_xyz": [
+              0.47789891568270965,
+              0.004197332153337524,
+              0.19265982382463911
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 42,
+          "student_steps": 141
+        },
+        {
+          "configuration_id": "E06_train_004",
+          "source_episode_id": "E06",
+          "split": "train",
+          "success": true,
+          "steps": 180,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 180,
+            "ring_xyz": [
+              0.4738912061732126,
+              0.0061502197976670715,
+              0.10349944281382054
+            ],
+            "tool_xyz": [
+              0.4741951765976745,
+              0.01742058642454242,
+              0.19265658368302124
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 32,
+          "student_steps": 148
+        },
+        {
+          "configuration_id": "E06_train_026",
+          "source_episode_id": "E06",
+          "split": "train",
+          "success": true,
+          "steps": 185,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 185,
+            "ring_xyz": [
+              0.39932228345868653,
+              -0.03657325430364476,
+              0.10349944281381651
+            ],
+            "tool_xyz": [
+              0.3994023662008074,
+              -0.022665807238531097,
+              0.19264007735649336
+            ],
+            "settled_for": 2.1000000000000005,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 41,
+          "student_steps": 144
+        },
+        {
+          "configuration_id": "E07_train_000",
+          "source_episode_id": "E07",
+          "split": "train",
+          "success": true,
+          "steps": 188,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 188,
+            "ring_xyz": [
+              0.42929656000914723,
+              -0.0021929199671965986,
+              0.10349944281381358
+            ],
+            "tool_xyz": [
+              0.4295246115331996,
+              0.009025018598596144,
+              0.19264774320799055
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 47,
+          "student_steps": 141
+        },
+        {
+          "configuration_id": "E07_train_025",
+          "source_episode_id": "E07",
+          "split": "train",
+          "success": true,
+          "steps": 185,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 185,
+            "ring_xyz": [
+              0.42570847431081055,
+              -0.036799866790258956,
+              0.10349944281381449
+            ],
+            "tool_xyz": [
+              0.4259122433766458,
+              -0.02557624628913697,
+              0.19268929141267194
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 42,
+          "student_steps": 143
+        },
+        {
+          "configuration_id": "E07_train_005",
+          "source_episode_id": "E07",
+          "split": "train",
+          "success": true,
+          "steps": 202,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 202,
+            "ring_xyz": [
+              0.4199422241290278,
+              0.07651610127313442,
+              0.10349944281381468
+            ],
+            "tool_xyz": [
+              0.4201993994720602,
+              0.08782849317161025,
+              0.19277988614823735
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 50,
+          "student_steps": 152
+        },
+        {
+          "configuration_id": "E07_train_001",
+          "source_episode_id": "E07",
+          "split": "train",
+          "success": true,
+          "steps": 186,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 186,
+            "ring_xyz": [
+              0.3953363845687733,
+              -0.0182420622596247,
+              0.10349944281381361
+            ],
+            "tool_xyz": [
+              0.39551730262357987,
+              -0.004486571602959288,
+              0.1926050616378549
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 55,
+          "student_steps": 131
+        },
+        {
+          "configuration_id": "E09_train_000",
+          "source_episode_id": "E09",
+          "split": "train",
+          "success": true,
+          "steps": 184,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 184,
+            "ring_xyz": [
+              0.4294067442502066,
+              -0.0022197628219481885,
+              0.10349944281390089
+            ],
+            "tool_xyz": [
+              0.4295659781772037,
+              0.009136305955465144,
+              0.19250970005305518
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 42,
+          "student_steps": 142
+        },
+        {
+          "configuration_id": "E09_train_029",
+          "source_episode_id": "E09",
+          "split": "train",
+          "success": true,
+          "steps": 185,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 185,
+            "ring_xyz": [
+              0.38910807915741463,
+              0.007552519193676541,
+              0.10349944281387133
+            ],
+            "tool_xyz": [
+              0.38926145833245174,
+              0.018755072264981913,
+              0.1925988491519599
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 43,
+          "student_steps": 142
+        },
+        {
+          "configuration_id": "E09_train_008",
+          "source_episode_id": "E09",
+          "split": "train",
+          "success": true,
+          "steps": 184,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 184,
+            "ring_xyz": [
+              0.4117656232288793,
+              0.06430520396976394,
+              0.10349944281381357
+            ],
+            "tool_xyz": [
+              0.4118650127604508,
+              0.07559949185250754,
+              0.19268497689039818
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 40,
+          "student_steps": 144
+        },
+        {
+          "configuration_id": "E09_train_017",
+          "source_episode_id": "E09",
+          "split": "train",
+          "success": true,
+          "steps": 190,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 190,
+            "ring_xyz": [
+              0.4190842821921505,
+              -0.005679854452780874,
+              0.10349944281381285
+            ],
+            "tool_xyz": [
+              0.4193278094286838,
+              0.005512030459050103,
+              0.19265521993201884
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 51,
+          "student_steps": 139
+        },
+        {
+          "configuration_id": "E13_train_000",
+          "source_episode_id": "E13",
+          "split": "train",
+          "success": true,
+          "steps": 198,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 198,
+            "ring_xyz": [
+              0.44923564206495514,
+              0.0738964102852689,
+              0.10349944281381483
+            ],
+            "tool_xyz": [
+              0.44935606311646153,
+              0.08519377339325526,
+              0.19268174768887322
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 44,
+          "student_steps": 154
+        },
+        {
+          "configuration_id": "E13_train_010",
+          "source_episode_id": "E13",
+          "split": "train",
+          "success": true,
+          "steps": 265,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 265,
+            "ring_xyz": [
+              0.373336250276932,
+              0.11733862754194876,
+              0.10349944281381426
+            ],
+            "tool_xyz": [
+              0.3735356523312111,
+              0.12863917023518415,
+              0.19271697548376315
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 72,
+          "student_steps": 193
+        },
+        {
+          "configuration_id": "E13_train_014",
+          "source_episode_id": "E13",
+          "split": "train",
+          "success": true,
+          "steps": 239,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 239,
+            "ring_xyz": [
+              0.4095571975402756,
+              0.035289807447598784,
+              0.10349944281381301
+            ],
+            "tool_xyz": [
+              0.4097242127934179,
+              0.04660668542992231,
+              0.19258466242769043
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 69,
+          "student_steps": 170
+        },
+        {
+          "configuration_id": "E13_train_012",
+          "source_episode_id": "E13",
+          "split": "train",
+          "success": true,
+          "steps": 209,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 209,
+            "ring_xyz": [
+              0.49803210761080474,
+              0.1332952463163643,
+              0.10349944281381783
+            ],
+            "tool_xyz": [
+              0.4982649427130388,
+              0.14456159303484353,
+              0.1927453099351017
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 59,
+          "student_steps": 150
+        },
+        {
+          "configuration_id": "E14_train_000",
+          "source_episode_id": "E14",
+          "split": "train",
+          "success": true,
+          "steps": 207,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 207,
+            "ring_xyz": [
+              0.4494996412189321,
+              0.07294140295220025,
+              0.10349944281381597
+            ],
+            "tool_xyz": [
+              0.4497295133841109,
+              0.0841807559106314,
+              0.1927025565533243
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 56,
+          "student_steps": 151
+        },
+        {
+          "configuration_id": "E14_train_008",
+          "source_episode_id": "E14",
+          "split": "train",
+          "success": true,
+          "steps": 185,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 185,
+            "ring_xyz": [
+              0.4635236773289567,
+              0.11456606866721111,
+              0.10349944281381765
+            ],
+            "tool_xyz": [
+              0.4637051128827459,
+              0.1259513508559758,
+              0.19264030988870512
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 48,
+          "student_steps": 137
+        },
+        {
+          "configuration_id": "E14_train_019",
+          "source_episode_id": "E14",
+          "split": "train",
+          "success": true,
+          "steps": 194,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 194,
+            "ring_xyz": [
+              0.39617106131561874,
+              0.06645411776649372,
+              0.10349944281381467
+            ],
+            "tool_xyz": [
+              0.39634713610824396,
+              0.07771901140947463,
+              0.19279713466964166
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 39,
+          "student_steps": 155
+        },
+        {
+          "configuration_id": "E14_train_005",
+          "source_episode_id": "E14",
+          "split": "train",
+          "success": true,
+          "steps": 189,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 189,
+            "ring_xyz": [
+              0.4249168143361646,
+              0.1000215075387531,
+              0.10349944281381616
+            ],
+            "tool_xyz": [
+              0.42519748539667634,
+              0.11136512859807841,
+              0.19270057085739883
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 42,
+          "student_steps": 147
+        },
+        {
+          "configuration_id": "E15_train_000",
+          "source_episode_id": "E15",
+          "split": "train",
+          "success": true,
+          "steps": 211,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 211,
+            "ring_xyz": [
+              0.44981660770426324,
+              0.07239152534362016,
+              0.10349944281381511
+            ],
+            "tool_xyz": [
+              0.44987007104918825,
+              0.0839052257131457,
+              0.192692131640203
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 48,
+          "student_steps": 163
+        },
+        {
+          "configuration_id": "E15_train_024",
+          "source_episode_id": "E15",
+          "split": "train",
+          "success": true,
+          "steps": 194,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 194,
+            "ring_xyz": [
+              0.4052463223536259,
+              0.1072493271558298,
+              0.10349944281381486
+            ],
+            "tool_xyz": [
+              0.4053403451724824,
+              0.1185778905351613,
+              0.1926709577127229
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 49,
+          "student_steps": 145
+        },
+        {
+          "configuration_id": "E15_train_003",
+          "source_episode_id": "E15",
+          "split": "train",
+          "success": true,
+          "steps": 205,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 205,
+            "ring_xyz": [
+              0.4189301153899816,
+              0.03741940118891874,
+              0.10349944281381414
+            ],
+            "tool_xyz": [
+              0.41924590558668207,
+              0.05086065721138995,
+              0.19266766641349092
+            ],
+            "settled_for": 2.1000000000000005,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 39,
+          "student_steps": 166
+        },
+        {
+          "configuration_id": "E15_train_012",
+          "source_episode_id": "E15",
+          "split": "train",
+          "success": true,
+          "steps": 184,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 184,
+            "ring_xyz": [
+              0.5207890369251416,
+              0.08633436821612461,
+              0.10349944281381572
+            ],
+            "tool_xyz": [
+              0.5210430218179409,
+              0.09759046704242305,
+              0.19283621028342268
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 44,
+          "student_steps": 140
+        },
+        {
+          "configuration_id": "E17_train_000",
+          "source_episode_id": "E17",
+          "split": "train",
+          "success": true,
+          "steps": 195,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 195,
+            "ring_xyz": [
+              0.4490693368932862,
+              0.07286364583135019,
+              0.10349944281381443
+            ],
+            "tool_xyz": [
+              0.4493052277810977,
+              0.08415774581758197,
+              0.1926512367533759
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 45,
+          "student_steps": 150
+        },
+        {
+          "configuration_id": "E17_train_029",
+          "source_episode_id": "E17",
+          "split": "train",
+          "success": true,
+          "steps": 220,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 220,
+            "ring_xyz": [
+              0.4781574095524999,
+              0.1292506922327221,
+              0.10349944281381573
+            ],
+            "tool_xyz": [
+              0.4783351539397506,
+              0.1404839553713411,
+              0.19272515136484172
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 60,
+          "student_steps": 160
+        },
+        {
+          "configuration_id": "E17_train_016",
+          "source_episode_id": "E17",
+          "split": "train",
+          "success": true,
+          "steps": 226,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 226,
+            "ring_xyz": [
+              0.5126051306578423,
+              0.08482847515817056,
+              0.10349944281381572
+            ],
+            "tool_xyz": [
+              0.5128455283412287,
+              0.09607919191150928,
+              0.1927035685723819
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 63,
+          "student_steps": 163
+        },
+        {
+          "configuration_id": "E17_train_030",
+          "source_episode_id": "E17",
+          "split": "train",
+          "success": true,
+          "steps": 250,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 250,
+            "ring_xyz": [
+              0.3869276562716054,
+              0.1195239295902678,
+              0.10349944281381426
+            ],
+            "tool_xyz": [
+              0.3870972027925708,
+              0.1308297860958713,
+              0.1926164502458321
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 60,
+          "student_steps": 190
+        },
+        {
+          "configuration_id": "E18_train_000",
+          "source_episode_id": "E18",
+          "split": "train",
+          "success": true,
+          "steps": 238,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 238,
+            "ring_xyz": [
+              0.4493210249855342,
+              0.07307788435530208,
+              0.10349944281381496
+            ],
+            "tool_xyz": [
+              0.4493735800473712,
+              0.08446000766531436,
+              0.19266511693844432
+            ],
+            "settled_for": 2.1500000000000004,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 56,
+          "student_steps": 182
+        },
+        {
+          "configuration_id": "E18_train_017",
+          "source_episode_id": "E18",
+          "split": "train",
+          "success": true,
+          "steps": 364,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 364,
+            "ring_xyz": [
+              0.38987656844403606,
+              0.08174359258294146,
+              0.10349944281393662
+            ],
+            "tool_xyz": [
+              0.3896835523568332,
+              0.0930445734775608,
+              0.19274985184501944
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 86,
+          "student_steps": 278
+        },
+        {
+          "configuration_id": "E18_train_031",
+          "source_episode_id": "E18",
+          "split": "train",
+          "success": true,
+          "steps": 231,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 231,
+            "ring_xyz": [
+              0.45779887438540856,
+              0.10401143316528377,
+              0.1034994428138147
+            ],
+            "tool_xyz": [
+              0.45803634040662106,
+              0.11527134452377935,
+              0.19264032236999057
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 65,
+          "student_steps": 166
+        },
+        {
+          "configuration_id": "E18_train_006",
+          "source_episode_id": "E18",
+          "split": "train",
+          "success": false,
+          "steps": 450,
+          "info": {
+            "success": false,
+            "phase": "approach",
+            "phase_index": 0,
+            "failure_reason": "timeout_approach",
+            "steps": 450,
+            "ring_xyz": [
+              0.17174943729431727,
+              0.09406412107529996,
+              0.10349944281381454
+            ],
+            "tool_xyz": [
+              0.23000408552465418,
+              0.10499058715946913,
+              0.16926619965726564
+            ],
+            "settled_for": 0.0,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 111,
+          "student_steps": 339
+        },
+        {
+          "configuration_id": "E19_train_000",
+          "source_episode_id": "E19",
+          "split": "train",
+          "success": true,
+          "steps": 230,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 230,
+            "ring_xyz": [
+              0.4496146356133627,
+              0.07219896983546745,
+              0.1034994428138159
+            ],
+            "tool_xyz": [
+              0.44964387909950015,
+              0.08367530907140498,
+              0.19275815768993776
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 52,
+          "student_steps": 178
+        },
+        {
+          "configuration_id": "E19_train_023",
+          "source_episode_id": "E19",
+          "split": "train",
+          "success": true,
+          "steps": 230,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 230,
+            "ring_xyz": [
+              0.38441866469111174,
+              0.09054060672791968,
+              0.10349944281392019
+            ],
+            "tool_xyz": [
+              0.3845837912494895,
+              0.10180617559160701,
+              0.19277687016319636
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 50,
+          "student_steps": 180
+        },
+        {
+          "configuration_id": "E19_train_029",
+          "source_episode_id": "E19",
+          "split": "train",
+          "success": true,
+          "steps": 202,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 202,
+            "ring_xyz": [
+              0.3755831478727094,
+              0.11584020769000763,
+              0.10349944281381475
+            ],
+            "tool_xyz": [
+              0.3758962718116965,
+              0.1272056292951565,
+              0.1925764325794605
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 52,
+          "student_steps": 150
+        },
+        {
+          "configuration_id": "E19_train_031",
+          "source_episode_id": "E19",
+          "split": "train",
+          "success": true,
+          "steps": 195,
+          "info": {
+            "success": true,
+            "phase": "retract",
+            "phase_index": 7,
+            "failure_reason": "",
+            "steps": 195,
+            "ring_xyz": [
+              0.4108659686864207,
+              0.008017923865113179,
+              0.10349944281381374
+            ],
+            "tool_xyz": [
+              0.41110235753343893,
+              0.019390003573058794,
+              0.19272349277375464
+            ],
+            "settled_for": 2.2,
+            "finger_contacts": 0
+          },
+          "teacher_interventions": 56,
+          "student_steps": 139
+        }
+      ]
+    },
+    "normalizer_fit_samples": 85691,
+    "noise_bound_scope": "Per raw measured position coordinate; relative differences can vary by twice this bound",
+    "initial_benchmark_diagnostics_informed_V2_design": true,
+    "checkpoint_choice_uses_V2_validation_only": true,
+    "runtime_versions": {
+      "numpy": "2.5.2",
+      "mujoco": "3.12.0",
+      "torch": "2.14.0+cpu",
+      "opencv-python-headless": "5.0.0.93",
+      "pillow": "12.3.0"
+    },
+    "model_selection_rule": "Among V2 variants require all24 validation closedloop successes; prefer lower validation BC loss, then freeze before fresh48scenetest."
+  },
+  "summaries": {
+    "test/student": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {}
+    },
+    "test/geometry": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {}
+    },
+    "test/zero_action": {
+      "successes": 0,
+      "episodes": 3,
+      "success_rate": 0.0,
+      "source_count": 3,
+      "failure_counts": {
+        "timeout_approach": 3
+      }
+    },
+    "test/untrained_mlp": {
+      "successes": 0,
+      "episodes": 3,
+      "success_rate": 0.0,
+      "source_count": 3,
+      "failure_counts": {
+        "timeout_approach": 3
+      }
+    },
+    "ood_test/student": {
+      "successes": 28,
+      "episodes": 30,
+      "success_rate": 0.9333333333333333,
+      "source_count": 5,
+      "failure_counts": {
+        "timeout_approach": 1,
+        "timeout_descend": 1
+      }
+    },
+    "ood_test/geometry": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {}
+    },
+    "ood_test/zero_action": {
+      "successes": 0,
+      "episodes": 5,
+      "success_rate": 0.0,
+      "source_count": 5,
+      "failure_counts": {
+        "timeout_approach": 5
+      }
+    },
+    "ood_test/untrained_mlp": {
+      "successes": 0,
+      "episodes": 5,
+      "success_rate": 0.0,
+      "source_count": 5,
+      "failure_counts": {
+        "timeout_approach": 5
+      }
+    }
+  },
+  "checkpoint_sha256": "a01af2311f2f88a82c45946e38c01549dde26f96a57296a43bdfa4ff59d93773",
+  "binding_verification": {
+    "current_binding": {
+      "schema_version": 2,
+      "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+      "environment": {
+        "schema_version": 2,
+        "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+        "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+        "obs_size": 30,
+        "action_size": 4,
+        "action_scale": 0.003,
+        "control_dt": 0.05
+      }
+    },
+    "saved_environment": {
+      "schema_version": 2,
+      "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+      "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+      "obs_size": 30,
+      "action_size": 4,
+      "action_scale": 0.003,
+      "control_dt": 0.05
+    },
+    "environment_changed": false,
+    "environment_change_allowed": false
+  },
+  "protocol": "fresh_simulated_scenes_frozen_after_V1_diagnostics",
+  "video_case": {
+    "configuration_id": "E08_test_000",
+    "split": "test",
+    "source_episode_id": "E08",
+    "success": true,
+    "steps": 188
+  },
+  "no_teacher_actions_or_rescue_in_student_rollouts": true,
+  "success_criteria": {
+    "full_projection_inside_hole": true,
+    "containment_margin_m": 0.0003,
+    "max_tilt_deg": 8,
+    "table_height_tolerance_m": 0.0015,
+    "max_linear_speed_m_s": 0.01,
+    "max_angular_speed_rad_s": 0.15,
+    "no_finger_contacts": true,
+    "settle_duration_s": 0.4
+  },
+  "measurement_noise_note": "Geometry baseline observes exact simulator state; noisy student stress results are separately labeled.",
+  "evaluation_scope": "Simulated state-based policy; no real robot transfer or uncalibrated-video 6D recovery claim."
+}

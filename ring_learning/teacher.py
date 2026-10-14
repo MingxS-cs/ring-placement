@@ -6,6 +6,8 @@ from .sim import ACTION_SCALE, RingEnv
 
 def teacher(env: RingEnv):
     delta = np.clip((env.phase_target() - env.command_xyz) / ACTION_SCALE, -1, 1)
+    if env.phase == 3:
+        delta[:2] = 0.0  # Lift vertically from the current commanded grasp pose.
     grip = -1.0 if env.phase in (2, 3, 4, 5) else 1.0
     return np.r_[delta, grip].astype(np.float32)
 

@@ -1,0 +1,20 @@
+{
+  "source_video_unchanged": true,
+  "source_episodes": 24,
+  "selected_checkpoint_sha256": "a01af2311f2f88a82c45946e38c01549dde26f96a57296a43bdfa4ff59d93773",
+  "model_parameters": 19844,
+  "final_successes": 46,
+  "final_trials": 48,
+  "student_teacher_interventions": 0,
+  "manifest_schema_bindings_match": true,
+  "array_lineage_valid": true,
+  "metadata_runtime_versions_match": true,
+  "tests_passed": 103,
+  "limitations": [
+    "uncalibrated approximate planar mapping",
+    "simulated state inputs",
+    "synthetic trajectories and correlated heldout descendants",
+    "real robot transfer untested",
+    "2 approach/descent timeouts retained"
+  ]
+}

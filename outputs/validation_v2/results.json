@@ -1,0 +1,173 @@
+{
+  "checkpoint": "outputs/model_v2/policy.pt",
+  "training_metadata": {
+    "seed": 20261014,
+    "device": "cpu",
+    "parameter_count": 19844,
+    "training_samples": 85691,
+    "validation_samples": 4714,
+    "training_sources": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E06",
+      "E07",
+      "E09",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "validation_sources": [
+      "E05",
+      "E11",
+      "E12"
+    ],
+    "best_epoch": 227,
+    "best_validation_loss": 0.0002880418614950031,
+    "observation_noise_std_m": 0.0002,
+    "feature_indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "observation_noise_absolute_bound_m": 0.0006000000000000001,
+    "architecture": "21->128->128->4 tanh",
+    "duration_s": 149.875,
+    "label_source": "synthetic_robot_teacher_actions_from_video_derived_scene_configs",
+    "no_test_data_used_for_model_selection": true,
+    "binding": {
+      "schema_version": 2,
+      "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+      "environment": {
+        "schema_version": 2,
+        "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+        "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+        "obs_size": 30,
+        "action_size": 4,
+        "action_scale": 0.003,
+        "control_dt": 0.05
+      }
+    },
+    "training_array_sha256": "5ad9163f92a789c58483476b03ab6089f417b02387678763d9d8ac29cd9286f6",
+    "validation_array_sha256": "2f66f3061e3ff24d401e7f8d2b1464d244e1dba116951b8ee197570fc50279d9",
+    "protocol": "fresh_simulated_scenes_frozen_after_V1_diagnostics",
+    "validation_phase_metrics": {
+      "0": {
+        "samples": 938,
+        "cartesian_normalized_mae": 0.010838719084858894,
+        "gripper_sign_accuracy": 1.0
+      },
+      "1": {
+        "samples": 576,
+        "cartesian_normalized_mae": 0.005592331290245056,
+        "gripper_sign_accuracy": 1.0
+      },
+      "2": {
+        "samples": 480,
+        "cartesian_normalized_mae": 0.00783596932888031,
+        "gripper_sign_accuracy": 1.0
+      },
+      "3": {
+        "samples": 528,
+        "cartesian_normalized_mae": 0.009534095413982868,
+        "gripper_sign_accuracy": 1.0
+      },
+      "4": {
+        "samples": 608,
+        "cartesian_normalized_mae": 0.015247507952153683,
+        "gripper_sign_accuracy": 1.0
+      },
+      "5": {
+        "samples": 528,
+        "cartesian_normalized_mae": 0.004916155710816383,
+        "gripper_sign_accuracy": 1.0
+      },
+      "6": {
+        "samples": 288,
+        "cartesian_normalized_mae": 0.004951721988618374,
+        "gripper_sign_accuracy": 1.0
+      },
+      "7": {
+        "samples": 768,
+        "cartesian_normalized_mae": 0.008278248831629753,
+        "gripper_sign_accuracy": 1.0
+      }
+    },
+    "validation_near_target_normalized_mae": 0.009364761412143707,
+    "initialized_checkpoint": null,
+    "initialized_checkpoint_sha256": null
+  },
+  "summaries": {
+    "val/student": {
+      "successes": 24,
+      "episodes": 24,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {}
+    }
+  },
+  "checkpoint_sha256": "d129c3d7df59887d086056604457d743fc1fcb3adeb62d86f604fbcbf546e8eb",
+  "binding_verification": {
+    "current_binding": {
+      "schema_version": 2,
+      "manifest_sha256": "ea40e80c7db7f23478234ed759e53fd326d15986817fbf5874cfc8e111abf95f",
+      "environment": {
+        "schema_version": 2,
+        "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+        "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+        "obs_size": 30,
+        "action_size": 4,
+        "action_scale": 0.003,
+        "control_dt": 0.05
+      }
+    },
+    "saved_environment": {
+      "schema_version": 2,
+      "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+      "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+      "obs_size": 30,
+      "action_size": 4,
+      "action_scale": 0.003,
+      "control_dt": 0.05
+    },
+    "environment_changed": false,
+    "environment_change_allowed": false
+  },
+  "protocol": "fresh_simulated_scenes_frozen_after_V1_diagnostics",
+  "video_case": null,
+  "no_teacher_actions_or_rescue_in_student_rollouts": true,
+  "success_criteria": {
+    "full_projection_inside_hole": true,
+    "containment_margin_m": 0.0003,
+    "max_tilt_deg": 8,
+    "table_height_tolerance_m": 0.0015,
+    "max_linear_speed_m_s": 0.01,
+    "max_angular_speed_rad_s": 0.15,
+    "no_finger_contacts": true,
+    "settle_duration_s": 0.4
+  },
+  "measurement_noise_note": "Geometry baseline observes exact simulator state; noisy student stress results are separately labeled.",
+  "evaluation_scope": "Simulated state-based policy; no real robot transfer or uncalibrated-video 6D recovery claim."
+}

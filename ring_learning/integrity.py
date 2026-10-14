@@ -11,7 +11,6 @@ import hashlib
 from pathlib import Path
 
 
-SCHEMA_VERSION = 1
 OBS_SIZE = 30
 ACTION_SIZE = 4
 _SOURCE_ROOT = Path(__file__).resolve().parent
@@ -88,6 +87,8 @@ def validate_split_arrays(manifest: Mapping, split: str, arrays) -> list[str]:
             raise ValueError(f"{name} must contain finite numeric values")
     if source_ids.dtype.kind != "U" or configuration_ids.dtype.kind != "U":
         raise ValueError("Sample source/configuration IDs must be string arrays")
+    if np.any(np.abs(actions) > 1.0 + 1e-6):
+        raise ValueError("Action labels must be normalized within [-1, 1]")
     for configuration_id, source_id in set(zip(configuration_ids.tolist(), source_ids.tolist())):
         if (configuration_id, source_id) not in pairs:
             raise ValueError(
@@ -107,12 +108,12 @@ def environment_signature() -> dict:
     for statement in ast.parse(sources["sim"]).body:
         if isinstance(statement, ast.Assign):
             for target in statement.targets:
-                if isinstance(target, ast.Name) and target.id in wanted:
+                if isinstance(target, ast.Name) and target.id in wanted | {"OBS_SCHEMA_VERSION"}:
                     constants[target.id] = ast.literal_eval(statement.value)
-    if constants.keys() != wanted:
+    if not wanted.issubset(constants):
         raise ValueError("Simulation source is missing observation/action schema constants")
     return {
-        "schema_version": SCHEMA_VERSION,
+        "schema_version": constants.get("OBS_SCHEMA_VERSION", 1),
         "sim_sha256": hashlib.sha256(sources["sim"].encode("utf-8")).hexdigest(),
         "teacher_sha256": hashlib.sha256(sources["teacher"].encode("utf-8")).hexdigest(),
         "obs_size": constants["OBS_SIZE"],
@@ -124,9 +125,10 @@ def environment_signature() -> dict:
 
 def binding_for_manifest(manifest_path: str | Path) -> dict:
     """Create checkpoint metadata without touching policy weights or the data."""
-    return {"schema_version": SCHEMA_VERSION,
+    environment = environment_signature()
+    return {"schema_version": environment["schema_version"],
             "manifest_sha256": sha256_file(manifest_path),
-            "environment": environment_signature()}
+            "environment": environment}
 
 
 def verify_binding(saved: Mapping | None, manifest_path: str | Path, *,
@@ -140,12 +142,12 @@ def verify_binding(saved: Mapping | None, manifest_path: str | Path, *,
         raise ValueError("Checkpoint binding is missing; legacy checkpoints require explicit handling")
     if not {"schema_version", "manifest_sha256", "environment"}.issubset(saved):
         raise ValueError("Checkpoint binding is incomplete")
-    if saved["schema_version"] != SCHEMA_VERSION:
-        raise ValueError("Checkpoint binding schema is incompatible")
     saved_environment = saved["environment"]
     if not isinstance(saved_environment, Mapping) or not _ENVIRONMENT_KEYS.issubset(saved_environment):
         raise ValueError("Checkpoint environment binding is incomplete")
     current = binding_for_manifest(manifest_path)
+    if saved["schema_version"] != current["schema_version"]:
+        raise ValueError("Checkpoint binding schema is incompatible")
     if saved["manifest_sha256"] != current["manifest_sha256"]:
         raise ValueError("Checkpoint manifest hash differs from the current data manifest")
     for key in ("schema_version", "obs_size", "action_size"):

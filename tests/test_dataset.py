@@ -53,3 +53,23 @@ def test_measurement_noise_preserves_relative_feature_consistency_and_phase():
     np.testing.assert_allclose(noisy[9:12], noisy[3:6] - noisy[:3], atol=1e-8)
     np.testing.assert_allclose(noisy[12:15], noisy[6:9] - noisy[3:6], atol=1e-8)
     np.testing.assert_array_equal(noisy[21:], obs[21:])
+
+
+def test_schema2_noise_preserves_integrated_command_and_is_bounded():
+    from ring_learning.dataset import noisy_observation
+    obs = np.zeros(30, dtype=np.float32)
+    obs[:3] = [.4, .02, .15]
+    obs[15:18] = [.001, -.001, .002]
+    command = obs[:3] + obs[15:18]
+    for _ in range(10):
+        out = noisy_observation(obs, np.random.default_rng(123), std=.0002)
+        np.testing.assert_allclose(out[:3]+out[15:18], command, atol=1e-7)
+        assert np.max(np.abs(out[:9]-obs[:9])) <= .0006001
+
+
+def test_noise_rejects_nonfinite_parameters():
+    import pytest
+    from ring_learning.dataset import noisy_observation
+    for std in [np.nan, np.inf, -.001]:
+        with pytest.raises(ValueError):
+            noisy_observation(np.zeros(30), np.random.default_rng(1), std)
