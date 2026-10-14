@@ -1,0 +1,11 @@
+{
+  "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+  "clone": "D:\\model\\ring_bearing_20261014\\clean_reproduction_v3",
+  "python": "Python 3.12.10",
+  "original_repository": "D:\\model\\ring_bearing_20261014\\robot_learning",
+  "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "tracked_files": 230,
+  "git_head": "fae2d6c65b8d8d6f66567df3a6dec8540d0bbfed",
+  "virtualenv_system_site_packages": false,
+  "os": "Microsoft Windows NT 10.0.26200.0"
+}

@@ -1,0 +1,5 @@
+{
+  "command": "python -m ring_learning.demo --output repro_logs/render_smoke/student_closeup.mp4",
+  "seconds": 4.1431967,
+  "exit_code": 0
+}

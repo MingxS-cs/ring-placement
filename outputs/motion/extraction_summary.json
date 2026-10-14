@@ -1,0 +1,261 @@
+{
+  "accepted": 9,
+  "total": 24,
+  "observed_samples": 1089,
+  "interpolated_samples": 91,
+  "missing_samples": 276,
+  "episodes": [
+    {
+      "episode_id": "E01",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 18,
+        "observed_movement_samples": 15,
+        "interpolated_movement_samples": 3,
+        "observed_fraction": 0.8333333333333334,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 6,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E02",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 11,
+        "observed_movement_samples": 8,
+        "interpolated_movement_samples": 3,
+        "observed_fraction": 0.7272727272727273,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 6,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E03",
+      "status": "rejected",
+      "rejection_reason": "Observed contours at f428/f430/f432/f434 associate with cast shadow below elevated ring. Complete trajectory excluded.",
+      "quality": {
+        "movement_samples": 8,
+        "observed_movement_samples": 6,
+        "interpolated_movement_samples": 2,
+        "observed_fraction": 0.75,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 4,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "pending visual review of transfer contact sheets"
+      }
+    },
+    {
+      "episode_id": "E04",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 15,
+        "observed_movement_samples": 10,
+        "interpolated_movement_samples": 5,
+        "observed_fraction": 0.6666666666666666,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 6,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E05",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 10,
+        "observed_movement_samples": 6,
+        "interpolated_movement_samples": 4,
+        "observed_fraction": 0.6,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 8,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Rejected f732 contour association near cast shadow; replacement is explicitly zero-confidence short-gap interpolation, bounded by measured source frames. Remaining visible centers follow ring."
+      }
+    },
+    {
+      "episode_id": "E06",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E07",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E08",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 12,
+        "observed_movement_samples": 10,
+        "interpolated_movement_samples": 2,
+        "observed_fraction": 0.8333333333333334,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 4,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E09",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 13,
+        "observed_movement_samples": 11,
+        "interpolated_movement_samples": 2,
+        "observed_fraction": 0.8461538461538461,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 4,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E10",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E11",
+      "status": "rejected",
+      "rejection_reason": "No visible transfer interval beyond optical jitter",
+      "quality": null
+    },
+    {
+      "episode_id": "E12",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E13",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E14",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 9,
+        "observed_movement_samples": 8,
+        "interpolated_movement_samples": 1,
+        "observed_fraction": 0.8888888888888888,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 4,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E15",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E16",
+      "status": "rejected",
+      "rejection_reason": "Multiple observed contours including f2380/f2386/f2404 associate with cast shadow; complete trajectory excluded.",
+      "quality": {
+        "movement_samples": 33,
+        "observed_movement_samples": 18,
+        "interpolated_movement_samples": 15,
+        "observed_fraction": 0.5454545454545454,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 8,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "pending visual review of transfer contact sheets"
+      }
+    },
+    {
+      "episode_id": "E17",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E18",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E19",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E20",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E21",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E22",
+      "status": "rejected",
+      "rejection_reason": "Insufficient visible transfer coverage or long missing gap",
+      "quality": null
+    },
+    {
+      "episode_id": "E23",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 26,
+        "observed_movement_samples": 25,
+        "interpolated_movement_samples": 1,
+        "observed_fraction": 0.9615384615384616,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 4,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    },
+    {
+      "episode_id": "E24",
+      "status": "accepted",
+      "rejection_reason": null,
+      "quality": {
+        "movement_samples": 18,
+        "observed_movement_samples": 13,
+        "interpolated_movement_samples": 5,
+        "observed_fraction": 0.7222222222222222,
+        "maximum_sample_gap_frames": 2,
+        "maximum_observed_bracket_gap_frames": 6,
+        "confidence_definition": "heuristic contour evidence; not a probability or metric error bound",
+        "review_status": "transfer contact sheet visually reviewed",
+        "review_notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+      }
+    }
+  ]
+}

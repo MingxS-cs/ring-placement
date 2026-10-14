@@ -1,0 +1,5 @@
+{
+  "seconds": 64.6249053,
+  "command": "pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu",
+  "exit_code": 0
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "controller": "student",
+    "split": "test",
+    "configuration_id": "E08_test_000",
+    "source_episode_id": "E08",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.45848471524456597,
+        -0.0012689252565443747,
+        0.10349944281381504
+      ],
+      "tool_xyz": [
+        0.458673252523643,
+        0.009559391401697521,
+        0.19271295102862124
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    },
+    "student_teacher_interventions": 0,
+    "observation_noise_std_m": 0.0
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "review_scope": "12 evenly spaced source samples on each complete proposed transfer contact sheet; E01/E02/E04/E05/E08/E09/E14/E23/E24 reviewed by trajectory extraction agent, E03/E16 rejected for visible shadow association. No subjective approval replaces source evidence.",
+  "episodes": {
+    "E01": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E02": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E04": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E05": {
+      "decision": "accepted",
+      "notes": "Rejected f732 contour association near cast shadow; replacement is explicitly zero-confidence short-gap interpolation, bounded by measured source frames. Remaining visible centers follow ring.",
+      "reject_source_frames": [
+        732
+      ]
+    },
+    "E08": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E09": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E14": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E23": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E24": {
+      "decision": "accepted",
+      "notes": "Transfer contact sheet reviewed: observed centers follow visible elevated ring rather than displaced cast shadow; yellow points are explicitly interpolated, not measured."
+    },
+    "E03": {
+      "decision": "rejected",
+      "notes": "Observed contours at f428/f430/f432/f434 associate with cast shadow below elevated ring. Complete trajectory excluded."
+    },
+    "E16": {
+      "decision": "rejected",
+      "notes": "Multiple observed contours including f2380/f2386/f2404 associate with cast shadow; complete trajectory excluded."
+    }
+  }
+}

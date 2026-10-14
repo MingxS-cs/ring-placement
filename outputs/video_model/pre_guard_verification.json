@@ -1,0 +1,30 @@
+{
+  "checkpoint_sha256": "47ecd176477d67b6631b8425e12d718f171807035c7b8c460156f627bae01fc0",
+  "motion_sha256_matches": true,
+  "parameter_count": 1218,
+  "used_source_counts": {
+    "train": 5,
+    "val": 1,
+    "test": 1,
+    "ood_test": 2
+  },
+  "training_points": 66,
+  "validation_points": 10,
+  "source_unit_weight": true,
+  "epochs_run": 259,
+  "best_epoch": 9,
+  "source_binding_verified": true,
+  "new_tests_passed": 16,
+  "tdd_red_green_evidence": [
+    "11 missing feature tests failed before initial implementation, then passed",
+    "arc quadrature import failed before implementation, then passed",
+    "confidence-loss weighting assertion failed before fix, then passed"
+  ],
+  "limitations": [
+    "Only5acceptedrealtrainingpaths and1validationpath",
+    "Val andreservedgroup pathaccuracy worse thanstraightbaseline",
+    "NeuralXYtransferonly, sevenphases andZ/gripper planned",
+    "Approximateimage-planeXYnot3D",
+    "Frozenbeforephysicaltest"
+  ]
+}

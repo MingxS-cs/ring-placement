@@ -1,0 +1,32 @@
+{
+  "configuration_id": "E08_test_000",
+  "source_episode_id": "E08",
+  "checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "manifest_sha256": "fd55b9491af1414e3242a243763a4cee91d18ca49b4c080bd6b425d40d308c94",
+  "success": true,
+  "steps": 209,
+  "learned_transfer_scope_steps": 36,
+  "planned_stage_steps": 173,
+  "info": {
+    "success": true,
+    "phase": "retract",
+    "phase_index": 7,
+    "failure_reason": "",
+    "steps": 209,
+    "ring_xyz": [
+      0.41493004183672866,
+      0.024288454302112364,
+      0.10349944281381321
+    ],
+    "tool_xyz": [
+      0.4151794932166576,
+      0.0354879917953265,
+      0.19270074780657867
+    ],
+    "settled_for": 2.2,
+    "finger_contacts": 0
+  },
+  "source_panel_controls_robot": false,
+  "selection": "First frozen test case; deterministic replay, not an additional benchmark case",
+  "scope": "Learned XY transfer; planned grasp/lift/lower/release/Z/gripper"
+}

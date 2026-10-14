@@ -1,0 +1,178 @@
+{
+  "summaries": {
+    "ood_test/learned_motion": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 2192,
+      "planned_steps": 5314
+    },
+    "ood_test/straight_path": {
+      "successes": 30,
+      "episodes": 30,
+      "success_rate": 1.0,
+      "source_count": 5,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 7255
+    },
+    "test/learned_motion": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 742,
+      "planned_steps": 3057
+    },
+    "test/straight_path": {
+      "successes": 18,
+      "episodes": 18,
+      "success_rate": 1.0,
+      "source_count": 3,
+      "failure_counts": {},
+      "learned_steps": 0,
+      "planned_steps": 3746
+    }
+  },
+  "checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "manifest_sha256": "fd55b9491af1414e3242a243763a4cee91d18ca49b4c080bd6b425d40d308c94",
+  "training_metadata": {
+    "schema_version": 1,
+    "method": "real_video_supervised_planar_path_shape",
+    "seed": 20261014,
+    "device": "cpu",
+    "architecture": "2->32->32->2 ReLU, endpoint envelope, physical norm cap",
+    "parameter_count": 1218,
+    "best_epoch": 9,
+    "best_validation_loss": 0.13887086510658264,
+    "duration_s": 0.25,
+    "motion_sha256": "cefaf6276c270ce72242d8dd9523b489a4845956596ee48e03bdd5e436125fe4",
+    "real_episodes_sha256": "8b16bd9006f59e74de5135f19e6137de07e1573d0caee95692c0c8e9e39295c1",
+    "original_video_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+    "motion_endpoint_provenance_verified": true,
+    "source_splits": {
+      "train": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E06",
+        "E07",
+        "E09",
+        "E13",
+        "E14",
+        "E15",
+        "E17",
+        "E18",
+        "E19"
+      ],
+      "val": [
+        "E05",
+        "E11",
+        "E12"
+      ],
+      "test": [
+        "E08",
+        "E10",
+        "E16"
+      ],
+      "ood_test": [
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24"
+      ]
+    },
+    "used_sources": {
+      "train": [
+        "E04",
+        "E02",
+        "E14",
+        "E01",
+        "E09"
+      ],
+      "val": [
+        "E05"
+      ],
+      "test": [
+        "E08"
+      ],
+      "ood_test": [
+        "E23",
+        "E24"
+      ]
+    },
+    "training_sources": [
+      "E01",
+      "E02",
+      "E04",
+      "E09",
+      "E14"
+    ],
+    "validation_sources": [
+      "E05"
+    ],
+    "environment": {
+      "schema_version": 2,
+      "sim_sha256": "858de747a8b031ef3a9f3fd94ebb6233afdcc73a098381c89621356d1c01bc56",
+      "teacher_sha256": "b31488fd9e54b951367091c0788959a6a0633aafcee819934d9882a1b88926ef",
+      "obs_size": 30,
+      "action_size": 4,
+      "action_scale": 0.003,
+      "control_dt": 0.05
+    },
+    "implementation_sources": {
+      "video_policy": "17c60d1609dc2cfc6cc1d25a191891fe20a40f14f8325b1a0b5613dbe926742b",
+      "video_train": "8238d1d85731aa0a1023fc44841bddc4b6aaa16b8da0d5d378dd20f70607ad12"
+    },
+    "training_points": 66,
+    "validation_points": 10,
+    "normalizer": {
+      "mean": [
+        0.49533510208129883,
+        0.8837659955024719
+      ],
+      "std": [
+        0.29287785291671753,
+        0.13901853561401367
+      ],
+      "fitted_on": "training sources only, source-uniform arc-cell quadrature times fixed observed/interpolated kind weights"
+    },
+    "inputs": [
+      "arc_progress_0_to_1",
+      "start_to_goal_distance_divided_by_0.1_m"
+    ],
+    "outputs": [
+      "endpoint_anchored_local_longitudinal_residual_divided_by_distance",
+      "endpoint_anchored_local_lateral_residual_divided_by_distance"
+    ],
+    "max_residual_m": 0.025,
+    "interpolated_relative_weight": 0.25,
+    "sample_weighting": "Irregular observed/gap-interpolated points weighted by trapezoidal arc-cell width times label weight, then normalized to unit total weight per source; no uniform path resampling",
+    "contour_confidence": "Uncalibrated extraction heuristic retained as evidence; not used as a training or evaluation loss weight",
+    "label_source": "tracked_and_gap_interpolated_real_phone_video_ring_XY_not_robot_teacher",
+    "endpoint_policy": "learn shape relative to observed start/end line; robot retargets exact end to bearing center",
+    "retiming": "Arc-length progress and 40mm/s robot command speed; original human timing is not learned",
+    "rotation_translation_augmentation": "Analytical local-frame equivariance; no extra independent source recordings",
+    "runtime_inputs": "start/goal/progress only; held-out motion paths never read by controller",
+    "hybrid_controller": "Neural XY in transfer; geometric XY/Z/gripper in other phases; geometric Z/gripper in transfer",
+    "no_test_data_used_for_model_selection": true,
+    "limitations": [
+      "Approximate uncalibrated image-plane XY; not 3D pose",
+      "Interpolated occlusions are uncertain labels",
+      "Human grasp/release/height/orientation are not learned",
+      "Test sources are from same concatenated recording",
+      "No real robot validation"
+    ]
+  },
+  "protocol": "video_motion_v3_frozen_new_scene_draws",
+  "controller_scope": "Learned XY transfer; geometric approach, grip, vertical lift, lower, release and retract. Shared FSM, IK, servo and physics.",
+  "evaluation_uses_human_test_motion": false,
+  "step_count_definition": "learned_steps means learned-transfer scope, including deterministic endpoint steps; neural_forward_calls counts actual forward passes. Z and gripper remain geometric during transfer. planned_steps counts other stages and all zero-residual baseline stages.",
+  "placement_criteria": "Full ring projection in hole with 0.3mm margin, tilt <=8deg, table height within1.5mm, speed<0.01m/s, angular speed<0.15rad/s, open fingers, zero finger contact, settled >=0.4s.",
+  "limitation": "Same original held-out sources as V1/V2; correlated synthetic descendants, not new human recordings or an independent real-world benchmark."
+}

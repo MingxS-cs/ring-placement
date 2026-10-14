@@ -1,0 +1,5 @@
+{
+  "command": "pip install -r requirements.txt",
+  "seconds": 40.3383797,
+  "exit_code": 0
+}

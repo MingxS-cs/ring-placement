@@ -341,8 +341,9 @@ def extract_video(source, candidates_path, output_json, output_dir, visual_revie
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", default=r"C:\Users\minso\Downloads\359977334.mp4")
-    parser.add_argument("--candidates", default="../inspection_359977334/episode_candidates.json")
+    root = Path(__file__).resolve().parents[1]
+    parser.add_argument("--source", default=str(root / "data/source/359977334.mp4"))
+    parser.add_argument("--candidates", default=str(root / "data/candidate_windows.json"))
     parser.add_argument("--output", default="data/real_episodes.json")
     parser.add_argument("--output-dir", default="outputs/extraction")
     parser.add_argument("--visual-review", default=None)

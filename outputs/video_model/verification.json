@@ -1,0 +1,10 @@
+{
+  "pre_guard_checkpoint_sha256": "47ecd176477d67b6631b8425e12d718f171807035c7b8c460156f627bae01fc0",
+  "frozen_checkpoint_sha256": "8a46863aa200b82726aee656e0732dc8ba0e00d7ea2f64f164af4f5eeedc0dea",
+  "all_model_tensors_and_normalizer_bit_identical": true,
+  "best_epoch_identical": 9,
+  "best_validation_loss_identical": 0.13887086510658264,
+  "change": "Strict realvideo/endpoints/motion provenance validation only; seed/hyperparameters/source-membership unchanged; no model reselection using test metrics",
+  "new_tests_passed": 18,
+  "source_binding_verified": true
+}

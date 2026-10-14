@@ -70,7 +70,7 @@ def test_terminal_ring_inside_bearing_is_detected():
 
 @pytest.mark.parametrize("frame,terminal", [(360, True), (2970, False), (3222, True), (2190, False), (2310, True)])
 def test_real_low_contrast_rims_are_recovered(frame, terminal):
-    source = Path(r"C:\Users\minso\Downloads\359977334.mp4")
+    source = Path(__file__).resolve().parents[1] / "data/source/359977334.mp4"
     if not source.exists():
         pytest.skip("Original source movie is unavailable")
     cap = cv2.VideoCapture(str(source))

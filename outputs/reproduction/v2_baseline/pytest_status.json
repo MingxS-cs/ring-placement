@@ -1,0 +1,6 @@
+{
+  "seconds": 7.0209277,
+  "raw_video_location": "external original absolute path used by five tests",
+  "exit_code": 0,
+  "command": "python -m pytest -q"
+}
