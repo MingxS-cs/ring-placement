@@ -1,0 +1,25 @@
+{
+  "accepted": 24,
+  "rejected": 0,
+  "scene_groups": {
+    "1": 11,
+    "2": 8,
+    "3": 5
+  },
+  "source_sha_verified_unchanged": true,
+  "all_source_frame_and_pts_ranges_valid": true,
+  "all_endpoint_overlays_reviewed": true,
+  "manual_frame_corrections": [
+    "E09",
+    "E14"
+  ],
+  "inner_aperture_terminal_centers": [
+    "E11",
+    "E15",
+    "E21"
+  ],
+  "duration_range_s": [
+    2.1999999999999886,
+    6.0
+  ]
+}

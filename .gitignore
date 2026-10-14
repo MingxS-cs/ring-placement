@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+vendor/mujoco_menagerie/
+data/source/*.mp4
+outputs/debug/

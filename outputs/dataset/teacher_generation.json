@@ -1,0 +1,5722 @@
+[
+  {
+    "configuration_id": "E04_train_000",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.42978025571281836,
+        -0.00252330559573941,
+        0.10349944281381587
+      ],
+      "tool_xyz": [
+        0.42996275548046375,
+        0.00865855335710056,
+        0.19271136548611945
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_001",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.42211165224436265,
+        0.004877318425253726,
+        0.10349944281381558
+      ],
+      "tool_xyz": [
+        0.42226459984453585,
+        0.01606159849258915,
+        0.19270207363569347
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_002",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.43437518197836184,
+        -0.0019653114525907257,
+        0.10349944281381354
+      ],
+      "tool_xyz": [
+        0.43456837597647385,
+        0.009216950688992684,
+        0.19271252875214276
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_003",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4358768731506052,
+        -0.00305661949336086,
+        0.10349944281381493
+      ],
+      "tool_xyz": [
+        0.4360764426120034,
+        0.008125047462873389,
+        0.19271289962217347
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_004",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 190,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 190,
+      "ring_xyz": [
+        0.4374699213156832,
+        0.002043322894853396,
+        0.10349944281381528
+      ],
+      "tool_xyz": [
+        0.4376813391817166,
+        0.013227155257717943,
+        0.19271334607130267
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_005",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.43765514188578364,
+        -0.00044572055281786227,
+        0.1034994428138163
+      ],
+      "tool_xyz": [
+        0.4378662695665548,
+        0.010737005382730525,
+        0.19271337324170282
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_006",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.43576225331969326,
+        0.004749654550425908,
+        0.10349944281381483
+      ],
+      "tool_xyz": [
+        0.43595946893060084,
+        0.01593506047997236,
+        0.19271293331420541
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_007",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.43137104441611485,
+        0.0008826482115899941,
+        0.10349944281381401
+      ],
+      "tool_xyz": [
+        0.4315594130834684,
+        0.012066261111878961,
+        0.1927117901902895
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_008",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.42395246286239985,
+        0.002396908241566034,
+        0.103499442813815
+      ],
+      "tool_xyz": [
+        0.42410460318143384,
+        0.013580275558597938,
+        0.19270245473495567
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_009",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.42653278814736767,
+        -0.007422977335938881,
+        0.10349944281381403
+      ],
+      "tool_xyz": [
+        0.42669957350924537,
+        0.0037564370408535042,
+        0.19270897886519292
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_010",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4382474505843329,
+        -0.0008408215011113512,
+        0.10349944281381335
+      ],
+      "tool_xyz": [
+        0.438451909367584,
+        0.010341983403888401,
+        0.19271352942799486
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_011",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.4212460345504186,
+        -0.006399124783827218,
+        0.10349944281381411
+      ],
+      "tool_xyz": [
+        0.4214005135503605,
+        0.004780423736316844,
+        0.19270180178888652
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_012",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.43118385429068024,
+        -0.005850695398900158,
+        0.10349944281381403
+      ],
+      "tool_xyz": [
+        0.4313750353835704,
+        0.005329586780005068,
+        0.1927116891325222
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_013",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.4292243369619465,
+        -1.8748205134059286e-05,
+        0.10349944281374447
+      ],
+      "tool_xyz": [
+        0.42941956244353163,
+        0.011160622000082134,
+        0.19271123821428865
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_014",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.4336385385844942,
+        0.0008251494738441031,
+        0.10349944281381455
+      ],
+      "tool_xyz": [
+        0.4338320127596253,
+        0.012008763140143415,
+        0.1927123621822575
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E04_train_015",
+    "source_episode_id": "E04",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.42642644903629706,
+        -0.0008796436157963216,
+        0.10349944281381349
+      ],
+      "tool_xyz": [
+        0.42659646075667185,
+        0.010302555875854448,
+        0.19270899015508125
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_000",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.4298512969886554,
+        -0.002703140504954391,
+        0.10349944281381637
+      ],
+      "tool_xyz": [
+        0.43007641207445335,
+        0.008477200071945823,
+        0.19271137951245196
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_001",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4222345197833614,
+        0.002374304301761538,
+        0.10349944281381579
+      ],
+      "tool_xyz": [
+        0.4224814922840299,
+        0.013563291520095886,
+        0.19270209523126006
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_002",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.43340729376119874,
+        0.006284651756388109,
+        0.10349944281381518
+      ],
+      "tool_xyz": [
+        0.4336824436736403,
+        0.017475064654186332,
+        0.19271237033184926
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_003",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4258611426895785,
+        -0.012168976839632275,
+        0.10349944281381583
+      ],
+      "tool_xyz": [
+        0.4262247561494412,
+        0.0017767454572972948,
+        0.19270775790791256
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_004",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.4280011740961263,
+        -0.003486780818650974,
+        0.1034994428140102
+      ],
+      "tool_xyz": [
+        0.4282208819739117,
+        0.007700200690321269,
+        0.19270797819867796
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_005",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.42127959798562864,
+        -0.0048564103569714865,
+        0.10349944281381347
+      ],
+      "tool_xyz": [
+        0.421629324183234,
+        0.009145940690325292,
+        0.19270187214844545
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_006",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4199899588034912,
+        -0.00458146626352034,
+        0.10349944281381522
+      ],
+      "tool_xyz": [
+        0.4202374484890654,
+        0.006604675916800924,
+        0.1927015550274312
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_007",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.42648868059852607,
+        -0.0007106992070520696,
+        0.10349944281401069
+      ],
+      "tool_xyz": [
+        0.4266941841839587,
+        0.010471464067066403,
+        0.19270901114945416
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_008",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4389785609217917,
+        -0.007961760852444617,
+        0.10349944281381424
+      ],
+      "tool_xyz": [
+        0.4392531370648263,
+        0.00322155124848698,
+        0.1927136691367562
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_009",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.42892247327109523,
+        -0.005095342316917985,
+        0.10349944281381544
+      ],
+      "tool_xyz": [
+        0.42914200861638335,
+        0.006085168570963942,
+        0.192711135571497
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_010",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4376512203147155,
+        -0.007819437111316031,
+        0.10349944281381641
+      ],
+      "tool_xyz": [
+        0.43792617322482186,
+        0.0033638067840826673,
+        0.19271332984066905
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_011",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 189,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 189,
+      "ring_xyz": [
+        0.4350813574401905,
+        -0.011410946688827646,
+        0.1034994428138146
+      ],
+      "tool_xyz": [
+        0.43535598047968305,
+        -0.00022887385177685328,
+        0.19271266541118354
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_012",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 190,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 190,
+      "ring_xyz": [
+        0.4230562174040602,
+        -0.008446782253208178,
+        0.10349944281381733
+      ],
+      "tool_xyz": [
+        0.423297577311362,
+        0.0027356392397833228,
+        0.19270220039848793
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_013",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4314916353709715,
+        -0.012295929598612431,
+        0.10349944281381614
+      ],
+      "tool_xyz": [
+        0.4317672765434738,
+        -0.0011128793916577245,
+        0.19271174236978708
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_014",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.42481200492361615,
+        0.0021219088745772913,
+        0.10349944281381653
+      ],
+      "tool_xyz": [
+        0.4250028792291748,
+        0.013304987885209316,
+        0.19270573748054148
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E02_train_015",
+    "source_episode_id": "E02",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.419955262280033,
+        0.004076152665950371,
+        0.10349944281381653
+      ],
+      "tool_xyz": [
+        0.42014252158188264,
+        0.015260010199732946,
+        0.19270160707190448
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_000",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 237,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 237,
+      "ring_xyz": [
+        0.44933282797450025,
+        0.07307319696589995,
+        0.10349944281381514
+      ],
+      "tool_xyz": [
+        0.4495989482912208,
+        0.08428908907585778,
+        0.19271834780053668
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_001",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 234,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 234,
+      "ring_xyz": [
+        0.45058679979326804,
+        0.07077631933186677,
+        0.10349944281381426
+      ],
+      "tool_xyz": [
+        0.4508542835537527,
+        0.08198943191679717,
+        0.19271860348985492
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_002",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 234,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 234,
+      "ring_xyz": [
+        0.44205034259549786,
+        0.07365462183272102,
+        0.10349944281381537
+      ],
+      "tool_xyz": [
+        0.44230623307550343,
+        0.08486776223132604,
+        0.1927162519683641
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_003",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 231,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 231,
+      "ring_xyz": [
+        0.44806188915191075,
+        0.07656666357979307,
+        0.1034994428138155
+      ],
+      "tool_xyz": [
+        0.448309856641086,
+        0.08778038121832879,
+        0.19271802157743156
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_004",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 237,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 237,
+      "ring_xyz": [
+        0.453715723963461,
+        0.07512501556032629,
+        0.10349944281381397
+      ],
+      "tool_xyz": [
+        0.45398050622180397,
+        0.0863433321289438,
+        0.19271956068138585
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_005",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 227,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 227,
+      "ring_xyz": [
+        0.4532706254054815,
+        0.07627144334531401,
+        0.10349944281381498
+      ],
+      "tool_xyz": [
+        0.4535217240093141,
+        0.08748440821300361,
+        0.1927194950580842
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_006",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 240,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 240,
+      "ring_xyz": [
+        0.4407257813542217,
+        0.064534851464238,
+        0.10349944281381482
+      ],
+      "tool_xyz": [
+        0.44099254857058756,
+        0.07575032909639001,
+        0.19271562257971925
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_007",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 230,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 230,
+      "ring_xyz": [
+        0.4555532233082187,
+        0.0791462678100244,
+        0.10349944281381417
+      ],
+      "tool_xyz": [
+        0.45581894848537174,
+        0.09036133481028434,
+        0.19272033471992253
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_008",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 238,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 238,
+      "ring_xyz": [
+        0.44487334635565384,
+        0.06932690811540523,
+        0.10349944281381472
+      ],
+      "tool_xyz": [
+        0.4451405468074742,
+        0.08054127877016273,
+        0.19271699306316814
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_009",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 227,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 227,
+      "ring_xyz": [
+        0.45851245425042686,
+        0.0739517459524305,
+        0.10349944281381335
+      ],
+      "tool_xyz": [
+        0.4587633984500445,
+        0.08516332255427192,
+        0.1927208446914204
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_010",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 236,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 236,
+      "ring_xyz": [
+        0.4404901088711277,
+        0.07077178488772862,
+        0.10349944281381487
+      ],
+      "tool_xyz": [
+        0.44075648689976427,
+        0.08199043302910133,
+        0.1927157744124364
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_011",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 237,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 237,
+      "ring_xyz": [
+        0.4401302016951195,
+        0.07601214726595283,
+        0.10349944281381658
+      ],
+      "tool_xyz": [
+        0.4403964955868963,
+        0.08723003422945912,
+        0.19271599564164102
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_012",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 236,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 236,
+      "ring_xyz": [
+        0.44027967548330704,
+        0.0756141784835841,
+        0.10349944281381454
+      ],
+      "tool_xyz": [
+        0.4405455887778753,
+        0.08683247350205918,
+        0.19271600389823093
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_013",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 229,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 229,
+      "ring_xyz": [
+        0.4542802858557676,
+        0.08034711019207609,
+        0.10349944281381464
+      ],
+      "tool_xyz": [
+        0.45452601931783976,
+        0.09156148820282006,
+        0.1927198729740415
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_014",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 234,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 234,
+      "ring_xyz": [
+        0.4459202018670582,
+        0.07781799253792568,
+        0.10349944281381468
+      ],
+      "tool_xyz": [
+        0.44618648987166815,
+        0.08903416623748583,
+        0.19271763557113086
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E18_train_015",
+    "source_episode_id": "E18",
+    "split": "train",
+    "success": true,
+    "steps": 229,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 229,
+      "ring_xyz": [
+        0.44248547952257233,
+        0.06672158329877212,
+        0.10349944281381734
+      ],
+      "tool_xyz": [
+        0.44275054750844833,
+        0.07793257667132407,
+        0.19271621068941974
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_000",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 230,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 230,
+      "ring_xyz": [
+        0.44954296538309035,
+        0.06944461404287136,
+        0.10349944281381372
+      ],
+      "tool_xyz": [
+        0.44993159802457283,
+        0.08342413257789251,
+        0.19271808030980553
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_001",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 227,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 227,
+      "ring_xyz": [
+        0.4431364101425465,
+        0.06564788579063967,
+        0.10349944281381444
+      ],
+      "tool_xyz": [
+        0.4435224466821386,
+        0.079680013289427,
+        0.19271618254965117
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_002",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.45153407884550123,
+        0.06772555080363367,
+        0.10349944281381786
+      ],
+      "tool_xyz": [
+        0.45180167808442917,
+        0.07894328512828416,
+        0.19271833198760932
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_003",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 231,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 231,
+      "ring_xyz": [
+        0.44818360729742845,
+        0.07162314599505086,
+        0.10349944281381446
+      ],
+      "tool_xyz": [
+        0.44855481866097013,
+        0.085606415413671,
+        0.19271777313387572
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_004",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 231,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 231,
+      "ring_xyz": [
+        0.4454495448765699,
+        0.07391294156897357,
+        0.103499442813814
+      ],
+      "tool_xyz": [
+        0.44567210056840956,
+        0.08512685091601767,
+        0.1927170400754834
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_005",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 234,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 234,
+      "ring_xyz": [
+        0.4589433408130411,
+        0.08196475719626754,
+        0.10349944281381465
+      ],
+      "tool_xyz": [
+        0.45916269842737983,
+        0.09318119363114966,
+        0.19272120369158358
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_006",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.44268171663804484,
+        0.08004024978085772,
+        0.10349944281381443
+      ],
+      "tool_xyz": [
+        0.4429493352010422,
+        0.09126151680499718,
+        0.19271637964836208
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_007",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 229,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 229,
+      "ring_xyz": [
+        0.4538579017614864,
+        0.06867287963825107,
+        0.10349944281381511
+      ],
+      "tool_xyz": [
+        0.4542403703827569,
+        0.08265085749391067,
+        0.19271922416361625
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_008",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 228,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 228,
+      "ring_xyz": [
+        0.45091209932193116,
+        0.06444404119626569,
+        0.10349944281385838
+      ],
+      "tool_xyz": [
+        0.4511355317131075,
+        0.07565400795463019,
+        0.1927181670778953
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_009",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 227,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 227,
+      "ring_xyz": [
+        0.45075722645336536,
+        0.06980450351196604,
+        0.10349944281381471
+      ],
+      "tool_xyz": [
+        0.4510886732750148,
+        0.0838201667103031,
+        0.1927183524472824
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_010",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 231,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 231,
+      "ring_xyz": [
+        0.44130568361280187,
+        0.0729359537317899,
+        0.10349944281381476
+      ],
+      "tool_xyz": [
+        0.4415255992974498,
+        0.08415068950634169,
+        0.19271601221889706
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_011",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 222,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 222,
+      "ring_xyz": [
+        0.4439301316763101,
+        0.07088722740551345,
+        0.10349944281381451
+      ],
+      "tool_xyz": [
+        0.4441972725182377,
+        0.08210650779897702,
+        0.19271638589649603
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_012",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 230,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 230,
+      "ring_xyz": [
+        0.4526453182229833,
+        0.07401589466681588,
+        0.10349944281381494
+      ],
+      "tool_xyz": [
+        0.4530388728434159,
+        0.08799739649118773,
+        0.1927190926210561
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_013",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 229,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 229,
+      "ring_xyz": [
+        0.45428632193627166,
+        0.06753764847310886,
+        0.10349944281381557
+      ],
+      "tool_xyz": [
+        0.45450660007465044,
+        0.07874885976274454,
+        0.1927192823496673
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_014",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 233,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 233,
+      "ring_xyz": [
+        0.44517248414915744,
+        0.07946037090723354,
+        0.10349944281381157
+      ],
+      "tool_xyz": [
+        0.44539118609473577,
+        0.09067736736818774,
+        0.19271729550232203
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E19_train_015",
+    "source_episode_id": "E19",
+    "split": "train",
+    "success": true,
+    "steps": 223,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 223,
+      "ring_xyz": [
+        0.44289878578578046,
+        0.06248013549342129,
+        0.10349944281381819
+      ],
+      "tool_xyz": [
+        0.4431682760434974,
+        0.07369723107958757,
+        0.1927158644652881
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_000",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 211,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 211,
+      "ring_xyz": [
+        0.44979247643535675,
+        0.07257583697511927,
+        0.103499442813816
+      ],
+      "tool_xyz": [
+        0.4500507298293396,
+        0.08379174231247705,
+        0.1927180636986437
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_001",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 218,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 218,
+      "ring_xyz": [
+        0.44532435554106553,
+        0.07429539713612893,
+        0.10349944281381404
+      ],
+      "tool_xyz": [
+        0.4457377895078269,
+        0.08751799212831582,
+        0.19271705459469346
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_002",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 209,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 209,
+      "ring_xyz": [
+        0.456348283079135,
+        0.07786517275003475,
+        0.10349944281381455
+      ],
+      "tool_xyz": [
+        0.45661625354541174,
+        0.08908489430247633,
+        0.19272007457096343
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_003",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 210,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 210,
+      "ring_xyz": [
+        0.4515770952129692,
+        0.07055967275172421,
+        0.10349944281381486
+      ],
+      "tool_xyz": [
+        0.4518354145475857,
+        0.08177469982041337,
+        0.19271848113223486
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_004",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 207,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 207,
+      "ring_xyz": [
+        0.45876978660470996,
+        0.08061432617231733,
+        0.1034994428138164
+      ],
+      "tool_xyz": [
+        0.45903619096924114,
+        0.09183306458898713,
+        0.19272087410579067
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_005",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.4406267347892865,
+        0.07144736161742696,
+        0.10349944281381597
+      ],
+      "tool_xyz": [
+        0.4409921987278725,
+        0.08542245564848909,
+        0.19271573644056972
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_006",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 217,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 217,
+      "ring_xyz": [
+        0.45719089653641715,
+        0.07750151152733187,
+        0.10349944281381428
+      ],
+      "tool_xyz": [
+        0.4575902139765851,
+        0.09073329111330841,
+        0.19272042664414119
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_007",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 222,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 222,
+      "ring_xyz": [
+        0.44185778631434147,
+        0.07520731510884815,
+        0.10349944281381464
+      ],
+      "tool_xyz": [
+        0.44223352280857287,
+        0.08917915387222211,
+        0.19271625676399756
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_008",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.4592292705785908,
+        0.08239473331093769,
+        0.10349944281381723
+      ],
+      "tool_xyz": [
+        0.4594953716716193,
+        0.0936140360608153,
+        0.1927210751333701
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_009",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 206,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 206,
+      "ring_xyz": [
+        0.4491759531754733,
+        0.06323012538529302,
+        0.10349944281381503
+      ],
+      "tool_xyz": [
+        0.4494452649795501,
+        0.07444479507710315,
+        0.19271758363997454
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_010",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 205,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 205,
+      "ring_xyz": [
+        0.4468537670597504,
+        0.06798546749006569,
+        0.10349944281381589
+      ],
+      "tool_xyz": [
+        0.44712173041499753,
+        0.07920072847000435,
+        0.1927171217747624
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_011",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 202,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 202,
+      "ring_xyz": [
+        0.44816011617040824,
+        0.06305322672958627,
+        0.10349944281381407
+      ],
+      "tool_xyz": [
+        0.4484239599835835,
+        0.07426371309096647,
+        0.19271732580376727
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_012",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 210,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 210,
+      "ring_xyz": [
+        0.4529502048989146,
+        0.07089673973975111,
+        0.10349944281381562
+      ],
+      "tool_xyz": [
+        0.45321082175202276,
+        0.08211266639400869,
+        0.1927188706125723
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_013",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.44323930536995726,
+        0.06829638604786321,
+        0.10349944281381494
+      ],
+      "tool_xyz": [
+        0.44361224640069147,
+        0.08226433945174184,
+        0.19271632619840773
+      ],
+      "settled_for": 2.1000000000000005,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_014",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.4411882670244963,
+        0.07275811846782844,
+        0.1034994428138144
+      ],
+      "tool_xyz": [
+        0.44145676008727736,
+        0.08397687159056921,
+        0.1927157619814062
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E15_train_015",
+    "source_episode_id": "E15",
+    "split": "train",
+    "success": true,
+    "steps": 213,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 213,
+      "ring_xyz": [
+        0.4552413871943968,
+        0.07609962924998387,
+        0.10349944281381385
+      ],
+      "tool_xyz": [
+        0.45550877544758817,
+        0.0873207258313912,
+        0.19271970059151317
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_000",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4490793682006489,
+        0.0729109569872574,
+        0.1034994428138108
+      ],
+      "tool_xyz": [
+        0.44933998572929046,
+        0.08412350241328789,
+        0.1927180658170674
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_001",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 196,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 196,
+      "ring_xyz": [
+        0.45795042159637706,
+        0.07207262048792916,
+        0.10349944281381421
+      ],
+      "tool_xyz": [
+        0.4582115742396189,
+        0.08328403890399835,
+        0.19272050781907454
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_002",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 201,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 201,
+      "ring_xyz": [
+        0.4391900803000921,
+        0.08035044056097118,
+        0.1034994428138156
+      ],
+      "tool_xyz": [
+        0.4394564767328957,
+        0.09156970245813481,
+        0.19271579691142718
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_003",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 201,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 201,
+      "ring_xyz": [
+        0.4584920441724517,
+        0.079778488470369,
+        0.10349944281381418
+      ],
+      "tool_xyz": [
+        0.4587566460084715,
+        0.09099795346393877,
+        0.1927210578107619
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_004",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.44593838917139533,
+        0.0716221471695983,
+        0.1034994428138147
+      ],
+      "tool_xyz": [
+        0.44619977685403867,
+        0.08283455357067024,
+        0.19271720569614703
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_005",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.44836417834039655,
+        0.06619780513350884,
+        0.1034994428138148
+      ],
+      "tool_xyz": [
+        0.4486317982981422,
+        0.07741031558797509,
+        0.19271769172091202
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_006",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 202,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 202,
+      "ring_xyz": [
+        0.4538349858609529,
+        0.08014788728935482,
+        0.1034994428138141
+      ],
+      "tool_xyz": [
+        0.4540996262535224,
+        0.09136843445986649,
+        0.19271978209803609
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_007",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.4491978875501899,
+        0.07231012365849636,
+        0.10349944281381605
+      ],
+      "tool_xyz": [
+        0.4494577990072142,
+        0.08352220113835312,
+        0.1927179414268136
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_008",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.44635855671220714,
+        0.0726745265013182,
+        0.10349944281381478
+      ],
+      "tool_xyz": [
+        0.4466254162771167,
+        0.08388978959000773,
+        0.19271739125714607
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_009",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.451118762444758,
+        0.07974944182721018,
+        0.10349944281381188
+      ],
+      "tool_xyz": [
+        0.45137915602086637,
+        0.09096439794792457,
+        0.1927189292139937
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_010",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 199,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 199,
+      "ring_xyz": [
+        0.442251782026308,
+        0.08214431257512496,
+        0.10349944281381351
+      ],
+      "tool_xyz": [
+        0.442512157747133,
+        0.09336131929477036,
+        0.1927166519830319
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_011",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 213,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 213,
+      "ring_xyz": [
+        0.44164300149175406,
+        0.07503325275354929,
+        0.10349944281381455
+      ],
+      "tool_xyz": [
+        0.44190468141180483,
+        0.08624877726745103,
+        0.19271600495038857
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_012",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 207,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 207,
+      "ring_xyz": [
+        0.43988747575984605,
+        0.07467599659376857,
+        0.10349944281381487
+      ],
+      "tool_xyz": [
+        0.4401471858704945,
+        0.08589013359168186,
+        0.19271555426789627
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_013",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 196,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 196,
+      "ring_xyz": [
+        0.44390319632899716,
+        0.07813669474073,
+        0.10349944281381472
+      ],
+      "tool_xyz": [
+        0.44416254363728586,
+        0.08935188062230558,
+        0.19271681301374208
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_014",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 206,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 206,
+      "ring_xyz": [
+        0.4452323258273503,
+        0.07541700381870202,
+        0.10349944281381489
+      ],
+      "tool_xyz": [
+        0.4454919281737697,
+        0.08663078469596354,
+        0.1927169955900524
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E17_train_015",
+    "source_episode_id": "E17",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.44948227995290196,
+        0.08177845948946201,
+        0.10349944281381386
+      ],
+      "tool_xyz": [
+        0.449741142388654,
+        0.09299439737127704,
+        0.19271846472599236
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_000",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 207,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 207,
+      "ring_xyz": [
+        0.44954294135894335,
+        0.07295054263189432,
+        0.10349944281381482
+      ],
+      "tool_xyz": [
+        0.4497636925713614,
+        0.08415538655052057,
+        0.19271831965807684
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_001",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 209,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 209,
+      "ring_xyz": [
+        0.4491638355794485,
+        0.07795248286604153,
+        0.10349944281381429
+      ],
+      "tool_xyz": [
+        0.4493836061773088,
+        0.08916230420298091,
+        0.1927184397772979
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_002",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.4454404730748147,
+        0.08026862846943089,
+        0.10349944281381442
+      ],
+      "tool_xyz": [
+        0.4456586739088467,
+        0.09148562661725497,
+        0.19271754235799798
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_003",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 211,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 211,
+      "ring_xyz": [
+        0.4584595579625483,
+        0.07236163113035113,
+        0.10349944281381292
+      ],
+      "tool_xyz": [
+        0.45868094257285014,
+        0.08356700724920928,
+        0.1927207471990857
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_004",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 204,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 204,
+      "ring_xyz": [
+        0.4444338768950354,
+        0.07803402222949901,
+        0.1034994428138148
+      ],
+      "tool_xyz": [
+        0.4446520516505142,
+        0.08925066791617281,
+        0.19271716740686595
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_005",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 206,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 206,
+      "ring_xyz": [
+        0.4579191826377204,
+        0.07374629977732235,
+        0.10349944281381632
+      ],
+      "tool_xyz": [
+        0.45813987712783844,
+        0.08495360245495157,
+        0.19272065563374094
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_006",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 207,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 207,
+      "ring_xyz": [
+        0.4454744758050211,
+        0.07833883984847406,
+        0.10349944281381293
+      ],
+      "tool_xyz": [
+        0.4456935139594924,
+        0.08955199552542162,
+        0.19271746037152626
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_007",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 213,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 213,
+      "ring_xyz": [
+        0.4461917349195018,
+        0.07214852264164758,
+        0.10349944281381132
+      ],
+      "tool_xyz": [
+        0.44641242741099485,
+        0.08335630330517287,
+        0.19271737347424645
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_008",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 209,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 209,
+      "ring_xyz": [
+        0.4437224923914912,
+        0.06837690044301697,
+        0.10349944281381372
+      ],
+      "tool_xyz": [
+        0.44394387962876447,
+        0.0795810734930287,
+        0.19271656290069233
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_009",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 204,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 204,
+      "ring_xyz": [
+        0.4551846559099955,
+        0.07055596293766585,
+        0.10349944281381612
+      ],
+      "tool_xyz": [
+        0.4554047210918982,
+        0.08176654990819301,
+        0.19271975532649122
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_010",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 206,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 206,
+      "ring_xyz": [
+        0.4482961748692253,
+        0.07669453954401519,
+        0.10349944281381536
+      ],
+      "tool_xyz": [
+        0.4485147163566091,
+        0.08790979424073454,
+        0.19271814505705886
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_011",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.4457183962293934,
+        0.08180551336992521,
+        0.103499442813815
+      ],
+      "tool_xyz": [
+        0.4459369951450888,
+        0.09302342817927035,
+        0.1927176620539805
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_012",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 217,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 217,
+      "ring_xyz": [
+        0.4433471633525594,
+        0.07966217003332307,
+        0.10349944281381676
+      ],
+      "tool_xyz": [
+        0.44356640033855793,
+        0.09087663913778918,
+        0.19271693581405858
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_013",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 219,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 219,
+      "ring_xyz": [
+        0.4480599706396043,
+        0.07855925844198794,
+        0.10349944281381336
+      ],
+      "tool_xyz": [
+        0.4482792012732892,
+        0.08977565915437961,
+        0.19271813124595846
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_014",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 203,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 203,
+      "ring_xyz": [
+        0.44117404290367557,
+        0.0706669287512883,
+        0.10349944281381729
+      ],
+      "tool_xyz": [
+        0.4413929096398993,
+        0.08188070803819834,
+        0.19271598084382238
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E14_train_015",
+    "source_episode_id": "E14",
+    "split": "train",
+    "success": true,
+    "steps": 213,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 213,
+      "ring_xyz": [
+        0.45692747966541863,
+        0.0693938205638359,
+        0.10349944281381383
+      ],
+      "tool_xyz": [
+        0.4571481126394521,
+        0.08060377142769229,
+        0.19272018551143705
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_000",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.42951519664699966,
+        -0.002468951589108585,
+        0.10349944281381543
+      ],
+      "tool_xyz": [
+        0.4297873639577977,
+        0.00871778511223902,
+        0.19271130866501016
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_001",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 203,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 203,
+      "ring_xyz": [
+        0.4257612985960194,
+        -0.008836672358042629,
+        0.103499442813813
+      ],
+      "tool_xyz": [
+        0.42596901454964314,
+        0.002341272187987128,
+        0.19270769664335338
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_002",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 199,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 199,
+      "ring_xyz": [
+        0.4301254586647295,
+        -0.010259430565641952,
+        0.10349944281381433
+      ],
+      "tool_xyz": [
+        0.43040747280021024,
+        0.0009208732099084012,
+        0.1927114075663257
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_003",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.4265613455389853,
+        0.003587411027798357,
+        0.10349944281381591
+      ],
+      "tool_xyz": [
+        0.42681516091985466,
+        0.014774520343697216,
+        0.1927090815171511
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_004",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 199,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 199,
+      "ring_xyz": [
+        0.42158632669577645,
+        -0.0015966559515361595,
+        0.103499442813816
+      ],
+      "tool_xyz": [
+        0.4218270532511639,
+        0.009587621017923195,
+        0.19270192856209895
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_005",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 196,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 196,
+      "ring_xyz": [
+        0.4311082033437651,
+        0.0031320009393743966,
+        0.10349944281381589
+      ],
+      "tool_xyz": [
+        0.4313823102211113,
+        0.014321013667748538,
+        0.19271175871979102
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_006",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 199,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 199,
+      "ring_xyz": [
+        0.43940461355154087,
+        0.002129300909579495,
+        0.10349944281381421
+      ],
+      "tool_xyz": [
+        0.43967707194629585,
+        0.01331810615427882,
+        0.1927138517244339
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_007",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 202,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 202,
+      "ring_xyz": [
+        0.4250508693438242,
+        -0.003421720559752313,
+        0.10349944281381529
+      ],
+      "tool_xyz": [
+        0.42529663071289686,
+        0.007761823674534392,
+        0.19270577017270357
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_008",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 203,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 203,
+      "ring_xyz": [
+        0.42879562952610345,
+        -0.0030161292909559084,
+        0.10349944281381597
+      ],
+      "tool_xyz": [
+        0.42901879835207124,
+        0.008164809877454143,
+        0.1927111145669727
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_009",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.42048248725505016,
+        0.006418730667482174,
+        0.10349944281381525
+      ],
+      "tool_xyz": [
+        0.42073015043692014,
+        0.017609033850748353,
+        0.19270175355099856
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_010",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 198,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 198,
+      "ring_xyz": [
+        0.42271389040279594,
+        0.003196772924893875,
+        0.10349944281381489
+      ],
+      "tool_xyz": [
+        0.4229696329014325,
+        0.014382404776882022,
+        0.1927022079233991
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_011",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.42351569437532105,
+        0.002675076371333975,
+        0.10349944281381625
+      ],
+      "tool_xyz": [
+        0.42384147217738466,
+        0.017330232285217906,
+        0.19270242637889745
+      ],
+      "settled_for": 1.5500000000000007,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_012",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.4203331964715548,
+        0.002067837911060093,
+        0.10349944281402342
+      ],
+      "tool_xyz": [
+        0.42063205821931227,
+        0.013253948410515514,
+        0.19270172810366482
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_013",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.4209602942337072,
+        0.00272156907810858,
+        0.10349944281381655
+      ],
+      "tool_xyz": [
+        0.42120672304591383,
+        0.01391039344471599,
+        0.1927018222705798
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_014",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 196,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 196,
+      "ring_xyz": [
+        0.43347327364932475,
+        -0.0023184938008452946,
+        0.10349944281381307
+      ],
+      "tool_xyz": [
+        0.4337415600545102,
+        0.008864864385460318,
+        0.1927123138993802
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E03_train_015",
+    "source_episode_id": "E03",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4349251571289115,
+        -0.011893591184656186,
+        0.10349944281381658
+      ],
+      "tool_xyz": [
+        0.4351938594688772,
+        -0.0007148185465461136,
+        0.1927126280348027
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_000",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.42932662236227775,
+        -0.0021814603459488556,
+        0.10349944281381654
+      ],
+      "tool_xyz": [
+        0.42954415950127917,
+        0.009000765765685807,
+        0.19271126685198264
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_001",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.4234652902754021,
+        0.003912999606997928,
+        0.10349944281381362
+      ],
+      "tool_xyz": [
+        0.4236516155994805,
+        0.015096983868537184,
+        0.19270236617088365
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_002",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.4246852749455472,
+        -0.0027500160603127956,
+        0.10349944281381473
+      ],
+      "tool_xyz": [
+        0.4248788857635168,
+        0.008431394172591922,
+        0.1927056806908058
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_003",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 186,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 186,
+      "ring_xyz": [
+        0.4243405800057755,
+        -0.009180811347171372,
+        0.10349944281369139
+      ],
+      "tool_xyz": [
+        0.4245570792579268,
+        0.002002580953632752,
+        0.19270690691741704
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_004",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 186,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 186,
+      "ring_xyz": [
+        0.4374084792873593,
+        -0.0072037741719389835,
+        0.1034994428138172
+      ],
+      "tool_xyz": [
+        0.4376367202283175,
+        0.0039760941886160875,
+        0.19271328798541257
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_005",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.43352395881896894,
+        0.006047550008132625,
+        0.10349944281381154
+      ],
+      "tool_xyz": [
+        0.43373344919153134,
+        0.017233214214901545,
+        0.19271238137283914
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_006",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 181,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 181,
+      "ring_xyz": [
+        0.4294261616149454,
+        -0.012110331589644596,
+        0.10349944281381383
+      ],
+      "tool_xyz": [
+        0.4296431831168936,
+        -0.0009351336295021479,
+        0.19271125169983827
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_007",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.4331572517258727,
+        -0.0068844600979366495,
+        0.10349944281381653
+      ],
+      "tool_xyz": [
+        0.4333815013942786,
+        0.004295610977244892,
+        0.19271221028442814
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_008",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 179,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 179,
+      "ring_xyz": [
+        0.4379793891761728,
+        -0.011598793273357113,
+        0.1034994428138129
+      ],
+      "tool_xyz": [
+        0.4381958619757386,
+        -0.0004212806738647232,
+        0.19271341859759183
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_009",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.43688856057103,
+        -0.008249379169851318,
+        0.1034994428138152
+      ],
+      "tool_xyz": [
+        0.437114480844661,
+        0.0029299536563437375,
+        0.19271314946102902
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_010",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.4270918182215198,
+        -0.0045615871996249014,
+        0.10349944281381653
+      ],
+      "tool_xyz": [
+        0.42730093689302595,
+        0.006619261200990949,
+        0.19270978466853683
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_011",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 190,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 190,
+      "ring_xyz": [
+        0.4338397842317003,
+        0.0010738488238340674,
+        0.10349944281381467
+      ],
+      "tool_xyz": [
+        0.43406207190334656,
+        0.012257512919671436,
+        0.19271242091970897
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_012",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.42256831816732976,
+        0.004583747461464615,
+        0.10349944281381478
+      ],
+      "tool_xyz": [
+        0.422756213499122,
+        0.015768184306658627,
+        0.19270217332968426
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_013",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 179,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 179,
+      "ring_xyz": [
+        0.422659111347068,
+        -0.004668452883602269,
+        0.10349944281381411
+      ],
+      "tool_xyz": [
+        0.4228407207058367,
+        0.006503077427513099,
+        0.19270213376809436
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_014",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 180,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 180,
+      "ring_xyz": [
+        0.42532567531383914,
+        0.0002479341630082476,
+        0.10349944281381446
+      ],
+      "tool_xyz": [
+        0.42551954593107305,
+        0.011421744325500072,
+        0.19270766886064156
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E07_train_015",
+    "source_episode_id": "E07",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.4198940399939797,
+        -0.004774277676773587,
+        0.10349944281381614
+      ],
+      "tool_xyz": [
+        0.4200767422160527,
+        0.006401620325409807,
+        0.19270153541053192
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_000",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4305375350370539,
+        -0.00333911504417242,
+        0.10349944281381496
+      ],
+      "tool_xyz": [
+        0.4307249717427905,
+        0.007842170363922133,
+        0.19271152785868895
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_001",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.4210552884301105,
+        -0.007540125657306206,
+        0.10349944281381476
+      ],
+      "tool_xyz": [
+        0.4212176489243102,
+        0.0036390099745466586,
+        0.19270175856680555
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_002",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 191,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 191,
+      "ring_xyz": [
+        0.4256153814494124,
+        -0.008625883356171688,
+        0.10349944281403634
+      ],
+      "tool_xyz": [
+        0.4257926480471226,
+        0.002547748704085543,
+        0.19270777259146038
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_003",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 198,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 198,
+      "ring_xyz": [
+        0.43945203963189244,
+        -0.013081703817388301,
+        0.10349944281381646
+      ],
+      "tool_xyz": [
+        0.4396743263151352,
+        -0.001904422170516454,
+        0.19271378014484913
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_004",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4270445678883305,
+        0.0008145654763441922,
+        0.10349944281381705
+      ],
+      "tool_xyz": [
+        0.42722886722298214,
+        0.011997703090185465,
+        0.19270979289266987
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_005",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.433169572062998,
+        0.006602519768922529,
+        0.10349944281381493
+      ],
+      "tool_xyz": [
+        0.4333754056911728,
+        0.01778850687544483,
+        0.1927122961145926
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_006",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.4389251216824307,
+        -0.007114968245651172,
+        0.10349944281381603
+      ],
+      "tool_xyz": [
+        0.43913366551949057,
+        0.004064616020486253,
+        0.19271362935282732
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_007",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 204,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 204,
+      "ring_xyz": [
+        0.42682233158133787,
+        -0.0008536238492122234,
+        0.1034994428138147
+      ],
+      "tool_xyz": [
+        0.4269923442084128,
+        0.010328623778840319,
+        0.19270971583742796
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_008",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 202,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 202,
+      "ring_xyz": [
+        0.43698144041742826,
+        0.004925094943167623,
+        0.103499442813815
+      ],
+      "tool_xyz": [
+        0.43717884936357554,
+        0.016110255761737975,
+        0.19271323795249873
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_009",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.43218847194168103,
+        -0.011259501965520271,
+        0.10349944281381632
+      ],
+      "tool_xyz": [
+        0.43238129008880805,
+        -8.179625493447888e-05,
+        0.19271190178412928
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_010",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.4260770846069783,
+        0.005249382678835004,
+        0.10349944281381646
+      ],
+      "tool_xyz": [
+        0.4262587623267379,
+        0.016434242887601234,
+        0.19270896208896043
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_011",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4390212622050644,
+        0.0040765643317355,
+        0.10349944281381493
+      ],
+      "tool_xyz": [
+        0.43923623294681396,
+        0.015261158134751956,
+        0.19271375655311918
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_012",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.43625122380465325,
+        0.00614281599963554,
+        0.10349944281381494
+      ],
+      "tool_xyz": [
+        0.43644744160072746,
+        0.0173285246674685,
+        0.1927130639450549
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_013",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.437249495612018,
+        -0.01061496894057177,
+        0.10349944281381365
+      ],
+      "tool_xyz": [
+        0.4374652150318519,
+        0.0005630188209000378,
+        0.19271320798056618
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_014",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.4252142268730648,
+        -0.011648209791648389,
+        0.10349944281381504
+      ],
+      "tool_xyz": [
+        0.42537408411892835,
+        -0.00047090399477736676,
+        0.1927057157613668
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E01_train_015",
+    "source_episode_id": "E01",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.430505767593464,
+        0.004492910264421203,
+        0.1034994428138146
+      ],
+      "tool_xyz": [
+        0.43069346450924095,
+        0.015677792579603556,
+        0.1927115916207984
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_000",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.43017383316782204,
+        -0.003431497960334311,
+        0.10349944281381526
+      ],
+      "tool_xyz": [
+        0.4303669129343867,
+        0.007749907475999797,
+        0.19271146471099598
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_001",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.43216878710586754,
+        0.005840978911971506,
+        0.10349944281381439
+      ],
+      "tool_xyz": [
+        0.4323687003283406,
+        0.017019503736546565,
+        0.19271203487175464
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_002",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.4364197396026154,
+        0.003218408506674854,
+        0.10349944281381525
+      ],
+      "tool_xyz": [
+        0.43663102828034495,
+        0.014395849327791149,
+        0.19271309210491228
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_003",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.4257354293601743,
+        -0.008651474104578291,
+        0.1034994428138161
+      ],
+      "tool_xyz": [
+        0.42590718274528655,
+        0.0025273662265905277,
+        0.19270771615606308
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_004",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.4350386370504266,
+        0.0003651517499019057,
+        0.10349944281381492
+      ],
+      "tool_xyz": [
+        0.4352454844380685,
+        0.0115401759350827,
+        0.1927127173379411
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_005",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.43701485643360044,
+        0.0023472742896814692,
+        0.10349944281381487
+      ],
+      "tool_xyz": [
+        0.4372274810163,
+        0.013531213073836127,
+        0.19271323775110497
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_006",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 179,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 179,
+      "ring_xyz": [
+        0.4328891643207268,
+        -0.0066628831269921725,
+        0.10349944281381455
+      ],
+      "tool_xyz": [
+        0.43309089907967663,
+        0.004517024811817342,
+        0.1927121328909022
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_007",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.43378402714297537,
+        -0.007456166592805086,
+        0.10349944281381393
+      ],
+      "tool_xyz": [
+        0.43398818053229027,
+        0.003716041780053527,
+        0.19271235590869362
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_008",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.4346015271871145,
+        -0.011042864681000466,
+        0.10349944281381372
+      ],
+      "tool_xyz": [
+        0.4348052430802185,
+        0.00012794763603118868,
+        0.19271255413994964
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_009",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.43568611400641244,
+        -0.010485732619186445,
+        0.10349944281381353
+      ],
+      "tool_xyz": [
+        0.43589179106824755,
+        0.0006853547818244066,
+        0.19271283062119948
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_010",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 179,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 179,
+      "ring_xyz": [
+        0.42427289846192384,
+        -0.0020140513608738397,
+        0.10349944281381454
+      ],
+      "tool_xyz": [
+        0.42445437868916697,
+        0.009158544581504993,
+        0.19270250136321893
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_011",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 180,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 180,
+      "ring_xyz": [
+        0.4352150343042855,
+        -0.010777205875266205,
+        0.10349944281381471
+      ],
+      "tool_xyz": [
+        0.4354300745014637,
+        0.00040066987633395856,
+        0.1927127122038606
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_012",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 185,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 185,
+      "ring_xyz": [
+        0.4285298399101782,
+        -0.011268102261492871,
+        0.1034994428138142
+      ],
+      "tool_xyz": [
+        0.4287213731656267,
+        -9.75027259918647e-05,
+        0.19271102368407722
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_013",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.42193938664144803,
+        0.0050641126649876664,
+        0.10349944281381462
+      ],
+      "tool_xyz": [
+        0.42210301807901784,
+        0.01624049782200823,
+        0.1927020395304735
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_014",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.437914704624682,
+        -0.005805420645808048,
+        0.10349944281381455
+      ],
+      "tool_xyz": [
+        0.4381311329780577,
+        0.005366161086057049,
+        0.19271342068389538
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E06_train_015",
+    "source_episode_id": "E06",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.4229349368893952,
+        -0.010899336367083677,
+        0.10349944281381612
+      ],
+      "tool_xyz": [
+        0.423096233982344,
+        0.0002784710063715701,
+        0.19270216582570232
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_000",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 198,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 198,
+      "ring_xyz": [
+        0.4492464829110795,
+        0.07387999627197153,
+        0.1034994428138143
+      ],
+      "tool_xyz": [
+        0.4494651037494674,
+        0.08509443991938093,
+        0.1927183058359528
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_001",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 197,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 197,
+      "ring_xyz": [
+        0.4517571563668901,
+        0.07173888715486706,
+        0.10349944281381342
+      ],
+      "tool_xyz": [
+        0.45197689519369477,
+        0.082952199208567,
+        0.19271888325820105
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_002",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.44071601269906574,
+        0.07427443435169163,
+        0.1034994428138138
+      ],
+      "tool_xyz": [
+        0.4409346669207546,
+        0.08548997122229997,
+        0.1927160121101417
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_003",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 199,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 199,
+      "ring_xyz": [
+        0.4581222846465322,
+        0.06824065789313308,
+        0.10349944281381457
+      ],
+      "tool_xyz": [
+        0.45834191985472,
+        0.07945204755099056,
+        0.19272051156377779
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_004",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 201,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 201,
+      "ring_xyz": [
+        0.4564542140816226,
+        0.07875280928938733,
+        0.10349944281381603
+      ],
+      "tool_xyz": [
+        0.45667680689207146,
+        0.08996810480663922,
+        0.19272046875706525
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_005",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 211,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 211,
+      "ring_xyz": [
+        0.4470586013927427,
+        0.07710893082041897,
+        0.10349944281381475
+      ],
+      "tool_xyz": [
+        0.4472769308018024,
+        0.08832490652840075,
+        0.1927178574497968
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_006",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.4548780479870932,
+        0.06775389107765371,
+        0.10349944281381239
+      ],
+      "tool_xyz": [
+        0.4551013703090206,
+        0.078965187430388,
+        0.19271956959571052
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_007",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 214,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 214,
+      "ring_xyz": [
+        0.4495362826767249,
+        0.07791873005981405,
+        0.10349944281381383
+      ],
+      "tool_xyz": [
+        0.4497544334604057,
+        0.0891347650384508,
+        0.192718562687307
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_008",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 208,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 208,
+      "ring_xyz": [
+        0.4558984239437759,
+        0.08053708330102148,
+        0.10349944281381569
+      ],
+      "tool_xyz": [
+        0.45611703886395427,
+        0.09175350650404314,
+        0.19272043811095524
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_009",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 213,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 213,
+      "ring_xyz": [
+        0.44770313656328964,
+        0.06874150732588069,
+        0.10349944281381522
+      ],
+      "tool_xyz": [
+        0.447922107931735,
+        0.07995403426893778,
+        0.1927176683257965
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_010",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 195,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 195,
+      "ring_xyz": [
+        0.4548721290463962,
+        0.07987980953261399,
+        0.10349944281381662
+      ],
+      "tool_xyz": [
+        0.45509081288879316,
+        0.09109608110600552,
+        0.19272010559932212
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_011",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.45690786833049574,
+        0.07125373158577544,
+        0.10349944281381519
+      ],
+      "tool_xyz": [
+        0.4571297185450664,
+        0.08246621917991373,
+        0.19272027569284822
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_012",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 204,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 204,
+      "ring_xyz": [
+        0.4432654271548895,
+        0.07920078806815951,
+        0.10349944281381351
+      ],
+      "tool_xyz": [
+        0.4434833549163407,
+        0.09041802062732618,
+        0.19271693540943632
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_013",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 200,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 200,
+      "ring_xyz": [
+        0.45449052883279467,
+        0.06533848911619163,
+        0.10349944281381467
+      ],
+      "tool_xyz": [
+        0.4547142150580513,
+        0.07654888094336755,
+        0.19271936603980044
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_014",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 205,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 205,
+      "ring_xyz": [
+        0.4447514412913569,
+        0.07416318924711467,
+        0.10349944281381383
+      ],
+      "tool_xyz": [
+        0.4449699012117585,
+        0.0853782154387399,
+        0.1927171099358172
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E13_train_015",
+    "source_episode_id": "E13",
+    "split": "train",
+    "success": true,
+    "steps": 194,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 194,
+      "ring_xyz": [
+        0.44662667444848153,
+        0.06941676496201665,
+        0.10349944281381478
+      ],
+      "tool_xyz": [
+        0.4468460893490973,
+        0.08062967456474622,
+        0.19271740249094194
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_000",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.4293902408669856,
+        -0.00220015329828479,
+        0.10349944281381426
+      ],
+      "tool_xyz": [
+        0.42965715900841717,
+        0.008985159089018988,
+        0.19271129545618632
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_001",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 180,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 180,
+      "ring_xyz": [
+        0.435825000625218,
+        -0.00937291037849894,
+        0.10349944281381634
+      ],
+      "tool_xyz": [
+        0.4360956704399483,
+        0.0018083423330907192,
+        0.19271289168132616
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_002",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.43201530609085376,
+        0.0002007652310400673,
+        0.1034994428138143
+      ],
+      "tool_xyz": [
+        0.4322302370319424,
+        0.011383013916943623,
+        0.19271195390966478
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_003",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.43719626531876304,
+        -0.006425487798950049,
+        0.10349944281381551
+      ],
+      "tool_xyz": [
+        0.4374655103565776,
+        0.004756399410530013,
+        0.19271324603843823
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_004",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.4286204236295653,
+        -0.006465944343323908,
+        0.1034994428136733
+      ],
+      "tool_xyz": [
+        0.4289004072872638,
+        0.004720631389088046,
+        0.19271001497563314
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_005",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 189,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 189,
+      "ring_xyz": [
+        0.4210936405193377,
+        -0.0018497818287022696,
+        0.10349944281381472
+      ],
+      "tool_xyz": [
+        0.4213342279421079,
+        0.009335813743113095,
+        0.19270182339989567
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_006",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.4213802197805821,
+        -0.011008299457845415,
+        0.10349944281377087
+      ],
+      "tool_xyz": [
+        0.4216015483807255,
+        0.0001763416929729164,
+        0.19270198048544995
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_007",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.42913278936625315,
+        0.0040548026407362025,
+        0.10349944281381616
+      ],
+      "tool_xyz": [
+        0.42939946794045036,
+        0.01524290098924596,
+        0.1927112741224905
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_008",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 187,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 187,
+      "ring_xyz": [
+        0.4280819580486439,
+        0.005048341504029459,
+        0.10349944281375613
+      ],
+      "tool_xyz": [
+        0.4282905658558265,
+        0.016239986349848638,
+        0.19270806716223618
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_009",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 186,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 186,
+      "ring_xyz": [
+        0.4311021013425265,
+        -0.004636012836696923,
+        0.10349944281381544
+      ],
+      "tool_xyz": [
+        0.43135499395516086,
+        0.006551692631226725,
+        0.1927115170974022
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_010",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.42309509362605396,
+        -0.006648512589586007,
+        0.10349944281381356
+      ],
+      "tool_xyz": [
+        0.4233350471284298,
+        0.004534811779581598,
+        0.19270223441783035
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_011",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.42203031469741287,
+        -0.008333466346351041,
+        0.10349944281381682
+      ],
+      "tool_xyz": [
+        0.42227029445580433,
+        0.00284913484264622,
+        0.1927019952274462
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_012",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.437617453566328,
+        -0.0014554820008684563,
+        0.10349944281381313
+      ],
+      "tool_xyz": [
+        0.43788764809950076,
+        0.00972905901202601,
+        0.19271338006593058
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_013",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 182,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 182,
+      "ring_xyz": [
+        0.43221795402694824,
+        -0.004570152580057771,
+        0.10349944281381514
+      ],
+      "tool_xyz": [
+        0.4324885986486179,
+        0.0066141817512645855,
+        0.19271199356550764
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_014",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.4341738089184673,
+        -0.0004486981618508214,
+        0.10349944281398965
+      ],
+      "tool_xyz": [
+        0.43443458085319003,
+        0.010732701341507217,
+        0.19271257343466794
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E09_train_015",
+    "source_episode_id": "E09",
+    "split": "train",
+    "success": true,
+    "steps": 184,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 184,
+      "ring_xyz": [
+        0.4287234064117041,
+        -0.009488379663856891,
+        0.10349944281381591
+      ],
+      "tool_xyz": [
+        0.42899208489191004,
+        0.00169429576695083,
+        0.19271110440802783
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E12_val_000",
+    "source_episode_id": "E12",
+    "split": "val",
+    "success": true,
+    "steps": 192,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 192,
+      "ring_xyz": [
+        0.4486014109431144,
+        0.07440623396699131,
+        0.10349944281381672
+      ],
+      "tool_xyz": [
+        0.44886842715083636,
+        0.08562409837852067,
+        0.19271804347206678
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E12_val_001",
+    "source_episode_id": "E12",
+    "split": "val",
+    "success": true,
+    "steps": 186,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 186,
+      "ring_xyz": [
+        0.4403173758994046,
+        0.06963089451257609,
+        0.10349944281381308
+      ],
+      "tool_xyz": [
+        0.44057890374713343,
+        0.08084405864856148,
+        0.19271554150816778
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E12_val_002",
+    "source_episode_id": "E12",
+    "split": "val",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4570754516521767,
+        0.07420982526491689,
+        0.10349944281381422
+      ],
+      "tool_xyz": [
+        0.45734149669248236,
+        0.0854290108823142,
+        0.19272038549226295
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E12_val_003",
+    "source_episode_id": "E12",
+    "split": "val",
+    "success": true,
+    "steps": 193,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 193,
+      "ring_xyz": [
+        0.4386802525253177,
+        0.0762776240082777,
+        0.10349944281381533
+      ],
+      "tool_xyz": [
+        0.43894672418076497,
+        0.08749792407834955,
+        0.19271547036784145
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E05_val_000",
+    "source_episode_id": "E05",
+    "split": "val",
+    "success": true,
+    "steps": 180,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 180,
+      "ring_xyz": [
+        0.42957061371521693,
+        -0.002326622419028634,
+        0.10349944281381195
+      ],
+      "tool_xyz": [
+        0.4297827302608497,
+        0.00884880500052711,
+        0.19271131844128903
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E05_val_001",
+    "source_episode_id": "E05",
+    "split": "val",
+    "success": true,
+    "steps": 180,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 180,
+      "ring_xyz": [
+        0.4230469848882156,
+        -0.002956207423921636,
+        0.10349944281381378
+      ],
+      "tool_xyz": [
+        0.42322627109051747,
+        0.008217828300500404,
+        0.1927022208776724
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E05_val_002",
+    "source_episode_id": "E05",
+    "split": "val",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.42724553509938895,
+        -0.00012408736908807604,
+        0.10349944281381442
+      ],
+      "tool_xyz": [
+        0.4274558264838088,
+        0.011058693872010132,
+        0.1927098427352956
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E05_val_003",
+    "source_episode_id": "E05",
+    "split": "val",
+    "success": true,
+    "steps": 183,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 183,
+      "ring_xyz": [
+        0.426291195136508,
+        -0.001998899825359736,
+        0.10349944281381582
+      ],
+      "tool_xyz": [
+        0.42648923098744856,
+        0.009182611458879766,
+        0.19270895657209902
+      ],
+      "settled_for": 2.2,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E11_val_000",
+    "source_episode_id": "E11",
+    "split": "val",
+    "success": true,
+    "steps": 188,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 188,
+      "ring_xyz": [
+        0.43122154384460387,
+        0.000575745397100119,
+        0.1034994428138157
+      ],
+      "tool_xyz": [
+        0.43149137560730905,
+        0.01176177518671342,
+        0.19271177007631957
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E11_val_001",
+    "source_episode_id": "E11",
+    "split": "val",
+    "success": true,
+    "steps": 204,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 204,
+      "ring_xyz": [
+        0.42174624761827584,
+        0.00550251977596473,
+        0.10349944281381476
+      ],
+      "tool_xyz": [
+        0.42198754730335425,
+        0.016691451797024106,
+        0.19270201693931022
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E11_val_002",
+    "source_episode_id": "E11",
+    "split": "val",
+    "success": true,
+    "steps": 189,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 189,
+      "ring_xyz": [
+        0.4328748333265958,
+        0.006626728070394951,
+        0.10349944281381718
+      ],
+      "tool_xyz": [
+        0.4331497029721481,
+        0.017817972164182933,
+        0.19271224050025143
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  },
+  {
+    "configuration_id": "E11_val_003",
+    "source_episode_id": "E11",
+    "split": "val",
+    "success": true,
+    "steps": 189,
+    "info": {
+      "success": true,
+      "phase": "retract",
+      "phase_index": 7,
+      "failure_reason": "",
+      "steps": 189,
+      "ring_xyz": [
+        0.42965401326674973,
+        0.00864193049999257,
+        0.10349944281365299
+      ],
+      "tool_xyz": [
+        0.4299002336752948,
+        0.01983147714004437,
+        0.19271092473735096
+      ],
+      "settled_for": 2.1500000000000004,
+      "finger_contacts": 0
+    }
+  }
+]

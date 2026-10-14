@@ -1,0 +1,157 @@
+{
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "source_basename": "359977334.mp4",
+  "annotation_method": "Manual visual review: whole video at stride 30 source frames; pilot and three release windows at stride 3. All times are source media PTS, not acquisition clock.",
+  "user_confirmed": {
+    "phone_fixed": true,
+    "bearing_repositioned": true,
+    "calibration_available": false,
+    "resets_removed_or_demonstrations_concatenated": true
+  },
+  "candidates": [
+    {
+      "candidate_id": "E01",
+      "source_frame_start": 0,
+      "terminal_evidence_frame": 150,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E02",
+      "source_frame_start": 180,
+      "terminal_evidence_frame": 360,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E03",
+      "source_frame_start": 390,
+      "terminal_evidence_frame": 510,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E04",
+      "source_frame_start": 540,
+      "terminal_evidence_frame": 660,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E05",
+      "source_frame_start": 690,
+      "terminal_evidence_frame": 780,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E06",
+      "source_frame_start": 810,
+      "terminal_evidence_frame": 930,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E07",
+      "source_frame_start": 960,
+      "terminal_evidence_frame": 1080,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E08",
+      "source_frame_start": 1110,
+      "terminal_evidence_frame": 1230,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E09",
+      "source_frame_start": 1290,
+      "terminal_evidence_frame": 1380,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E10",
+      "source_frame_start": 1440,
+      "terminal_evidence_frame": 1560,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E11",
+      "source_frame_start": 1590,
+      "terminal_evidence_frame": 1740,
+      "scene_group_candidate": 1
+    },
+    {
+      "candidate_id": "E12",
+      "source_frame_start": 1770,
+      "terminal_evidence_frame": 1890,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E13",
+      "source_frame_start": 1920,
+      "terminal_evidence_frame": 2040,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E14",
+      "source_frame_start": 2070,
+      "terminal_evidence_frame": 2160,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E15",
+      "source_frame_start": 2190,
+      "terminal_evidence_frame": 2310,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E16",
+      "source_frame_start": 2340,
+      "terminal_evidence_frame": 2460,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E17",
+      "source_frame_start": 2490,
+      "terminal_evidence_frame": 2580,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E18",
+      "source_frame_start": 2610,
+      "terminal_evidence_frame": 2700,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E19",
+      "source_frame_start": 2730,
+      "terminal_evidence_frame": 2850,
+      "scene_group_candidate": 2
+    },
+    {
+      "candidate_id": "E20",
+      "source_frame_start": 2880,
+      "terminal_evidence_frame": 2946,
+      "scene_group_candidate": 3
+    },
+    {
+      "candidate_id": "E21",
+      "source_frame_start": 2970,
+      "terminal_evidence_frame": 3096,
+      "scene_group_candidate": 3
+    },
+    {
+      "candidate_id": "E22",
+      "source_frame_start": 3120,
+      "terminal_evidence_frame": 3222,
+      "scene_group_candidate": 3
+    },
+    {
+      "candidate_id": "E23",
+      "source_frame_start": 3240,
+      "terminal_evidence_frame": 3420,
+      "scene_group_candidate": 3
+    },
+    {
+      "candidate_id": "E24",
+      "source_frame_start": 3450,
+      "terminal_evidence_frame": 3570,
+      "scene_group_candidate": 3
+    }
+  ]
+}

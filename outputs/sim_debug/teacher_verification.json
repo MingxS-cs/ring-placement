@@ -1,0 +1,666 @@
+{
+  "teacher_successes": 18,
+  "teacher_total": 18,
+  "workspace_verification": [
+    {
+      "seed": 0,
+      "ring_xy": [
+        0.51,
+        0.0
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.16331202521853774,
+      "finger_contact_steps": 93,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 190,
+        "ring_xyz": [
+          0.4299148298852224,
+          7.09650177484339e-05,
+          0.10349944281381576
+        ],
+        "tool_xyz": [
+          0.4301011937094812,
+          0.011254119808578007,
+          0.1927114190009353
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 1,
+      "ring_xy": [
+        0.31,
+        0.0
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.16350273469427234,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 223,
+        "ring_xyz": [
+          0.42984054705422264,
+          7.198634927893722e-05,
+          0.1034994428138178
+        ],
+        "tool_xyz": [
+          0.4301012022678354,
+          0.01125396036829522,
+          0.19271141979796583
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 2,
+      "ring_xy": [
+        0.43,
+        0.12
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.16329973531380182,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 227,
+        "ring_xyz": [
+          0.4298828189196816,
+          7.049325596293056e-05,
+          0.1034994428138152
+        ],
+        "tool_xyz": [
+          0.43010121704012544,
+          0.011253665977528183,
+          0.19271141888011833
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 3,
+      "ring_xy": [
+        0.43,
+        -0.12
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.1632941824594267,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 206,
+        "ring_xyz": [
+          0.42987594436153875,
+          7.260704709206208e-05,
+          0.10349944281381533
+        ],
+        "tool_xyz": [
+          0.4301011586603091,
+          0.011254709314318616,
+          0.19271140815169213
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 4,
+      "ring_xy": [
+        0.51,
+        0.08
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.16331374138530683,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 201,
+        "ring_xyz": [
+          0.42991480030475865,
+          7.122732164544769e-05,
+          0.10349944281381486
+        ],
+        "tool_xyz": [
+          0.4301011830409403,
+          0.011254309078434471,
+          0.19271141687379795
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 5,
+      "ring_xy": [
+        0.35,
+        -0.08
+      ],
+      "bearing_xy": [
+        0.43,
+        0.0
+      ],
+      "success": true,
+      "max_ring_height": 0.1634250813348923,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 198,
+        "ring_xyz": [
+          0.42983399777090825,
+          6.922496409375878e-05,
+          0.10349944281381467
+        ],
+        "tool_xyz": [
+          0.43010118734798025,
+          0.011254233841642092,
+          0.19271141787290713
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 6,
+      "ring_xy": [
+        0.59,
+        0.08
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.16323664372701985,
+      "finger_contact_steps": 93,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 210,
+        "ring_xyz": [
+          0.5099161029650674,
+          0.08005398223428246,
+          0.10349944281381611
+        ],
+        "tool_xyz": [
+          0.5100922910041119,
+          0.0912662546272961,
+          0.19273650375962995
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 7,
+      "ring_xy": [
+        0.39,
+        0.08
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.1634052341954255,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 213,
+        "ring_xyz": [
+          0.5098309470831287,
+          0.08005414195030221,
+          0.10349944281381476
+        ],
+        "tool_xyz": [
+          0.5100923947913952,
+          0.09126507378142422,
+          0.1927361821361458
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 8,
+      "ring_xy": [
+        0.51,
+        0.2
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.1632592785325546,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 253,
+        "ring_xyz": [
+          0.5098701768642239,
+          0.08005371919093242,
+          0.10349944281381392
+        ],
+        "tool_xyz": [
+          0.5100923119771459,
+          0.09126605871618236,
+          0.1927364587254682
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 9,
+      "ring_xy": [
+        0.51,
+        -0.039999999999999994
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.16326660872162158,
+      "finger_contact_steps": 107,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 203,
+        "ring_xyz": [
+          0.5097321928681148,
+          0.07718283194510826,
+          0.10349944281381548
+        ],
+        "tool_xyz": [
+          0.5100922286636892,
+          0.09126676989757856,
+          0.1927366062051396
+        ],
+        "settled_for": 2.1000000000000005,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 10,
+      "ring_xy": [
+        0.59,
+        0.16
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.16324180002628266,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 228,
+        "ring_xyz": [
+          0.5099287500769852,
+          0.0800537661867652,
+          0.10349944281381489
+        ],
+        "tool_xyz": [
+          0.5100922733759957,
+          0.09126640937884407,
+          0.19273653696896806
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 11,
+      "ring_xy": [
+        0.43,
+        0.0
+      ],
+      "bearing_xy": [
+        0.51,
+        0.08
+      ],
+      "success": true,
+      "max_ring_height": 0.1633261475145183,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 191,
+        "ring_xyz": [
+          0.5098277679724819,
+          0.08004963917012341,
+          0.103499442813814
+        ],
+        "tool_xyz": [
+          0.5100923286306397,
+          0.09126589214713536,
+          0.19273641781594342
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 12,
+      "ring_xy": [
+        0.5499999999999999,
+        -0.1
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.1632790728180386,
+      "finger_contact_steps": 93,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 197,
+        "ring_xyz": [
+          0.4698787343976993,
+          -0.09990455316009622,
+          0.10349944281381539
+        ],
+        "tool_xyz": [
+          0.4700957091437037,
+          -0.08876098124086128,
+          0.19272379852545635
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 13,
+      "ring_xy": [
+        0.35,
+        -0.1
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.1634290817776884,
+      "finger_contact_steps": 106,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 210,
+        "ring_xyz": [
+          0.46983728290684995,
+          -0.09990247756176271,
+          0.10349944281381374
+        ],
+        "tool_xyz": [
+          0.47009573837634955,
+          -0.0887601732011963,
+          0.19272357391067832
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 14,
+      "ring_xy": [
+        0.47,
+        0.01999999999999999
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.16327879797760397,
+      "finger_contact_steps": 119,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 203,
+        "ring_xyz": [
+          0.46968530193152686,
+          -0.10330545122522104,
+          0.10349944281381482
+        ],
+        "tool_xyz": [
+          0.4700956759373899,
+          -0.08876162148480601,
+          0.19272395433759418
+        ],
+        "settled_for": 1.5000000000000007,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 15,
+      "ring_xy": [
+        0.47,
+        -0.22
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.1632791886696409,
+      "finger_contact_steps": 107,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 239,
+        "ring_xyz": [
+          0.46981336637965937,
+          -0.10261859790162156,
+          0.10349944281381573
+        ],
+        "tool_xyz": [
+          0.47009572215841827,
+          -0.08876066770333774,
+          0.1927237150481253
+        ],
+        "settled_for": 2.1500000000000004,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 16,
+      "ring_xy": [
+        0.5499999999999999,
+        -0.020000000000000004
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.16328006226372138,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 198,
+        "ring_xyz": [
+          0.469877014422768,
+          -0.09990539730920614,
+          0.10349944281381604
+        ],
+        "tool_xyz": [
+          0.4700956636039755,
+          -0.08876182351477331,
+          0.1927239993878277
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    },
+    {
+      "seed": 17,
+      "ring_xy": [
+        0.38999999999999996,
+        -0.18
+      ],
+      "bearing_xy": [
+        0.47,
+        -0.1
+      ],
+      "success": true,
+      "max_ring_height": 0.16331592625120173,
+      "finger_contact_steps": 94,
+      "info": {
+        "success": true,
+        "phase": "retract",
+        "phase_index": 7,
+        "failure_reason": "",
+        "steps": 214,
+        "ring_xyz": [
+          0.4698306410798205,
+          -0.09990843002072516,
+          0.10349944281381673
+        ],
+        "tool_xyz": [
+          0.47009575001779325,
+          -0.08875963841271908,
+          0.192723408356261
+        ],
+        "settled_for": 2.2,
+        "finger_contacts": 0
+      }
+    }
+  ],
+  "zero_motion_baseline": [
+    {
+      "success": false,
+      "phase": "approach",
+      "phase_index": 0,
+      "failure_reason": "timeout_approach",
+      "steps": 450,
+      "ring_xyz": [
+        0.5099999997860111,
+        1.546278476519833e-11,
+        0.10349944281381412
+      ],
+      "tool_xyz": [
+        0.4499999998250667,
+        -0.019999999988471698,
+        0.24999999998134123
+      ],
+      "settled_for": 0.0,
+      "finger_contacts": 0
+    },
+    {
+      "success": false,
+      "phase": "approach",
+      "phase_index": 0,
+      "failure_reason": "timeout_approach",
+      "steps": 450,
+      "ring_xyz": [
+        0.30999999979840276,
+        -7.151894427960908e-11,
+        0.1034994428138147
+      ],
+      "tool_xyz": [
+        0.4499999998250667,
+        -0.019999999988471698,
+        0.24999999998134123
+      ],
+      "settled_for": 0.0,
+      "finger_contacts": 0
+    },
+    {
+      "success": false,
+      "phase": "approach",
+      "phase_index": 0,
+      "failure_reason": "timeout_approach",
+      "steps": 450,
+      "ring_xyz": [
+        0.4300000001741704,
+        0.12000000012562784,
+        0.103499442813814
+      ],
+      "tool_xyz": [
+        0.4499999998250667,
+        -0.019999999988471698,
+        0.24999999998134123
+      ],
+      "settled_for": 0.0,
+      "finger_contacts": 0
+    }
+  ],
+  "sim_dt": 0.002,
+  "control_dt": 0.05,
+  "elapsed_wall_seconds": 17.734163522720337,
+  "robot_gravity_compensation": true,
+  "ring_free_joint": true,
+  "weld_constraints": 0,
+  "source_model_revision": "d7b481bac63d3d600ab404ee74f7474c5efe8a67"
+}

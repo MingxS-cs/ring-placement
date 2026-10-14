@@ -1,0 +1,105 @@
+{
+  "source_sha256": "90cfbb066d2d88c1794ee7f7d517715f50a72dda8abf7248624650d0d4ca0dd4",
+  "method": "Manual inspection of all 24 raw and annotated initial/terminal endpoints via four contact sheets; missing-bearing terminals checked against adjacent source frames. No pixel coordinates were manually invented or adjusted.",
+  "reviewed_on": "2026-10-14",
+  "episodes": {
+    "E01": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E02": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E03": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E04": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E05": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E06": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E07": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E08": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E09": {
+      "decision": "accepted",
+      "notes": "Original frame1380 has tool connected to bearing contour; manually selected unobstructed same-episode frame1390. Ring is visibly released inside bearing; neighboring frames1390/1400/1410 show unchanged layout.",
+      "terminal_frame": 1390
+    },
+    "E10": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E11": {
+      "decision": "accepted",
+      "notes": "Visible bearing and ring confirmed; terminal ring center uses observed inner aperture ellipse because outer dark wall joins shadow. Confidence0.60; aperture center can differ from projected upper rim center due height parallax."
+    },
+    "E12": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E13": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E14": {
+      "decision": "accepted",
+      "notes": "Original frame2160 has tool connected to bearing contour; manually selected unobstructed same-episode frame2170. Adjacent frame2180 confirms same layout; no reset or cut between reviewed frames.",
+      "terminal_frame": 2170
+    },
+    "E15": {
+      "decision": "accepted",
+      "notes": "Visible bearing and ring confirmed; terminal ring center uses observed inner aperture ellipse because outer dark wall joins shadow. Confidence0.60; aperture center can differ from projected upper rim center due height parallax."
+    },
+    "E16": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E17": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E18": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E19": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E20": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E21": {
+      "decision": "accepted",
+      "notes": "Visible bearing and ring confirmed; terminal ring center uses observed inner aperture ellipse because outer dark wall joins shadow. Confidence0.60; aperture center can differ from projected upper rim center due height parallax."
+    },
+    "E22": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E23": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    },
+    "E24": {
+      "decision": "accepted",
+      "notes": "Visible bearing rim and ring optical footprint match the object in the reviewed overlay."
+    }
+  }
+}
