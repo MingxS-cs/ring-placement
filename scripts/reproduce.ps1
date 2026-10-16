@@ -10,24 +10,24 @@ try {
     if (Test-Path -LiteralPath $OutputDirectory) { throw 'Choose a new directory to preserve earlier experiments.' }
     New-Item -ItemType Directory -Path $OutputDirectory | Out-Null
     function Invoke-Module {
-        param([string]$Name, [string[]]$Arguments)
-        & $PythonExecutable -m $Name @Arguments
-        if ($LASTEXITCODE -ne 0) { throw "Module failed: $Name" }
+        param([string]$ModuleName, [string[]]$ModuleArguments)
+        & $PythonExecutable -m $ModuleName @ModuleArguments
+        if ($LASTEXITCODE -ne 0) { throw "Module failed: $ModuleName" }
     }
-    $dataset = Join-Path $OutputDirectory 'dataset'
-    $manifest = Join-Path $OutputDirectory 'configurations.json'
+    $datasetDirectory = Join-Path $OutputDirectory 'dataset'
+    $manifestPath = Join-Path $OutputDirectory 'configurations.json'
     $modelDirectory = Join-Path $OutputDirectory 'model'
-    $checkpoint = Join-Path $modelDirectory 'policy.pt'
-    $history = Join-Path $modelDirectory 'training.json'
-    $receipt = Join-Path $OutputDirectory 'model_freeze.json'
-    Invoke-Module 'ring_learning.vla_data' @('--output',$dataset)
-    Invoke-Module 'ring_learning.vla_train' @('--dataset',$dataset,'--out',$modelDirectory,
+    $checkpointPath = Join-Path $modelDirectory 'policy.pt'
+    $trainingReportPath = Join-Path $modelDirectory 'training.json'
+    $freezeReceiptPath = Join-Path $OutputDirectory 'model_freeze.json'
+    Invoke-Module 'ring_learning.vla_data' @('--output',$datasetDirectory)
+    Invoke-Module 'ring_learning.vla_train' @('--dataset',$datasetDirectory,'--out',$modelDirectory,
         '--device',$Device,'--epochs','240','--batch-size','8','--decoder-steps','2000')
-    Invoke-Module 'ring_learning.vla_evaluate' @('prepare','--dataset-manifest',(Join-Path $dataset 'manifest.json'),'--out',$manifest)
-    Invoke-Module 'ring_learning.vla_evaluate' @('freeze','--manifest',$manifest,'--checkpoint',$checkpoint,'--training-report',$history,'--out',$receipt)
-    Invoke-Module 'ring_learning.vla_evaluate' @('run','--manifest',$manifest,'--receipt',$receipt,
+    Invoke-Module 'ring_learning.vla_evaluate' @('prepare','--dataset-manifest',(Join-Path $datasetDirectory 'manifest.json'),'--out',$manifestPath)
+    Invoke-Module 'ring_learning.vla_evaluate' @('freeze','--manifest',$manifestPath,'--checkpoint',$checkpointPath,'--training-report',$trainingReportPath,'--out',$freezeReceiptPath)
+    Invoke-Module 'ring_learning.vla_evaluate' @('run','--manifest',$manifestPath,'--receipt',$freezeReceiptPath,
         '--out',(Join-Path $OutputDirectory 'evaluation.json'),'--device','cpu')
-    Invoke-Module 'ring_learning.vla_demo' @('--manifest',$manifest,'--checkpoint',$checkpoint,
+    Invoke-Module 'ring_learning.vla_demo' @('--manifest',$manifestPath,'--checkpoint',$checkpointPath,
         '--output',(Join-Path $OutputDirectory 'student_demo.mp4'))
 }
 finally { Pop-Location }

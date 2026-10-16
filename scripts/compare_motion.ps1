@@ -8,9 +8,9 @@ $projectDirectory = Split-Path -Parent $PSScriptRoot
 Push-Location -LiteralPath $projectDirectory
 try {
     function Invoke-Module {
-        param([string]$Name, [string[]]$Arguments)
-        & $PythonExecutable -m $Name @Arguments
-        if ($LASTEXITCODE -ne 0) { throw "Module failed: $Name" }
+        param([string]$ModuleName, [string[]]$ModuleArguments)
+        & $PythonExecutable -m $ModuleName @ModuleArguments
+        if ($LASTEXITCODE -ne 0) { throw "Module failed: $ModuleName" }
     }
     Invoke-Module 'ring_learning.motion_ablation' @('prepare','--out',$OutputDirectory)
     Invoke-Module 'ring_learning.motion_ablation' @('run','--manifest',

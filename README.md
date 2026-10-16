@@ -1,39 +1,43 @@
 # Ring placement
 
-A simulated Panda arm picks up a 25 mm ring and places it inside a bearing with a 40 mm opening. The project uses a short, personally recorded phone video to build the training scenes and transfer curves.
+A simulated Panda arm picks up a 25 mm ring and places it inside a bearing with a 40 mm opening. A phone recording supplies the object layouts and approximate transfer paths.
 
-The policy is a task-specific VLA trained from scratch: 33,930 parameters, one initial 256×256 RGB image and an English instruction in, 23 XYZ/gripper waypoints out. A programmed waypoint tracker and IK execute the plan. It supports nine phrases for inside, 60 mm left and 60 mm right; it does not understand unrestricted language or replan from live images.
+The model has 33,930 parameters and is trained from scratch. It takes one initial 256×256 simulator image and an English instruction, then predicts 23 XYZ/gripper waypoints. A programmed tracker and IK execute those waypoints. It accepts nine fixed phrases for three targets: inside the bearing, 60 mm left, and 60 mm right. The model uses no further images during execution.
 
-## Data and assumptions
+## Data
 
-The [recording](data/source/359977334.mp4) lasts 119.4 seconds and contains 24 segmented demonstrations. The phone stayed fixed, the bearing had three placements, and reset footage was removed.
+The [recording](data/source/359977334.mp4) contains 24 demonstrations over 119.4 seconds. The phone stayed fixed, the bearing had three placements, and reset footage was cut out. Ring outer/inner diameter and height are 25/20/7 mm; bearing dimensions are 50/40/5 mm.
 
-| Part | Where it comes from |
+| Training information | Source |
 |---|---|
-| Source layout and approximate planar motion | Phone video and reviewed annotations |
-| Transfer curvature | Motion fit using only 13 training demonstrations |
-| RGB, masks and robot-action labels | Simulation: 208 training scenes and 24 validation scenes, split by source demonstration |
+| Object layouts and approximate planar paths | Phone video and reviewed annotations |
+| Transfer curve | Motion fit on 13 training demonstrations |
+| RGB, masks and action labels | 208 training and 24 validation scenes rendered in simulation, split by source demonstration |
 | Height, grip timing, orientation and IK | Programmed conventions |
 
-The visual encoder was trained on simulator RGB, not on the phone frames. Its fixed orthographic camera hides the robot geometry. Both objects start flat; dimensions, appearance and physics parameters stay fixed. Ring OD/ID/height: 25/20/7 mm. Bearing OD/ID/height: 50/40/5 mm.
+The visual encoder trains on simulator images. The fixed orthographic camera hides the robot geometry. Both objects start flat; dimensions, appearance and physics parameters stay fixed.
 
-## What was tested
+## Results
 
-The policy was tested on 96 frozen combinations of position, eight transfer directions and 45–160 mm distance. Models were selected before these outcomes were opened.
+The frozen benchmark covers 96 layouts spanning eight transfer directions and 45–160 mm distances. The model was selected before the tests were run.
 
-| Test | Successful / registered attempts |
+| Test | Successes / attempts |
 |---|---:|
 | RGB + inside instruction | 96/96 |
 | Same scenes and model, black RGB | 0/96 |
 | Same 24 scenes, inside/left/right instructions | 72/72 |
 
-The language experiment contains 24 repeats of the main task. Mean final center error was 0.507 mm, maximum 1.123 mm. These results show spatial generalization under the fixed simulator setup and dependence on both inputs. Training rotations already cover the circle; this is not a held-out angular-sector test or long-distance extrapolation.
+The language test includes 24 repeats of the main task. Mean final center error on the main task was 0.507 mm, maximum 1.123 mm. Training already covers the full circle and longer distances, so these tests measure new layouts and direction/distance combinations, rather than held-out angles or long-distance extrapolation.
 
-The [motion comparison](docs/motion_comparison.md) tests the learned curve against straight transfer on 96 fresh paired scenes. Both succeeded 96/96. The actual ring path's mean maximum lateral departure was 11.91 mm with the video curve and 0.029 mm with straight transfer; mean path lengths were 100.59 and 94.32 mm. The video affects executed motion, but this easy placement task provides no success advantage for its curvature. Both variants still use video-derived endpoint geometry.
+The [motion comparison](docs/motion_comparison.md) adds 96 new paired scenes. Video-derived curves and straight transfer both succeeded 96/96. Mean actual ring paths were 100.59 and 94.32 mm respectively: the video changes the executed path, but its curvature provides no success advantage here. Both conditions retain video-derived endpoint geometry.
+
+![Actual ring paths in three preset scenes](outputs/motion_ablation_v6_final/analysis/paired_ring_paths.png)
+
+See the [complete benchmark](outputs/vla_v5/evaluation.json), [paired rollouts](outputs/motion_ablation_v6_final/evaluation.json), [preset replays](outputs/vla_v5/student_demo.mp4) and [Chinese report](docs/results_zh.md). Phone-image control, a robot-visible camera, new objects/materials and real hardware remain untested.
 
 ## Run
 
-Use Python 3.12; ffmpeg/ffprobe are needed only for video rendering. The supplied model and the motion ablation run on CPU.
+Use Python 3.12. The supplied model and motion comparison run on CPU. Video rendering also needs ffmpeg/ffprobe.
 
 ```powershell
 python -m venv .venv
@@ -42,14 +46,14 @@ python -m venv .venv
 ./.venv/Scripts/python.exe -m pytest -q
 ```
 
-Repeat the saved benchmark or run the paired experiment into a new directory:
+Repeat the benchmark or motion comparison into a new destination:
 
 ```powershell
 ./.venv/Scripts/python.exe -m ring_learning.vla_evaluate run --manifest outputs/vla_v5/configurations.json --receipt outputs/vla_v5/model_freeze.json --out outputs/vla_recheck.json
 ./scripts/compare_motion.ps1 -OutputDirectory outputs/new_motion_comparison
 ```
 
-For plots, install `requirements-plots.txt` and pass `-Plots` to the second command. Choose a new destination to preserve saved results. `scripts/reproduce.ps1` regenerates data, retrains the model, evaluates it and renders the preset demonstrations; environment and commands are in [reproduction](docs/reproduce.md).
+For plots, install `requirements-plots.txt` and add `-Plots` to the second command. `scripts/reproduce.ps1` regenerates data, trains, evaluates and renders the preset demonstrations; its environment and commands are in [reproduction](docs/reproduce.md). Existing experiment outputs are preserved.
 
 ## Files
 
@@ -63,19 +67,14 @@ tests/           numerical, physics and evaluation checks
 vendor/          Panda model and its license
 ```
 
-The current policy is [vla_policy.py](ring_learning/vla_policy.py), executed by [vla_control.py](ring_learning/vla_control.py). The [saved-run index](outputs/README.md) distinguishes the current model and experiments from earlier attempts. Previous reports and scripts are under `docs/archive/` and `scripts/archive/`.
+Start with [vla_policy.py](ring_learning/vla_policy.py), [vla_control.py](ring_learning/vla_control.py) and the [method](docs/method.md). The [experiment index](outputs/README.md) identifies the current model and saved results. Earlier reports and scripts are in `docs/archive/` and `scripts/archive/`.
 
-## Evidence and limits
+## Failed attempts and checks
 
-- [Six preset replays](outputs/vla_v5/student_demo.mp4), [complete benchmark rollouts](outputs/vla_v5/evaluation.json) and [freeze receipt](outputs/vla_v5/model_freeze.json).
-- [Method](docs/method.md), [Chinese overview](docs/results_zh.md) and [separate-source reproduction](docs/reproduce.md).
-- [Paired paths](outputs/motion_ablation_v6_final/analysis/paired_ring_paths.png), [192 comparison rollouts](outputs/motion_ablation_v6_final/evaluation.json) and [comparison reproduction](docs/reproduce_motion.md). All 96 pairs share a saved initial RGB and identical non-transfer actions. The current suite has 281 passing tests.
-- Two failed text-head designs are retained under `outputs/vla_v5/model/attempt_01` and `attempt_02`. They are historical checkpoints, not compatible deployment models.
+Two failed text-head designs remain in `outputs/vla_v5/model/attempt_01` and `attempt_02`. The earlier curve fit also lost to straight interpolation on reserved human paths. The first paired experiment failed its image-equality check in one pair; sharing one captured frame per pair fixed this without changing model tensors. [The comparison report](docs/motion_comparison.md) retains both runs.
 
-The earlier curve fit did not beat straight interpolation on reserved human paths. The initial paired experiment also failed its strict image control in one pair because repeated rendering changed three background channel values by one gray level. Its records are retained. The corrected experiment shares one captured frame per pair and passes all 96 input/action checks, with unchanged model tensors.
+Separate-source reproduction regenerated identical training data and weights. Torch 2.11/2.14 contact trajectories differed slightly, with up to 0.0644 mm difference in final ring position and identical success decisions. The [policy](docs/reproduce.md) and [motion-comparison](docs/reproduce_motion.md) reproduction reports state exactly what was repeated.
 
-Phone-image perception, ordinary robot-visible camera input, new objects/materials and real hardware remain untested. Reproduction regenerated identical datasets and weights, but Torch 2.11/2.14 physical trajectories differed slightly; the largest final ring-position difference was 0.0644 mm, with identical success decisions.
+The applicant supplied the recording, object dimensions and task choice. AI assisted annotation, code, experiments and writing; [contributions](docs/contributions.md) records that division.
 
-AI assisted annotation, code, experiments and writing; the applicant supplied the recording, dimensions and task choice. [Contribution details](docs/contributions.md).
-
-Code: MIT. Panda assets: Apache 2.0, [attribution](vendor/NOTICE.md). Public repository: [MingxS-cs/ring-placement](https://github.com/MingxS-cs/ring-placement). This project is prepared for the [Humanoid intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221); the internship application has not been submitted.
+Code: MIT. Panda assets: Apache 2.0, with [attribution](vendor/NOTICE.md). Prepared for the [Humanoid intern challenge](https://jobs.ashbyhq.com/humanoid/e1a2a9de-ad23-4632-9d93-ee50fd41a221); [submission checklist](docs/submission.md).
